@@ -75,10 +75,11 @@ def main():
             res = prog.get(str(i))
             if not res:
                 continue
-            for r, (w, ex) in zip(b, res):
+            for r, x in zip(b, res):
+                w, de, ex = (x + [""] * 3)[:3] if len(x) >= 3 else (x[0], "", x[1])
                 if not w or "*" not in ex:
                     continue
-                per[r[4]][r[3]].append(f"{clean(w)} | {clean(r[1])} | {r[2]} | {clean(ex)} | {clean(r[6])} |")
+                per[r[4]][r[3]].append(f"{clean(w)} | {clean(de or r[1])} | {r[2]} | {clean(ex)} | {clean(r[6])} |")
         for topic, lv in per.items():
             with open(os.path.join(out_dir, f"{topic}.g.txt"), "w", encoding="utf-8") as f:
                 f.write(f"# {lang} – {topic} (aus der englischen Liste erzeugt)\n")

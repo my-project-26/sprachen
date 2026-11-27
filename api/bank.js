@@ -1,6 +1,6 @@
 // Wortliste für eine neue Lernsprache erzeugen (nur für das Werkzeug tools/make-bank.py in GitHub Actions).
 // POST { lang: "fr", rows: [[en, de, pos, level, topic, ex, exDe], …] }
-// → { rows: [[wort, beispiel], …] } in derselben Reihenfolge.
+// → { rows: [[wort, deutsche Bedeutung, beispiel], …] } in derselben Reihenfolge.
 // Schutz: Kopfzeile x-ww-sig = sha256(GOOGLE_TTS_KEY + ":bank") – den Schlüssel kennen nur Vercel und GitHub.
 import { createHash } from "node:crypto";
 import { callLLM, readBody, send, wrap, httpError, providerFrom } from "./_llm.js";
@@ -15,13 +15,14 @@ const LANGS = {
 function system(lang) {
   return `You are an expert lexicographer building a vocabulary trainer for German native speakers.
 For each English entry you get the German meaning, part of speech, CEFR level, an English example sentence and its German translation.
-Give the most natural equivalent in ${LANGS[lang]} that matches the GERMAN meaning, plus a short, natural example sentence in that language with the same meaning as the German example.
+Give the most natural equivalent in ${LANGS[lang]} that matches the GERMAN meaning, its German meaning, and a short, natural example sentence in that language with the same meaning as the German example.
 Rules:
 - Everyday standard language, correct spelling and accents, typographic apostrophe-free (use ').
 - Verbs in the infinitive; adjectives in the masculine singular.
 - In the example, mark the word (in the form used) with single asterisks, e.g. Je *mange* une pomme.
 - Keep the example short (max. 12 words) and at the given CEFR level.
-- Output strict JSON only: {"r":[["word","example"], …]} – exactly one pair per input line, same order.`;
+- German meaning: copy only those senses of the given German gloss that your word really has (the English word can have senses your word does not have). Keep the German wording, short.
+- Output strict JSON only: {"r":[["word","German meaning","example"], …]} – exactly one entry per input line, same order.`;
 }
 
 export default wrap(async (req, res) => {
@@ -41,5 +42,5 @@ export default wrap(async (req, res) => {
   const d = extractJson(text);
   const out = Array.isArray(d?.r) ? d.r : [];
   if (out.length !== rows.length) throw httpError(502, `Antwort hat ${out.length} statt ${rows.length} Zeilen`);
-  return send(res, 200, { rows: out.map((x) => [String(x[0] || "").trim(), String(x[1] || "").trim()]) });
+  return send(res, 200, { rows: out.map((x) => (x.length >= 3 ? [x[0], x[1], x[2]] : [x[0], "", x[1]]).map((v) => String(v || "").trim())) });
 });
