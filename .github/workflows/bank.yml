@@ -1,0 +1,36 @@
+name: Wortliste erzeugen
+# Erzeugt die Wortliste einer neuen Lernsprache aus der englischen Liste (über /api/bank, Gemini).
+on:
+  workflow_dispatch:
+    inputs:
+      lang:
+        default: "fr"
+permissions:
+  contents: write
+concurrency:
+  group: bank
+  cancel-in-progress: false
+jobs:
+  bank:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Wörter erzeugen
+        env:
+          GOOGLE_TTS_KEY: ${{ secrets.GOOGLE_TTS_KEY }}
+          BANK_COMMIT: "1"
+        run: |
+          git config user.name "wortwerk-bot"; git config user.email "actions@users.noreply.github.com"
+          python3 tools/make-bank.py ${{ inputs.lang }}
+      - name: Wortliste bauen
+        run: |
+          git config user.name "wortwerk-bot"; git config user.email "actions@users.noreply.github.com"
+          git pull -q --rebase origin main || true
+          node tools/build-words.mjs ${{ inputs.lang }} | tail -12
+          git add js/wordbank.${{ inputs.lang }}.js data/${{ inputs.lang }}
+          git commit -q -m "Wortliste ${{ inputs.lang }} gebaut" || exit 0
+          for i in 1 2 3 4 5; do git pull -q --rebase -X theirs origin main && git push -q origin HEAD:main && break; sleep 8; done
