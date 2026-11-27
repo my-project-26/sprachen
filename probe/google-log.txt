@@ -1,5 +1,5 @@
 fertig: Achernar
 fertig: Kore
 fertig: Algenib
-fertig: Orus
-Zeichen: 352
+fertig: Charon
+Zeichen: 2299
