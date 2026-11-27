@@ -122,6 +122,11 @@ def texts_for(lang, levels=None):
     js = os.path.join(ROOT, "js")
     if lang == "de":
         rows = rows_from(os.path.join(js, "words.js"), "const RAW = [") + rows_from(os.path.join(js, "wordbank.js"))
+        # deutsche Bedeutungen und Beispielsätze der anderen Lernsprachen (Hörmodus: „Deutsch ansagen“)
+        for other in ("es", "it"):
+            p = os.path.join(js, f"wordbank.{other}.js")
+            if os.path.exists(p):
+                rows += rows_from(p)
         if levels:
             rows = [r for r in rows if len(r) > 3 and r[3] in levels]
         out, seen = [], set()

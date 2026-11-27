@@ -1,5 +1,5 @@
 // Toolbox: feste Satzbausteine pro Situation – als Ganzes lernen, sofort einsetzbar.
-// Zuerst für Englisch; die Situationen passen zu den Gesprächen (gleiche Schlüssel).
+// Für Englisch und Spanisch; die Situationen passen zu den Gesprächen (gleiche Schlüssel).
 import * as S from "./store.js";
 import * as tts from "./tts.js";
 import { L } from "./langs.js";
@@ -108,6 +108,106 @@ export const TOOLBOX = {
       ["Thank you for your time.", "Vielen Dank für Ihre Zeit."],
     ] },
   ],
+  es: [
+    { key: "cafe", ic: "☕", label: "Im Café & Restaurant", goals: ["reise", "familie"], items: [
+      ["¿Me pone un café, por favor?", "Bringen Sie mir bitte einen Kaffee?"],
+      ["Quería pedir, por favor.", "Ich möchte bitte bestellen."],
+      ["¿Qué me recomienda?", "Was empfehlen Sie mir?"],
+      ["¿Está libre esta mesa?", "Ist dieser Tisch frei?"],
+      ["Una mesa para dos, por favor.", "Einen Tisch für zwei, bitte."],
+      ["¿Me trae la carta, por favor?", "Bringen Sie mir bitte die Karte?"],
+      ["Soy alérgico a los frutos secos.", "Ich bin allergisch gegen Nüsse."],
+      ["¿Nos trae la cuenta, por favor?", "Bringen Sie uns bitte die Rechnung?"],
+      ["¿Puedo pagar con tarjeta?", "Kann ich mit Karte zahlen?"],
+      ["Quédese con el cambio.", "Stimmt so."],
+      ["Estaba buenísimo, gracias.", "Es war köstlich, danke."],
+      ["Para llevar, por favor.", "Zum Mitnehmen, bitte."],
+    ] },
+    { key: "hotel", ic: "🏨", label: "Im Hotel", goals: ["reise", "job"], items: [
+      ["Tengo una reserva a nombre de …", "Ich habe eine Reservierung auf den Namen …"],
+      ["Quería hacer el check-in, por favor.", "Ich möchte bitte einchecken."],
+      ["¿A qué hora es el desayuno?", "Wann gibt es Frühstück?"],
+      ["¿Cuál es la contraseña del wifi?", "Wie lautet das WLAN-Passwort?"],
+      ["¿Me puede dar otra toalla, por favor?", "Können Sie mir bitte noch ein Handtuch geben?"],
+      ["El aire acondicionado no funciona.", "Die Klimaanlage funktioniert nicht."],
+      ["¿Puedo dejar aquí mi equipaje?", "Kann ich mein Gepäck hier lassen?"],
+      ["¿A qué hora tengo que dejar la habitación?", "Bis wann muss ich das Zimmer räumen?"],
+      ["¿Me puede pedir un taxi?", "Können Sie mir ein Taxi rufen?"],
+      ["¿Hay ascensor?", "Gibt es einen Aufzug?"],
+      ["Quería una habitación tranquila, por favor.", "Ich hätte gern ein ruhiges Zimmer."],
+      ["Muchas gracias por todo.", "Vielen Dank für alles."],
+    ] },
+    { key: "weg", ic: "🗺️", label: "Nach dem Weg fragen", goals: ["reise"], items: [
+      ["Perdone, ¿me puede ayudar?", "Entschuldigung, können Sie mir helfen?"],
+      ["¿Cómo llego a la estación?", "Wie komme ich zum Bahnhof?"],
+      ["¿Está lejos de aquí?", "Ist es weit von hier?"],
+      ["¿Se puede ir andando?", "Kann man zu Fuß hingehen?"],
+      ["¿Dónde está la parada de autobús más cercana?", "Wo ist die nächste Bushaltestelle?"],
+      ["Siga todo recto y gire a la izquierda.", "Gehen Sie geradeaus und biegen Sie links ab."],
+      ["Está a la derecha.", "Es ist auf der rechten Seite."],
+      ["¿Qué autobús va al centro?", "Welcher Bus fährt ins Zentrum?"],
+      ["Un billete para Madrid, por favor.", "Eine Fahrkarte nach Madrid, bitte."],
+      ["¿Me lo puede enseñar en el mapa?", "Können Sie es mir auf der Karte zeigen?"],
+      ["Perdone, me he perdido.", "Entschuldigung, ich habe mich verlaufen."],
+      ["Gracias, es usted muy amable.", "Danke, das ist sehr nett von Ihnen."],
+    ] },
+    { key: "einkauf", ic: "🛍️", label: "Einkaufen", goals: ["reise", "familie"], items: [
+      ["¿Cuánto cuesta esto?", "Wie viel kostet das?"],
+      ["Solo estoy mirando, gracias.", "Ich schaue nur, danke."],
+      ["¿Lo tiene en una talla más grande?", "Haben Sie das eine Nummer größer?"],
+      ["¿Me lo puedo probar?", "Kann ich es anprobieren?"],
+      ["¿Dónde están los probadores?", "Wo sind die Umkleidekabinen?"],
+      ["Me lo llevo.", "Ich nehme es."],
+      ["¿Lo tiene en otro color?", "Haben Sie es in einer anderen Farbe?"],
+      ["¿Me da el tique, por favor?", "Kann ich bitte den Kassenbon bekommen?"],
+      ["Quería devolver esto.", "Ich möchte das zurückgeben."],
+      ["¿Tiene algún descuento?", "Gibt es einen Rabatt?"],
+      ["¿Me da una bolsa, por favor?", "Kann ich bitte eine Tüte haben?"],
+      ["¿Dónde está la leche?", "Wo finde ich die Milch?"],
+    ] },
+    { key: "arzt", ic: "🩺", label: "Beim Arzt & in der Apotheke", goals: ["reise", "familie"], items: [
+      ["No me encuentro bien.", "Mir geht es nicht gut."],
+      ["Me duele la cabeza.", "Ich habe Kopfschmerzen."],
+      ["Me duele aquí.", "Es tut hier weh."],
+      ["Tengo fiebre desde ayer.", "Ich habe seit gestern Fieber."],
+      ["Necesito ver a un médico.", "Ich muss zu einem Arzt."],
+      ["¿Necesito receta?", "Brauche ich ein Rezept?"],
+      ["¿Cada cuánto tengo que tomarlo?", "Wie oft soll ich es nehmen?"],
+      ["Soy alérgico a la penicilina.", "Ich bin allergisch gegen Penicillin."],
+      ["¿Tiene algo para el resfriado?", "Haben Sie etwas gegen Erkältung?"],
+      ["Llame a una ambulancia, por favor.", "Bitte rufen Sie einen Krankenwagen."],
+      ["¿Dónde está la farmacia más cercana?", "Wo ist die nächste Apotheke?"],
+      ["Ya me encuentro mucho mejor.", "Mir geht es jetzt viel besser."],
+    ] },
+    { key: "smalltalk", ic: "💬", label: "Smalltalk", goals: ["reise", "job", "medien", "familie"], items: [
+      ["Encantado de conocerte.", "Schön, dich kennenzulernen."],
+      ["¿De dónde eres?", "Woher kommst du?"],
+      ["Soy de Alemania.", "Ich komme aus Deutschland."],
+      ["¿A qué te dedicas?", "Was machst du beruflich?"],
+      ["¿Qué haces en tu tiempo libre?", "Was machst du in deiner Freizeit?"],
+      ["¿Qué tal el fin de semana?", "Wie war dein Wochenende?"],
+      ["Perdona, ¿me lo repites?", "Entschuldigung, kannst du das noch einmal sagen?"],
+      ["¿Puedes hablar un poco más despacio?", "Kannst du etwas langsamer sprechen?"],
+      ["Mi español todavía no es perfecto.", "Mein Spanisch ist noch nicht perfekt."],
+      ["¡Suena genial!", "Das klingt toll!"],
+      ["Estoy totalmente de acuerdo.", "Da stimme ich völlig zu."],
+      ["Ha sido un placer hablar contigo.", "Es war schön, mit dir zu reden."],
+    ] },
+    { key: "job", ic: "💼", label: "Beruf & Meetings", goals: ["job"], items: [
+      ["Permítame que me presente.", "Darf ich mich vorstellen?"],
+      ["Trabajo como jefe de ventas.", "Ich arbeite als Vertriebsleiter."],
+      ["¿Me lo puede enviar por correo electrónico?", "Können Sie mir das per E-Mail schicken?"],
+      ["Vamos a fijar una reunión.", "Lassen Sie uns einen Termin vereinbaren."],
+      ["¿Le viene bien el martes?", "Passt Ihnen Dienstag?"],
+      ["Perdone, llego un poco tarde.", "Entschuldigung, ich verspäte mich etwas."],
+      ["¿Me lo puede explicar con más detalle?", "Können Sie das genauer erklären?"],
+      ["Le respondo mañana.", "Ich melde mich morgen bei Ihnen."],
+      ["¿Cuál es el plazo?", "Bis wann ist die Frist?"],
+      ["Me gustaría añadir algo.", "Ich möchte noch etwas ergänzen."],
+      ["Resumamos.", "Fassen wir zusammen."],
+      ["Gracias por su tiempo.", "Vielen Dank für Ihre Zeit."],
+    ] },
+  ],
 };
 
 // Situationen für die aktuelle Sprache, passend zum Lernziel zuerst
@@ -126,7 +226,7 @@ export function toolboxView($app, { settings, rateSlider, ICON }, key = "") {
   const header = `<header class="top"><a class="icon-btn plain" href="#/${key ? "toolbox" : "practice"}" aria-label="Zurück">${ICON.back}</a>
     <h1 class="h-sm">Toolbox</h1><span></span></header>`;
   if (!list.length) {
-    $app.innerHTML = `${header}<section class="card"><h2>Bald verfügbar</h2><p>Die Toolbox gibt es bisher nur für Englisch.</p></section>`;
+    $app.innerHTML = `${header}<section class="card"><h2>Bald verfügbar</h2><p>Die Toolbox gibt es bisher für Englisch und Spanisch.</p></section>`;
     return;
   }
   const sit = list.find((s) => s.key === key);
