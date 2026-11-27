@@ -84,7 +84,7 @@ def probe(voice, langs):
         parts = []
         for i, t in enumerate(items):
             p = f"/tmp/g{lang}{i}.mp3"
-            save_mp3(synth(t, lang, VOICES[voice]), p)
+            save_mp3(synth(t, lang, VOICES.get(voice, voice)), p)
             parts.append(p)
             total += len(t)
         gap = "/tmp/gap.mp3"
@@ -122,7 +122,7 @@ def run(voice, lang, outdir):
         done_chars += len(t)
 
     def one(t):
-        save_mp3(synth(t, lang, VOICES[voice]), os.path.join(outdir, audio_key(t) + ".mp3"))
+        save_mp3(synth(t, lang, VOICES.get(voice, voice)), os.path.join(outdir, audio_key(t) + ".mp3"))
         return len(t)
 
     counted = 0
