@@ -137,24 +137,40 @@ export const SLEEP_CATEGORIES = {
   humor: { de: "Humor", ic: "😄", en: "a funny everyday mix-up with a warm ending" },
   ruhig: { de: "Ruhig & gemütlich", ic: "🕯️", en: "a cosy, slow day: cooking, reading, a quiet village, rain outside" },
 };
-export function sleepStoryPrompt(words, level = "A2", category = "ruhig", lang = "English") {
+// part 1: Anfang (Titel + erste Hälfte), part 2: Fortsetzung mit ruhigem Ende (prev = Text von Teil 1)
+export function sleepStoryPrompt(words, level = "A2", category = "ruhig", lang = "English", part = 1, prev = "") {
   const cat = SLEEP_CATEGORIES[category] || SLEEP_CATEGORIES.ruhig;
   const list = words.map((w) => `- ${w.en} (${w.de})`).join("\n");
-  return `Write a long bedtime story in ${lang} for an adult German native speaker who listens to it while falling asleep.
-Genre / setting: ${cat.en}.
-The learner should hear these words again – they are still difficult for them:
+  const common = `Language level: CEFR ${level}. Short, clear sentences. Apart from the listed words, use only very common high-frequency vocabulary a ${level} learner surely knows. No idioms, slang or unusual names.
+- Use EVERY listed word at least once in this part, each time in a meaning that matches the German gloss. Mark every occurrence of a listed word with double asterisks, e.g. **word**. Mark nothing else.
+- Tone: calm, warm and soothing. Even in exciting genres keep the tension soft.
+- Good for listening: little dialogue, no lists, no numbers in digits, no headings inside the text.
+- LENGTH IS IMPORTANT: exactly 9 paragraphs of 110–130 words each (about 1100 words), separated by a blank line (\\n\\n). Take your time with calm details (places, weather, sounds, small actions, thoughts).`;
+  if (part === 2)
+    return `This is the first half of a long bedtime story in ${lang} (genre: ${cat.en}) for an adult German learner who listens while falling asleep:
+"""
+${String(prev).slice(-9000)}
+"""
+Continue the story seamlessly (do not repeat or summarise the first half) and bring it to an end. These words are still difficult for the learner:
 ${list}
 
 Requirements:
-- Language: ${lang} only (the title too). LENGTH IS IMPORTANT: it will be read aloud slowly for 15 minutes, so write about 2000 words: exactly 18 paragraphs of 100–130 words each, separated by a blank line (\\n\\n). Do not stop early – take your time with calm details (places, weather, sounds, small actions, thoughts).
-- Language level: CEFR ${level}. Short, clear sentences. Apart from the listed words, use only very common high-frequency vocabulary a ${level} learner surely knows. No idioms, slang or unusual names.
-- Use EVERY listed word at least twice, spread over the whole story, each time in a meaning that matches the German gloss. Mark every occurrence of a listed word with double asterisks, e.g. **word**. Mark nothing else.
-- Tone: calm, warm and soothing. Even in exciting genres keep the tension soft. The pace slows down towards the end; the last paragraphs are very peaceful (evening, quiet, rest). No cliffhanger, a gentle happy ending.
-- Good for listening: no dialogue-heavy passages, no lists, no numbers in digits, no headings inside the text.
+- ${lang} only. ${common}
+- The pace slows down; the last three paragraphs are very peaceful (evening, quiet, rest). No cliffhanger, a gentle happy ending.
 - For each listed word give the German meaning as used in the story.
 
 Return exactly this JSON structure:
-{"title":"...","text":"...","glossary":[{"en":"<${lang} word>","de":"..."}]}`;
+{"text":"...","glossary":[{"en":"<${lang} word>","de":"..."}]}`;
+  return `Write the FIRST HALF of a long bedtime story in ${lang} for an adult German native speaker who listens to it while falling asleep (the second half will be written later, so do not end the story).
+Genre / setting: ${cat.en}.
+These words are still difficult for the learner:
+${list}
+
+Requirements:
+- ${lang} only (the title too). ${common}
+
+Return exactly this JSON structure:
+{"title":"...","text":"..."}`;
 }
 
 export function wordsSystem(lang = "English") {

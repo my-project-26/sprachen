@@ -185,10 +185,14 @@ async function browserCall(path, body) {
         const lang = langName(body.lang);
         const withS = body.sentences === true;
         if (body.sleep === true) {
-          const t = await browserLLM(storySystem(lang), sleepStoryPrompt(body.words, ["A1", "A2", "B1"].includes(body.level) ? body.level : "A2", body.category || "", lang), 4500);
-          const d = storyFrom(extractJson(t));
-          if (!d) throw new Error("Antwort ohne Text");
-          return d;
+          const lvl = ["A1", "A2", "B1"].includes(body.level) ? body.level : "A2";
+          const a = storyFrom(extractJson(await browserLLM(storySystem(lang), sleepStoryPrompt(body.words, lvl, body.category || "", lang, 1), 4000)));
+          if (!a) throw new Error("Antwort ohne Text");
+          let b = null;
+          try {
+            b = storyFrom(extractJson(await browserLLM(storySystem(lang), sleepStoryPrompt(body.words, lvl, body.category || "", lang, 2, a.text), 4000)));
+          } catch {}
+          return { title: a.title, text: b ? a.text.trim() + "\n\n" + b.text.trim() : a.text, glossary: [...(a.glossary || []), ...((b && b.glossary) || [])] };
         }
         const text = await browserLLM(storySystem(lang), storyPrompt(body.words, level, body.theme || "", body.known || [], lang, withS, body.goal || ""), withS ? 5000 : 2500);
         const data = storyFrom(extractJson(text));

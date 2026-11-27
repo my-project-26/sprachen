@@ -25,11 +25,18 @@ export default wrap(async (req, res) => {
   // Einschlaf-Geschichte: lang, ruhig, ein Versuch mit dem schnellen Modell (passt in die 60 s des Servers)
   if (body.sleep === true) {
     const lvl = ["A1", "A2", "B1"].includes(body.level) ? body.level : "A2";
+    const cat = String(body.category || "");
+    const fastLlm = { ...llm, model: "gemini-flash-lite-latest" };
     try {
-      const text = await callLLM({ ...llm, model: "gemini-flash-lite-latest" }, storySystem(lang), sleepStoryPrompt(words, lvl, String(body.category || ""), lang), 6000);
-      const data = storyFrom(extractJson(text));
-      if (!data) throw new Error("Antwort ohne Text");
-      return send(res, 200, data);
+      // zwei Hälften nacheinander – so wird die Geschichte lang genug für 15 Minuten
+      const a = storyFrom(extractJson(await callLLM(fastLlm, storySystem(lang), sleepStoryPrompt(words, lvl, cat, lang, 1), 4000)));
+      if (!a) throw new Error("Antwort ohne Text");
+      let b = null;
+      try {
+        b = storyFrom(extractJson(await callLLM(fastLlm, storySystem(lang), sleepStoryPrompt(words, lvl, cat, lang, 2, a.text), 4000)));
+      } catch {}
+      const glossary = [...(a.glossary || []), ...((b && b.glossary) || [])];
+      return send(res, 200, { title: a.title, text: b ? a.text.trim() + "\n\n" + b.text.trim() : a.text, glossary });
     } catch (e) {
       throw httpError(e.status || 502, "Einschlaf-Geschichte konnte nicht erstellt werden: " + (e.message || ""));
     }
