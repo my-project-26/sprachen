@@ -71,18 +71,21 @@ async function geminiOnce(model, system, user, maxTokens, key) {
 async function callGemini(system, user, maxTokens, prefer = "") {
   const key = env("GEMINI_API_KEY");
   if (!key) throw httpError(500, "GEMINI_API_KEY ist auf dem Server nicht gesetzt.");
-  const models = [prefer, GEMINI_MODEL(), "gemini-flash-latest", "gemini-2.5-flash", "gemini-flash-lite-latest"].filter(Boolean).filter((m, i, a) => a.indexOf(m) === i);
-  let last;
+  // „-latest“ zeigt immer auf das aktuelle Modell; feste Versionsnamen werden von Google nach und nach abgeschaltet
+  const models = [prefer, GEMINI_MODEL(), "gemini-flash-latest", "gemini-flash-lite-latest", "gemini-3.8-flash"].filter(Boolean).filter((m, i, a) => a.indexOf(m) === i);
+  let best = null; // aussagekräftigster Fehler (Überlastung/Kontingent vor „Modell gibt es nicht“)
   for (const m of models) {
     try {
       return await geminiOnce(m, system, user, maxTokens, key);
     } catch (e) {
-      last = e;
+      if (!best || (best.code === 404 && e.code !== 404)) best = e;
       if (!e.retry) throw e;
-      if (e.code !== 404) await sleep(800);
+      if (e.code !== 404) await sleep(e.code === 429 ? 1500 : 800);
     }
   }
-  throw last;
+  if (best && best.code === 429) throw Object.assign(httpError(502, "Die KI ist gerade ausgelastet (Gratis-Kontingent). Bitte in ein paar Minuten noch einmal versuchen."), { status: 502 });
+  if (best && best.code >= 500) throw Object.assign(httpError(502, "Die KI ist gerade überlastet. Bitte in einer Minute noch einmal versuchen."), { status: 502 });
+  throw best;
 }
 
 export async function ollamaModels() {
