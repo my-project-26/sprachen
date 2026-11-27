@@ -26,6 +26,11 @@ export function setServer(base) {
   SERVER = (base || "").replace(/\/$/, "");
 }
 let VAR = {}; // rec → { keys:Set|null, base }
+// Aufnahme-Ordner einer Stimme in der aktuellen Sprache (z. B. Spanisch: Frau = Kore statt Achernar)
+export function recOf(p) {
+  if (!p) return "";
+  return (p.recBy && p.recBy[ROOT.code]) || p.rec || "";
+}
 function variant(rec) {
   if (!rec) return null;
   if (!VAR[rec]) {
@@ -45,8 +50,8 @@ function variant(rec) {
 export function presetRecorded(key) {
   const p = PRESETS.find((x) => x.key === key);
   if (!p) return false;
-  if (!p.rec) return naturalAvailable();
-  const v = variant(p.rec);
+  if (!recOf(p)) return naturalAvailable();
+  const v = variant(recOf(p));
   return !!(v.keys && v.keys.size);
 }
 // Wartet, bis alle Verzeichnisse der Aufnahmen geladen sind
@@ -54,7 +59,7 @@ export function voicesReady() {
   return Promise.all([MAIN_P, ...Object.values(VAR).map((v) => v.ready)]).catch(() => {});
 }
 export function preloadVariants() {
-  PRESETS.forEach((p) => (variant(p.rec), p.rec && variant(p.rec + "-slow")));
+  PRESETS.forEach((p) => (variant(recOf(p)), recOf(p) && variant(recOf(p) + "-slow")));
 }
 
 // ---------- Natürliche Stimme: fertige MP3-Aufnahmen (audio/<sprache>/) ----------
@@ -170,8 +175,8 @@ function pick(g, langPref, avoid) {
 // Stimm-Profile. rec = eigener Aufnahme-Satz ("" = Standardaufnahmen), sonst Gerätestimme als Ersatz
 // sample = Hörprobe der Stimme (die Demo, aus der die Aufnahmen geklont werden)
 export const PRESETS = [
-  { key: "frau", label: "Frau – sanft und klar", hint: "ruhig, freundlich, gut verständlich", g: "f", r: 0, pitch: 1.0, rateMul: 1.0, rec: "achernar" },
-  { key: "mann", label: "Mann – rau und kräftig", hint: "markant, tief, energisch", g: "m", r: 0, pitch: 0.85, rateMul: 1.0, rec: "algenib" },
+  { key: "frau", label: "Frau – sanft und klar", hint: "ruhig, freundlich, gut verständlich", g: "f", r: 0, pitch: 1.0, rateMul: 1.0, rec: "achernar", recBy: { es: "kore" } },
+  { key: "mann", label: "Mann – rau und kräftig", hint: "markant, tief, energisch", g: "m", r: 0, pitch: 0.85, rateMul: 1.0, rec: "algenib", recBy: { es: "algenib" } },
   { key: "friend-f", label: "Standardstimme", hint: "natürlich und klar", g: "f", r: 0, pitch: 1.05, rateMul: 1.0, rec: "" },
 ];
 // Alte, entfernte Profile → neue
@@ -180,8 +185,8 @@ export const PRESET_MAP = { "clear-f": "frau", "clear-m": "mann", "friend-m": "m
 // Wie weit sind die Aufnahmen einer Stimme? (0–1, gemessen an den Standardaufnahmen)
 export function presetProgress(key) {
   const p = PRESETS.find((x) => x.key === key);
-  if (!p || !p.rec) return naturalAvailable() ? 1 : 0;
-  const v = variant(p.rec);
+  if (!p || !recOf(p)) return naturalAvailable() ? 1 : 0;
+  const v = variant(recOf(p));
   const total = AUDIO.keys ? AUDIO.keys.size : 0;
   const have = v.keys ? v.keys.size : 0;
   return total ? Math.min(1, have / total) : have ? 1 : 0;
@@ -191,7 +196,7 @@ export function presetProgress(key) {
 export function presetReady(key) {
   const p = PRESETS.find((x) => x.key === (PRESET_MAP[key] || key));
   if (!p) return false;
-  return !p.rec || presetProgress(p.key) >= 0.98;
+  return !recOf(p) || presetProgress(p.key) >= 0.98;
 }
 // Profil, das wirklich spricht: noch nicht fertige Stimme → Standardstimme
 export function effectivePreset(key) {
@@ -311,10 +316,10 @@ export function speak(text, { rate = 0.95, preset = "clear-f", onend } = {}) {
   if (synth) synth.cancel();
   preset = effectivePreset(preset);
   const p = resolvePreset(preset).preset;
-  const v = natural ? variant(p.rec) : null;
+  const v = natural ? variant(recOf(p)) : null;
   const key = audioKey(text);
   // Langsam: wenn vorhanden, eigens langsam gesprochene Aufnahme in Originaltempo (kein Strecken → kein Scheppern)
-  const vs = natural && p.rec && rate < 0.85 ? variant(p.rec + "-slow") : null;
+  const vs = natural && recOf(p) && rate < 0.85 ? variant(recOf(p) + "-slow") : null;
   if (vs && vs.keys && vs.keys.has(key)) {
     const a = new Audio(`${vs.base}${key}.mp3`);
     current = a;
@@ -442,7 +447,7 @@ export function speakGermanNatural(text, { onend, onfail } = {}) {
 
 // Google-Name der gewählten Stimme (für Texte ohne Aufnahme)
 function serverVoice(preset) {
-  const rec = resolvePreset(effectivePreset(preset)).preset.rec || "achernar";
+  const rec = recOf(resolvePreset(effectivePreset(preset)).preset) || "achernar";
   return rec.replace(/-slow$/, "").replace(/^./, (c) => c.toUpperCase());
 }
 const serverRate = (rate) => Math.min(1.3, Math.max(0.6, rate / 0.95)).toFixed(2);

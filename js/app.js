@@ -1703,10 +1703,15 @@ function settingsView() {
       <button class="btn primary" id="remAdd">📅 In Kalender eintragen</button></div>
   </section>
   <section class="card">
+    <h2>App aktualisieren</h2>
+    <p class="small muted">Holt die neueste Version der App. Dein Lernstand und deine Einstellungen bleiben erhalten.</p>
+    <button class="btn primary" id="appUpdate">🔄 Jetzt aktualisieren</button>
+    <p class="small muted">Installiert: Version 56</p>
+  </section>
+  <section class="card">
     <h2>Test-Funktionen</h2>
     <label class="check"><input type="checkbox" id="s-chatv2" ${s.chatV2 !== false ? "checked" : ""}> Neues Gespräch (Test): Antwortvorschläge, „Sag es auf Deutsch“, Ziel und Auswertung</label>
     <p class="small muted">Ausschalten = das bisherige Gespräch.</p>
-    <p class="small muted">App-Version 55</p>
   </section>
   <section class="card">
     <h2>Stimme</h2>
@@ -1811,6 +1816,23 @@ function settingsView() {
   bind("s-secret", "appSecret");
   document.getElementById("s-ret").addEventListener("input", (e) => (document.getElementById("retv").textContent = Math.round(e.target.value * 100) + " %"));
 
+  document.getElementById("appUpdate").onclick = async (ev) => {
+    const b = ev.currentTarget;
+    b.disabled = true;
+    b.textContent = "Wird aktualisiert …";
+    try {
+      // Nur den App-Speicher leeren (Programmdateien), nicht den Lernstand
+      if (window.caches) {
+        const keys = await caches.keys();
+        await Promise.all(keys.filter((k) => k.startsWith("wortwerk-")).map((k) => caches.delete(k)));
+      }
+      if ("serviceWorker" in navigator) {
+        const regs = await navigator.serviceWorker.getRegistrations();
+        await Promise.all(regs.map((r) => r.unregister()));
+      }
+    } catch {}
+    location.replace(location.pathname + "?v=" + Date.now() + location.hash);
+  };
   document.getElementById("remAdd").onclick = () => {
     const t = document.getElementById("remTime").value || "19:00";
     st.settings.reminderTime = t;
