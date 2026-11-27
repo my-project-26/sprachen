@@ -1706,7 +1706,7 @@ function settingsView() {
     <h2>App aktualisieren</h2>
     <p class="small muted">Holt die neueste Version der App. Dein Lernstand und deine Einstellungen bleiben erhalten.</p>
     <button class="btn primary" id="appUpdate">🔄 Jetzt aktualisieren</button>
-    <p class="small muted">Installiert: Version 57</p>
+    <p class="small muted">Installiert: Version 58</p>
   </section>
   <section class="card">
     <h2>Test-Funktionen</h2>
@@ -1821,6 +1821,10 @@ function settingsView() {
     b.disabled = true;
     b.textContent = "Wird aktualisiert …";
     try {
+      // Browser-Zwischenspeicher umgehen: alle Programmdateien frisch vom Server holen
+      const swText = await (await fetch("sw.js", { cache: "reload" })).text();
+      const list = [...swText.matchAll(/^\s*"([^"]+)",?$/gm)].map((m) => m[1]);
+      await Promise.all(["sw.js", ...list].map((u) => fetch(u, { cache: "reload" }).catch(() => {})));
       // Nur den App-Speicher leeren (Programmdateien), nicht den Lernstand
       if (window.caches) {
         const keys = await caches.keys();
