@@ -1,0 +1,96 @@
+# fr – denken (aus der englischen Liste erzeugt)
+
+## A1
+l'exemple (m) | Beispiel | n | Peux-tu me donner un *exemple* ? | Kannst du mir ein *Beispiel* geben? |
+l'idée (f) | Idee | n | C'est une excellente *idée*. | Das ist eine tolle *Idee*. |
+
+## A2
+bien que | obwohl | conj | *Bien* qu'il pleuve, nous sommes sortis. | *Obwohl* es regnete, gingen wir raus. |
+cependant | jedoch | adv | C'est bon marché. *Cependant*, il n'est pas très bien. | Es ist billig. *Allerdings* ist es nicht sehr gut. |
+comparer | vergleichen | v | *Compare* les deux offres. | *Vergleiche* die beiden Angebote. |
+croire | glaube | v | Je te *crois*. | Ich *glaube* dir. |
+bref | jedenfalls | adv | *Bref*, parlons plus tard. | *Jedenfalls* reden wir später. |
+puisque | da | conj | *Puisque* c'est tard, rentrons. | *Da* es spät ist, lass uns heimgehen. |
+pendant que | während | conj | *Pendant* que je cuisinais, il a téléphoné. | *Während* ich kochte, rief er an. |
+
+## B1
+par conséquent | deshalb | adv | Il était tard ; *par conséquent*, nous avons pris un taxi. | Es war spät; *deshalb* nahmen wir ein Taxi. |
+malgré | trotz | prep | *Malgré* la pluie, nous nous sommes amusés. | *Trotz* des Regens hatten wir Spaß. |
+en dépit de | trotz | prep | Nous y sommes allés *en dépit* du temps. | Wir gingen *trotz* des Wetters. |
+au lieu de | statt | prep | Marchons *au lieu de* conduire. | Lass uns laufen *statt* zu fahren. |
+à cause de | wegen | prep | Le match a été annulé *à cause* de la pluie. | Das Spiel wurde *wegen* Regen abgesagt. |
+par conséquent | infolgedessen | phrase | Il n'a pas étudié. *Par conséquent*, il a échoué. | Er hat nicht gelernt. *Infolgedessen* fiel er durch. |
+d'autre part | andererseits | phrase | C'est cher. *D'autre part*, ça dure longtemps. | Es ist teuer. *Andererseits* hält es lange. |
+en plus | zusätzlich, außerdem | phrase | En plus, nous *offrons* un parking gratuit. | *Außerdem* bieten wir kostenloses Parken. |
+par exemple | zum Beispiel | phrase | Certains fruits, par exemple les *bananes*, sont bon marché. | Manches Obst, *zum Beispiel* Bananen, ist billig. |
+à mon avis | meiner Meinung nach | phrase | À mon avis, il a *raison*. | *Meiner Meinung nach* hat er recht. |
+le fait | Tatsache | n | C est un *fait* que fumer est nuisible. | Es ist eine *Tatsache*, dass Rauchen schädlich ist. |
+l' avantage (m) | Vorteil | n | Un *avantage* est le prix. | Ein *Vorteil* ist der Preis. |
+l' inconvénient (m) | Nachteil | n | Le principal *inconvénient* est le bruit. | Der größte *Nachteil* ist der Lärm. |
+ne pas être d'accord | anderer Meinung sein | v | Je ne suis pas *d'accord* avec toi. | Ich bin *anderer Meinung* als du. |
+en fait | eigentlich, tatsächlich | adv | En fait, je n aime pas le *café*. | *Eigentlich* mag ich keinen Kaffee. |
+évidemment | offensichtlich | adv | Il a *évidemment* menti. | *Offensichtlich* hat er gelogen. |
+apparemment | anscheinend | adv | Apparemment, le *magasin* ferme. | *Anscheinend* schließt der Laden. |
+en effet | tatsächlich, in Wirklichkeit | phrase | En effet, c était mon *idée*. | *Tatsächlich* war es meine Idee. |
+si | ob | conj | Je ne sais pas *si* il vient. | Ich weiß nicht, *ob* er kommt. |
+tant que | solange | conj | Tu peux rester *tant* que tu es sage. | Du kannst bleiben, *solange* du leise bist. |
+afin de | um … zu | phrase | Je suis parti tôt *afin* d attraper le train. | Ich ging früh, *um* den Zug *zu* erwischen. |
+en général | im Allgemeinen | phrase | En général, je suis *heureux*. | *Im Allgemeinen* bin ich zufrieden. |
+au moins | mindestens, wenigstens | phrase | *Au* moins, personne n a été blessé. | *Wenigstens* wurde niemand verletzt. |
+au fait | übrigens | phrase | Au fait, j ai *vu* Tom hier. | *Übrigens* habe ich gestern Tom gesehen. |
+
+## B2
+néanmoins | dennoch, trotzdem | adv | C était risqué ; *néanmoins*, nous avons essayé. | Es war riskant; *dennoch* versuchten wir es. |
+tandis que | wohingegen, während | conj | Il aime la ville, *tandis* qu elle préfère la campagne. | Er liebt Städte, *wohingegen* sie das Land bevorzugt. |
+vraisemblablement | vermutlich | adv | *Vraisemblablement*, le train est encore en retard. | *Vermutlich* hat der Zug wieder Verspätung. |
+par conséquent | folglich, infolgedessen | adv | Il a raté le bus et est *arrivé* en retard par conséquent. | Er verpasste den Bus und kam *folglich* zu spät. |
+l' hypothèse (f) | Annahme | n | Votre *hypothèse* est fausse. | Deine *Annahme* ist falsch. |
+souligner | betonen, hervorheben | v | Elle a *souligné* la nécessité d un changement. | Sie *betonte* die Notwendigkeit von Veränderung. |
+contredire | widersprechen | v | Les deux rapports se *contredisent*. | Die beiden Berichte *widersprechen* sich. |
+en outre | darüber hinaus | adv | *En* outre, le plan est trop cher. | *Darüber hinaus* ist der Plan zu teuer. |
+ainsi | somit | adv | Les coûts ont baissé, augmentant *ainsi* les profits. | Die Kosten sanken und *somit* stiegen die Gewinne. |
+douter | bezweifeln | v | Je *doute* qu'il vienne. | Ich *bezweifle*, dass er kommt. |
+réfléchir | nachdenken | v | Prends le temps de *réfléchir*. | Nimm dir Zeit zum *Nachdenken*. |
+
+## C1
+quoique | wenn auch | conj | C était un succès, *quoique* modeste. | Es war ein Erfolg, *wenn auch* ein kleiner. |
+malgré | trotz | prep | *Malgré* la pluie, l'événement a eu lieu. | *Ungeachtet* des Regens fand die Veranstaltung statt. |
+conséquence | Auswirkung, Folge | n | Nous devons mesurer les *conséquences* de ce choix. | Wir müssen die *Auswirkungen* dieser Entscheidung bedenken. |
+ambigu | mehrdeutig, unklar | adj | Les consignes étaient *ambiguës*. | Die Anweisungen waren *mehrdeutig*. |
+cohérent | schlüssig, zusammenhängend | adj | Elle a présenté un argument clair et *cohérent*. | Sie lieferte ein klares und *schlüssiges* Argument. |
+reconnaître | anerkennen, zugeben | v | Il a *reconnu* avoir commis une erreur. | Er *gab zu*, dass er einen Fehler gemacht hatte. |
+nuance | Nuance, Feinheit | n | La traduction perd souvent la *nuance*. | Beim Übersetzen gehen oft *Feinheiten* verloren. |
+plausible | plausibel, glaubhaft | adj | C est une explication *plausible*. | Das ist eine *plausible* Erklärung. |
+dans la mesure où | insofern als | conj | C est vrai *dans la mesure où* c'est exact. | Es stimmt, *insofern* es zutrifft. |
+dans la mesure où | insofern als, da | conj | *Dans la mesure* où il a tenté, il mérite des éloges. | *Insofern* er es versucht hat, verdient er Anerkennung. |
+désormais | fortan | adv | *Désormais*, toutes les réunions seront en ligne. | *Fortan* finden alle Meetings online statt. |
+ainsi | dadurch | adv | Il a démissionné, évitant *ainsi* un scandale. | Er trat zurück und vermied *dadurch* einen Skandal. |
+inversement | umgekehrt | adv | *Inversement*, certains prix ont baissé. | *Umgekehrt* fielen einige Preise. |
+de même | aus demselben Grund | phrase | *De même*, nous devrions les aider. | *Aus demselben Grund* sollten wir ihnen helfen. |
+quoi qu'il en soit | wie dem auch sei | phrase | *Quoi qu'il en soit*, nous devons décider. | *Wie dem auch sei*, wir müssen entscheiden. |
+avant tout | in erster Linie | phrase | *Avant tout*, la sécurité. | *In erster Linie* Sicherheit. |
+inutile de dire | selbstverständlich | phrase | *Inutile de dire* que nous étions furieux. | *Selbstverständlich* waren wir wütend. |
+dans l'ensemble | im Großen und Ganzen | phrase | *Dans l'ensemble*, tout s'est bien passé. | *Im Großen und Ganzen* lief es gut. |
+tout bien réfléchi | alles in allem | phrase | *Tout bien réfléchi*, les avantages l'emportent. | *Alles in allem* überwiegen die Vorteile. |
+prémisse | Prämisse | n | La *prémisse* est fausse. | Die *Prämisse* ist falsch. |
+fallacieux | Trugschluss | n | C est un raisonnement *fallacieux*. | Das ist ein verbreiteter *Trugschluss*. |
+paradoxe | Paradox | n | C est un étrange *paradoxe*. | Es ist ein seltsames *Paradox*. |
+dichotomie | Gegensatz, Dichotomie | n | C est une fausse *dichotomie*. | Das ist ein falscher *Gegensatz*. |
+le contre-discours | Gegenargument | n | Il faut *considérer* le contre-discours. | Bedenke das *Gegenargument*. |
+réfuter | widerlegen | v | Elle a *réfuté* chaque point. | Sie *widerlegte* jeden Punkt. |
+réfuter | widerlegen | v | L'étude *réfute* cette affirmation. | Die Studie *widerlegt* die Behauptung. |
+concéder | einräumen | v | Je *concède* que tu as raison. | Ich *räume ein*, dass du recht hast. |
+étayer | belegen, untermauern | v | Peux-tu *étayer* cela? | Kannst du das *belegen*? |
+étayer | untermauern | v | Les données *étayent* notre argument. | Daten *untermauern* unser Argument. |
+soutenir | behalten, argumentieren | v | Les critiques *soutiennent* que cela échouera. | Kritiker *behaupten*, dass es nicht funktioniert. |
+postuler | postulieren | v | La théorie *postule* que... | Die Theorie *postuliert*, dass … |
+présupposer | voraussetzen | v | Cela *présuppose* qu'ils soient d'accord. | Das *setzt voraus*, dass sie zustimmen. |
+controversé | umstritten | adj | C'est un sujet *controversé*. | Es ist ein *umstrittenes* Thema. |
+ténu | dürftig, schwach | adj | Le lien est *ténu*. | Der Zusammenhang ist *dürftig*. |
+convaincant | überzeugend, stichhaltig | adj | Elle a *présenté* un argument *convaincant*. | Sie brachte stichhaltige (*überzeugende*) Argumente. |
+irréfutable | unwiderlegbar | adj | Les preuves sont *irréfutables*. | Die Beweise sind *unwiderlegbar*. |
+non concluant | nicht schlüssig | adj | Les résultats étaient *non concluants*. | Die Ergebnisse waren *nicht schlüssig*. |
+évident | selbstverständlich | adj | Il est *évident* que la santé compte. | Es ist *selbstverständlich*, dass Gesundheit zählt. |
+la question ouverte | strittige Frage | n | C'est une *question ouverte*. | Das ist eine *strittige Frage*. |
+l'avocat du diable (m) | Advocatus Diaboli | phrase | Je vais jouer l'*avocat du diable*. | Lass mich den *Advocatus Diaboli* spielen. |
+le bilan | unterm Strich | phrase | Le *bilan* est que nous avons besoin d'argent. | *Unterm Strich* brauchen wir mehr Geld. |

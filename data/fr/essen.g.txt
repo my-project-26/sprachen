@@ -1,0 +1,152 @@
+# fr – essen (aus der englischen Liste erzeugt)
+
+## A1
+la carte | Speisekarte | n | Pourriez-vous nous apporter *la carte* ? | Könnten wir die *Speisekarte* sehen? |
+le réfrigérateur | Kühlschrank | n | Remets le lait dans le *réfrigérateur*. | Stell die Milch zurück in den *Kühlschrank*. |
+affamé | hungrig | adj | Je suis vraiment *affamé*. | Ich habe richtig *Hunger*. |
+avoir soif | durstig | adj | J'ai *soif*. | Ich habe *Durst*. |
+la nourriture | Essen, Lebensmittel | n | La *nourriture* ici est excellente. | Das *Essen* hier ist super. |
+le café | Kaffee | n | Je bois du *café* chaque matin. | Ich trinke jeden Morgen *Kaffee*. |
+le thé | Tee | n | Veux-tu une tasse de *thé* ? | Möchtest du eine Tasse *Tee*? |
+le lait | Milch | n | Nous avons besoin de *lait*. | Wir brauchen *Milch*. |
+le jus | Saft | n | Je voudrais un *jus* d'orange. | Ich hätte gern einen Orangen*saft*. |
+la bière | Bier | n | Deux *bières*, s'il vous plaît. | Zwei *Bier*, bitte. |
+le vin | Wein | n | Du *vin* rouge ou blanc ? | Rot- oder Weiß*wein*? |
+le pain | Brot | n | J'ai acheté du *pain* frais. | Ich habe frisches *Brot* gekauft. |
+le beurre | Butter | n | Passe-moi le *beurre*, s'il te plaît. | Gib mir bitte die *Butter*. |
+le fromage | Käse | n | J'adore le *fromage* français. | Ich liebe französischen *Käse*. |
+l'œuf (m) | Ei | n | J'ai mangé deux *œufs* au petit-déjeuner. | Ich hatte zwei *Eier* zum Frühstück. |
+la viande | Fleisch | n | Je ne mange pas de *viande*. | Ich esse kein *Fleisch*. |
+le poulet | Hähnchen, Huhn | n | Nous mangeons du *poulet* pour le dîner. | Wir essen *Hähnchen* zum Abendessen. |
+le poisson | Fisch | n | Est-ce que tu aimes le *poisson* ? | Magst du *Fisch*? |
+le riz | Reis | n | Fais cuire le *riz* pendant dix minutes. | Koche den *Reis* zehn Minuten. |
+les pâtes | Nudeln | n | Les enfants adorent les *pâtes*. | Die Kinder lieben *Nudeln*. |
+la pomme de terre | Kartoffel | n | Épluche les *pommes de terre*. | Schäl die *Kartoffeln*. |
+la salade | Salat (Gericht) | n | Je prends une *salade* verte. | Ich nehme einen grünen *Salat*. |
+la soupe | Suppe | n | La *soupe* est trop chaude. | Die *Suppe* ist zu heiß. |
+les fruits | Obst | n | Mange plus de *fruits*. | Iss mehr *Obst*. |
+le légume | Gemüse | n | Mange ton *légume* ! | Iss dein *Gemüse*! |
+la pomme | Apfel | n | Une *pomme* par jour éloigne le médecin. | Ein *Apfel* am Tag … |
+la banane | Banane | n | Je prends une *banane* au travail. | Ich nehme eine *Banane* mit zur Arbeit. |
+la tomate | Tomate | n | Coupe les *tomates* en deux. | Schneide die *Tomaten* in zwei Hälften. |
+la carotte | Karotte, Möhre | n | Les lapins aiment les *carottes*. | Kaninchen lieben *Karotten*. |
+l' oignon (m) | Zwiebel | n | Émince un *oignon*. | Hack eine *Zwiebel*. |
+le sucre | Zucker | n | Sans *sucre*, merci. | Keinen *Zucker*, danke. |
+le sel | Salz | n | Ajoute un peu de *sel*. | Gib etwas *Salz* dazu. |
+le gâteau | Kuchen | n | Elle a fait un *gâteau* au chocolat. | Sie hat einen Schokoladen*kuchen* gebacken. |
+le chocolat | Schokolade | n | Je ne peux pas m'arrêter de manger du *chocolat*. | Ich kann nicht aufhören, *Schokolade* zu essen. |
+la glace | Eis (Speiseeis) | n | Allons manger une *glace*. | Lass uns ein *Eis* holen. |
+le sandwich | belegtes Brot, Sandwich | n | J'ai pris un *sandwich* au fromage pour déjeuner. | Ich hatte ein Käse*brot* zum Mittagessen. |
+la pizza | Pizza | n | On commande une *pizza* ? | Sollen wir eine *Pizza* bestellen? |
+le petit-déjeuner | Frühstück | n | Qu'est-ce que tu manges au *petit-déjeuner* ? | Was isst du zum *Frühstück*? |
+le dîner | Abendessen | n | Le *dîner* est prêt ! | Das *Abendessen* ist fertig! |
+le restaurant | Restaurant | n | Nous avons réservé une table dans un *restaurant* italien. | Wir haben einen Tisch in einem italienischen *Restaurant* reserviert. |
+le café | Café | n | Retrouvons-nous au *café*. | Lass uns im *Café* treffen. |
+la tasse | Tasse | n | Une *tasse* de café, s'il vous plaît. | Eine *Tasse* Kaffee, bitte. |
+le verre | Glas | n | J'ai cassé un *verre*. | Ich habe ein *Glas* zerbrochen. |
+la bouteille | Flasche | n | Une *bouteille* d'eau, s'il vous plaît. | Eine *Flasche* Wasser, bitte. |
+l'assiette (f) | Teller | n | Mettez les *assiettes* sur la table. | Stell die *Teller* auf den Tisch. |
+délicieux | köstlich | adj | Cette soupe est *délicieuse* ! | Diese Suppe ist *köstlich*! |
+
+## A2
+cuire au four | backen | v | J'ai *cuit* un gâteau pour son anniversaire. | Ich habe ihr zum Geburtstag einen Kuchen *gebacken*. |
+faire bouillir | kochen (in Wasser) | v | *Faites bouillir* les œufs pendant six minutes. | *Koch* die Eier sechs Minuten. |
+faire frire | braten | v | *Faites frire* les oignons dans un peu d'huile. | *Brat* die Zwiebeln in etwas Öl an. |
+la recette | Rezept (Kochen) | n | C'est la *recette* de ma grand-mère. | Das ist das *Rezept* meiner Oma. |
+le repas | Mahlzeit, Essen | n | Nous avons pris un beau *repas*. | Wir hatten ein schönes *Essen*. |
+le plat | Gericht | n | La paella est un *plat* espagnol. | Paella ist ein spanisches *Gericht*. |
+l'entrée (f) | Vorspeise | n | Nous avons partagé une *entrée*. | Wir teilten uns eine *Vorspeise*. |
+le plat principal | Hauptgericht | n | Comme *plat principal*, je prends du poisson. | Als *Hauptgericht* nehme ich Fisch. |
+le dessert | Nachtisch | n | Vous voulez un *dessert* ? | Möchten Sie *Nachtisch*? |
+l'addition (f) | Rechnung | n | L'*addition*, s'il vous plaît. | Können wir bitte die *Rechnung* haben? |
+le pourboire | Trinkgeld | n | Nous avons laissé dix pour cent de *pourboire*. | Wir gaben zehn Prozent *Trinkgeld*. |
+le serveur | Kellner | n | Le *serveur* a apporté la carte. | Der *Kellner* brachte die Karte. |
+végétarien | vegetarisch | adj | Avez-vous des plats *végétariens* ? | Haben Sie *vegetarische* Gerichte? |
+épicé | scharf (gewürzt) | adj | Ce curry est très *épicé*. | Dieses Curry ist sehr *scharf*. |
+sucré | süß | adj | Le gâteau est trop *sucré*. | Der Kuchen ist zu *süß*. |
+salé | salzig | adj | La soupe est trop *salée*. | Die Suppe ist zu *salzig*. |
+frais | frisch | adj | Utilisez des herbes *fraîches*. | Nimm *frische* Kräuter. |
+cru | roh | adj | On peut le manger *cru*. | Man kann es *roh* essen. |
+la tranche | Scheibe | n | Tu veux une *tranche* de pain ? | Möchtest du eine *Scheibe* Brot? |
+le poivre | Pfeffer | n | Ajoutez du sel et du *poivre*. | Gib Salz und *Pfeffer* dazu. |
+la farine | Mehl | n | Mélangez la *farine* et les œufs. | Misch das *Mehl* mit den Eiern. |
+le four | Backofen | n | Préchauffez le *four* à 180 degrés. | Heiz den *Ofen* auf 180 Grad vor. |
+en-cas (m) | Snack, Imbiss | n | Je *mange* un petit en-cas. | Ich habe einen schnellen *Snack* gegessen. |
+plat à emporter (m) | Essen zum Mitnehmen | n | Commandons un *plat* à emporter. | Lass uns heute Abend *Essen holen*. |
+régime (m) | Diät | n | Un *régime* sain est très important. | Eine gesunde *Ernährung* ist wichtig. |
+avoir bon goût | schmecken | v | Cette soupe *a* bon goût. | Diese Suppe *schmeckt* toll. |
+sentir | riechen | v | Quelque chose *sent* très bon ici. | Hier *riecht* etwas gut. |
+fourchette (f) | Gabel | n | Puis-je avoir une autre *fourchette* ? | Kann ich eine saubere *Gabel* haben? |
+cuillère (f) | Löffel | n | J'ai besoin d'une *cuillère*. | Ich brauche einen *Löffel* für meine Suppe. |
+bol (m) | Schüssel, Schale | n | Un *bol* de céréales, s'il vous plaît. | Eine *Schüssel* Müsli, bitte. |
+bœuf (m) | Rindfleisch | n | Le *bœuf* était très tendre. | Das *Rindfleisch* war sehr zart. |
+porc (m) | Schweinefleisch | n | Je ne mange pas de *porc*. | Ich esse kein *Schweinefleisch*. |
+saucisse (f) | Wurst, Würstchen | n | Nous avons grillé des *saucisses*. | Wir haben *Würstchen* gegrillt. |
+jambon (m) | Schinken | n | Un sandwich au *jambon*, s'il vous plaît. | Ein *Schinken*-Käse-Sandwich, bitte. |
+steak (m) | Steak | n | Comment voulez-vous votre *steak* ? | Wie hätten Sie Ihr *Steak* gern? |
+fruits de mer (m) | Meeresfrüchte | n | Je suis allergique aux *fruits de mer*. | Ich bin allergisch gegen *Meeresfrüchte*. |
+haricots (m) | Bohnen | n | J'aime les *haricots* sur du pain. | Ich mag *Bohnen* auf Toast. |
+petits pois (m) | Erbsen | n | Les *petits pois* cuisent très vite. | Tiefkühl*erbsen* sind schnell gekocht. |
+concombre (m) | Gurke | n | Coupe le *concombre* en rondelles. | Schneide die *Gurke* in Scheiben. |
+ail (m) | Knoblauch | n | Ajoute deux gousses d'*ail*. | Gib zwei Zehen *Knoblauch* dazu. |
+champignon (m) | Pilz, Champignon | n | Une pizza aux *champignons*, s'il vous plaît. | Eine Pizza mit *Pilzen*, bitte. |
+citron (m) | Zitrone | n | Un thé avec du *citron*, s'il vous plaît. | Tee mit *Zitrone*, bitte. |
+orange (f) | Orange, Apfelsine | n | J'ai pressé une *orange*. | Ich habe ein paar *Orangen* ausgepresst. |
+poire (f) | Birne | n | Cette *poire* est très sucrée. | Diese *Birne* ist sehr süß. |
+raisin (m) | Weintrauben | n | Nous avons acheté du *raisin* frais. | Wir haben ein paar *Weintrauben* gekauft. |
+fraise (f) | Erdbeere | n | Les *fraises* sont de saison. | *Erdbeeren* haben jetzt Saison. |
+cerise (f) | Kirsche | n | Les *cerises* sont bien mûres. | Die *Kirschen* sind reif. |
+la noix | Nuss | n | Il y a des *noix* dedans? | Sind da *Nüsse* drin? |
+l' huile (f) | Öl | n | Il faut chauffer l'*huile*. | Erhitze das *Öl* in einer Pfanne. |
+le miel | Honig | n | Je mets du *miel* dans mon thé. | Ich tue *Honig* in meinen Tee. |
+la confiture | Marmelade | n | Du pain avec du beurre et de la *confiture*. | Toast mit Butter und *Marmelade*. |
+les céréales | Müsli, Frühstücksflocken | n | Les enfants mangent des *céréales*. | Die Kinder essen jeden Morgen *Müsli*. |
+le yaourt | Joghurt | n | Je mange un *yaourt* aux fruits. | Ich esse *Joghurt* mit Obst. |
+le biscuit | Keks | n | Tu veux un *biscuit*? | Möchtest du einen *Keks*? |
+les bonbons | Süßigkeiten | n | Trop de *bonbons* abîment les dents. | Zu viele *Süßigkeiten* sind schlecht für die Zähne. |
+les chips | Chips | n | Un paquet de *chips*, s'il vous plaît. | Eine Tüte *Chips*, bitte. |
+les frites | Pommes (GB) | n | Du poisson et des *frites*, s'il vous plaît. | Fisch und *Pommes*, bitte. |
+la boisson non alcoolisée | Erfrischungsgetränk | n | Nous avons seulement des *boissons non alcoolisées*. | Wir haben nur *alkoholfreie Getränke*. |
+frit | gebraten, frittiert | adj | Je voudrais des œufs *frits*. | Ich hätte gern *Spiegel*eier. |
+couper | schneiden | v | Il faut *couper* le pain. | *Schneid* bitte das Brot. |
+mélanger | mischen, verrühren | v | Il faut *mélanger* les œufs et le sucre. | *Verrühre* die Eier mit dem Zucker. |
+la cuisine | Küche | n | Nous mangeons dans la *cuisine*. | Wir essen in der *Küche*. |
+la poêle | Pfanne | n | Il faut chauffer la *poêle* d'abord. | Erhitze zuerst die *Pfanne*. |
+la casserole | Topf | n | Mets les pommes de terre dans une grande *casserole*. | Gib die Kartoffeln in einen großen *Topf*. |
+le morceau | Stück | n | Je peux avoir un *morceau* de gâteau? | Kann ich ein *Stück* Kuchen haben? |
+le paquet | Packung, Päckchen | n | Achète un *paquet* de riz. | Kauf eine *Packung* Reis. |
+la boîte de conserve | Dose | n | Ouvre une *boîte de conserve* de tomates. | Mach eine *Dose* Tomaten auf. |
+le pique-nique | Picknick | n | Faisons un *pique-nique* au parc. | Lass uns im Park *picknicken*. |
+
+## B1
+rôtir | braten (im Ofen), rösten | v | Nous avons *rôti* un poulet. | Wir haben ein Hähnchen im Ofen *gebraten*. |
+griller | grillen | v | On va *griller* des saucisses. | Lass uns ein paar Würstchen *grillen*. |
+l' ingrédient (m) | Zutat | n | Il ne faut que quatre *ingrédients*. | Du brauchst nur vier *Zutaten*. |
+aure | sauer | adj | Le lait est devenu *aure*. | Die Milch ist *sauer* geworden. |
+amer | bitter | adj | Le café a un goût *amer*. | Der Kaffee schmeckt *bitter*. |
+délicieux | lecker | adj | C'était vraiment *délicieux*. | Das war richtig *lecker*. |
+la poêle | Bratpfanne | n | Fais chauffer l'huile dans *la poêle*. | Erhitz das Öl in einer *Pfanne*. |
+la casserole | Kochtopf | n | Mets les pâtes dans une grande *casserole*. | Gib die Nudeln in einen großen *Topf*. |
+les restes | Reste | n | Nous avons mangé *les restes* à midi. | Mittags gab es *Reste*. |
+verser | einschenken | v | Tu peux me *verser* de l'eau? | Kannst du mir etwas Wasser *einschenken*? |
+remuer | umrühren | v | Il faut *remuer* la sauce régulièrement. | *Rühr* die Soße regelmäßig *um*. |
+couper | klein schneiden | v | Il faut *couper* les oignons finement. | *Hack* die Zwiebeln fein. |
+éplucher | schälen | v | Tu peux *éplucher* les pommes de terre? | *Schäl* die Kartoffeln. |
+les produits laitiers | Milchprodukte | n | Je ne mange pas de *produits laitiers*. | Ich esse keine *Milchprodukte*. |
+les couverts | Besteck | n | *Les couverts* sont dans le tiroir. | Das *Besteck* ist in der Schublade. |
+
+## B2
+l'appétit (m) | Appetit | n | J'ai perdu *l'appétit*. | Ich habe keinen *Appetit* mehr. |
+la boisson | Getränk | n | Des *boissons* chaudes sont servies toute la journée. | Heiße *Getränke* gibt es den ganzen Tag. |
+fade | fade | adj | La soupe était plutôt *fade*. | Die Suppe war ziemlich *fade*. |
+croustillant | knusprig | adj | J'aime mon bacon *croustillant*. | Ich mag meinen Speck *knusprig*. |
+croquant | knackig | adj | La salade était fraîche et *croquante*. | Der Salat war frisch und *knackig*. |
+gras | fettig | adj | Les frites étaient trop *grasses*. | Die Pommes waren zu *fettig*. |
+tendre | zart | adj | La viande était très *tendre*. | Das Fleisch war sehr *zart*. |
+juteux | saftig | adj | Ces pêches sont si *juteuses*. | Diese Pfirsiche sind so *saftig*. |
+mûr | reif | adj | Les bananes ne sont pas encore *mûres*. | Die Bananen sind noch nicht *reif*. |
+rassis | altbacken | adj | Le pain est *rassis*. | Das Brot ist *altbacken*. |
+pourri | verfault | adj | Les pommes sont *pourries*. | Die Äpfel sind *verfault*. |
+alléchant | appetitlich, lecker | adj | Cette odeur était vraiment *alléchante*. | Der Duft ließ einem das Wasser im *Mund zusammenlaufen*. |
+la portion | Portion | n | *Les portions* étaient énormes. | Die *Portionen* waren riesig. |
+la nutrition | Ernährung | n | Une bonne *nutrition* est importante pour les sportifs. | Gute *Ernährung* ist für Sportler wichtig. |

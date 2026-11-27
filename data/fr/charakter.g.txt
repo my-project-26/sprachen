@@ -4,3 +4,95 @@
 aimable | freundlich | adj | Le personnel était très *aimable* avec nous. | Das Personal war sehr *freundlich*. |
 drôle | lustig | adj | Il est vraiment *drôle* quand il raconte des histoires. | Er ist echt *lustig*. |
 grand | groß | adj | Mon frère est très *grand*. | Er ist sehr *groß*. |
+
+## A2
+beau | gut aussehend | adj | Il est très *beau*. | Er sieht sehr *gut* aus. |
+honnête | ehrlich | adj | Pour être *honnête*, je n'aime pas ça. | Um *ehrlich* zu sein, gefällt es mir nicht. |
+timide | schüchtern | adj | Il est un peu *timide* au début. | Er ist anfangs etwas *schüchtern*. |
+paresseux | faul | adj | J'étais trop *paresseux* pour cuisiner. | Ich war zu *faul* zum Kochen. |
+intelligent | klug | adj | C'est une idée *intelligente*. | Das ist eine *kluge* Idee. |
+prudent | vorsichtig | adj | Sois *prudent* ! | Sei *vorsichtig*! |
+méchant | gemein | adj | Ne sois pas *méchant* avec ta sœur. | Sei nicht *gemein* zu deiner Schwester. |
+apparence | Aussehen | n | Il fait très attention à son *apparence*. | Er legt viel Wert auf sein *Aussehen*. |
+mince | schlank | adj | Elle est grande et *mince*. | Sie ist groß und *schlank*. |
+la barbe | Bart | n | Il laisse pousser sa *barbe*. | Er lässt sich einen *Bart* wachsen. |
+l'enfance (f) | Kindheit | n | J'ai eu une heureuse *enfance*. | Ich hatte eine glückliche *Kindheit*. |
+l'adolescent (m) | Teenager | n | Ils ont deux *adolescents*. | Sie haben zwei *Teenager*. |
+
+## B1
+sérieux | ernst | adj | Tu es *sérieux* ? | Meinst du das *ernst*? |
+égoïste | egoistisch | adj | Ne sois pas si *égoïste*. | Sei nicht so *egoistisch*. |
+sûr de soi | selbstbewusst | adj | Elle est très *sûr de soi*. | Sie ist sehr *selbstbewusst*. |
+courageux | mutig | adj | C'était très *courageux*. | Das war sehr *mutig*. |
+sévère | streng | adj | Mon professeur était très *sévère*. | Mein Lehrer war sehr *streng*. |
+sensé | vernünftig | adj | C'est une décision *sensée*. | Das ist eine *vernünftige* Entscheidung. |
+sensible | sensibel | adj | Elle est très *sensible* aux critiques. | Sie ist sehr *empfindlich* bei Kritik. |
+ambitieux | ehrgeizig | adj | Il est très *ambitieux*. | Er ist sehr *ehrgeizig*. |
+travailleur | fleißig | adj | C'est une étudiante *travailleuse*. | Sie ist eine *fleißige* Studentin. |
+décontracté | locker | adj | Mon chef est assez *décontracté*. | Mein Chef ist ziemlich *locker*. |
+curieux | neugierig | adj | Les enfants sont naturellement *curieux*. | Kinder sind von Natur aus *neugierig*. |
+lunatique | launisch | adj | Les adolescents peuvent être *lunatiques*. | Teenager können *launisch* sein. |
+obstiné | stur | adj | Il est *obstiné* comme un âne. | Er ist *stur* wie ein Esel. |
+les rides | Falten | n | Elle a des *rides* autour des yeux. | Sie hat *Falten* um die Augen. |
+la personnalité | Persönlichkeit | n | Elle a une forte *personnalité*. | Sie hat eine starke *Persönlichkeit*. |
+le comportement | Verhalten | n | Son *comportement* était inacceptable. | Sein *Verhalten* war inakzeptabel. |
+le caractère | Charakter | n | Il a un bon *caractère*. | Er hat einen guten *Charakter*. |
+âgé | älter | adj | Elle s'occupe de ses parents *âgés*. | Sie kümmert sich um ihre *betagten* Eltern. |
+
+## B2
+arrogant | arrogant | adj | Il est *arrogant* et impoli. | Er ist *arrogant* und unhöflich. |
+autoritaire | herrisch | adj | Ma sœur est si *autoritaire*. | Meine Schwester ist so *herrisch*. |
+attentionné | rücksichtsvoll | adj | C'est *attentionné* de ta part d'appeler. | Es war *rücksichtsvoll* von dir anzurufen. |
+créatif | kreativ | adj | Elle est très *créative*. | Sie ist sehr *kreativ*. |
+fiable | verlässlich | adj | C'est un ami *fiable*. | Er ist ein *verlässlicher* Freund. |
+terre à terre | bodenständig | adj | Elle est très *terre à terre*. | Sie ist sehr *bodenständig*. |
+naïf | leichtgläubig | adj | Ne sois pas si *naïf*. | Sei nicht so *leichtgläubig*. |
+humble | bescheiden | adj | Malgré son succès, il reste *humble*. | Trotz seines Erfolgs ist er sehr *bescheiden*. |
+impatient | ungeduldig | adj | Ne sois pas si *impatient*. | Sei nicht so *ungeduldig*. |
+impulsif | impulsiv | adj | Il est très *impulsif*. | Er ist sehr *impulsiv*. |
+peu sûr | unsicher | adj | Elle se sent *peu sûre* de son apparence. | Sie ist wegen ihres Aussehens *unsicher*. |
+loyal | loyal | adj | Les chiens sont très *loyaux*. | Hunde sind sehr *treu*. |
+modeste | bescheiden | adj | Il est trop *modeste* concernant son travail. | Er ist zu *bescheiden*, was seine Arbeit angeht. |
+étroit d'esprit | engstirnig | adj | Ne sois pas si *étroit d'esprit*. | Sei nicht so *engstirnig*. |
+ouvert d'esprit | aufgeschlossen | adj | Elle est très *ouverte d'esprit*. | Sie ist sehr *aufgeschlossen*. |
+optimiste | optimistisch | adj | Je suis *optimiste* pour l'avenir. | Ich bin *optimistisch*, was die Zukunft angeht. |
+pessimiste | pessimistisch | adj | Pourquoi es-tu si *pessimiste* ? | Warum bist du so *pessimistisch*? |
+extraverti | kontaktfreudig | adj | Elle est très *extravertie*. | Sie ist sehr *kontaktfreudig*. |
+sûr de soi | selbstsicher | adj | Elle a l'air très *sûre d'elle*. | Sie wirkt sehr *selbstsicher*. |
+sincère | aufrichtig | adj | Il a présenté des excuses *sincères*. | Er entschuldigte sich *aufrichtig*. |
+bavard | gesprächig | adj | Il n'est pas très *bavard*. | Er ist nicht sehr *gesprächig*. |
+attentionné | aufmerksam | adj | Quel cadeau *attentionné* ! | Was für ein *aufmerksames* Geschenk! |
+tolérant | tolerant | adj | Nous devrions être plus *tolérants*. | Wir sollten *toleranter* sein. |
+digne de confiance | vertrauenswürdig | adj | Est-il *digne de confiance* ? | Ist er *vertrauenswürdig*? |
+réservé | zurückhaltend | adj | Elle est très *réservée* avec les inconnus. | Sie ist bei Fremden ziemlich *zurückhaltend*. |
+spirituel | geistreich | adj | Son discours était *spirituel*. | Seine Rede war *geistreich*. |
+de mauvaise humeur | schlecht gelaunt | adj | Il est toujours *de mauvaise humeur* le matin. | Morgens ist er immer *schlecht gelaunt*. |
+prétentieux | eingebildet | adj | Le succès l'a rendu *prétentieux*. | Der Erfolg machte ihn *eingebildet*. |
+sage | brav | adj | Les enfants ont été bien *sages*. | Die Kinder waren *brav*. |
+d'âge mûr | mittleren Alters | adj | Un homme *d'âge mûr* attendait. | Ein Mann *mittleren Alters* wartete. |
+
+## C1
+consciencieux | gewissenhaft | adj | Elle est une étudiante *consciencieuse*. | Sie ist eine *gewissenhafte* Studentin. |
+cynique | zynisch | adj | Il est devenu très *cynique*. | Er ist sehr *zynisch* geworden. |
+excentrique | exzentrisch | adj | Mon oncle est un peu *excentrique*. | Mein Onkel ist etwas *exzentrisch*. |
+grégiaire | gesellig | adj | Elle est *grégiaire* et drôle. | Sie ist *gesellig* und lustig. |
+obstiné | eigensinnig | adj | Il était un jeune homme *obstiné*. | Er war ein *eigensinniger* junger Mann. |
+introverti | introvertiert | adj | Il est assez *introverti*. | Er ist ziemlich *introvertiert*. |
+soumis | sanftmütig | adj | Elle était trop *soumise* pour se plaindre. | Sie war zu *zaghaft*, um sich zu beschweren. |
+naïf | naiv | adj | C'était *naïf* de ma part de lui faire confiance. | Es war *naiv* von mir, ihm zu vertrauen. |
+insupportable | unausstehlich | adj | Il était bruyant et *insupportable*. | Er war laut und *unausstehlich*. |
+obstiné | rechthaberisch | adj | Il est très *obstiné*. | Er ist sehr *rechthaberisch*. |
+pompueux | aufgeblasen | adj | Son discours était *pompueux*. | Seine Rede war *aufgeblasen*. |
+débrouillard | einfallsreich | adj | Elle est très *débrouillarde*. | Sie ist sehr *einfallsreich*. |
+égocentrique | egozentrisch | adj | Il est complètement *égocentrique*. | Er ist völlig *egozentrisch*. |
+fin | gewieft | adj | C'est un négociateur *fin*. | Er ist ein *gewiefter* Verhandler. |
+caractériel | launisch | adj | L'artiste est très *caractériel*. | Der Künstler ist sehr *launenhaft*. |
+vain | eitel | adj | Il est très *vain* avec ses cheveux. | Er ist sehr *eitel*, was seine Haare angeht. |
+assertive | durchsetzungsfähig | adj | Tu dois être plus *assertif*. | Du musst *durchsetzungsfähiger* sein. |
+compassionate | mitfühlend | adj | C'est un médecin *compatissant*. | Sie ist eine *mitfühlende* Ärztin. |
+level-headed | besonnen | adj | Elle est restée *posée* pendant la crise. | Sie blieb in der Krise *besonnen*. |
+scatterbrained | zerstreut | adj | Je suis très *étourdi* aujourd'hui. | Ich bin heute so *schusselig*. |
+fickle | wankelmütig | adj | Les fans peuvent être *capricieux*. | Fans können *wankelmütig* sein. |
+genial | freundlich | adj | C'est un hôte *chaleureux*. | Er ist ein *freundlicher* Gastgeber. |
+l'idiosyncrasie (f) | Eigenart | n | Tout le monde a ses *idiosyncrasies*. | Jeder hat seine *Marotten*. |
+le maintien | Verhalten | n | Elle a un *maintien* calme. | Sie hat ein ruhiges *Auftreten*. |

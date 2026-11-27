@@ -1,0 +1,124 @@
+# fr – einkaufen (aus der englischen Liste erzeugt)
+
+## A1
+la taille | Größe | n | Avez-vous cela dans une *taille* plus grande? | Haben Sie das in einer größeren *Größe*? |
+le prix | Preis | n | Le *prix* a augmenté. | Der *Preis* ist gestiegen. |
+bon marché | billig, günstig | adj | Les fruits sont *bon marché* au marché. | Obst ist auf dem Markt *günstig*. |
+cher | teuer | adj | Ce restaurant est trop *cher*. | Das Restaurant ist zu *teuer*. |
+payer | bezahlen | v | J'ai *payé* par carte. | Ich habe mit Karte *bezahlt*. |
+coûter | kosten | v | Combien cela *coûte*-t-il? | Wie viel *kostet* es? |
+le magasin | Laden, Geschäft | n | Le *magasin* ouvre à neuf heures. | Der *Laden* öffnet um neun. |
+le supermarché | Supermarkt | n | Je vais au *supermarché*. | Ich gehe zum *Supermarkt*. |
+l'argent (m) | Geld | n | Je n'ai pas d'*argent*. | Ich habe kein *Geld*. |
+l'euro (m) | Euro | n | Ça coûte dix *euros*. | Es kostet zehn *Euro*. |
+la livre | Pfund | n | Ça fait cinq *livres*, s'il vous plaît. | Das macht fünf *Pfund*, bitte. |
+les courses | Einkaufen | n | Je fais les *courses* le samedi. | Ich erledige samstags den *Einkauf*. |
+le t-shirt | T-Shirt | n | Il fait chaud, mets ton *t-shirt*. | Es ist warm, zieh ein *T-Shirt* an. |
+le jean | Jeans | n | Je porte toujours un *jean*. | Ich trage immer *Jeans*. |
+la robe | Kleid | n | Elle a acheté une *robe* rouge. | Sie hat ein rotes *Kleid* gekauft. |
+la jupe | Rock | n | Elle porte une longue *jupe*. | Sie trägt einen langen *Rock*. |
+la chaussure | Schuh | n | Ces *chaussures* sont confortables. | Diese *Schuhe* sind bequem. |
+le chapeau | Hut | n | Porte un *chapeau* au soleil. | Trag in der Sonne einen *Hut*. |
+la chaussette | Socke | n | Je ne trouve pas mes *chaussettes*. | Ich finde meine *Socken* nicht. |
+ouvert | geöffnet | adj | Le magasin est-il encore *ouvert*? | Hat der Laden noch *geöffnet*? |
+fermé | geschlossen | adj | La banque est *fermée* le dimanche. | Die Bank ist sonntags *geschlossen*. |
+vouloir | wollen | v | Je *veux* celle-là. | Ich *möchte* das da. |
+
+## A2
+le reçu | Beleg | n | Puis-je avoir un *reçu* pour mes frais? | Kann ich einen *Beleg* für meine Spesen bekommen? |
+l'espèces (f) | Bargeld | n | Je peux payer en *espèces*? | Kann ich *bar* bezahlen? |
+la monnaie | Wechselgeld | n | Gardez la *monnaie*. | Behalten Sie das *Wechselgeld*. |
+la réduction | Rabatt | n | Les étudiants ont dix pour cent de *réduction*. | Studierende bekommen zehn Prozent *Rabatt*. |
+les soldes | Ausverkauf, Schlussverkauf | n | Je l'ai acheté pendant les *soldes*. | Ich habe es im *Schlussverkauf* gekauft. |
+essayer | anprobieren | v | Je peux l'*essayer*? | Kann ich das *anprobieren*? |
+la cabine d'essayage | Umkleidekabine | n | Les *cabines d'essayage* sont là-bas. | Die *Umkleidekabinen* sind dort drüben. |
+aller | passen (Größe) | v | Ces chaussures ne me vont pas bien, elles ne me *vont* pas. | Diese Schuhe *passen* nicht. |
+aller | stehen (Kleidung) | v | Cette couleur te *va* très bien. | Die Farbe *steht* dir wirklich. |
+rendre | zurückgeben, umtauschen | v | Je voudrais *rendre* ceci. | Ich möchte das *zurückgeben*. |
+le colis | Paket | n | Un *colis* est arrivé pour vous. | Für dich ist ein *Paket* gekommen. |
+le centre commercial | Einkaufszentrum | n | Le *centre* commercial ouvre à neuf heures. | Das *Einkaufszentrum* öffnet um neun. |
+cassé | kaputt | adj | C'était *cassé* quand c'est arrivé. | Es war *kaputt*, als es ankam. |
+la poste | Post(amt) | n | Est-ce que la *poste* est ouverte le samedi ? | Hat die *Post* samstags auf? |
+le caissier | Kassierer(in) | n | Le *caissier* m'a donné le reçu. | Die *Kassiererin* gab mir den Kassenbon. |
+la caisse | Kasse | n | Veuillez payer à la *caisse*. | Bitte zahlen Sie an der *Kasse*. |
+le porte-monnaie | Geldbörse (Damen) | n | Elle a mis les pièces dans son *porte-monnaie*. | Sie steckte die Münzen in ihr *Portemonnaie*. |
+la banque | Bank (Geld) | n | Je dois aller à la *banque*. | Ich muss zur *Bank*. |
+l'offre spéciale (f) | Sonderangebot | n | Le café est en *offre* spéciale. | Kaffee ist im *Sonderangebot*. |
+la boulangerie | Bäckerei | n | La *boulangerie* ouvre à six heures. | Die *Bäckerei* öffnet um sechs. |
+la boucherie | Metzgerei | n | J'ai acheté la viande à la *boucherie*. | Ich habe das Fleisch beim *Metzger* gekauft. |
+la droguerie | Drogerie, Apotheke | n | Vous pouvez acheter cela à la *droguerie*. | Das bekommst du in der *Drogerie*. |
+le grand magasin | Kaufhaus | n | Nous sommes allés dans un grand *magasin*. | Wir waren in einem großen *Kaufhaus*. |
+la librairie | Buchhandlung | n | Il y a une jolie *librairie* en ville. | In der Stadt gibt es eine schöne *Buchhandlung*. |
+l'achat en ligne (m) | Online-Einkauf | n | Je fais mes *achats* en ligne la nuit. | Ich mache meine *Online-Einkäufe* meistens nachts. |
+commander en ligne | online bestellen | phrase | J'ai *commandé* les chaussures en ligne. | Ich habe die Schuhe *online bestellt*. |
+les baskets | Turnschuhe | n | Mettez des *baskets* pour la promenade. | Zieh für den Spaziergang *Turnschuhe* an. |
+la casquette | Kappe, Mütze | n | Il porte toujours une *casquette*. | Er trägt immer eine Baseball*kappe*. |
+la ceinture | Gürtel | n | Ce pantalon a besoin d'une *ceinture*. | Diese Hose braucht einen *Gürtel*. |
+la montre | Armbanduhr | n | Ma *montre* avance de cinq minutes. | Meine *Uhr* geht fünf Minuten vor. |
+les bijoux | Schmuck | n | Elle ne porte pas beaucoup de *bijoux*. | Sie trägt nicht viel *Schmuck*. |
+la bague | Ring | n | Il lui a offert une *bague* en or. | Er schenkte ihr einen goldenen *Ring*. |
+le coton | Baumwolle | n | La chemise est en 100% *coton*. | Das Hemd ist aus 100 % *Baumwolle*. |
+la laine | Wolle | n | Ce bonnet est en *laine*. | Diese Mütze ist aus *Wolle*. |
+le cuir | Leder | n | Elle a acheté une veste en *cuir*. | Sie hat eine *Leder*jacke gekauft. |
+à la mode | modisch | adj | Ces lunettes sont très *à la mode*. | Diese Brille ist sehr *modisch*. |
+s'habiller | sich anziehen | phrase | Dépêche-toi et *habille-toi* ! | Beeil dich und *zieh dich an*! |
+le sac en plastique | Plastiktüte | n | Avez-vous besoin d'un *sac en plastique* ? | Brauchen Sie eine *Plastiktüte*? |
+la liste | Liste | n | J'ai fait une *liste* de courses. | Ich habe eine Einkaufs*liste* gemacht. |
+le kilo | Kilo | n | Un *kilo* de pommes, s'il vous plaît. | Ein *Kilo* Äpfel, bitte. |
+le gramme | Gramm | n | Deux cents *grammes* de fromage, s'il vous plaît. | 200 *Gramm* Käse, bitte. |
+le litre | Liter | n | Achète deux *litres* de lait. | Kauf zwei *Liter* Milch. |
+
+## B1
+la bonne affaire | Schnäppchen | n | Cette veste était une vraie *bonne affaire*. | Die Jacke war ein echtes *Schnäppchen*. |
+la caisse | Kasse | n | Veuillez payer à la *caisse*. | Bitte zahlen Sie an der *Kasse*. |
+la livraison | Lieferung | n | La *livraison* est gratuite dès cinquante euros. | Ab 50 Euro ist die *Lieferung* kostenlos. |
+la marque | Marke | n | Quelle *marque* préfères-tu ? | Welche *Marke* magst du lieber? |
+la qualité | Qualité | n | La *qualité* est excellente. | Die *Qualität* ist ausgezeichnet. |
+d'occasion | gebraucht | adj | J'ai acheté un vélo *d'occasion*. | Ich habe ein *gebrauchtes* Fahrrad gekauft. |
+la réclamation | Beschwerde | n | Je veux porter une *réclamation*. | Ich möchte mich *beschweren*. |
+la garantie | Garantie | n | La télé a une *garantie* de deux ans. | Der Fernseher hat zwei Jahre *Garantie*. |
+le service | Bedienung | n | Le *service* était lent. | Die *Bedienung* war langsam. |
+les horaires d'ouverture | Öffnungszeiten | n | Quels sont les *horaires d'ouverture* ? | Wie sind die *Öffnungszeiten*? |
+le coiffeur | Friseur | n | J'ai un rendez-vous chez le *coiffeur*. | Ich habe einen Termin beim *Friseur*. |
+s'inscrire | sich anmelden | v | Je me suis *inscrit* à la newsletter. | Ich habe mich für den Newsletter *angemeldet*. |
+
+## B2
+le consommateur | Verbraucher | n | Les *consommateurs* dépensent moins. | *Verbraucher* geben weniger aus. |
+défectueux | defekt | adj | Le chargeur était *défectueux*. | Das Ladegerät war *defekt*. |
+la garantie | Garantie | n | Il est encore sous *garantie*. | Es ist noch unter *Garantie*. |
+en stock | vorrätig | phrase | Ce modèle est-il *en stock* ? | Ist dieses Modell *vorrätig*? |
+précommander | vorbestellen | v | J'ai *précommandé* le nouveau téléphone. | Ich habe das neue Handy *vorbestellt*. |
+l'abonnement (m) | Abonnement | n | J'ai résilié mon *abonnement*. | Ich habe mein *Abo* gekündigt. |
+le bon d'achat | Gutschein | n | J'ai reçu un *bon d'achat* pour mon anniversaire. | Ich habe zum Geburtstag einen *Gutschein* bekommen. |
+la carte de fidélité | Kundenkarte | n | Avez-vous une *carte de fidélité* ? | Haben Sie eine *Kundenkarte*? |
+la mensualité | Rate | n | Vous pouvez payer en *mensualités*. | Sie können in monatlichen *Raten* zahlen. |
+surcoté | überteuert | adj | Les boissons étaient *surcotées*. | Die Getränke waren *überteuert*. |
+l'arnaque (f) | Abzocke | n | Dix euros pour un café, c'est une *arnaque* ! | Zehn Euro für einen Kaffee ist *Abzocke*! |
+marchander | feilschen | v | On peut *marchander* au marché. | Auf dem Markt kann man *feilschen*. |
+le lèche-vitrine | Schaufensterbummel | n | Nous avons fait du *lèche-vitrine*. | Wir machten einen *Schaufensterbummel*. |
+l'achat impulsif (m) | Spontankauf | n | La veste était un *achat impulsif*. | Die Jacke war ein *Spontankauf*. |
+butiner | stöbern | v | Je *butine* simplement dans les rayons. | Ich *schaue* nur, danke. |
+le détaillant | Einzelhändler | n | Les *détaillants* en ligne se développent vite. | Online-*Händler* wachsen schnell. |
+le point de vente | Verkaufsstelle | n | Il y a un *point de vente* près d'ici. | In der Nähe gibt es ein Fabrik*verkauf*. |
+le vol à l'étalage | Ladendiebstahl | n | Il a été arrêté pour *vol à l'étalage*. | Er wurde wegen *Ladendiebstahls* festgenommen. |
+le service client | Kundendienst | n | J'ai appelé le *service client*. | Ich habe den *Kundendienst* angerufen. |
+suivre | verfolgen (Sendung) | v | Tu peux *suivre* ton colis en ligne. | Du kannst dein Paket online *verfolgen*. |
+expédier | versenden | v | Votre commande a été *expédiée*. | Ihre Bestellung wurde *versandt*. |
+sans contact | kontaktlos | adj | Vous pouvez payer *sans contact*. | Sie können *kontaktlos* bezahlen. |
+
+## C1
+dépenser sans compter | viel Geld ausgeben | v | Nous avons *dépensé sans compter* pour ce dîner. | Wir haben für ein schickes Essen *viel Geld ausgegeben*. |
+économe | sparsam | adj | Ils mènent une vie *économe*. | Sie leben *sparsam*. |
+exorbitant | horrend | adj | Les prix étaient *exorbitants*. | Die Preise waren *horrend*. |
+au rabais | herabgesetzt | adj | Ils vendent de l'électronique *au rabais*. | Sie verkaufen *Billig*-Elektronik. |
+la marchandise | Ware(n) | n | Toute la *marchandise* est soldée. | Alle *Waren* sind 20 % reduziert. |
+contrefait | gefälscht | adj | Le sac était *contrefait*. | Die Tasche war *gefälscht*. |
+la liquidation | Räumungsverkauf | n | Il y a une *liquidation* cette semaine. | Diese Woche ist *Räumungsverkauf*. |
+le consumérisme | Konsumdenken | n | Il critique le *consumérisme* moderne. | Er kritisiert das moderne *Konsumdenken*. |
+le chasseur de bonnes affaires | Schnäppchenjäger(in) | n | Elle est une vraie *chasseuse de bonnes affaires*. | Sie ist eine echte *Schnäppchenjägerin*. |
+rembourser | zurückerstatten | v | L'entreprise va vous *rembourser* les frais. | Die Firma *erstattet* dir die Kosten *zurück*. |
+gratuit | kostenlos, gratis | adj | Le petit-déjeuner est *gratuit*. | Das Frühstück ist *kostenlos*. |
+les petits caractères | Kleingedrucktes | n | Lisez toujours les *petits caractères*. | Lies immer das *Kleingedruckte*. |
+frais cachés (m) | versteckte Kosten | n | Attention aux *frais cachés*. | Achte auf *versteckte Kosten*. |
+haut de gamme | gehoben, exklusiv | adj | C'est une boutique *haut de gamme*. | Es ist eine *exklusive* Boutique. |
+fauché | knapp bei Kasse | adj | Beaucoup d'étudiants sont *fauchés*. | Viele Studierende sind *knapp bei Kasse*. |
