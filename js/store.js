@@ -638,11 +638,11 @@ export function storyTheme(words) {
   return top ? topicLabel(top[0]) : "";
 }
 
-export function addStory(story) {
+export function addStory(story, { count = true } = {}) {
   const s = load();
   s.stories.unshift(story);
-  // Die Übungswörter dieser Geschichte zählen für die nächste nicht mehr
-  for (const id of story.wordIds || []) {
+  // Die Übungswörter dieser Geschichte zählen für die nächste nicht mehr (Einschlaf-Geschichten zählen nicht)
+  if (count) for (const id of story.wordIds || []) {
     if (s.cards[id]) s.cards[id].inStory = (s.cards[id].inStory || 0) + 1;
   }
   save();

@@ -8,6 +8,7 @@ import * as tts from "./tts.js";
 import { DESIGNS, designKey, applyDesign, skinHome, skinCard } from "./skins.js";
 import * as cloud from "./cloud.js";
 import { listenView, stopListening } from "./listen.js";
+import { sleepView } from "./sleep.js";
 import { practiceView, micBlock, bindMic } from "./practice.js";
 import { chatView } from "./chat.js";
 import { needsOnboarding, onboardingView } from "./onboarding.js";
@@ -151,7 +152,7 @@ function progressRing(card) {
 
 // ---------- Router ----------
 const routes = {
-  toolbox: (k) => toolboxView($app, { settings, rateSlider, ICON }, k), home, learn, stories, story, words, add, topics, stats, settings: settingsView, listen: () => listenView($app, { settings, rateSlider, ICON }), practice: (m) => practiceView($app, { settings, rateSlider, ICON }, m || ""), chat: (k) => chatView($app, { settings, ICON }, k || "") };
+  toolbox: (k) => toolboxView($app, { settings, rateSlider, ICON }, k), home, learn, stories, story, words, add, topics, stats, settings: settingsView, listen: () => listenView($app, { settings, rateSlider, ICON }), sleep: () => sleepView($app, { settings, ICON }), practice: (m) => practiceView($app, { settings, rateSlider, ICON }, m || ""), chat: (k) => chatView($app, { settings, ICON }, k || "") };
 
 function render() {
   if (document.documentElement.classList.contains("is-login")) return;
@@ -167,7 +168,7 @@ function render() {
   const arg = rest.length ? decodeURIComponent(rest.join("/")) : undefined;
   const view = routes[name] || home;
   document.body.dataset.view = routes[name] ? name : "home";
-  const navKey = { story: "stories", add: "words", topics: "home", settings: "home", listen: "home", practice: "home", chat: "home", toolbox: "home" }[name] || (routes[name] ? name : "home");
+  const navKey = { story: "stories", add: "words", topics: "home", settings: "home", listen: "home", sleep: "home", practice: "home", chat: "home", toolbox: "home" }[name] || (routes[name] ? name : "home");
   $nav.querySelectorAll("a").forEach((a) => a.classList.toggle("active", a.dataset.route === navKey));
   window.scrollTo(0, 0);
   view(arg);
@@ -1706,7 +1707,7 @@ function settingsView() {
     <h2>App aktualisieren</h2>
     <p class="small muted">Holt die neueste Version der App. Dein Lernstand und deine Einstellungen bleiben erhalten.</p>
     <button class="btn primary" id="appUpdate">🔄 Jetzt aktualisieren</button>
-    <p class="small muted">Installiert: Version 61</p>
+    <p class="small muted">Installiert: Version 62</p>
   </section>
   <section class="card">
     <h2>Test-Funktionen</h2>

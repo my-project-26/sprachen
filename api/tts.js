@@ -1,5 +1,5 @@
 // Natürliche Stimme für Texte ohne fertige Aufnahme (Geschichten, Gespräch, Deutsch).
-// GET /api/tts?l=en&v=Achernar&r=1&t=Hello → MP3 von Google (Chirp 3 HD).
+// GET /api/tts?l=en&v=Achernar&r=1&g=0&t=Hello → MP3 von Google (Chirp 3 HD). g = Lautstärke in dB (−16…0).
 // Braucht auf Vercel die Umgebungsvariable GOOGLE_TTS_KEY. Antworten werden lange zwischengespeichert.
 import { wrap, httpError } from "./_llm.js";
 
@@ -12,6 +12,8 @@ export default wrap(async (req, res) => {
   const lang = LOCALE[q.get("l")] ? q.get("l") : "en";
   const voice = VOICES.has(q.get("v")) ? q.get("v") : "Achernar";
   const rate = Math.min(1.3, Math.max(0.6, Number(q.get("r")) || 1));
+  // Lautstärke in dB (Einschlaf-Geschichte wird zum Ende hin leiser)
+  const gain = Math.min(0, Math.max(-16, Number(q.get("g")) || 0));
   if (!text) throw httpError(400, "Kein Text");
   const key = process.env.GOOGLE_TTS_KEY;
   if (!key) throw httpError(500, "GOOGLE_TTS_KEY fehlt auf dem Server (Vercel → Settings → Environment Variables).");
@@ -21,7 +23,7 @@ export default wrap(async (req, res) => {
     body: JSON.stringify({
       input: { text },
       voice: { languageCode: LOCALE[lang], name: `${LOCALE[lang]}-Chirp3-HD-${voice}` },
-      audioConfig: { audioEncoding: "MP3", sampleRateHertz: 24000, speakingRate: rate },
+      audioConfig: { audioEncoding: "MP3", sampleRateHertz: 24000, speakingRate: rate, ...(gain ? { volumeGainDb: gain } : {}) },
     }),
   });
   const d = await r.json().catch(() => ({}));

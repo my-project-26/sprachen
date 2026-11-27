@@ -445,6 +445,13 @@ export function speakGermanNatural(text, { onend, onfail } = {}) {
   a.play().catch(fail);
 }
 
+// Adresse für ein Stück Text als Google-Aufnahme (Einschlaf-Geschichte). gain in dB (≤ 0)
+export function serverUrl(text, { preset, rate = 0.9, gain = 0 } = {}) {
+  if (!SERVER) return "";
+  return `${SERVER}/api/tts?l=${encodeURIComponent(LANG.code)}&v=${serverVoice(preset)}&r=${Number(rate).toFixed(2)}${gain ? `&g=${gain}` : ""}&t=${encodeURIComponent(normText(text))}`;
+}
+export const hasServer = () => !!SERVER;
+
 // Google-Name der gewählten Stimme (für Texte ohne Aufnahme)
 function serverVoice(preset) {
   const rec = recOf(resolvePreset(effectivePreset(preset)).preset) || "achernar";

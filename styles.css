@@ -685,3 +685,49 @@ body[data-view="onboarding"] .nav { display: none; }
 .kb-sheet h3 { margin: 16px 0 6px; font-size: 1rem; }
 .kb-steps { margin: 0 0 8px; padding-left: 22px; display: grid; gap: 8px; line-height: 1.45; }
 .kb-done { width: 100%; margin-top: 12px; }
+
+/* ---------- Einschlafen ---------- */
+.sl-teaser { display: flex; gap: 14px; align-items: center; margin: 0 0 14px; padding: 16px 18px; border-radius: 20px; text-decoration: none;
+  background: linear-gradient(135deg, #232c63, #3a2f6e); color: #eef0ff; }
+.sl-teaser > span:first-child { font-size: 1.9rem; }
+.sl-teaser b { display: block; font-size: 1.05rem; }
+.sl-teaser small { display: block; opacity: .8; margin-top: 2px; line-height: 1.35; }
+.sl-hero { margin: 4px 0 14px; padding: 22px 20px; border-radius: 24px; color: #eef0ff;
+  background: linear-gradient(160deg, #1f2758, #3b2f6b); }
+.sl-hero h2 { margin: 0 0 6px; font-size: 1.3rem; }
+.sl-hero p { margin: 0; line-height: 1.5; opacity: .9; max-width: 34ch; }
+.sl-setup h2 { font-size: 1.02rem; margin: 18px 0 8px; }
+.sl-setup h2:first-child { margin-top: 0; }
+.sl-cats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.sl-cat-btn { display: flex; gap: 8px; align-items: center; min-height: 48px; padding: 8px 12px; text-align: left; font: inherit; font-weight: 600;
+  color: var(--ink); background: var(--surface); border: 2px solid var(--line); border-radius: 14px; cursor: pointer; }
+.sl-cat-btn span { font-size: 1.25rem; }
+.sl-cat-btn.on { border-color: #4b3fa8; background: #ece9ff; color: #221b5c; }
+.sl-cat-btn:focus-visible, .sl-item:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.sl-go { width: 100%; margin-top: 16px; background: #3b2f8f; }
+.sl-note { margin: 8px 0 0; text-align: center; }
+.sl-list ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.sl-item { width: 100%; display: flex; gap: 12px; align-items: center; padding: 10px 12px; font: inherit; text-align: left; cursor: pointer;
+  color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 14px; }
+.sl-i-ic { flex: none; width: 42px; height: 42px; display: grid; place-items: center; border-radius: 50%; background: #2a2f6b; color: #f4e3a1; font-size: .85rem; font-weight: 700; }
+.sl-i-t { min-width: 0; display: flex; flex-direction: column; }
+.sl-i-t small { color: var(--muted); }
+
+.sl-player { position: fixed; inset: 0; z-index: 1000; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px;
+  padding: calc(24px + env(safe-area-inset-top)) 24px calc(24px + env(safe-area-inset-bottom)); text-align: center;
+  color: #d9dcf2; background: radial-gradient(ellipse at 50% 0%, #1c2350 0%, #0d1130 55%, #070a1f 100%); }
+.sl-close { position: absolute; top: calc(14px + env(safe-area-inset-top)); right: 16px; width: 44px; height: 44px; border-radius: 50%;
+  border: 1px solid rgba(217, 220, 242, .25); background: transparent; color: inherit; font-size: 1.1rem; cursor: pointer; }
+.sl-moon { width: 74px; height: 74px; border-radius: 50%; margin-bottom: 8px; background: #f4e3a1; box-shadow: 0 0 60px rgba(244, 227, 161, .35), inset -16px -6px 0 rgba(13, 17, 48, .55); }
+.sl-cat { margin: 0; opacity: .7; }
+.sl-title { margin: 0 0 18px; font-size: 1.45rem; line-height: 1.25; color: #f1f2fb; max-width: 22ch; }
+.sl-play { width: 96px; height: 96px; border-radius: 50%; border: 0; cursor: pointer; font-size: 1.9rem; color: #0d1130; background: #f4e3a1; }
+.sl-play:focus-visible, .sl-close:focus-visible, .sl-small:focus-visible { outline: 3px solid #f4e3a1; outline-offset: 4px; }
+.sl-bar { width: min(320px, 80vw); height: 4px; margin-top: 22px; border-radius: 4px; background: rgba(217, 220, 242, .18); overflow: hidden; }
+.sl-bar i { display: block; height: 100%; width: 0; background: #f4e3a1; transition: width .5s linear; }
+.sl-time { width: min(320px, 80vw); display: flex; justify-content: space-between; margin: 4px 0 0; font-size: .85rem; opacity: .7; font-variant-numeric: tabular-nums; }
+.sl-row { display: flex; gap: 10px; margin-top: 14px; }
+.sl-small { min-height: 44px; display: inline-flex; align-items: center; padding: 0 16px; border-radius: 22px; border: 1px solid rgba(217, 220, 242, .3);
+  background: transparent; color: inherit; font: inherit; text-decoration: none; cursor: pointer; }
+.sl-hint { margin: 18px 0 0; max-width: 30ch; font-size: .85rem; line-height: 1.45; opacity: .55; }
+@media (prefers-reduced-motion: reduce) { .sl-bar i { transition: none; } }

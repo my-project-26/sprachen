@@ -1,5 +1,5 @@
 import { callLLM, checkAuth, readBody, send, wrap, httpError, providerFrom } from "./_llm.js";
-import { storySystem, storyPrompt, extractJson, storyFrom } from "../js/prompts.js";
+import { storySystem, storyPrompt, sleepStoryPrompt, extractJson, storyFrom } from "../js/prompts.js";
 import { langName } from "../js/langs.js";
 
 const cleanList = (list, max) =>
@@ -21,6 +21,19 @@ export default wrap(async (req, res) => {
   const lang = langName(body.lang);
   // Standard: erst nur die Geschichte (schnell); Sätze/Wort-für-Wort holt die App danach über /api/decode
   const withSentences = body.sentences === true;
+
+  // Einschlaf-Geschichte: lang, ruhig, ein Versuch mit dem schnellen Modell (passt in die 60 s des Servers)
+  if (body.sleep === true) {
+    const lvl = ["A1", "A2", "B1"].includes(body.level) ? body.level : "A2";
+    try {
+      const text = await callLLM({ ...llm, model: "gemini-flash-lite-latest" }, storySystem(lang), sleepStoryPrompt(words, lvl, String(body.category || ""), lang), 4500);
+      const data = storyFrom(extractJson(text));
+      if (!data) throw new Error("Antwort ohne Text");
+      return send(res, 200, data);
+    } catch (e) {
+      throw httpError(e.status || 502, "Einschlaf-Geschichte konnte nicht erstellt werden: " + (e.message || ""));
+    }
+  }
 
   let lastErr;
   for (let attempt = 0; attempt < 2; attempt++) {

@@ -1,7 +1,7 @@
 // KI-Aufrufe: entweder über den eigenen Server (api/*) oder direkt aus dem Browser
 // an Gemini (für GitHub Pages / iPhone, wo kein eigener Server läuft).
 import { getState } from "./store.js";
-import { storySystem, storyPrompt, wordsSystem, generateWordsPrompt, fillWordPrompt, extractJson, storyFrom, decodeSystem, decodePrompt, chatSystem, chatTranscript, saySystem, mnemonicSystem, mnemonicPrompt } from "./prompts.js";
+import { storySystem, storyPrompt, sleepStoryPrompt, wordsSystem, generateWordsPrompt, fillWordPrompt, extractJson, storyFrom, decodeSystem, decodePrompt, chatSystem, chatTranscript, saySystem, mnemonicSystem, mnemonicPrompt } from "./prompts.js";
 import { L, langName } from "./langs.js";
 
 const LEVELS = ["A1", "A2", "B1", "B2", "C1"];
@@ -184,6 +184,12 @@ async function browserCall(path, body) {
       try {
         const lang = langName(body.lang);
         const withS = body.sentences === true;
+        if (body.sleep === true) {
+          const t = await browserLLM(storySystem(lang), sleepStoryPrompt(body.words, ["A1", "A2", "B1"].includes(body.level) ? body.level : "A2", body.category || "", lang), 4500);
+          const d = storyFrom(extractJson(t));
+          if (!d) throw new Error("Antwort ohne Text");
+          return d;
+        }
         const text = await browserLLM(storySystem(lang), storyPrompt(body.words, level, body.theme || "", body.known || [], lang, withS, body.goal || ""), withS ? 5000 : 2500);
         const data = storyFrom(extractJson(text));
         if (!data) throw new Error("Antwort ohne Text");

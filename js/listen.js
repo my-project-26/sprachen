@@ -136,6 +136,7 @@ export function listenView($app, { settings, rateSlider, ICON }) {
     <p class="ef-label">Wie schnell?</p>
     ${rateSlider("", "")}
   </section>
+  <a class="sl-teaser" href="#/sleep"><span>🌙</span><span><b>Einschlaf-Geschichte</b><small>Ruhig vorgelesen, ca. 15 Minuten – mit deinen schwierigen Wörtern</small></span></a>
   <section class="card listen-opts">
     <h2>Was möchtest du hören?</h2>
     <p class="small muted">Welche Wörter</p>
