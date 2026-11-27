@@ -146,7 +146,7 @@ The learner should hear these words again – they are still difficult for them:
 ${list}
 
 Requirements:
-- Language: ${lang} only (the title too). Length: 1500–1800 words – it will be read aloud slowly for about 15 minutes. 12–18 paragraphs separated by a blank line (\\n\\n).
+- Language: ${lang} only (the title too). LENGTH IS IMPORTANT: it will be read aloud slowly for 15 minutes, so write about 2000 words: exactly 18 paragraphs of 100–130 words each, separated by a blank line (\\n\\n). Do not stop early – take your time with calm details (places, weather, sounds, small actions, thoughts).
 - Language level: CEFR ${level}. Short, clear sentences. Apart from the listed words, use only very common high-frequency vocabulary a ${level} learner surely knows. No idioms, slang or unusual names.
 - Use EVERY listed word at least twice, spread over the whole story, each time in a meaning that matches the German gloss. Mark every occurrence of a listed word with double asterisks, e.g. **word**. Mark nothing else.
 - Tone: calm, warm and soothing. Even in exciting genres keep the tension soft. The pace slows down towards the end; the last paragraphs are very peaceful (evening, quiet, rest). No cliffhanger, a gentle happy ending.

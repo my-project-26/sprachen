@@ -26,7 +26,7 @@ export default wrap(async (req, res) => {
   if (body.sleep === true) {
     const lvl = ["A1", "A2", "B1"].includes(body.level) ? body.level : "A2";
     try {
-      const text = await callLLM({ ...llm, model: "gemini-flash-lite-latest" }, storySystem(lang), sleepStoryPrompt(words, lvl, String(body.category || ""), lang), 4500);
+      const text = await callLLM({ ...llm, model: "gemini-flash-lite-latest" }, storySystem(lang), sleepStoryPrompt(words, lvl, String(body.category || ""), lang), 6000);
       const data = storyFrom(extractJson(text));
       if (!data) throw new Error("Antwort ohne Text");
       return send(res, 200, data);
