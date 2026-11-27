@@ -48,87 +48,169 @@ export const canSpeak = () => !!(window.SpeechRecognition || window.webkitSpeech
 
 // Spracherkennung: liefert den erkannten Text (oder "").
 // onPartial(text) zeigt schon während des Sprechens, was erkannt wird.
-// Safari bricht die Erkennung ab („aborted“), wenn gleichzeitig Ton läuft → vorher Ton stoppen, notfalls einmal neu starten.
-// Nur eine Erkennung zur Zeit: eine noch laufende (z. B. von einem anderen Knopf) wird vorher beendet.
-let ACTIVE = null;
-let LAST = ""; // Gesamttext der letzten Aufnahme (für den iPhone-Fehler oben)
+// iPhone: Jede NEUE Erkennung fragt das Mikrofon neu an („Mikrofonzugriff gewährt“) und bekommt danach oft keinen Ton.
+// Deshalb gibt es nur EIN Erkennungs-Objekt, das bei jedem Tippen neu gestartet wird.
+// Außerdem hängt das iPhone manchmal die Ergebnisse der letzten Aufnahme vorne an → werden abgeschnitten.
+let REC = null; // das eine Erkennungs-Objekt
+let RUNNING = false; // läuft gerade eine Aufnahme?
+let SESSION = null; // Handler der aktuellen Aufnahme
+let LAST = ""; // Gesamttext der letzten Aufnahme
+
+function recognizer() {
+  const R = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (REC) return REC;
+  const r = new R();
+  r.interimResults = true;
+  r.continuous = false;
+  r.maxAlternatives = 3;
+  r.onstart = () => {
+    RUNNING = true;
+    SESSION && SESSION.start();
+  };
+  r.onresult = (e) => SESSION && SESSION.result(e);
+  r.onerror = (e) => SESSION && SESSION.error(e.error);
+  r.onend = () => {
+    RUNNING = false;
+    // Ende einer vorherigen Aufnahme, während die neue noch nicht gestartet ist → ignorieren
+    if (SESSION && !SESSION.started() && !SESSION.blocked()) return;
+    const s = SESSION;
+    SESSION = null;
+    s && s.end();
+  };
+  REC = r;
+  return r;
+}
+
+// Falls das Objekt hängt: verwerfen, beim nächsten Mal ein neues anlegen
+function resetRecognizer() {
+  if (REC) {
+    try {
+      REC.onstart = REC.onresult = REC.onerror = REC.onend = null;
+      REC.abort();
+    } catch {}
+  }
+  REC = null;
+  RUNNING = false;
+}
+
 export function listenOnce(onPartial) {
   const R = window.SpeechRecognition || window.webkitSpeechRecognition;
-  if (!R) return Promise.reject(new Error("Spracherkennung geht in diesem Browser nicht. Bitte Chrome oder Safari am iPhone nutzen."));
+  if (!R) return Promise.reject(new Error("Spracherkennung geht in diesem Browser nicht. Bitte Safari oder Chrome nutzen."));
   tts.stop();
-  if (ACTIVE) {
-    try {
-      ACTIVE.onend = ACTIVE.onerror = ACTIVE.onresult = null;
-      ACTIVE.abort();
-    } catch {}
-    ACTIVE = null;
+  // Eine noch laufende Aufnahme (anderer Knopf) still beenden
+  if (SESSION) {
+    const old = SESSION;
+    SESSION = null;
+    old.cancel();
   }
-  const attempt = (tries) =>
-    new Promise((res, rej) => {
-      const r = new R();
-      ACTIVE = r;
-      r.lang = (L().tts && L().tts[0]) || S.lang();
-      r.interimResults = true;
-      r.continuous = false;
-      r.maxAlternatives = 3;
-      let best = "",
-        alts = [],
-        failed = null,
-        ended = false;
-      r.onresult = (e) => {
-        // iPhone hängt die Ergebnisse früherer Aufnahmen vorne an → alte Teile abschneiden
+  return new Promise((res, rej) => {
+    let best = "",
+      alts = [],
+      raw = "",
+      failed = null,
+      done = false,
+      started = false;
+    const finish = (fn) => {
+      if (done) return;
+      done = true;
+      clearTimeout(guard);
+      clearTimeout(startGuard);
+      fn();
+    };
+    const sess = {
+      start() {
+        started = true;
+      },
+      started: () => started,
+      result(e) {
         let text = "";
         for (let i = 0; i < e.results.length; i++) text += (text ? " " : "") + e.results[i][0].transcript.trim();
         text = text.trim();
-        r._raw = text;
+        raw = text;
         if (LAST && text.length > LAST.length + 1 && text.toLowerCase().startsWith(LAST.toLowerCase())) text = text.slice(LAST.length).trim();
         if (!text) return;
         best = text;
         const last = e.results[e.results.length - 1];
         alts = [...last].map((x) => x.transcript.trim()).filter(Boolean);
         onPartial && onPartial(best);
-      };
-      r.onerror = (e) => (failed = e.error);
-      // Sicherheitsnetz: iPhone beendet die Erkennung manchmal nie → nach 9 s selbst beenden
-      const guard = setTimeout(() => {
-        try {
-          r.stop();
-        } catch {}
-        setTimeout(() => r.onend && r.onend(), 800);
-      }, 9000);
-      r.onend = () => {
-        if (ended) return;
-        ended = true;
-        clearTimeout(guard);
-        if (ACTIVE === r) ACTIVE = null;
-        if (best) {
-          LAST = rawAll(r) || best;
-          return res(Object.assign(new String(best), { alts: [best, ...alts] }));
-        }
-        // iPhone bricht den Start oft ab („aborted“), solange das Audiosystem noch umschaltet → automatisch neu versuchen
-        if (failed === "aborted" && tries > 0) return setTimeout(() => attempt(tries - 1).then(res, rej), 700);
-        if (!failed || failed === "no-speech" || failed === "aborted") return res("");
-        rej(
-          new Error(
-            failed === "not-allowed" || failed === "service-not-allowed"
-              ? "Bitte erlaube den Zugriff aufs Mikrofon (Safari: Einstellungen für diese Website → Mikrofon → Erlauben)."
-              : "Spracherkennung: " + failed
-          )
-        );
-      };
+      },
+      error(code) {
+        if (code === "aborted" && !started) return; // Abbruch der vorherigen Aufnahme
+        failed = code;
+      },
+      blocked: () => failed === "not-allowed" || failed === "service-not-allowed",
+      end() {
+        finish(() => {
+          if (best) {
+            LAST = raw || best;
+            return res(Object.assign(new String(best), { alts: [best, ...alts] }));
+          }
+          if (failed === "not-allowed" || failed === "service-not-allowed")
+            return rej(new Error("Das Mikrofon ist blockiert. iPhone: Einstellungen → Safari (bzw. Chrome) → Mikrofon → Erlauben. Danach die App einmal ganz schließen und neu öffnen."));
+          if (failed === "audio-capture") {
+            resetRecognizer();
+            return rej(new Error("Das Mikrofon ist gerade belegt. Tippe noch einmal."));
+          }
+          if (failed && failed !== "no-speech" && failed !== "aborted") {
+            resetRecognizer();
+            return rej(new Error("Spracherkennung: " + failed + ". Tippe noch einmal."));
+          }
+          res("");
+        });
+      },
+      cancel() {
+        finish(() => res(""));
+      },
+    };
+    // Sicherheitsnetz 1: Startet die Aufnahme nicht innerhalb von 3 s → Objekt erneuern
+    const startGuard = setTimeout(() => {
+      if (started || done) return;
+      resetRecognizer();
+      finish(() => rej(new Error("Das Mikrofon hat nicht reagiert. Tippe bitte noch einmal.")));
+    }, 3000);
+    // Sicherheitsnetz 2: Nach 10 s selbst beenden
+    const guard = setTimeout(() => {
       try {
-        r.start(); // sofort im Tipp starten – iPhone erlaubt das Mikrofon nur direkt nach dem Tippen
-      } catch (e) {
-        clearTimeout(guard);
-        ended = true;
-        if (tries > 0) return setTimeout(() => attempt(tries - 1).then(res, rej), 700);
-        rej(e);
-      }
-    });
-  return attempt(2);
-}
+        REC && REC.stop();
+      } catch {}
+      setTimeout(() => {
+        if (done) return;
+        if (SESSION === sess) SESSION = null;
+        resetRecognizer();
+        sess.end();
+      }, 1200);
+    }, 10000);
 
-const rawAll = (r) => r._raw || "";
+    const r = recognizer();
+    r.lang = (L().tts && L().tts[0]) || S.lang();
+    SESSION = sess;
+    const go = () => {
+      try {
+        r.start(); // direkt im Tipp starten – iPhone erlaubt das Mikrofon nur direkt nach dem Tippen
+      } catch (e) {
+        // Läuft noch (InvalidStateError) → kurz stoppen und neu starten
+        try {
+          r.abort();
+        } catch {}
+        setTimeout(() => {
+          if (done || SESSION !== sess) return;
+          try {
+            r.start();
+          } catch {
+            resetRecognizer();
+            finish(() => rej(new Error("Das Mikrofon hat nicht reagiert. Tippe bitte noch einmal.")));
+          }
+        }, 400);
+      }
+    };
+    if (RUNNING) {
+      try {
+        r.abort();
+      } catch {}
+      setTimeout(go, 300);
+    } else go();
+  });
+}
 
 // Bewertung eines gesprochenen Versuchs
 export function rateSpeech(target, heard) {
