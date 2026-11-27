@@ -1,0 +1,75 @@
+# fr – gefuehle (aus der englischen Liste erzeugt)
+
+## A1
+fâché | wütend | adj | Il était *fâché* contre moi. | Er war *wütend* auf mich. |
+effrayé | verängstigt | adj | J ai peur des *araignées*. | Ich habe *Angst* vor Spinnen. |
+excité | aufgeregt | adj | Les enfants sont *excités* par le voyage. | Die Kinder freuen sich *riesig* auf den Ausflug. |
+ennuyé | gelangweilt | adj | Je m *ennuie*. | Mir ist *langweilig*. |
+heureux | glücklich | adj | Je suis *heureux* pour toi. | Ich *freue* mich für dich. |
+triste | traurig | adj | C est une histoire *triste*. | Es ist eine *traurige* Geschichte. |
+désolé | leider | adj | Je suis *désolé* je ne peux pas venir. | *Leider* kann ich nicht kommen. |
+serrer dans ses bras | umarmen | v | Elle m a *serré* fort dans ses bras. | Sie *umarmte* mich fest. |
+pleurer | weinen | v | Le film m a fait *pleurer*. | Bei dem Film musste ich *weinen*. |
+rire | lachen | v | Nous avons *ri* toute la soirée. | Wir haben den ganzen Abend *gelacht*. |
+sourire | lächeln | v | Elle m a *souri*. | Sie *lächelte* mich an. |
+d'accord | in Ordnung | adj | Tu es *d'accord*? | Ist alles *okay*? |
+génial | toll | adj | C est une *géniale* idée! | Das ist eine *tolle* Idee! |
+l'amour (m) | Liebe | n | L *amour* est tout ce dont on a besoin. | *Liebe* ist alles, was man braucht. |
+
+## A2
+nerveux | nervös | adj | Je suis *nerveux* avant l entretien. | Ich bin wegen des Vorstellungsgesprächs *nervös*. |
+seul | einsam | adj | Elle se sentait *seule* dans la nouvelle ville. | Sie fühlte sich in der neuen Stadt *einsam*. |
+jaloux | eifersüchtig, neidisch | adj | Il est *jaloux* de son frère. | Er ist *neidisch* auf seinen Bruder. |
+fier | stolz | adj | Je suis *fier* de toi. | Ich bin *stolz* auf dich. |
+humeur (f) | Stimmung, Laune | n | Elle est de bonne *humeur*. | Sie hat gute *Laune*. |
+sentiment | Gefühl | n | J'ai un mauvais *sentiment* à ce sujet. | Ich habe dabei ein schlechtes *Gefühl*. |
+amitié (f) | Freundschaft | n | Notre *amitié* est très importante pour moi. | Unsere *Freundschaft* ist mir sehr wichtig. |
+partenaire | Partner(in) | n | Mon *partenaire* est infirmier. | Meine *Partnerin* ist Krankenschwester. |
+rendez-vous | Verabredung, Date | n | Ils ont eu un *rendez-vous*. | Sie hatten ein *Date*. |
+tomber amoureux | sich verlieben | phrase | Ils sont *tombés amoureux* en vacances. | Sie *verliebten* sich im Urlaub. |
+manquer | vermissen | v | Tu me *manques*. | Ich *vermisse* dich. |
+s'inquiéter | sich Sorgen machen | v | Ne *t'inquiète* pas ! | Mach dir keine *Sorgen*! |
+s'entendre | sich verstehen mit | v | Je *m'entends* bien avec mes collègues. | Ich *verstehe* mich gut mit meinen Kollegen. |
+surprise (f) | Überraschung | n | Nous avons une *surprise* pour toi. | Wir haben eine *Überraschung* für dich. |
+content | froh | adj | Je suis *content* que tu sois venu. | Ich bin *froh*, dass du gekommen bist. |
+satisfait | zufrieden | adj | Je suis *satisfait* du résultat. | Ich bin mit dem Ergebnis *zufrieden*. |
+détendu | entspannt | adj | Tu as l'air très *détendu*. | Du siehst sehr *entspannt* aus. |
+stressé | gestresst | adj | Je suis vraiment *stressé* au travail. | Ich bin auf der Arbeit total *gestresst*. |
+intéressé | interessiert | adj | Tu es *intéressé* par l'art ? | Interessierst du dich für Kunst? |
+désolé | traurig, bedauernd | adj | Je suis *désolé* d'entendre ça. | Das tut mir *leid* zu hören. |
+larmes (f) | Tränen | n | Elle était en *larmes*. | Sie war den *Tränen* nahe. |
+remercier | danken | v | Je tiens à te *remercier*. | Ich möchte dir *danken*. |
+rêver | träumen | v | J'ai *rêvé* de toi cette nuit. | Ich habe letzte Nacht von dir *geträumt*. |
+chanceux | glücklich | adj | Tu es si *chanceux* ! | Du hast so ein *Glück*! |
+
+## B1
+reconnaissant | dankbar | adj | Je suis vraiment *reconnaissant* pour ton aide. | Ich bin dir wirklich *dankbar* für deine Hilfe. |
+gêné | verlegen, peinlich berührt | adj | Il s'est senti *gêné* en oubliant son nom. | Es war ihm *peinlich*, als er ihren Namen vergaß. |
+frustré | frustriert | adj | Elle est *frustrée* par la lenteur d'Internet. | Sie wurde wegen des langsamen Internets *frustriert*. |
+devenir | werden | v | Ils sont *devenus* de bons amis. | Sie *wurden* enge Freunde. |
+soulagé | erleichtert | adj | J'ai été *soulagé* d'entendre cela. | Ich war *erleichtert*, das zu hören. |
+confus | verwirrt | adj | Je suis un peu *confus*. | Ich bin etwas *verwirrt*. |
+honteux | beschämt | adj | Il était *honteux* de son comportement. | Er *schämte* sich für das, was er getan hatte. |
+relation (f) | Beziehung | n | Ils ont une bonne *relation*. | Sie haben eine gute *Beziehung*. |
+se marier | heiraten | phrase | Ils se sont *mariés* l'été dernier. | Sie haben letzten Sommer *geheiratet*. |
+divorce (m) | Scheidung | n | Leur *divorce* a été difficile. | Ihre *Scheidung* war schwierig. |
+se calmer | sich beruhigen | v | *Calme-toi*, ce n'est pas un problème. | *Beruhig* dich, das ist kein Problem. |
+se fâcher | sich zerstreiten | v | Ils se sont *fâchés* à cause de l'argent. | Sie haben sich wegen Geld *zerstritten*. |
+se réconcilier | sich versöhnen | v | Ils se sont disputés mais se sont *réconciliés*. | Sie haben sich gestritten, aber wieder *versöhnt*. |
+excuses (f) | Entschuldigung | n | Je te dois des *excuses*. | Ich schulde dir eine *Entschuldigung*. |
+soutenir | unterstützen | v | Ma famille me *soutient*. | Meine Familie *unterstützt* mich. |
+
+## B2
+réticent | widerwillig | adj | Il était *réticent* à en parler. | Er sprach nur *widerwillig* darüber. |
+empathie (f) | Empathie | n | Les bons infirmiers montrent beaucoup d'*empathie*. | Gute Pflegekräfte zeigen viel *Einfühlungsvermögen*. |
+submergé | überfordert | adj | Je me suis senti *submergé* par les e-mails. | Ich fühlte mich von all den E-Mails *überfordert*. |
+inquiet | besorgt | adj | Elle était *inquiète* pour l'examen. | Sie war wegen der Prüfung *besorgt*. |
+compréhensif | verständnisvoll | adj | Mon chef a été très *compréhensif* quand j'étais malade. | Mein Chef war sehr *verständnisvoll*, als ich krank war. |
+lien (m) | Bindung | n | Il y a un *lien* fort entre les sœurs. | Zwischen den Schwestern besteht eine starke *Bindung*. |
+affection (f) | Zuneigung | n | Elle a montré une grande *affection* pour lui. | Sie zeigte ihm große *Zuneigung*. |
+attaché | verbunden | adj | Je suis très *attaché* à cette ville. | Ich bin dieser Stadt sehr *verbunden*. |
+tromper | betrügen | v | Il a *trompé* sa femme. | Er hat seine Frau *betrogen*. |
+content | zufrieden | adj | Je suis *content* de ma vie. | Ich bin mit meinem Leben *zufrieden*. |
+ravi | hocherfreut | adj | Je suis *ravi* de vous rencontrer. | Ich *freue* mich sehr, Sie kennenzulernen. |
+anéanti | am Boden zerstört | adj | Elle était *anéantie* par cette nouvelle. | Sie war von der Nachricht *am Boden zerstört*. |
+dégoûté | angewidert | adj | J'ai été *dégoûté* par son comportement. | Ich war von seinem Verhalten *angewidert*. |

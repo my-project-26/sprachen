@@ -150,3 +150,51 @@ pourri | verfault | adj | Les pommes sont *pourries*. | Die Äpfel sind *verfaul
 alléchant | appetitlich, lecker | adj | Cette odeur était vraiment *alléchante*. | Der Duft ließ einem das Wasser im *Mund zusammenlaufen*. |
 la portion | Portion | n | *Les portions* étaient énormes. | Die *Portionen* waren riesig. |
 la nutrition | Ernährung | n | Une bonne *nutrition* est importante pour les sportifs. | Gute *Ernährung* ist für Sportler wichtig. |
+nutritieux | nahrhaft | adj | Ces lentilles sont *nutritieuses*. | Linsen sind günstig und *nahrhaft*. |
+protéine (f) | Eiweiß, Protein | n | Les œufs sont riches en *protéines*. | Eier sind reich an *Eiweiß*. |
+glucide (m) | Kohlenhydrate | n | Les pâtes contiennent beaucoup de *glucides*. | Nudeln sind voller *Kohlenhydrate*. |
+calorie (f) | Kalorie | n | Cette boisson a deux cents *calories*. | Dieses Getränk hat 200 *Kalorien*. |
+végan | vegan | adj | Elle est devenue *végan* il y a ans. | Sie lebt seit Jahren *vegan*. |
+sans gluten | glutenfrei | adj | Avez-vous du pain *sans gluten* ? | Haben Sie *glutenfreies* Brot? |
+fait maison | hausgemacht | adj | Essayez la limonade *faite maison*. | Probier die *hausgemachte* Limonade. |
+faire mariner | marinieren | v | Il faut *faire mariner* le poulet. | *Marinier* das Hähnchen über Nacht. |
+mijoter | köcheln lassen | v | Laissez la sauce *mijoter* doucement. | Lass die Soße zwanzig Minuten *köcheln*. |
+râper | reiben, raspeln | v | Vous pouvez *râper* un peu de fromage. | *Reib* etwas Käse darüber. |
+fouetter | verquirlen, schlagen | v | Il faut *fouetter* les œufs énergiquement. | *Verquirl* Eier und Milch. |
+pétrir | kneten | v | Il faut *pétrir* la pâte longtemps. | *Knete* den Teig zehn Minuten. |
+pâte (f) | Teig | n | La *pâte* doit reposer une heure. | Der *Teig* muss gehen. |
+décongeler | auftauen | v | Laissez la viande *décongeler* au réfrigérateur. | Lass das Fleisch im Kühlschrank *auftauen*. |
+date de péremption (f) | Mindesthaltbarkeitsdatum | n | Vérifiez bien la *date de péremption*. | Prüf das *Haltbarkeitsdatum*. |
+restant | übrig geblieben | adj | Utilisez le riz *restant* pour cuisiner. | Nimm *übrig gebliebenen* Reis für gebratenen Reis. |
+cuisine (f) | Küche (Kochkunst) | n | La *cuisine* française est très célèbre. | Die französische *Küche* ist berühmt. |
+spécialité (f) | Spezialität | n | Le poisson est la *spécialité* locale. | Fisch ist die örtliche *Spezialität*. |
+réserver une table | einen Tisch reservieren | phrase | Je voudrais *réserver une table* pour ce soir. | Soll ich für acht Uhr *einen Tisch reservieren*? |
+dîner au restaurant | auswärts essen | v | Nous aimons *dîner au restaurant* le samedi. | Wir *gehen* einmal die Woche *essen*. |
+se servir | sich bedienen | phrase | Veuillez *vous servir*, je vous en prie. | Bitte *bedien* dich. |
+inviter | einladen | v | Laisse-moi t'*inviter* à déjeuner aujourd'hui. | Lass mich dich zum Mittagessen *einladen*. |
+gueule de bois (f) | Kater (Alkohol) | n | Il a une terrible *gueule de bois* ce matin. | Ich hatte einen schrecklichen *Kater*. |
+siroter | nippen | v | Elle aime *siroter* son vin lentement. | Sie *nippte* langsam an ihrem Wein. |
+
+## C1
+savourer | genießen, auskosten | v | Il faut *savourer* chaque instant du repas. | *Genieß* jeden Bissen. |
+le palais | Gaumen | n | Ce vin est doux au *palais*. | Der Wein ist am *Gaumen* weich. |
+juteux | saftig | adj | Le steak était *juteux*. | Das Steak war *saftig*. |
+délectable | köstlich | adj | Ils ont servi un dessert *délectable*. | Sie servierten einen *köstlichen* Nachtisch. |
+le gourmet | Feinschmecker | n | C'est un vrai *gourmet*. | Er ist ein echter *Feinschmecker*. |
+se faire plaisir | sich gönnen | v | Je me suis *fait* plaisir avec un morceau de gâteau. | Ich *gönnte* mir ein Stück Kuchen. |
+dévorer | verschlingen | v | Les enfants ont *dévoré* la pizza. | Die Kinder *verschlangen* die Pizza. |
+grignoter | knabbern | v | Elle a *grignoté* quelques noix. | Sie *knabberte* an ein paar Nüssen. |
+garnir | garnir | v | *Garnissez* avec du persil frais. | Mit frischer Petersilie *garnieren*. |
+infuser | ziehen lassen | v | Laissez le thé *infuser* cinq minutes. | Lass den Tee fünf Minuten *ziehen*. |
+saisir | scharf anbraten | v | Il faut *saisir* la viande des deux côtés. | Das Fleisch von beiden Seiten *scharf anbraten*. |
+acidulé | würzig-säuerlich | adj | La sauce a un goût *acidulé*. | Die Soße hat einen *würzig-säuerlichen* Geschmack. |
+piquant | stechend | adj | Le fromage a une odeur *piquante*. | Der Käse hat einen *stechenden* Geruch. |
+le goût acquis | gewöhnungsbedürftig | phrase | Les olives sont un *goût* acquis. | Oliven sind *gewöhnungsbedürftig*. |
+l'aliment de base (m) | Grundnahrungsmittel | n | Le riz est un *aliment* de base en Asie. | Reis ist in Asien ein *Grundnahrungsmittel*. |
+l'orgie (f) | Fressattacke | n | J'ai eu une *orgie* de chocolat. | Ich hatte eine Schokoladen-*Fressattacke*. |
+s'abstenir | sich enthalten | v | Il *s'abstient* d'alcool. | Er *verzichtet* auf Alkohol. |
+l'intolérance (f) | Unverträglichkeit | n | J'ai une *intolérance* au lactose. | Ich habe eine Laktose*intoleranz*. |
+délicieux | lecker, köstlich | adj | Le gâteau était *délicieux* ! | Der Kuchen war *köstlich*! |
+crevant | ausgehungert | adj | Je suis complètement *crevé*. | Ich bin völlig *ausgehungert*. |
+culinaire | kulinarisch | adj | La ville est un paradis *culinaire*. | Die Stadt ist ein *kulinarisches* Paradies. |
+l'alimentation biologique (f) | Vollwertkost | n | Ils tiennent un magasin *bio*. | Sie betreiben einen *Bioladen* (Vollwertkost). |

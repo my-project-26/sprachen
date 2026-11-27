@@ -1,0 +1,277 @@
+# fr – freizeit (aus der englischen Liste erzeugt)
+
+## A1
+le loisir | Hobby | n | La photo est mon *loisir* favori. | Fotografie ist mein liebstes *Hobby*. |
+l'équipe (f) | Mannschaft, Team | n | Quelle *équipe* soutiens-tu ? | Welche *Mannschaft* unterstützt du? |
+le match nul | Unentschieden | n | Le match s'est terminé par un *match nul*. | Das Spiel endete *unentschieden*. |
+le billet | Eintrittskarte | n | J'ai deux *billets* pour le spectacle. | Ich habe zwei *Karten* für die Show. |
+le sport | Sport | n | Est-ce que tu fais du *sport* ? | Machst du *Sport*? |
+le football | Fußball | n | Les garçons jouent au *football* chaque jour. | Die Jungs spielen jeden Tag *Fußball*. |
+le tennis | Tennis | n | Veux-tu jouer au *tennis* ? | Willst du *Tennis* spielen? |
+nager | schwimmen | v | Sais-tu *nager*? | Kannst du *schwimmen*? |
+danser | tanzen | v | On va *danser*! | Lass uns *tanzen*! |
+chanter | singen | v | Elle *chante* dans un groupe. | Sie *singt* in einer Band. |
+la musique | Musik | n | Quelle *musique* tu aimes? | Welche *Musik* magst du? |
+la chanson | Lied | n | J'adore cette *chanson*. | Ich liebe dieses *Lied*. |
+le film | Film | n | Tu as vu le nouveau *film*? | Hast du den neuen *Film* gesehen? |
+le jeu | Spiel | n | On fait un *jeu*? | Lass uns ein *Spiel* spielen. |
+le ballon | Ball | n | Lance-moi le *ballon*. | Wirf mir den *Ball* zu. |
+la guitare | Gitarre | n | Il joue de la *guitare*. | Er spielt *Gitarre*. |
+le piano | Klavier | n | Ma fille apprend le *piano*. | Meine Tochter lernt *Klavier*. |
+l'appareil photo (m) | Kamera | n | J'ai oublié mon *appareil photo*. | Ich habe meine *Kamera* vergessen. |
+le plaisir | Spaß | n | Bon *plaisir*! | Viel *Spaß*! |
+peindre | malen | v | Elle *peint* des paysages. | Sie *malt* Landschaften. |
+le temps libre | Freizeit | n | Que fais-tu pendant ton *temps libre*? | Was machst du in deiner *Freizeit*? |
+
+## A2
+le groupe | Band, Musikgruppe | n | Ils ont formé un *groupe* à l'école. | Sie gründeten in der Schule eine *Band*. |
+la randonnée | Wandern | n | Nous aimons la *randonnée* en montagne. | Wir *wandern* gern in den Alpen. |
+la photographie | Fotografie | n | La *photographie* est ma passion. | *Fotografie* ist meine Leidenschaft. |
+la salle de sport | Fitnessstudio | n | Je vais à la *salle de sport*. | Ich gehe dreimal pro Woche ins *Fitnessstudio*. |
+le match | Spiel, Match | n | Le *match* s'est terminé par un nul. | Das *Spiel* endete unentschieden. |
+le score | Spielstand | n | Quel est le *score*? | Wie steht es (*Spielstand*)? |
+gagner | gewinnen | v | Nous avons *gagné* trois matchs de suite. | Wir haben drei Spiele in Folge *gewonnen*. |
+perdre | verlieren | v | Ils ont *perdu* la finale. | Sie haben das Finale *verloren*. |
+l'exposition (f) | Ausstellung | n | Nous sommes allés à une *exposition* de photo. | Wir gingen in eine Foto*ausstellung*. |
+la galerie | Galerie | n | La *galerie* est gratuite le dimanche. | Die *Galerie* ist sonntags kostenlos. |
+le concert | Konzert | n | Le *concert* était complet. | Das *Konzert* war ausverkauft. |
+le festival | Festival, Fest | n | Nous avons campé dans un *festival* de musique. | Wir zelteten auf einem Musik*festival*. |
+la piscine | Schwimmbad | n | La *piscine* est chauffée. | Das *Schwimmbad* ist beheizt. |
+le jogging | Joggen | n | Je fais du *jogging* avant le travail. | Ich gehe vor der Arbeit *joggen*. |
+le concours | Wettbewerb | n | Elle a participé à un *concours* photo. | Sie nahm an einem Foto*wettbewerb* teil. |
+le membre | Mitglied | n | Je suis *membre* d'un club de randonnée. | Ich bin *Mitglied* in einem Wanderverein. |
+se détendre | entspannen | v | Je me *détends* en écoutant de la musique. | Ich *entspanne* mich beim Musikhören. |
+la blessure | Verletzung | n | Il est absent à cause d'une *blessure* au genou. | Er fällt mit einer Knie*verletzung* aus. |
+l'activité (f) | Aktivität | n | L'hôtel propose de nombreuses *activités*. | Das Hotel bietet viele *Aktivitäten*. |
+le joueur | Spieler(in) | n | Il est le meilleur *joueur* de l'équipe. | Er ist der beste *Spieler* der Mannschaft. |
+le but | Tor | n | Quel *but* ! | Was für ein *Tor*! |
+la course | Rennen | n | Elle a gagné la *course*. | Sie hat das *Rennen* gewonnen. |
+le prix | Preis | n | Elle a gagné le premier *prix*. | Sie hat den ersten *Preis* gewonnen. |
+le champion | Meister(in), Sieger(in) | n | Ils sont les *champions* du monde. | Sie sind *Weltmeister*. |
+le cyclisme | Radfahren | n | Le *cyclisme* est mon sport préféré. | *Radfahren* ist mein Lieblingssport. |
+la course à pied | Laufen | n | La *course à pied* me garde en forme. | *Laufen* hält mich fit. |
+le ski | Skifahren | n | Nous faisons du *ski* chaque hiver. | Wir fahren jeden Winter *Ski*. |
+la pêche | Angeln | n | Mon père adore la *pêche*. | Mein Vater *angelt* gern. |
+le camping | Camping, Zelten | n | Nous faisons du *camping* chaque été. | Wir gehen jeden Sommer *zelten*. |
+le chanteur | Sänger(in) | n | Elle est ma *chanteuse* préférée. | Sie ist meine Lieblings*sängerin*. |
+l'instrument (m) | Instrument | n | Tu joues d'un *instrument* ? | Spielst du ein *Instrument*? |
+la batterie | Schlagzeug | n | Il joue de la *batterie*. | Er spielt *Schlagzeug*. |
+l'art (m) | Kunst | n | Je m'intéresse à l'*art* moderne. | Ich interessiere mich für moderne *Kunst*. |
+l'artiste (m) | Künstler(in) | n | Il est un *artiste* célèbre. | Er ist ein berühmter *Künstler*. |
+le tableau | Gemälde, Bild | n | Ce *tableau* est magnifique. | Dieses *Gemälde* ist wunderschön. |
+le spectacle | Show, Vorstellung | n | Le *spectacle* commence à huit heures. | Die *Vorstellung* beginnt um acht. |
+l'acteur (m) | Schauspieler | n | Il est un acteur *célèbre*. | Er ist ein berühmter *Schauspieler*. |
+l'actrice (f) | Schauspielerin | n | Elle est mon actrice *préférée*. | Sie ist meine Lieblings*schauspielerin*. |
+l'histoire (f) | Geschichte | n | Raconte-moi une *histoire*. | Erzähl mir eine *Geschichte*. |
+la bande dessinée | Comic | n | Mon fils aime les *bandes* dessinées. | Mein Sohn liebt *Comics*. |
+rejoindre | beitreten; sich anschließen | v | Pourquoi tu ne nous *rejoins* pas ? | Komm doch *mit*! |
+le club | Verein, Club | n | Je me suis inscrit dans un *club* de tennis. | Ich bin einem Tennis*verein* beigetreten. |
+s'entraîner | trainieren | v | Elle *s'entraîne* trois fois par semaine. | Sie *trainiert* dreimal pro Woche. |
+apprécier | genießen, Spaß haben | v | Tu as *apprécié* la fête ? | Hat dir die Party *gefallen*? |
+la boîte de nuit | Nachtclub, Disko | n | Ils sont allés en boîte de *nuit*. | Sie sind in einen *Club* gegangen. |
+le guichet | Kasse, Ticketschalter | n | Achète ton billet au *guichet*. | Kauf deine Karte an der *Kasse*. |
+le favori | Liebling | n | Cette chanson est mon *favori*. | Dieses Lied ist mein *Lieblingslied*. |
+le jouet | Spielzeug | n | Les jouets des *enfants* sont partout. | Das *Spielzeug* der Kinder liegt überall. |
+les cartes | Karten (Spiel) | n | Jouons aux *cartes*. | Lass uns *Karten* spielen. |
+les échecs | Schach | n | Tu sais jouer aux *échecs* ? | Kannst du *Schach* spielen? |
+le puzzle | Rätsel, Puzzle | n | J'aime faire des *puzzles*. | Ich mache gern *Rätsel*. |
+le jeu vidéo | Videospiel | n | Il joue aux jeux *vidéo* toute la journée. | Er spielt den ganzen Tag *Videospiele*. |
+
+## B1
+l'aventure (f) | Abenteuer | n | Notre voyage a été une vraie *aventure*. | Unsere Reise war ein echtes *Abenteuer*. |
+la publicité | Anzeige, Werbung | n | J'ai vu une *publicité* pour ce poste. | Ich habe eine *Anzeige* für die Stelle gesehen. |
+l'album (m) | Album | n | Leur nouvel *album* est super. | Ihr neues *Album* ist super. |
+l'architecte (m) | Architekt(in) | n | L'architecte a *conçu* la nouvelle bibliothèque. | Die *Architektin* hat die neue Bibliothek entworfen. |
+l'architecture (f) | Architektur | n | J'adore *l'architecture* à Prague. | Ich liebe die *Architektur* in Prag. |
+l'auteur (m) | Autor(in) | n | Quel est l'auteur de ce *livre* ? | Wer ist der *Autor* dieses Buches? |
+le prix | Preis, Auszeichnung | n | Le film a gagné plusieurs *prix*. | Der Film hat mehrere *Preise* gewonnen. |
+l'arrière-plan (m) | Hintergrund | n | Il y a un château à *l'arrière-plan*. | Im *Hintergrund* ist eine Burg. |
+la célébrité | Promi, Berühmtheit | n | Il est une *célébrité* de la télévision. | Er ist ein Fernseh-*Promi*. |
+la cérémonie | Zeremonie, Feier | n | La *cérémonie* était magnifique. | Die Trau*ung* war wunderschön. |
+le chapitre | Kapitel | n | Lisez le *chapitre* trois pour demain. | Lies bis morgen *Kapitel* drei. |
+classique | klassisch | adj | C est un film *classique*. | Es ist ein *Klassiker*. |
+la comédie | Komödie | n | Nous avons vu une *comédie* romantique. | Wir haben eine romantische *Komödie* gesehen. |
+le concours | Wettbewerb | n | Elle a gagné un *concours* de chant. | Sie hat einen Gesangs*wettbewerb* gewonnen. |
+le costume | Kostüm | n | Les enfants portaient des *costumes* drôles. | Die Kinder trugen lustige *Kostüme*. |
+le critique | Kritiker(in) | n | Les *critiques* ont adoré la pièce. | Die *Kritiker* liebten das Stück. |
+culturel | kulturell | adj | Berlin a une vie *culturelle* riche. | Berlin hat ein reiches *kulturelles* Leben. |
+le designer | Designer(in) | n | Elle est *designer* de mode. | Sie ist Mode*designerin*. |
+le réalisateur | Regisseur(in) | n | Qui est le *réalisateur* du film? | Wer ist der *Regisseur* des Films? |
+le drame | Drama | n | C est un *drame* à la télévision. | Es ist eine Fernseh*serie* über ein Krankenhaus. |
+le dessin | Zeichnung | n | Quel beau *dessin*! | Was für eine schöne *Zeichnung*! |
+l'édition (f) | Ausgabe | n | J ai la première *édition*. | Ich habe die Erst*ausgabe*. |
+divertir | unterhalten | v | Le clown a *divertir* les enfants. | Der Clown *unterhielt* die Kinder. |
+le divertissement | Unterhaltung | n | Il y a un *divertissement* chaque soir. | Jeden Abend gibt es Live-*Unterhaltung*. |
+la fiction | Fiktion | n | Je lis surtout de la *fiction*. | Ich lese meistens *Romane*. |
+folklorique | Volks- | adj | Ils jouent de la musique *folklorique*. | Sie spielen traditionelle *Volks*musik. |
+le fantôme | Geist, Gespenst | n | Tu crois aux *fantômes*? | Glaubst du an *Geister*? |
+le golf | Golf | n | Mon père joue au *golf* le dimanche. | Mein Vater spielt sonntags *Golf*. |
+le héros | Held(in) | n | Il est mon *héros*. | Er ist mein *Held*. |
+l'horror (f) | Horror | n | Je n aime pas les films d *horreur*. | Ich mag keine *Horror*filme. |
+l'imagination (f) | Fantasie, Vorstellungskraft | n | Les enfants ont une grande *imagination*. | Kinder haben eine tolle *Fantasie*. |
+le journalisme | Journalismus | n | Elle a étudié le *journalisme*. | Sie hat *Journalismus* studiert. |
+la littérature | Literatur | n | J ai étudié la *littérature* anglaise. | Ich habe englische *Literatur* studiert. |
+les médias | Medien | n | L histoire était dans tous les *médias*. | Die Geschichte war in allen *Medien*. |
+l'opéra (m) | Oper | n | Nous sommes allés à l'*opéra*. | Wir waren in der *Oper*. |
+la passion | Leidenschaft | n | La musique est sa *passion*. | Musik ist seine *Leidenschaft*. |
+le photographe | Fotograf | n | Elle travaille comme *photographe*. | Sie arbeitet als *Fotografin*. |
+le poème | Gedicht | n | Il lui a écrit un *poème*. | Er schrieb ihr ein *Gedicht*. |
+le poète | Dichter | n | Shakespeare était un grand *poète*. | Shakespeare war ein großer *Dichter*. |
+la poésie | Lyrik | n | Je ne lis pas beaucoup de *poésie*. | Ich lese nicht viel *Lyrik*. |
+le portrait | Porträt | n | Il y a un *portrait* de la reine. | Da hängt ein *Porträt* der Königin. |
+le producteur | Produzent | n | Il est *producteur* de musique. | Er ist Musik*produzent*. |
+la production | Produktion | n | C'est une nouvelle *production* d'Hamlet. | Es ist eine neue *Inszenierung* von Hamlet. |
+la course | Rennsport | n | Il adore la *course* automobile. | Er liebt *Motorsport*. |
+le rythme | Rhythmus | n | Elle a un grand sens du *rythme*. | Sie hat ein tolles *Rhythmus*gefühl. |
+la romance | Romanze | n | C'était une *romance* d'été. | Es war eine Sommer*romanze*. |
+naviguer | segeln | v | Nous avons *navigué* autour de l'île. | Wir sind um die Insel *gesegelt*. |
+le marin | Seemann | n | Mon grand-père était un *marin*. | Mein Großvater war *Seemann*. |
+la statue | Statue | n | Il y a une *statue* sur la place. | Auf dem Platz steht eine *Statue*. |
+le studio | Studio | n | Le groupe est dans le *studio*. | Die Band ist im *Studio*. |
+se balancer | schaukeln | v | Les enfants se *balancent* dans le parc. | Die Kinder *schaukeln* im Park. |
+le symbole | Symbol | n | La colombe est un *symbole* de paix. | Die Taube ist ein *Symbol* des Friedens. |
+la technique | Technik | n | Elle a une excellente *technique*. | Sie hat eine tolle *Technik*. |
+adolescent | jugendlich | adj | J'ai deux fils *adolescents*. | Ich habe zwei Söhne im *Teenageralter*. |
+formidable | großartig | adj | Tu es *formidable* ! | Du siehst *großartig* aus! |
+la tragédie | Tragödie | n | Cet accident était une *tragédie*. | Der Unfall war eine *Tragödie*. |
+l'entraîneur (m) | Trainer | n | Mon *entraîneur* est très strict. | Mein Personal *Trainer* ist sehr streng. |
+la victoire | Sieg | n | C'était une grande *victoire*. | Es war ein großer *Sieg*. |
+le Web | Web | n | Je l'ai trouvé sur le *Web*. | Ich habe es im *Netz* gefunden. |
+l'agence (f) | Agentur | n | Nous avons reservé dans une *agence* de voyage. | Wir haben über ein Reise*büro* gebucht. |
+l'agent (m) | Makler(in) | n | Parlez avec un *agent* immobilier. | Sprich mit einem *Makler*. |
+l'assistant (m) | Assistent(in) | n | Demandez à mon *assistant*. | Frag meine *Assistentin*. |
+le capitaine | Kapitän(in) | n | Le *capitaine* nous a accueillis à bord. | Der *Kapitän* begrüßte uns an Bord. |
+le chef | Chef(in) | n | Il est le *chef* de la police. | Er ist der Polizei*chef*. |
+la discussion | Diskussion | n | Nous avons eu une longue *discussion*. | Wir hatten eine lange *Diskussion*. |
+instruit | gebildet | adj | C'est une femme très *instruite*. | Sie ist eine sehr *gebildete* Frau. |
+les frais | Gebühr | n | Il y a de petits *frais*. | Es gibt eine kleine *Gebühr*. |
+la finance | Finanzen | n | Il travaille dans la *finance*. | Er arbeitet im *Finanz*bereich. |
+financier | finanziell | adj | Ils ont des problèmes *financiers*. | Sie haben *finanzielle* Probleme. |
+l'entreprise (f) | Firma | n | Il travaille pour une *entreprise*. | Er arbeitet für eine Anwalts*kanzlei*. |
+le gardien | Wächter(in) | n | Le *gardien* a contrôlé nos sacs. | Der *Wachmann* kontrollierte unsere Taschen. |
+l'identité (f) | Identität | n | Pouvez-vous prouver votre *identité* ? | Können Sie Ihre *Identität* nachweisen? |
+individuel | einzeln | adj | Chaque chambre *individuelle* a une télévision. | Jedes *einzelne* Zimmer hat einen Fernseher. |
+la prison | Gefängnis | n | Il a passé deux ans en *prison*. | Er saß zwei Jahre im *Gefängnis*. |
+junior | jünger | adj | C'est un médecin *junior*. | Sie ist *Assistenz*ärztin. |
+le royaume | Königreich | n | Le *Royaume*-Uni. | Das Vereinigte *Königreich*. |
+militaire | militärisch | adj | Il a fait son service *militaire*. | Er hat *Wehr*dienst geleistet. |
+la nation | Nation | n | La *nation* entière a regardé le match. | Die ganze *Nation* sah das Spiel. |
+l'officier (m) | Offizier | n | Un *officier* de police nous a arrêtés. | Ein Polizei*beamter* hielt uns an. |
+l'organisation (f) | Organisation | n | Elle travaille pour une *organisation* caritative. | Sie arbeitet für eine Wohltätigkeits*organisation*. |
+politique | politisch | adj | Ils ont parlé de la situation *politique*. | Sie sprachen über die *politische* Lage. |
+prier | beten | v | Ils *prient* tous les soirs. | Sie *beten* jeden Abend. |
+le prince | Prinz | n | Le *prince* a visité l'hôpital. | Der *Prinz* besuchte das Krankenhaus. |
+la princesse | Prinzessin | n | Ma fille veut être une *princesse*. | Meine Tochter möchte *Prinzessin* werden. |
+le prisonnier | Gefangene(r) | n | Deux *prisonniers* se sont échappés. | Zwei *Gefangene* sind geflohen. |
+la profession | Beruf | n | Enseigner est une *profession* exigeante. | Lehrer ist ein anspruchsvoller *Beruf*. |
+professionnel | professionell | adj | C'est un footballeur *professionnel*. | Er ist *Profi*fußballer. |
+la reine | Königin | n | La *reine* a visité la ville. | Die *Königin* besuchte die Stadt. |
+religieux | religiös | adj | Es-tu *religieux* ? | Bist du *religiös*? |
+le résident | Bewohner(in) | n | Stationnement réservé aux *résidents*. | Parken nur für *Anwohner*. |
+royal | königlich | adj | La famille *royale* habite ici. | Die *königliche* Familie wohnt hier. |
+le soldat | Soldat(in) | n | Son fils est *soldat*. | Ihr Sohn ist *Soldat*. |
+la statistique | Statistik | n | Les *statistiques* montrent une tendance claire. | Die *Statistik* zeigt einen klaren Trend. |
+la violence | Gewalt | n | Il y a trop de *violence* à la télé. | Im Fernsehen gibt es zu viel *Gewalt*. |
+l'arme (f) | Waffe | n | La police a trouvé une *arme*. | Die Polizei fand eine *Waffe*. |
+le temps libre | Freizeit | n | Que fais-tu pendant ton *temps libre* ? | Was machst du in deiner *Freizeit*? |
+l'entraîneur (m) | Trainer(in) | n | Notre *entraîneur* est très strict. | Unser *Trainer* ist sehr streng. |
+la performance | Leistung | n | Sa *performance* était formidable. | Ihre *Leistung* war großartig. |
+la scène | Bühne | n | Le groupe est monté sur *scène* à neuf heures. | Die Band kam um neun auf die *Bühne*. |
+le jeu de société | Brettspiel | n | Nous avons joué aux *jeux de société* toute la soirée. | Wir spielten den ganzen Abend *Brettspiele*. |
+le fan | Fan | n | C'est un grand *fan* de football. | Er ist ein riesiger Fußball*fan*. |
+
+## B2
+le droit d'entrée | Eintrittsgeld | n | Le *droit d'entrée* est de dix euros. | Das *Eintrittsgeld* beträgt zehn Euro. |
+amateur | Hobby- | adj | C'est un photographe *amateur*. | Er ist *Hobby*fotograf. |
+les applaudissements | Applaus | n | Les *applaudissements* ont duré des minutes. | Der *Applaus* dauerte Minuten. |
+la galerie d'art | Kunstgalerie | n | Nous avons visité une *galerie d'art*. | Wir besuchten eine *Kunstgalerie*. |
+l'autographe (f) | Autogramm | n | Elle a demandé son *autographe*. | Sie bat ihn um ein *Autogramm*. |
+le guichet | Kasse (Kino/Theater) | n | Les billets sont disponibles au *guichet*. | Karten gibt es an der *Kasse*. |
+la calligraphie | Kalligrafie | n | Elle fait de la *calligraphie* comme loisir. | Sie macht *Kalligrafie* als Hobby. |
+la distribution | Besetzung | n | Le film a une excellente *distribution*. | Der Film hat eine tolle *Besetzung*. |
+la chorale | Chor | n | Je chante dans une *chorale*. | Ich singe in einem *Chor*. |
+l'artisanat (m) | Handwerk | n | Elle vend ses objets d'*artisanat* en ligne. | Sie verkauft ihre *Handarbeiten* online. |
+les mots croisés | Kreuzworträtsel | n | Je fais les *mots croisés* tous les matins. | Ich löse jeden Morgen das *Kreuzworträtsel*. |
+la défaite | Niederlage | n | C'était une *défaite* douloureuse. | Es war eine schmerzhafte *Niederlage*. |
+l'équipement (m) | Ausrüstung | n | Tu as besoin d'un *équipement* spécial. | Du brauchst eine spezielle *Ausrüstung*. |
+la communauté de fans | Fangemeinde | n | Le groupe a une immense *communauté de fans*. | Die Band hat eine riesige *Fangemeinde*. |
+la ligne d'arrivée | Ziellinie | n | Elle a franchi la *ligne d'arrivée* en première. | Sie überquerte als Erste die *Ziellinie*. |
+le jardinage | Gartenarbeit | n | Je trouve le *jardinage* relaxant. | Ich finde *Gartenarbeit* entspannend. |
+le concert | Auftritt | n | Le groupe a donné un *concert* hier soir. | Die Band hatte gestern Abend einen *Auftritt*. |
+l'entracte (m) | Pause | n | Nous avons bu un verre pendant l'*entracte*. | In der *Pause* tranken wir etwas. |
+tricoter | stricken | v | Ma grand-mère *tricote* des pulls. | Meine Oma *strickt* Pullover. |
+la ligue | Liga | n | Ils sont en tête de la *ligue*. | Sie sind Tabellenführer der *Liga*. |
+les paroles | Liedtext | n | J'adore les *paroles* de cette chanson. | Ich liebe den *Text* dieses Liedes. |
+le marathon | Marathon | n | Il a couru son premier *marathon*. | Er lief seinen ersten *Marathon*. |
+la médaille | Medaille | n | Elle a gagné une *médaille* d'or. | Sie gewann eine Gold*medaille*. |
+l'orchestre (m) | Orchester | n | Il joue dans un *orchestre*. | Er spielt in einem *Orchester*. |
+le record | Rekord | n | Elle a battu le *record* du monde. | Sie brach den Welt*rekord*. |
+l'abonnement (m) | Dauerkarte | n | J'ai un *abonnement* pour le club. | Ich habe eine *Dauerkarte* für den Verein. |
+la bande originale | Filmmusik | n | La *bande originale* est magnifique. | Die *Filmmusik* ist großartig. |
+les sous-titres | Untertitel | n | Nous l'avons regardé avec des *sous-titres*. | Wir sahen es mit *Untertiteln*. |
+le supporter | Anhänger | n | Les *supporters* chantaient fort. | Die *Fans* sangen. |
+le trophée | Pokal | n | Ils ont soulevé le *trophée*. | Sie stemmten den *Pokal*. |
+le lieu de rendez-vous | Veranstaltungsort | n | Ce *lieu de rendez-vous* peut accueillir 5000 personnes. | Der *Veranstaltungsort* fasst 5.000 Menschen. |
+l'athlète (m/f) | Sportler | n | Les *athlètes* professionnels s'entraînent chaque jour. | Profi*sportler* trainieren jeden Tag. |
+le championnat | Meisterschaft | n | Ils ont gagné le *championnat* national. | Sie gewannen die nationale *Meisterschaft*. |
+l' arbitre (m) | Schiedsrichter(in) | n | L' *arbitre* a sifflé la fin du match. | Der *Schiedsrichter* zeigte ihm die Rote Karte. |
+le spectateur | Zuschauer(in) | n | Le *spectateur* a applaudi l' acteur. | 50.000 *Zuschauer* sahen das Finale. |
+l' adversaire (m) | Gegner(in) | n | Il a battu son *adversaire* en finale. | Unterschätze nie deinen *Gegner*. |
+le tournoi | Turnier | n | Nous participons au *tournoi* de tennis. | Unser Verein gewann das *Turnier*. |
+s' entraîner | trainieren | v | Je *m' entraîne* tous les mardis soirs. | Ich *trainiere* im Fitnessstudio. |
+s' échauffer | sich aufwärmen | v | Il faut *s' échauffer* avant l' effort. | *Wärm* dich vor dem Laufen immer *auf*. |
+s' étirer | dehnen | v | Pensez à *vous étirer* après la course. | *Dehn* nach dem Training deine Beine. |
+le muscle | Muskel | n | J' ai une douleur à un *muscle*. | Ich habe mir einen *Muskel* gezerrt. |
+la forme | Fitness, Kondition | n | Ce sport permet d' améliorer sa *forme*. | Schwimmen verbessert die *Kondition*. |
+la répétition | Probe (Theater, Musik) | n | La *répétition* commence à dix heures. | Die *Probe* beginnt um sieben. |
+l' audition (f) | Vorsprechen, Vorsingen | n | Elle a réussi son *audition* pour le rôle. | Sie hat ein *Vorsingen* für das Musical. |
+la suite | Fortsetzung | n | J' attends la *suite* avec impatience. | Die *Fortsetzung* war nicht so gut. |
+l' intrigue (f) | Handlung | n | L' *intrigue* de ce film est passionnante. | Die *Handlung* ist schwer zu verfolgen. |
+le scénario | Drehbuch | n | Il a écrit le *scénario* de ce film. | Sie schrieb das *Drehbuch* selbst. |
+le chef-d'œuvre | Meisterwerk | n | Ce tableau est un véritable *chef-d'œuvre*. | Das Gemälde gilt als *Meisterwerk*. |
+la sculpture | Skulptur | n | Cette *sculpture* date du dix-neuvième siècle. | Im Park steht eine Bronze*skulptur*. |
+complet | ausverkauft | adj | Le concert de ce soir est *complet*. | Das Konzert war in Minuten *ausverkauft*. |
+le loisir | Freizeit, Muße | n | La lecture est mon *loisir* favori. | Die meisten Menschen haben heute mehr *Freizeit*. |
+commencer | (Hobby) anfangen | v | J' ai décidé de *commencer* la peinture. | Ich habe letztes Jahr mit Yoga *angefangen*. |
+passionné | begeistert von | phrase | Je suis *passionné* de photographie. | Ich bin sehr *begeistert* vom Klettern. |
+l' adhésion (f) | Mitgliedschaft | n | L' *adhésion* au club est gratuite. | Der *Mitgliedsbeitrag* ist 30 Euro im Monat. |
+le podcast | Podcast | n | J' écoute un *podcast* en cuisinant. | Beim Laufen höre ich *Podcasts*. |
+regarder d'affilée | am Stück schauen | v | Nous avons *regardé* la série *d'affilée*. | Wir haben die ganze Serie *am Stück geschaut*. |
+
+## C1
+la distinction | Auszeichnung, Lob | n | Le film a reçu une haute *distinction*. | Der Film erhielt viele *Auszeichnungen*. |
+l' aficionado (m) | Liebhaber(in), Kenner(in) | n | Il est un grand *aficionado* de jazz. | Er ist ein Jazz-*Liebhaber*. |
+le succès | Kassenschlager | n | C'est *le* grand succès de l'été. | Es war der *Kassenschlager* dieses Sommers. |
+la chorégraphie | Choreografie | n | La *chorégraphie* était splendide. | Die *Choreografie* war umwerfend. |
+le candidat | Anwärter(in) | n | C'est un sérieux *candidat* pour le titre. | Sie ist eine ernsthafte *Anwärterin* auf den Titel. |
+les débuts (m, pl) | Debüt | n | C'était son album *débuts*. | Es war ihr *Debüt*album. |
+adroit | fingerfertig | adj | Il faut des mains *adroites* pour tricoter. | Zum Stricken braucht man *geschickte* Hände. |
+le flop | Reinfall | n | Le film a été un *flop* total. | Der Film war ein totaler *Reinfall*. |
+la pause | Pause, Unterbrechung | n | Le groupe fait une *pause*. | Die Band legt eine *Pause* ein. |
+les souvenirs (m, pl) | Erinnerungsstücke | n | Il collectionne des *souvenirs* de football. | Er sammelt Fußball-*Erinnerungsstücke*. |
+le passe-temps | Zeitvertreib | n | Lire est un *passe-temps* relaxant. | Lesen ist ein entspannender *Zeitvertreib*. |
+le protagoniste | Hauptfigur | n | Le *protagoniste* est un jeune détective. | Die *Hauptfigur* ist eine junge Detektivin. |
+l'interprétation (f) | Interpretation, Darbietung | n | Elle a donné une émouvante *interprétation*. | Sie bot eine bewegende *Interpretation* des Liedes. |
+présenter | präsentieren | v | Le festival *présente* des artistes locaux. | Das Festival *präsentiert* lokale Künstler. |
+l'endurance (f) | Ausdauer | n | Les marathons exigent une grande *endurance*. | Marathons erfordern große *Ausdauer*. |
+le thriller | Thriller | n | C'est un *thriller* captivant. | Es ist ein packender *Thriller*. |
+le virtuose | Virtuose, Virtuosin | n | Il est un *virtuose* du piano. | Er ist ein Klavier*virtuose*. |
+sculpter | schnitzen | v | Il a *sculpté* une cuillère en bois. | Er *schnitzte* einen Löffel aus Holz. |
+acclamé | gefeiert, viel gelobt | adj | C'est un film très *acclamé*. | Es ist ein von Kritikern *gefeierter* Film. |
+captivant | fesselnd | adj | Sa performance était *captivante*. | Ihre Darbietung war *fesselnd*. |
+prenant | fesselnd, packend | adj | Le dernier épisode était *prenant*. | Die letzte Folge war *packend*. |
+médiocre | mittelmäßig | adj | La nourriture était *médiocre*. | Das Essen war *mittelmäßig*. |
+l'outsider (m) | Außenseiter | n | Tout le monde a soutenu *l'outsider*. | Alle unterstützten den *Außenseiter*. |
+le retour | Comeback, Aufholjagd | n | Ils ont réussi un *retour* incroyable. | Sie legten eine unglaubliche *Aufholjagd* hin. |
+le connaisseur | Kenner(in) | n | Il est un grand *connaisseur* de jazz. | Er ist ein *Kenner* des Jazz. |
+avide | begeistert, leidenschaftlich | adj | Elle est une *avide* lectrice. | Sie ist eine *leidenschaftliche* Leserin. |
+le genre | Genre | n | Le policier est mon *genre* préféré. | Krimi ist mein Lieblings*genre*. |
+la première | Premiere | n | La *première* du film a lieu en mai. | Die *Premiere* des Films ist im Mai. |
+le rappel | Zugabe | n | Le public a redemandé un *rappel*. | Das Publikum rief nach einer *Zugabe*. |
+l'ovation (f) debout | stehende Ovationen | n | Elle a reçu une *ovation* debout. | Sie bekam *stehende Ovationen*. |
+perfectionner | verfeinern | v | Il a *perfectionné* ses compétences pendant des années. | Er *verfeinerte* jahrelang seine Fähigkeiten. |
+décompresser | entspannen | v | J ai besoin d un weekend pour *décompresser*. | Ich brauche ein Wochenende zum *Abschalten*. |
+le spectacle | Spektakel | n | Le feu d artifice était un vrai *spectacle*. | Das Feuerwerk war ein echtes *Spektakel*. |
+le culte | treue Fangemeinde | n | Cette série a acquis un vrai *culte*. | Die Serie hat eine *treue Fangemeinde*. |
+palpitant | nervenaufreibend | adj | C était une fin de match *palpitante*. | Es war ein *nervenaufreibendes* Finale. |
+la prolongation | Verlängerung (Sport) | n | Le match est allé en *prolongation*. | Das Spiel ging in die *Verlängerung*. |

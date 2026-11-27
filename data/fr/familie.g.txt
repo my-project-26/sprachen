@@ -1,0 +1,77 @@
+# fr – familie (aus der englischen Liste erzeugt)
+
+## A1
+la famille | Familie | n | J'ai une grande *famille*. | Ich habe eine große *Familie*. |
+la mère | Mutter | n | Ma *mère* est infirmière. | Meine *Mutter* ist Krankenschwester. |
+le père | Vater | n | Mon *père* aime cuisiner. | Mein *Vater* kocht gern. |
+la maman | Mama | n | *Maman*, où sont mes chaussettes ? | *Mama*, wo sind meine Socken? |
+le père | Papa | n | Mon *père* conduit un taxi. | Mein *Papa* fährt Taxi. |
+le frère | Bruder | n | Mon *frère* est plus âgé que moi. | Mein *Bruder* ist älter als ich. |
+la sœur | Schwester | n | Sa *sœur* vit en Espagne. | Ihre *Schwester* lebt in Spanien. |
+le fils | Sohn | n | Leur *fils* est étudiant. | Ihr *Sohn* ist Student. |
+la fille | Tochter | n | Notre *fille* a cinq ans. | Unsere *Tochter* ist fünf. |
+l'enfant (m) | Kind | n | Ils ont un *enfant*. | Sie haben ein *Kind*. |
+les enfants | Kinder | n | Les *enfants* sont à l'école. | Die *Kinder* sind in der Schule. |
+le bébé | Baby | n | Le *bébé* dort. | Das *Baby* schläft. |
+le mari | Ehemann | n | Son *mari* vient d'Irlande. | Ihr *Mann* kommt aus Irland. |
+l'épouse (f) | Ehefrau | n | C'est mon *épouse*, Anna. | Das ist meine *Frau*, Anna. |
+la grand-mère | Großmutter | n | Ma *grand-mère* a quatre-vingt-dix ans. | Meine *Großmutter* ist neunzig. |
+le grand-père | Großvater | n | Mon *grand-père* était fermier. | Mein *Großvater* war Bauer. |
+les grands-parents | Großeltern | n | Nous rendons visite à nos *grands-parents* le dimanche. | Wir besuchen sonntags unsere *Großeltern*. |
+l'ami (m) | Freund(in) | n | C'est mon meilleur *ami*. | Sie ist meine beste *Freundin*. |
+le petit copain | (fester) Freund | n | Son *petit copain* est très gentil. | Ihr *Freund* ist sehr nett. |
+la petite amie | (feste) Freundin | n | Je rencontre ma *petite amie* ce soir. | Ich treffe heute Abend meine *Freundin*. |
+l'homme (m) | Mann | n | Qui est cet *homme* ? | Wer ist dieser *Mann*? |
+la femme | Frau | n | Une *femme* m'a demandé le chemin. | Eine *Frau* fragte mich nach dem Weg. |
+le garçon | Junge | n | Le *garçon* joue au football. | Der *Junge* spielt Fußball. |
+la fille | Mädchen | n | La *fille* a les cheveux longs. | Das *Mädchen* hat lange Haare. |
+les gens | Leute, Menschen | n | Beaucoup de *gens* vivent en ville. | Viele *Menschen* leben in der Stadt. |
+la personne | Person, Mensch | n | C'est une *personne* très aimable. | Sie ist ein sehr freundlicher *Mensch*. |
+le prénom | Name | n | Quel est ton *prénom* ? | Wie ist dein *Name*? |
+le prénom | Vorname | n | Son *prénom* est Paul. | Sein *Vorname* ist Paul. |
+le nom | Nachname | n | Pouvez-vous épeler votre *nom* ? | Können Sie Ihren *Nachnamen* buchstabieren? |
+l'âge (m) | Alter | n | Quel *âge* a ton fils? | Wie *alt* ist dein Sohn? |
+marié | verheiratet | adj | Êtes-vous *mariés*? | Bist du *verheiratet*? |
+célibataire | ledig, Single | adj | Mon frère est encore *célibataire*. | Mein Bruder ist noch *Single*. |
+le corps | Körper | n | Le sport est bon pour votre *corps*. | Sport ist gut für deinen *Körper*. |
+la tête | Kopf | n | J'ai mal à la *tête*. | Mir tut der *Kopf* weh. |
+le visage | Gesicht | n | Lave-toi le *visage*. | Wasch dir das *Gesicht*. |
+l'œil (m) | Auge | n | Elle a les *yeux* bleus. | Sie hat blaue *Augen*. |
+l'oreille (f) | Ohr | n | Mes *oreilles* sont froides. | Meine *Ohren* sind kalt. |
+le nez | Nase | n | Il s'est cassé le *nez*. | Er hat sich die *Nase* gebrochen. |
+la bouche | Mund | n | Ouvrez la *bouche*, s'il vous plaît. | Öffnen Sie bitte den *Mund*. |
+les cheveux | Haare | n | Elle a les *cheveux* longs. | Sie hat lange *Haare*. |
+la main | Hand | n | Lève la *main*. | Heb die *Hand*. |
+le bras | Arm | n | Je me suis blessé au *bras*. | Ich habe mir den *Arm* verletzt. |
+la jambe | Bein | n | Mes *jambes* sont fatiguées. | Meine *Beine* sind müde. |
+le pied | Fuß | n | Mon *pied* gauche me fait mal. | Mein linker *Fuß* tut weh. |
+joli | hübsch | adj | Elle est très *jolie*. | Sie ist sehr *hübsch*. |
+gros | dick | adj | Notre chat est trop *gros*. | Unsere Katze ist zu *dick*. |
+embrasser | küssen | v | Il l'a *embrassée* pour dire au revoir. | Er gab ihr einen Abschieds*kuss*. |
+visiter | besuchen | v | Nous *visitons* mes parents chaque mois. | Wir *besuchen* jeden Monat meine Eltern. |
+rencontrer | kennenlernen | v | Ravi de te *rencontrer*! | Schön, dich *kennenzulernen*! |
+le chien | Hund | n | Notre *chien* adore le parc. | Unser *Hund* liebt den Park. |
+le chat | Katze | n | Le *chat* dort sur le canapé. | Die *Katze* schläft auf dem Sofa. |
+l'animal de compagnie (m) | Haustier | n | As-tu des *animaux de compagnie*? | Hast du *Haustiere*? |
+
+## A2
+le petit-fils | Enkel | n | Son *petit-fils* apprend à marcher. | Ihr *Enkel* lernt gerade laufen. |
+la petite-fille | Enkelin | n | Ma *petite-fille* aime dessiner. | Meine *Enkelin* malt gern. |
+la nièce | Nichte | n | J'ai acheté un livre à ma *nièce*. | Ich habe meiner *Nichte* ein Buch gekauft. |
+se marier | heiraten | v | Il veut se *marier* avec elle. | Er will sie *heiraten*. |
+né | geboren | adj | Je suis *né* en 1985. | Ich bin 1985 *geboren*. |
+ressembler à | aussehen wie | v | Tu *ressembles à* ta mère. | Du *siehst* aus *wie* deine Mutter. |
+l'invitation (f) | Einladung | n | Merci pour l' *invitation* ! | Danke für die *Einladung*! |
+félicitations | Glückwunsch | phrase | Toutes mes *félicitations* pour ton nouveau poste ! | *Glückwunsch* zum neuen Job! |
+bouclé | lockig | adj | Elle a les cheveux *bouclés*. | Sie hat *lockige* Haare. |
+lisse | glatt | adj | Ses cheveux sont *lisses* et sombres. | Seine Haare sind *glatt* und dunkel. |
+blond | blond | adj | Les deux enfants sont *blonds*. | Beide Kinder sind *blond*. |
+beau | gut aussehend | adj | C'est un jeune homme très *beau*. | Er ist ein *gut aussehender* junger Mann. |
+laid | hässlich | adj | Quel *laid* bâtiment ! | Was für ein *hässliches* Gebäude! |
+le cou | Hals | n | J'ai un *cou* raide. | Ich habe einen steifen *Nacken*. |
+le doigt | Finger | n | Je me suis coupé le *doigt*. | Ich habe mir in den *Finger* geschnitten. |
+la dent | Zahn | n | Je me suis cassé une *dent*. | Ich habe mir einen *Zahn* abgebrochen. |
+les lèvres | Lippen | n | Mes *lèvres* sont sèches. | Meine *Lippen* sind trocken. |
+stupide | dumm | adj | C'était une erreur *stupide*. | Das war ein *dummer* Fehler. |
+le meilleur ami | beste(r) Freund(in) | n | Il est mon *meilleur ami* depuis l'école. | Wir sind seit der Schule *beste Freunde*. |
+avec | zusammen mit | prep | J'habite *avec* deux amis. | Ich wohne *zusammen mit* zwei Freunden. |
