@@ -4,14 +4,12 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Einschlaf-Geschichte testen
+      - name: Wortlisten-Schnittstelle testen
+        env:
+          GOOGLE_TTS_KEY: ${{ secrets.GOOGLE_TTS_KEY }}
         run: |
+          SIG=$(python3 -c "import hashlib,os;print(hashlib.sha256((os.environ['GOOGLE_TTS_KEY']+':bank').encode()).hexdigest())")
           start=$(date +%s)
-          code=$(curl -s -m 90 -X POST https://sprachen-five.vercel.app/api/story -H "content-type: application/json" \
-            -d '{"sleep":true,"category":"krimi","level":"A2","lang":"English","words":[{"en":"roundabout","de":"Kreisverkehr"},{"en":"sneeze","de":"niesen"},{"en":"jealous","de":"eifersüchtig"},{"en":"platform","de":"Bahnsteig"},{"en":"apologise","de":"sich entschuldigen"},{"en":"certain","de":"sicher"},{"en":"main course","de":"Hauptgericht"},{"en":"appearance","de":"Aussehen"}]}' \
-            -o s.json -w "%{http_code}")
-          echo "HTTP $code in $(( $(date +%s) - start )) s"
-          python3 -c "
-          import json;d=json.load(open('s.json'));t=d.get('text','');print('TITLE',d.get('title'));print('WORDS',len(t.split()),'MARKS',t.count('**')//2,'PARAS',t.count(chr(10)+chr(10))+1);print('ERR',d.get('error',''));print(t[:1500]);print('...');print(t[-600:])"
-          T=$(python3 -c "import json,urllib.parse;print(urllib.parse.quote(json.load(open('s.json'))['text'][:700].replace('**','')))")
-          curl -s -m 30 "https://sprachen-five.vercel.app/api/tts?l=en&v=Achernar&r=0.90&g=-6&t=$T" -o a.mp3 -w "TTS HTTP %{http_code} %{size_download} bytes\n"
+          curl -s -m 80 -X POST https://sprachen-five.vercel.app/api/bank -H "content-type: application/json" -H "x-ww-sig: $SIG" \
+            -d '{"lang":"fr","rows":[["apple","Apfel","n","A1","essen","I eat an *apple*.","Ich esse einen *Apfel*."],["go","gehen","v","A1","alltag","We *go* home.","Wir *gehen* nach Hause."],["school","Schule","n","A1","bildung","The *school* is big.","Die *Schule* ist groß."]]}' -w "\nHTTP %{http_code}\n"
+          echo "Dauer $(( $(date +%s) - start )) s"
