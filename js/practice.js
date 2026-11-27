@@ -51,6 +51,7 @@ export const canSpeak = () => !!(window.SpeechRecognition || window.webkitSpeech
 // Safari bricht die Erkennung ab („aborted“), wenn gleichzeitig Ton läuft → vorher Ton stoppen, notfalls einmal neu starten.
 // Nur eine Erkennung zur Zeit: eine noch laufende (z. B. von einem anderen Knopf) wird vorher beendet.
 let ACTIVE = null;
+let LAST = ""; // Gesamttext der letzten Aufnahme (für den iPhone-Fehler oben)
 export function listenOnce(onPartial) {
   const R = window.SpeechRecognition || window.webkitSpeechRecognition;
   if (!R) return Promise.reject(new Error("Spracherkennung geht in diesem Browser nicht. Bitte Chrome oder Safari am iPhone nutzen."));
@@ -75,11 +76,16 @@ export function listenOnce(onPartial) {
         failed = null,
         ended = false;
       r.onresult = (e) => {
+        // iPhone hängt die Ergebnisse früherer Aufnahmen vorne an → alte Teile abschneiden
         let text = "";
-        for (let i = 0; i < e.results.length; i++) text += e.results[i][0].transcript;
-        best = text.trim();
+        for (let i = 0; i < e.results.length; i++) text += (text ? " " : "") + e.results[i][0].transcript.trim();
+        text = text.trim();
+        r._raw = text;
+        if (LAST && text.length > LAST.length + 1 && text.toLowerCase().startsWith(LAST.toLowerCase())) text = text.slice(LAST.length).trim();
+        if (!text) return;
+        best = text;
         const last = e.results[e.results.length - 1];
-        if (last.isFinal) alts = [...last].map((x) => x.transcript);
+        alts = [...last].map((x) => x.transcript.trim()).filter(Boolean);
         onPartial && onPartial(best);
       };
       r.onerror = (e) => (failed = e.error);
@@ -95,7 +101,10 @@ export function listenOnce(onPartial) {
         ended = true;
         clearTimeout(guard);
         if (ACTIVE === r) ACTIVE = null;
-        if (best) return res(Object.assign(new String(best), { alts: alts.length ? alts : [best] }));
+        if (best) {
+          LAST = rawAll(r) || best;
+          return res(Object.assign(new String(best), { alts: [best, ...alts] }));
+        }
         // iPhone bricht den Start oft ab („aborted“), solange das Audiosystem noch umschaltet → automatisch neu versuchen
         if (failed === "aborted" && tries > 0) return setTimeout(() => attempt(tries - 1).then(res, rej), 700);
         if (!failed || failed === "no-speech" || failed === "aborted") return res("");
@@ -119,10 +128,18 @@ export function listenOnce(onPartial) {
   return attempt(2);
 }
 
+const rawAll = (r) => r._raw || "";
+
 // Bewertung eines gesprochenen Versuchs
 export function rateSpeech(target, heard) {
   const alts = heard?.alts || [String(heard || "")];
-  const score = Math.max(...alts.map((h) => similarity(target, h)));
+  // Zusätzlich nur das Ende des Gehörten werten (falls noch alte Wörter davor hängen)
+  const n = plain(target).split(/\s+/).length;
+  const cands = alts.flatMap((h) => {
+    const w = String(h).trim().split(/\s+/);
+    return w.length > n ? [h, w.slice(-n).join(" ")] : [h];
+  });
+  const score = Math.max(...cands.map((h) => similarity(target, h)));
   if (score >= 0.85) return { score, cls: "ok", text: "Super, sehr gut ausgesprochen! 🎉" };
   if (score >= 0.6) return { score, cls: "almost", text: "Fast! Hör es dir noch einmal an und versuch es erneut." };
   return { score, cls: "bad", text: "Das habe ich nicht richtig verstanden. Hör genau hin und probier es nochmal." };

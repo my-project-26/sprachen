@@ -1706,7 +1706,7 @@ function settingsView() {
     <h2>App aktualisieren</h2>
     <p class="small muted">Holt die neueste Version der App. Dein Lernstand und deine Einstellungen bleiben erhalten.</p>
     <button class="btn primary" id="appUpdate">🔄 Jetzt aktualisieren</button>
-    <p class="small muted">Installiert: Version 56</p>
+    <p class="small muted">Installiert: Version 57</p>
   </section>
   <section class="card">
     <h2>Test-Funktionen</h2>
