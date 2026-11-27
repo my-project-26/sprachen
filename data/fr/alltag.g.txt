@@ -479,3 +479,454 @@ le stationnement | Parken | n | Le *stationnement* est gratuit le dimanche. | So
 particulièrement | besonders | adv | Je n'ai pas *particulièrement* faim. | Ich habe nicht *besonders* Hunger. |
 la pile | Stapel, Haufen | n | Il y a une *pile* de linge sur le lit. | Auf dem Bett liegt ein *Haufen* Wäsche. |
 dommage | schade | n | C'est bien *dommage* ! | Wie *schade*! |
+le plaisir | Vergnügen | n | C'est un *plaisir* de vous rencontrer. | Es ist mir ein *Vergnügen*. |
+le poison | Gift | n | Ce champignon contient du *poison*. | Dieser Pilz enthält *Gift*. |
+la possession | Besitz | n | Il a perdu toutes ses *possessions* dans l'incendie. | Er hat beim Brand seinen ganzen *Besitz* verloren. |
+le poster | Poster | n | Il y a un *poster* sur le mur. | An der Wand hängt ein *Poster*. |
+la poudre | Pulver | n | Mélangez la *poudre* avec de l'eau. | Misch das *Pulver* mit Wasser. |
+la fierté | Stolz | n | Elle a parlé avec *fierté* de son fils. | Sie sprach voller *Stolz* über ihren Sohn. |
+imprimer | drucken | v | Tu peux m'*imprimer* ça ? | Kannst du mir das *ausdrucken*? |
+le processus | Prozess | n | Apprendre une langue est un long *processus*. | Eine Sprache zu lernen ist ein langer *Prozess*. |
+produire | herstellen | v | Cette usine *produit* des voitures. | Die Fabrik *stellt* Autos *her*. |
+convenable | richtig | adj | J'ai besoin d'un repas *convenable*. | Ich brauche eine *richtige* Mahlzeit. |
+la propriété | Eigentum | n | C'est une *propriété* privée. | Das ist *Privat*besitz. |
+pur | rein | adj | Ce jus est 100% *pur*. | Der Saft ist zu 100 % *rein*. |
+la quantité | Menge | n | La qualité est plus importante que la *quantité*. | Qualität ist wichtiger als *Menge*. |
+lever | erheben | v | *Levez* la main si vous connaissez la réponse. | *Heb* die Hand, wenn du die Antwort weißt. |
+le taux | Rate | n | Quel est le *taux* de change ? | Wie ist der Wechsel*kurs*? |
+plutôt | eher | adv | Je *plutôt* resterais à la maison. | Ich bleibe *lieber* zu Hause. |
+atteindre | erreure | v | Nous avons *atteint* le sommet à midi. | Mittags *erreichten* wir den Gipfel. |
+la réaction | Reaktion | n | Quelle a été sa *réaction* ? | Wie war seine *Reaktion*? |
+la réalité | Wirklichkeit | n | En *réalité*, c'était très différent. | In *Wirklichkeit* war es ganz anders. |
+se référer à | sich beziehen auf | v | À quel article vous *référez*-vous ? | Auf welchen Artikel *beziehst* du dich? |
+la région | Region | n | Le vin vient de cette *région*. | Der Wein kommt aus dieser *Region*. |
+la demande | Bitte | n | J'ai une petite *demande*. | Ich habe eine kleine *Bitte*. |
+exiger | erfordern | v | Ce travail *exige* un bon anglais. | Die Stelle *erfordert* gutes Englisch. |
+le respect | Respekt | n | Traitez les gens avec *respect*. | Behandle Menschen mit *Respekt*. |
+la responsabilité | Verantwortung | n | C'est ta *responsabilité*. | Das ist deine *Verantwortung*. |
+la récompense | Belohnung | n | Il y a une *récompense* pour le chien perdu. | Für den entlaufenen Hund gibt es eine *Belohnung*. |
+le rôle | Rolle | n | Elle a joué le premier *rôle*. | Sie spielte die Haupt*rolle*. |
+la rangée | Reihe | n | Nous étions assis au premier *rang*. | Wir saßen in der ersten *Reihe*. |
+la sauce | Soße | n | Des pâtes avec une *sauce* tomate. | Nudeln mit Tomaten*soße*. |
+la balance | Waage | n | Mets-le sur la *balance*. | Leg es auf die *Waage*. |
+la scène | Szene | n | C'est ma *scène* préférée dans le film. | Das ist meine Lieblings*szene* im Film. |
+sélectionner | auswählen | v | Veuillez *sélectionner* votre langue. | *Wähle* deine Sprache. |
+le sens | Sinn | n | Elle a un grand *sens* de l'humour. | Sie hat einen tollen *Sinn* für Humor. |
+séparé | getrennt | adj | Nous dormons dans des chambres *séparées*. | Wir schlafen in *getrennten* Zimmern. |
+servir | servir | v | Le petit déjeuner est *servi* dès sept heures. | Frühstück wird ab sieben *serviert*. |
+l'ombre (f) | Schatten (eines Körpers) | n | J'ai vu une *ombre* sur le mur. | Ich sah einen *Schatten* an der Wand. |
+l'ombre (f) | Schatten (schattiger Ort) | n | Allons nous asseoir à l'*ombre*. | Lass uns in den *Schatten* setzen. |
+dommage | schade | n | C'est bien *dommage* que tu ne viennes pas. | Schade, dass du nicht kommen kannst. |
+la forme | Form | n | Quelle est cette *forme*? | Welche *Form* hat es? |
+le coquillage | Muschel | n | Les enfants ont ramassé des *coquillages* sur la plage. | Die Kinder sammelten am Strand *Muscheln*. |
+briller | scheinen | v | Le soleil *brille*. | Die Sonne *scheint*. |
+le choc | Schock | n | La nouvelle a été un grand *choc*. | Die Nachricht war ein *Schock*. |
+tirer | schießen | v | Il a *tiré* vers le but. | Er *schoss* aufs Tor. |
+fermer | schließen | v | *Ferme* la porte! | *Mach* die Tür *zu*! |
+la vue | Anblick | n | Quel beau *spectacle*! | Was für ein schöner *Anblick*! |
+le silence | Stille | n | Il y avait un *silence* complet. | Es herrschte völlige *Stille*. |
+silencieux | still | adj | Veuillez garder votre téléphone *silencieux*. | Bitte stell dein Handy *auf lautlos*. |
+l'argent (m) | Silber | n | Elle porte beaucoup d'*argent*. | Sie trägt viel *Silber*. |
+simplement | einfach | adv | C'est *simplement* trop cher. | Es ist *einfach* zu teuer. |
+le chantier | Gelände | n | Le *chantier* est fermé. | Die *Baustelle* ist gesperrt. |
+légèrement | etwas, leicht | adv | Je suis *légèrement* nerveuse. | Ich bin *etwas* nervös. |
+élégant | schick | adj | Tu es très *élégant* aujourd'hui. | Du siehst heute sehr *schick* aus. |
+le savon | Seife | n | Lave tes mains avec *savon*. | Wasch dir die Hände mit *Seife*. |
+social | sozial | adj | Elle a une vie *sociale* active. | Sie hat ein reges *Sozial*leben. |
+massif | massiv | adj | La table est en bois *massif*. | Der Tisch ist aus *Massiv*holz. |
+la solution | Lösung | n | Nous devons trouver une *solution*. | Wir müssen eine *Lösung* finden. |
+le genre | Art | n | Quel *genre* de films aimes-tu ? | Welche *Art* von Filmen magst du? |
+de rechange | Ersatz- | adj | As-tu une clé de *rechange* ? | Hast du einen *Ersatz*schlüssel? |
+la vitesse | Geschwindigkeit | n | Réduisez votre *vitesse*. | Verringere deine *Geschwindigkeit*. |
+l'endroit (m) | Ort | n | C'est un bel *endroit* pour pique-niquer. | Es ist ein schönes *Plätzchen* für ein Picknick. |
+le niveau | Niveau | n | Le *niveau* de la cuisine est élevé. | Das *Niveau* des Essens ist hoch. |
+le pas | Schritt | n | Fais un *pas* en avant. | Mach einen *Schritt* nach vorn. |
+coller | kleben | v | *Colle* le timbre sur l'enveloppe. | *Kleb* die Briefmarke auf den Umschlag. |
+la force | Stärke, Kraft | n | La patience est sa plus grande *force*. | Geduld ist ihre größte *Stärke*. |
+avoir du mal | sich abmühen | v | J'ai *eu* du mal à le comprendre. | Ich hatte *Mühe*, ihn zu verstehen. |
+l'affaire (f) | Zeug, Sachen | n | Où sont toutes mes *affaires* ? | Wo ist mein ganzes *Zeug*? |
+souffrir | leiden | v | Il *souffre* du dos. | Er *leidet* unter Rückenschmerzen. |
+la suggestion | Vorschlag | n | Puis-je faire une *suggestion* ? | Darf ich einen *Vorschlag* machen? |
+le système | System | n | Le *système* ne fonctionne pas. | Das *System* funktioniert nicht. |
+le talent | Talent | n | Elle a un *talent* pour la musique. | Sie hat *Talent* für Musik. |
+la pensée | Gedanke | n | C'est une *pensée* intéressante. | Das ist ein interessanter *Gedanke*. |
+la gorge | Hals, Kehle | n | J'ai mal à la *gorge*. | Mein *Hals* tut weh. |
+toucher | berühren | v | Ne *touchez* pas aux tableaux. | Bitte die Bilder nicht *berühren*. |
+la tour | Turm | n | Nous sommes montés dans la *tour*. | Wir sind auf den Kirch*turm* gestiegen. |
+le tour | Trick, Streich | n | C'est un vieux *tour*. | Das ist ein alter *Trick*. |
+les ennuis | Ärger, Schwierigkeiten | n | Il a toujours des *ennuis*. | Er hat ständig *Ärger*. |
+la vérité | Wahrheit | n | Dis-moi la *vérité*. | Sag mir die *Wahrheit*. |
+le tunnel | Tunnel | n | Le train a traversé un long *tunnel*. | Der Zug fuhr durch einen langen *Tunnel*. |
+injuste | unfair | adj | C'est tellement *injuste* ! | Das ist so *unfair*! |
+inconnu | unbekannt | adj | La cause est encore *inconnue*. | Die Ursache ist noch *unbekannt*. |
+improbable | unwahrscheinlich | adj | Il est *improbable* qu'il pleuve. | Regen ist *unwahrscheinlich*. |
+la valeur | Wert | n | La *valeur* de la maison a augmenté. | Der *Wert* des Hauses ist gestiegen. |
+la variété | Vielfalt, Auswahl | n | Il y a une grande *variété* de plats. | Es gibt eine große *Auswahl* an Gerichten. |
+la version | Version, Fassung | n | Je préfère la *version* originale. | Mir gefällt die Original*fassung* besser. |
+hebdomadaire | wöchentlich | adj | Nous avons une réunion *hebdomadaire*. | Wir haben ein *wöchentliches* Treffen. |
+le fil | Draht, Kabel | n | Ne touche pas à ce *fil*. | Fass das *Kabel* nicht an. |
+sage | weise, klug | adj | C'était une décision *sage*. | Das war eine *kluge* Entscheidung. |
+valoir | wert | adj | Le musée *vaut* une visite. | Das Museum ist einen Besuch *wert*. |
+la cour | Hof | n | Les enfants jouent dans la *cour*. | Die Kinder spielen im *Hof*. |
+la jeunesse | Jugend | n | Dans ma *jeunesse*, je jouais beaucoup au foot. | In meiner *Jugend* habe ich viel Fußball gespielt. |
+la zone | Zone, Bereich | n | C'est une *zone* sans stationnement. | Das ist eine *Parkverbots*zone. |
+selon | laut, gemäß | prep | *Selon* les informations, il va neiger. | *Laut* Nachrichten wird es schneien. |
+ancien | uralt, antik | adj | Nous avons visité des ruines *anciennes*. | Wir besichtigten *antike* Ruinen. |
+l'annonce (f) | Ankündigung, Durchsage | n | Écoutez cette *annonce*. | Hör auf die *Durchsage*. |
+nulle part | irgendwo | adv | Je ne le trouve nulle *part*. | Ich kann es *nirgendwo* finden. |
+le quartier | Gegend, Bereich | n | Nous habitons dans un *quartier* calme. | Wir wohnen in einer ruhigen *Gegend*. |
+attractif | attraktiv, reizvoll | adj | C'est une offre *attractive*. | Es ist ein *attraktives* Angebot. |
+moyen | durchschnittlich | adj | L'âge *moyen* est de trente-cinq ans. | Das *Durchschnitts*alter ist 35. |
+de base | grundlegend, einfach | adj | J'ai seulement des connaissances *de base*. | Ich habe nur *Grund*kenntnisse. |
+à côté de | neben | prep | Assieds-toi *à côté de* moi. | Setz dich *neben* mich. |
+ailleurs | außerdem | adv | Il est trop tard *ailleurs*. | *Außerdem* ist es jetzt zu spät. |
+rejeter la faute | die Schuld geben | v | Ne me *rejetez* pas la faute ! | *Gib* mir nicht die *Schuld*! |
+bref | kurz | adj | Restez *bref* s'il vous plaît. | Fass dich *kurz*. |
+lumineux | hell | adj | La chambre est très *lumineuse*. | Das Zimmer ist sehr *hell*. |
+brûler | verbrennen | v | Je me suis *brûlé* la main. | Ich habe mir die Hand *verbrannt*. |
+certainement | s sicherlich, gewiss | adv | Je serai *certainement* là. | Ich werde *sicher* da sein. |
+clair | klar, deutlich | adj | Est-ce que c'est *clair* ? | Ist das *klar*? |
+courant | häufig, verbreitet | adj | C'est une erreur *courante*. | Das ist ein *häufiger* Fehler. |
+confirmer | bestätigen | v | Veuillez *confirmer* votre réservation. | Bitte *bestätigen* Sie Ihre Buchung. |
+certainement | definitiv, auf jeden Fall | adv | Je viendrai *certainement*. | Ich komme *auf jeden Fall*. |
+la différence | Unterschied | n | Quel est *la différence* ? | Was ist der *Unterschied*? |
+la distance | Entfernung | n | Quelle est *la distance* jusqu'à Berlin ? | Wie groß ist die *Entfernung* nach Berlin? |
+double | doppelt | adj | Je prends un espresso *double*. | Ich nehme einen *doppelten* Espresso. |
+l'entrée (f) | Eingang | n | Retrouve-moi à *l'entrée* principale. | Triff mich am Haupt*eingang*. |
+l'événement (f) | Veranstaltung | n | *L'événement* commence à sept heures. | Die *Veranstaltung* beginnt um sieben. |
+exister | existieren | v | Cet endroit *existe*-t-il vraiment ? | *Gibt* es diesen Ort wirklich? |
+supplémentaire | zusätzlich | adj | J'ai besoin de temps *supplémentaire*. | Ich brauche *zusätzliche* Zeit. |
+suivant | folgend | adj | Le jour *suivant*, nous sommes partis. | Am *folgenden* Tag reisten wir ab. |
+toujours | für immer | adv | Rien ne dure *toujours*. | Nichts hält *für immer*. |
+général | allgemein | adj | C'est une règle *générale*. | Das ist eine *allgemeine* Regel. |
+doux | sanft | adj | Sois *doux* avec le bébé. | Sei *sanft* zu dem Baby. |
+la taille | Größe | n | Quelle est *la taille* ? | Wie *groß* bist du? |
+le trou | Loch | n | Il y a un *trou* dans ma chaussette. | In meiner Socke ist ein *Loch*. |
+immense | riesig | adj | Ils vivent dans une *immense* maison. | Sie wohnen in einem *riesigen* Haus. |
+immédiatement | sofort | adv | Appelle-moi *immédiatement*. | Ruf mich *sofort* an. |
+impossible | unmöglich | adj | Il est *impossible* de garer ici. | Hier zu parken ist *unmöglich*. |
+indépendant | unabhängig, selbstständig | adj | Elle est très *indépendante*. | Sie ist sehr *selbstständig*. |
+interrompre | unterbrechen | v | Désolé de vous *interrompre*. | Entschuldige, dass ich *unterbreche*. |
+manque | Mangel | n | Le *manque* de sommeil me fatigue. | *Schlafmangel* macht mich müde. |
+dernièrement | in letzter Zeit | adv | Je suis fatigué *dernièrement*. | Ich bin *in letzter Zeit* müde. |
+moins | am wenigsten | adv | C est l'option la *moins* chère. | Das ist die *günstigste* Option. |
+probable | wahrscheinlich | adj | Il est *probable* qu'il pleuve. | Es wird *wahrscheinlich* regnen. |
+limite | Grenze, Limit | n | Il y a une *limite* de deux par personne. | Es gibt eine *Grenze* von zwei pro Person. |
+matière | Material, Stoff | n | Quelle est cette *matière* ? | Aus welchem *Material* ist es? |
+objet | Gegenstand | n | Il y a un *objet* étrange dans le ciel. | Am Himmel ist ein seltsamer *Gegenstand*. |
+évident | offensichtlich | adj | La réponse est *évidente*. | Die Antwort ist *offensichtlich*. |
+occasionnellement | gelegentlich | adv | Je mange *occasionnellement* de la viande. | Ich esse *gelegentlich* Fleisch. |
+ordinaire | gewöhnlich, normal | adj | C était juste un jour *ordinaire*. | Es war nur ein *gewöhnlicher* Tag. |
+personnel | persönlich | adj | C est une affaire *personnelle*. | Das ist eine *persönliche* Angelegenheit. |
+plein | reichlich, eine Menge | pron | Nous avons *plein* de temps. | Wir haben *reichlich* Zeit. |
+position | Position, Lage | n | Changez de *position*. | Ändere deine *Position*. |
+puissant | mächtig, stark | adj | C est un moteur très *puissant*. | Das ist ein sehr *starker* Motor. |
+pression | Druck | n | Je travaille bien sous *pression*. | Ich arbeite gut unter *Druck*. |
+rare | selten | adj | C est un oiseau *rare*. | Das ist ein *seltener* Vogel. |
+rarement | selten | adv | Je sors *rarement*. | Ich gehe *selten* aus. |
+récemment | kürzlich, vor Kurzem | adv | J ai déménagé *récemment*. | Ich bin *kürzlich* umgezogen. |
+régulier | regelmäßig | adj | Prenez des pauses *régulières*. | Mach *regelmäßig* Pausen. |
+rester | bleiben | v | Veuillez *rester* assis. | Bitte *bleiben* Sie sitzen. |
+agité | rau | adj | La mer était *agitée*. | Die See war *rau*. |
+sot | albern, dumm | adj | Ne soyez pas *sot*. | Sei nicht *albern*. |
+lisse | glatt | adj | Le vol a été *lisse*. | Der Flug verlief *ruhig*. |
+soudain | plötzlich | adj | Il y a eu un bruit *soudain*. | Es gab ein *plötzliches* Geräusch. |
+adapté | geeignet | adj | Ce n'est pas *adapté* aux enfants. | Es ist nicht für Kinder *geeignet*. |
+la surface | Oberfläche | n | La *surface* est mouillée. | Die *Oberfläche* ist nass. |
+épais | dick | adj | Les murs sont très *épais*. | Die Wände sind sehr *dick*. |
+minuscule | winzig | adj | Ils habitent dans un appartement *minuscule*. | Sie wohnen in einer *winzigen* Wohnung. |
+malheureusement | leider | adv | *Malheureusement*, je ne peux pas venir. | *Leider* kann ich nicht kommen. |
+inhabituel | ungewöhnlich | adj | C'est *inhabituel* pour lui. | Das ist *ungewöhnlich* für ihn. |
+dans | innerhalb | prep | Veuillez répondre *dans* une semaine. | Bitte antworten Sie *innerhalb* einer Woche. |
+le motif | Muster | n | J'aime bien le *motif* de ta robe. | Mir gefällt das *Muster* auf deinem Kleid. |
+rayé | gestreift | adj | Il portait une chemise *rayée*. | Er trug ein *gestreiftes* Hemd. |
+serré | eng | adj | Ce jean est trop *serré*. | Diese Jeans ist zu *eng*. |
+ample | weit | adj | Je préfère les vêtements *amples*. | Ich mag *weite* Kleidung lieber. |
+la cheville | Knöchel | n | Elle s'est tordu la *cheville*. | Sie hat sich den *Knöchel* verstaucht. |
+le poignet | Handgelenk | n | Il porte une montre à son *poignet* gauche. | Er trägt eine Uhr am linken *Handgelenk*. |
+la poitrine | Brust | n | J'ai une douleur dans la *poitrine*. | Ich habe Schmerzen in der *Brust*. |
+l'os (m) | Knochen | n | Il s'est cassé un *os* au pied. | Er hat sich einen *Knochen* im Fuß gebrochen. |
+le cerveau | Gehirn | n | Le *cerveau* a besoin de sommeil. | Das *Gehirn* braucht Schlaf. |
+les obsèques | Beerdigung | n | Les *obsèques* sont vendredi. | Die *Beerdigung* ist am Freitag. |
+la saison | Jahreszeit | n | L'automne est ma *saison* préférée. | Herbst ist meine Lieblings*jahreszeit*. |
+le centre-ville | Innenstadt | n | Nous habitons près du *centre-ville*. | Wir wohnen nahe der *Innenstadt*. |
+l'hôtel de ville (m) | Rathaus | n | L'*hôtel de ville* est fermé aujourd'hui. | Das *Rathaus* ist heute geschlossen. |
+le trottoir | Gehweg | n | Ne stationne pas sur le *trottoir*. | Park nicht auf dem *Gehweg*. |
+la décennie | Jahrzehnt | n | Les prix ont doublé en une *décennie*. | Die Preise haben sich in einem *Jahrzehnt* verdoppelt. |
+le jour de semaine | Wochentag | n | Le magasin est ouvert en *jour de semaine*. | Der Laden ist an *Werktagen* geöffnet. |
+minuit (m) | Mitternacht | n | Nous sommes rentrés après *minuit*. | Wir kamen nach *Mitternacht* nach Hause. |
+quatorzaine (f) | zwei Wochen | n | Je serai absent pendant une *quatorzaine*. | Ich bin *zwei Wochen* weg. |
+de nos jours | heutzutage | adv | *De nos jours*, tout le monde a un téléphone. | *Heutzutage* hat jeder ein Handy. |
+pendant ce temps | inzwischen | adv | *Pendant ce temps*, les autres étaient partis. | *Inzwischen* waren die anderen gegangen. |
+tout de suite | sofort | phrase | Viens ici *tout de suite* ! | Komm *sofort* her! |
+depuis des lustres | seit Ewigkeiten | phrase | Je ne l'ai pas vue *depuis des lustres*. | Ich habe sie *seit Ewigkeiten* nicht gesehen. |
+après-demain | übermorgen | phrase | Je t'appelle *après-demain*. | Ich rufe dich *übermorgen* an. |
+outil (m) | Werkzeug | n | As-tu le bon *outil* ? | Hast du das richtige *Werkzeug*? |
+signature (f) | Unterschrift | n | J'ai besoin de votre *signature*. | Ich brauche Ihre *Unterschrift*. |
+habitude (f) | Gewohnheit | n | C'est une mauvaise *habitude*. | Das ist eine schlechte *Angewohnheit*. |
+corvée (f) | Hausarbeit | n | Le repassage est ma *corvée* préférée. | Bügeln ist meine unliebste *Hausarbeit*. |
+
+## B2
+abandonner | verlassen | v | Ils ont dû *abandonner* la voiture. | Sie mussten das Auto *zurücklassen*. |
+absolument | absolut | adv | J'en suis *absolument* sûr. | Ich bin mir *absolut* sicher. |
+précis | genau | adj | La prévision était *précise*. | Die Vorhersage war *genau*. |
+accuser | beschuldigen | v | Il a été *accusé* d'avoir menti. | Er wurde *beschuldigt*, gelogen zu haben. |
+s'adapter | sich anpassen | v | Les enfants s'*adaptent* vite. | Kinder *passen* sich schnell *an*. |
+adéquat | angemessen | adj | La chambre était *adéquate*. | Das Zimmer war *ausreichend*. |
+ajuster | anpassen | v | Il faut *ajuster* la hauteur du siège. | *Stell* die Sitzhöhe *ein*. |
+admirer | bewundern | v | J'*admire* son courage. | Ich *bewundere* ihren Mut. |
+modifier | ändern | v | Nous avons dû *modifier* nos plans. | Wir mussten unsere Pläne *ändern*. |
+alternative (f) | Alternative | n | Y a-t-il une *alternative* ? | Gibt es eine *Alternative*? |
+émerveillé | erstaunt | adj | J'ai été *émerveillé* par la vue. | Ich war über die Aussicht *erstaunt*. |
+anticiper | vorhersehen | v | Nous n'avons pas *anticipé* de problèmes. | Wir haben keine Probleme *erwartet*. |
+apprécier | schätzen | v | J'*apprécie* vraiment ton aide. | Ich *weiß* deine Hilfe wirklich *zu schätzen*. |
+approche (f) | Herangehensweise | n | Nous avons besoin d'une nouvelle *approche*. | Wir brauchen einen neuen *Ansatz*. |
+approuver | genehmigen | v | Mon chef a *approuvé* le plan. | Mein Chef hat den Plan *genehmigt*. |
+environ | ungefähr | adv | Cela prend *environ* deux heures. | Es dauert *ungefähr* zwei Stunden. |
+aider | helfen | v | Puis-je vous *aider* ? | Kann ich Ihnen *behilflich* sein? |
+supposer | annehmen | v | Je *suppose* que tu es fatigué. | Ich *nehme an*, du bist müde. |
+attitude | Einstellung | n | Elle a une *attitude* positive. | Sie hat eine positive *Einstellung*. |
+gênant | peinlich | adj | Il y a eu un silence *gênant*. | Es gab ein *peinliches* Schweigen. |
+avantage | Vorteil | n | Quels sont les *avantages* ? | Was sind die *Vorteile*? |
+capable | fähig | adj | Elle est *capable* de le faire. | Sie ist *fähig*, es zu tun. |
+prudent | vorsichtig | adj | Soyez *prudent* avec les étrangers. | Sei *vorsichtig* bei Fremden. |
+défi | Herausforderung | n | C est un vrai *défi*. | Es ist eine echte *Herausforderung*. |
+circonstances | Umstände | n | Dans ces *circonstances*, nous attendrons. | Unter diesen *Umständen* warten wir. |
+commettre | begehen | v | Il a *commis* un crime. | Er hat ein Verbrechen *begangen*. |
+engagement | Engagement | n | C est un grand *engagement*. | Es ist eine große *Verpflichtung*. |
+compromis | Kompromiss | n | Nous avons trouvé un *compromis*. | Wir haben einen *Kompromiss* gefunden. |
+souci | Sorge | n | Mon principal *souci* est la sécurité. | Meine größte *Sorge* ist die Sicherheit. |
+conscient | bei Bewusstsein | adj | Il était encore *conscient*. | Er war noch *bei Bewusstsein*. |
+considérable | beträchtlich | adj | Cela a coûté un montant *considérable*. | Es kostete einen *beträchtlichen* Betrag. |
+constant | ständig | adj | Le bruit *constant* me rend fou. | Der *ständige* Lärm macht mich verrückt. |
+pratique | praktisch | adj | Lundi est-il *pratique* pour vous ? | Passt dir Montag (ist *günstig*)? |
+crucial | entscheidend | adj | C est un moment *crucial*. | Das ist ein *entscheidender* Moment. |
+exprès | absichtlich | adv | Il l a fait *exprès*. | Er hat es *absichtlich* getan. |
+exiger | fordern | v | Ils ont *exigé* un remboursement. | Sie *forderten* eine Rückerstattung. |
+désespéré | verzweifelt | adj | Ils étaient *désespérés* d aide. | Sie brauchten *verzweifelt* Hilfe. |
+déterminé | entschlossen | adj | Elle est *déterminée* à gagner. | Sie ist *entschlossen* zu gewinnen. |
+efficace | effizient | adj | Le nouveau système est plus *efficace*. | Das neue System ist *effizienter*. |
+éliminer | beseitigen | v | Nous avons *éliminé* le problème. | Wir haben das Problem *beseitigt*. |
+apparaître | auftauchen | v | De nouveaux problèmes sont *apparus*. | Neue Probleme *tauchten auf*. |
+permettre | ermöglichen | v | Cette application vous *permet* de payer en ligne. | Die App *ermöglicht* es dir, online zu zahlen. |
+s'assurer | sicherstellen | v | Veuillez vous *assurer* que la porte est fermée. | Bitte *stellen* Sie *sicher*, dass die Tür zu ist. |
+essentiel | unerlässlich | adj | L'eau est *essentielle* pour la vie. | Wasser ist *unerlässlich* für das Leben. |
+estimer | schätzen | v | J'*estime* que cela prendra une semaine. | Ich *schätze*, es dauert eine Woche. |
+final | schließlich | adj | Le vainqueur *final* était un nouveau venu. | Der *spätere* Sieger war ein Neuling. |
+évident | offensichtlich | adj | Il était *évident* qu'il mentait. | Es war *offensichtlich*, dass er log. |
+exagérer | übertreiben | v | Il ne faut pas *exagérer* ! | *Übertreib* nicht! |
+dépasser | überschreiten | v | Il ne faut pas *dépasser* la limite de vitesse. | *Überschreite* nicht das Tempolimit. |
+mesure | Ausmaß | n | Dans une certaine *mesure*, vous avez raison. | In gewissem *Maße* hast du recht. |
+extraordinaire | außergewöhnlich | adj | C'était une expérience *extraordinaire*. | Es war ein *außergewöhnliches* Erlebnis. |
+s'effacer | verblassen | v | Les couleurs ont *commencé* à s'effacer. | Die Farben sind *verblasst*. |
+aimer bien | gernhaben | phrase | Je l'*aime* beaucoup. | Ich *habe* sie sehr *gern*. |
+fréquent | häufig | adj | C'est un visiteur *fréquent*. | Er ist ein *häufiger* Besucher. |
+réaliser | erfüllen | v | Elle a *réalisé* son rêve. | Sie hat sich ihren Traum *erfüllt*. |
+authentique | echt | adj | C'est une *authentique* Rolex. | Es ist eine *echte* Rolex. |
+progressivement | allmählich | adv | La situation s'est *progressivement* améliorée. | Es wurde *allmählich* besser. |
+identique | identique | adj | Les deux sacs sont *identiques*. | Die beiden Taschen sind *identisch*. |
+illustrer | veranschaulichen | v | Laissez-moi l'*illustrer* avec un exemple. | Lass mich das an einem Beispiel *veranschaulichen*. |
+immense | immens | adj | C'était un *immense* soulagement. | Es war eine *enorme* Erleichterung. |
+impression | [l'] Eindruck | n | Elle a fait bonne *impression*. | Sie machte einen guten *Eindruck*. |
+inévitable | unvermeidlich | adj | Le changement est *inévitable*. | Veränderung ist *unvermeidlich*. |
+initial | anfänglich | adj | Ma réaction *initiale* était un choc. | Meine *erste* Reaktion war Schock. |
+insister | darauf bestehen | v | Elle a *insisté* pour payer. | Sie *bestand* darauf zu zahlen. |
+l'intention (f) | Absicht | n | Je n'avais pas l' *intention* de rester. | Ich hatte nicht die *Absicht* zu bleiben. |
+s'immiscer | sich einmischen | v | Ne *t'immisce* pas dans ma vie. | *Misch* dich nicht in mein Leben *ein*. |
+enquêter | untersuchen | v | La police *enquête* sur cette affaire. | Die Polizei *untersucht* den Fall. |
+le problème | Thema, Problem | n | C'est un autre *problème*. | Das ist ein anderes *Thema*. |
+enthousiaste | eifrig, scharf auf | adj | Il est très *enthousiaste* à l'idée d'apprendre. | Er ist *eifrig* beim Lernen. |
+justifier | rechtfertigen | v | Comment peux-tu *justifier* cela ? | Wie kannst du das *rechtfertigen*? |
+principalement | hauptsächlich | adv | Nous mangeons *principalement* des légumes. | Wir essen *hauptsächlich* Gemüse. |
+maintenir | aufrechterhalten | v | C'est dur de *maintenir* un haut niveau. | Es ist schwer, ein hohes Niveau *aufrechtzuerhalten*. |
+majeur | bedeutend, Haupt- | adj | C'est un problème *majeur*. | Das ist ein *großes* Problem. |
+mineur | gering, unbedeutend | adj | C'est seulement un problème *mineur*. | Das ist nur ein *kleines* Problem. |
+de plus | außerdem, ferner | adv | *De plus*, c'est trop cher. | *Außerdem* ist es zu teuer. |
+principalement | meistens, größtenteils | adv | Le public était *principalement* jeune. | Das Publikum war *größtenteils* jung. |
+négliger | vernachlässigen | v | Il ne faut pas *négliger* ta santé. | *Vernachlässige* nicht deine Gesundheit. |
+néanmoins | trotzdem | adv | C'était dur ; *néanmoins*, nous avons fini. | Es war schwer; *trotzdem* wurden wir fertig. |
+l'obstacle (m) | Hindernis | n | Nous avons surmonté beaucoup d' *obstacles*. | Wir überwanden viele *Hindernisse*. |
+obtenir | erhalten, beschaffen | v | Tu dois *obtenir* un permis. | Du musst eine Genehmigung *einholen*. |
+se produire | vorkommen, geschehen | v | L'accident s'est *produit* la nuit. | Der Unfall *geschah* nachts. |
+bizarre | seltsam | adj | C'est *bizarre*. | Das ist *seltsam*. |
+sinon | ansonsten | adv | La nourriture était froide, mais *sinon* bonne. | Das Essen war kalt, aber *ansonsten* gut. |
+surmonter | überwinden | v | Elle a *surmonté* sa peur. | Sie hat ihre Angst *überwunden*. |
+participer | teilnehmen | v | Tout le monde peut *participer*. | Jeder kann *teilnehmen*. |
+particulier | bestimmt, besonders | adj | Y a-t-il une raison *particulière* ? | Gibt es einen *bestimmten* Grund? |
+permanent | dauerhaft | adj | Est-ce un emploi *permanent* ? | Ist das eine *feste* Stelle? |
+précis | genau, präzise | adj | Tu peux être plus *précis* ? | Kannst du *genauer* sein? |
+précédent | vorherig | adj | Mon *précédent* travail était ennuyeux. | Mein *vorheriger* Job war langweilig. |
+principal | Haupt- | adj | La sécurité est notre *principal* souci. | Sicherheit ist unser *wichtigstes* Anliegen. |
+la priorité | Priorité | n | La famille est ma *priorité* absolue. | Familie hat für mich oberste *Priorität*. |
+continuer | fortfahren | v | Veuillez *continuer* vers la porte 5. | Bitte *gehen* Sie zu Gate 5 (*weiter*). |
+poursuivre | verfolgen | v | Elle a décidé de *poursuivre* une carrière en droit. | Sie beschloss, eine Karriere im Recht *anzustreben*. |
+raisonnable | vernünftig; angemessen | adj | Le prix est *raisonnable*. | Der Preis ist *angemessen*. |
+se rappeler | sich erinnern | v | Je ne me *rappelle* pas avoir dit ça. | Ich *erinnere* mich nicht, das gesagt zu haben. |
+pertinent | relevant | adj | Ce n'est pas *pertinent*. | Das ist nicht *relevant*. |
+à regret | widerwillig | adv | Il a accepté *à regret*. | Er stimmte *widerwillig* zu. |
+remarquable | bemerkenswert | adj | C'est une réalisation *remarquable*. | Das ist eine *bemerkenswerte* Leistung. |
+faible | gering | adj | Il n'y a qu'une *faible* chance. | Es gibt nur eine *geringe* Chance. |
+résoudre | lösen | v | Nous avons *résolu* le conflit. | Wir haben den Streit *beigelegt*. |
+restaurer | wiederherstellen | v | Ils ont *restauré* le vieux château. | Sie *restaurierten* die alte Burg. |
+révéler | enthüllen, verraten | v | Il a *révélé* le secret. | Er *verriet* das Geheimnis. |
+à peine | kaum | adv | Je pouvais *à peine* le croire. | Ich konnte es *kaum* glauben. |
+rarement | selten | adv | Nous sortons *rarement*. | Wir gehen *selten* aus. |
+grave | schwer, ernst | adj | Il y a eu des dégâts *graves*. | Es gab *schwere* Schäden. |
+précis | spezifisch, konkret | adj | Peux-tu être plus *précis* ? | Kannst du *konkreter* werden? |
+magnifique | großartig | adj | Quelle *magnifique* idée ! | Was für eine *großartige* Idee! |
+important | erheblich | adj | Il y a eu une augmentation *importante*. | Es gab einen *erheblichen* Anstieg. |
+suffisant | ausreichend | adj | Est-ce *suffisant* ? | Ist das *ausreichend*? |
+suspicieux | misstrauisch | adj | Je suis *suspicieux* de ses motifs. | Ich bin seinen Motiven gegenüber *misstrauisch*. |
+provisoire | vorübergehend | adj | C'est seulement une solution *provisoire*. | Das ist nur eine *vorübergehende* Lösung. |
+avoir tendance | neigen, tendieren | v | J'*ai* tendance à trop manger. | Ich *neige* dazu, zu viel zu essen. |
+minutieux | gründlich | adj | Ils ont fait un contrôle *minutieux*. | Sie machten eine *gründliche* Kontrolle. |
+immense | gewaltig, enorm | adj | C'est un succès *immense*. | Es war ein *riesiger* Erfolg. |
+typique | typisch | adj | C'est *typique* de sa part ! | Das ist *typisch* für ihn! |
+unique | einzigartig | adj | Chaque personne est *unique*. | Jeder Mensch ist *einzigartig*. |
+urgent | dringend | adj | C'est *urgent*. | Es ist *dringend*. |
+vague | vage, unklar | adj | Sa réponse était *vague*. | Seine Antwort war *vage*. |
+valable | gültig | adj | Ton passeport est toujours *valable* ? | Ist dein Pass noch *gültig*? |
+varier | variieren | v | Les prix *varient* beaucoup. | Die Preise *variieren* stark. |
+vital | lebenswichtig | adj | Le sommeil est *vital* pour la santé. | Schlaf ist *lebenswichtig* für die Gesundheit. |
+quoi que | was auch immer | pron | Fais *quoi que* tu veuilles. | Mach, *was* du *willst*. |
+répandu | weit verbreitet | adj | C'est un problème très *répandu*. | Es ist ein *weit verbreitetes* Problem. |
+disposé | bereit, gewillt | adj | Es-tu *disposé* à aider ? | Bist du *bereit* zu helfen? |
+absorber | aufnehmen | v | Les plantes *absorbent* l'eau. | Pflanzen *nehmen* Wasser *auf*. |
+abus | Missbrauch | n | L' *abus* (m) de drogues est un problème. | Drogen*missbrauch* ist ein Problem. |
+accès | Zugang | n | As-tu un *accès* (m) à Internet ? | Hast du Internet*zugang*? |
+accompagner | begleiten | v | Je vais t'*accompagner* à la gare. | Ich *begleite* dich zum Bahnhof. |
+accomplir | vollbringen, schaffen | v | Nous avons *accompli* beaucoup de choses aujourd'hui. | Wir haben heute viel *geschafft*. |
+acquérir | erwerben, sich aneignen | v | Il a su *acquérir* de nouvelles compétences. | Er *eignete* sich neue Fähigkeiten *an*. |
+adopter | übernehmen | v | Ils ont su *adopter* une nouvelle stratégie. | Sie *übernahmen* eine neue Strategie. |
+avancée | Fortschritt | n | Les *avancées* médicales sauvent des vies. | Medizinische *Fortschritte* retten Leben. |
+affecter | beeinflussen, betreffen | v | La grève a su *affecter* des milliers de personnes. | Der Streik *betraf* Tausende. |
+agressif | agressiv | adj | Le chien était *agressif*. | Der Hund war *aggressiv*. |
+aide | Hilfe | n | Ils ont envoyé de l'*aide* (f) humanitaire. | Sie schickten humanitäre *Hilfe*. |
+but | Ziel | n | Notre *but* est de grandir. | Unser *Ziel* ist es zu wachsen. |
+alarmer | beunruhigen | v | La nouvelle a su les *alarmer*. | Die Nachricht *beunruhigte* uns. |
+aux côtés de | neben, zusammen mit | prep | Elle a travaillé *aux côtés de* grands experts. | Sie arbeitete *zusammen mit* Experten. |
+apparent | offensichtlich | adj | Il est *apparent* qu'il a menti. | Ohne *ersichtlichen* Grund ging er. |
+le charme | Reiz | n | Je ne vois pas le *charme* de ce film. | Ich verstehe den *Reiz* nicht. |
+surgir | entstehen, auftreten | v | De nouveaux problèmes peuvent *surgir*. | Probleme können *auftreten*. |
+l'aspect (m) | Aspekt | n | C'est un *aspect* important du projet. | Das ist ein wichtiger *Aspekt*. |
+associer | in Verbindung bringen | v | J' *associe* l'été au soleil. | Ich *verbinde* Sommer mit Eis. |
+assurer | versichern | v | Je vous *assure* que c'est sans danger. | Ich *versichere* dir, es ist sicher. |
+implorer | anflehen | v | Il m' a *imploré* de rester. | Er *flehte* mich *an* zu bleiben. |
+plier | biegen | v | Il faut *plier* les genoux. | *Beug* die Knie. |
+parier | wetten | v | Je *parie* qu'il viendra en retard. | Ich *wette*, er kommt zu spät. |
+la limite | Grenze | n | Il faut fixer des *limites* claires. | Du musst *Grenzen* setzen. |
+le fardeau | Last | n | Je ne veux pas être un *fardeau*. | Ich will keine *Last* sein. |
+la capacité | Kapazität | n | Le stade a une *capacité* de 50 000 places. | Das Stadion hat eine *Kapazität* von 50.000. |
+cesser | aufhören | v | La pluie a fini par *cesser*. | Der Regen *hörte auf*. |
+le chaos | Chaos | n | C'était le *chaos* total dans la rue. | Auf den Straßen herrschte *Chaos*. |
+citer | zitieren, anführen | v | Elle a *cité* plusieurs exemples utiles. | Sie *führte* mehrere Studien *an*. |
+classer | einordnen | v | Comment tu aimerais *classer* ces documents ? | Wie würdest du das *einordnen*? |
+s'accrocher | sich klammern | v | L'enfant s' *accroche* à sa mère. | Das Kind *klammerte* sich an seine Mutter. |
+le hasard | Zufall | n | Quel *hasard* de te voir ici ! | Was für ein *Zufall*! |
+s'effondrer | einstürzen | v | Le vieux pont a failli s' *effondrer*. | Die Brücke *stürzte ein*. |
+combiner | kombinieren | v | Il faut *combiner* travail et plaisir. | *Verbinde* Arbeit und Vergnügen. |
+compenser | ausgleichen | v | Rien ne peut *compenser* cette perte. | Nichts kann das *ausgleichen*. |
+compétent | kompetent | adj | Elle est très *compétente* dans son domaine. | Sie ist sehr *kompetent*. |
+complexe | komplex | adj | C'est un problème très *complexe*. | Es ist ein *komplexes* Problem. |
+le composant | Bestandteil | n | La confiance est un *composant* clé. | Vertrauen ist ein wesentlicher *Bestandteil*. |
+comprendre | bestehen aus | v | L'équipe *comprend* cinq personnes. | Das Team *besteht* aus fünf Personen. |
+se concentrer | konzentrieren | v | Je *me concentre* sur la route. | *Konzentrier* dich auf die Straße. |
+la conséquence | Folge | n | Pense aux *conséquences*. | Denk an die *Folgen*. |
+conséquent | konsequent | adj | Sois *conséquent* dans tes choix. | Sei *konsequent*. |
+constituer | darstellen, bilden | v | Cela *constitue* une infraction. | Das *stellt* einen Verstoß *dar*. |
+contribuer | beitragen | v | Tout le monde a *contribué*. | Jeder hat *beigetragen*. |
+la controverse | Kontroverse | n | Ce plan a suscité une *controverse*. | Der Plan löste eine *Kontroverse* aus. |
+faire face | zurechtkommen, bewältigen | v | Comment *fais-tu face* au stress ? | Wie *kommst* du mit Stress *zurecht*? |
+la crise | Krise | n | Ils ont bien géré la *crise*. | Sie meisterten die *Krise* gut. |
+critiquer | kritisieren | v | Il a *critiqué* cette décision. | Er *kritisierte* die Entscheidung. |
+débattre | debattieren | v | Ils ont *débattu* pendant des heures. | Sie *debattierten* stundenlang. |
+définir | definieren | v | Comment *définis-tu* le succès ? | Wie *definierst* du Erfolg? |
+refuser | verweigern | v | Ils lui ont *refusé* l'entrée. | Sie *verweigerten* ihm den Zutritt. |
+dériver | ableiten, herleiten | v | Ce mot *dérive* du latin. | Das Wort *leitet* sich aus dem Lateinischen *ab*. |
+le désir | Wunsch, Verlangen | n | Elle a un fort *désir* de voyager. | Sie hat einen starken *Wunsch* zu reisen. |
+le désespoir | Verzweiflung | n | Il était dans le *désespoir*. | Er war in *Verzweiflung*. |
+détecter | entdecken, feststellen | v | Le test a *détecté* le virus. | Der Test *entdeckte* das Virus. |
+consacrer | widmen | v | Elle a *consacré* sa vie à la science. | Sie *widmete* ihr Leben der Wissenschaft. |
+la dimension | Dimension | n | Cela ajoute une nouvelle *dimension*. | Es fügt eine neue *Dimension* hinzu. |
+le désastre | Desaster | n | La fête a été un *désastre*. | Die Party war ein *Desaster*. |
+distinguer | unterscheiden | v | Peux-tu *distinguer* les jumeaux ? | Kannst du die Zwillinge *unterscheiden*? |
+distraire | ablenken | v | Ne me *distrais* pas. | *Lenk* mich nicht *ab*. |
+distribuer | verteilen | v | Ils ont *distribué* des tracts. | Sie *verteilten* Flugblätter. |
+déranger | stören | v | Veuillez ne pas *déranger*. | Bitte nicht *stören*. |
+dominer | dominieren | v | Les grandes entreprises *dominent* le marché. | Große Firmen *dominieren* den Markt. |
+dramatique | dramatique | adj | Il y a eu un changement *dramatique*. | Es gab eine *dramatische* Veränderung. |
+le devoir | Pflicht | n | C'est notre *devoir* d'aider. | Es ist unsere *Pflicht* zu helfen. |
+l'accent (m) | Betonung | n | L' *accent* est mis sur la qualité. | Der *Schwerpunkt* liegt auf Qualität. |
+la rencontre | Begegnung | n | C'était une *rencontre* étrange. | Es war eine seltsame *Begegnung*. |
+améliorer | verbessern | v | Les épices *améliorent* la saveur. | Gewürze *verbessern* den Geschmack. |
+équivalent | gleichwertig | adj | Y a-t-il un mot *équivalent* ? | Gibt es ein *entsprechendes* Wort? |
+évaluer | bewerten | v | Nous devons *évaluer* les résultats. | Wir müssen die Ergebnisse *bewerten*. |
+évoluer | sich entwickeln | v | Les langues *évoluent* avec le temps. | Sprachen *entwickeln* sich im Lauf der Zeit. |
+exclure | ausschließen | v | Les enfants sont *exclus* de l'offre. | Kinder sind vom Angebot *ausgeschlossen*. |
+s'étendre | expandieren | v | L'entreprise *s'étend* rapidement. | Die Firma *expandiert*. |
+exposer | aussetzen | v | N'*exposez* pas votre peau au soleil. | *Setz* deine Haut nicht der Sonne *aus*. |
+l'installation (f) | Anlage | n | L'hôtel dispose d'installations *sportives*. | Das Hotel hat Sport*anlagen*. |
+flexible | flexibel | adj | Mes horaires sont *flexibles*. | Meine Arbeitszeiten sind *flexibel*. |
+courant | fließend | adj | Elle est *courante* en trois langues. | Sie spricht drei Sprachen *fließend*. |
+le format | Format | n | Quel est le *format* du fichier ? | Welches *Format* hat die Datei? |
+fragile | zerbrechlich | adj | Attention, c'est *fragile*. | Vorsicht, *zerbrechlich*. |
+le cadre | Rahmen | n | Nous avons besoin d'un *cadre* juridique. | Wir brauchen einen rechtlichen *Rahmen*. |
+fondamental | grundlegend | adj | C'est un changement *fondamental*. | Es ist eine *grundlegende* Veränderung. |
+générer | erzeugen | v | Les éoliennes *génèrent* de l'électricité. | Windräder *erzeugen* Strom. |
+accorder | gewähren | v | Ils lui ont *accordé* un visa. | Sie *gewährten* ihm ein Visum. |
+la directive | Richtlinie | n | Suivez les *directives*. | Befolge die *Richtlinien*. |
+le mal | Schaden | n | Ça ne fera de *mal* à personne. | Es wird nicht *schaden*. |
+souligner | hervorheben | v | Le rapport *souligne* les risques. | Der Bericht *hebt* die Risiken *hervor*. |
+idéal | ideal | adj | C'est l'endroit *idéal* pour se détendre. | Es ist der *ideale* Ort zum Entspannen. |
+identifier | erkennen | v | Peux-tu *identifier* le problème ? | Kannst du das Problem *erkennen*? |
+l'impact (m) | Auswirkung | n | Cela a eu un énorme *impact*. | Es hatte enorme *Auswirkungen*. |
+mettre en œuvre | umsetzen | v | Nous *mettrons* en œuvre ce plan l'année prochaine. | Wir *setzen* den Plan nächstes Jahr *um*. |
+imposer | auferlegen, verhängen | v | Ils ont *imposé* une interdiction. | Sie *verhängten* ein Verbot. |
+indiquer | hinweisen auf, anzeigen | v | Les études *indiquent* un lien. | Studien *weisen* auf einen Zusammenhang *hin*. |
+l'influence (f) | Einfluss | n | Elle a beaucoup d'*influence*. | Sie hat viel *Einfluss*. |
+informer | informer | v | Veuillez nous *informer* de tout changement. | Bitte *informieren* Sie uns über Änderungen. |
+l'initiative (f) | Initiative | n | Elle a pris l'*initiative*. | Sie ergriff die *Initiative*. |
+l'aperçu (m) | Einblick | n | Cela m'a donné un nouvel *aperçu*. | Es gab mir neue *Einblicke*. |
+inspirer | inspirer | v | Son histoire m'a *inspiré*. | Ihre Geschichte hat mich *inspiriert*. |
+l'exemple (m) | Beispiel | n | Par *exemple*, c'est facile. | Zum *Beispiel* … |
+interpréter | interpretieren | v | Comment *interprétes*-tu cela ? | Wie *interpretierst* du das? |
+impliquer | beinhalten | v | Ce travail *implique* des voyages. | Der Job *beinhaltet* Reisen. |
+isoler | isolieren | v | Le village était *isolé* par la neige. | Das Dorf war durch Schnee *abgeschnitten*. |
+lancer | starten, einführen | v | Ils ont *lancé* une nouvelle application. | Sie *brachten* eine neue App *heraus*. |
+mûr | reif | adj | Le fromage est *mûr*. | Der Käse ist *gereift*. |
+le mécanisme | Mechanismus | n | C'est un *mécanisme* de défense. | Es ist ein Abwehr*mechanismus*. |
+le minimum | Minimum | n | Gardez les coûts au *minimum*. | Halt die Kosten auf einem *Minimum*. |
+modifier | verändern, anpassen | v | Nous avons *modifié* le design. | Wir haben das Design *angepasst*. |
+surveiller | überwachen | v | Les médecins ont *surveillé* son cœur. | Die Ärzte *überwachten* sein Herz. |
+le motif | Motiv | n | Quel était son *motif* ? | Was war sein *Motiv*? |
+l'objectif (m) | Ziel | n | Notre principal *objectif* est la croissance. | Unser Haupt*ziel* ist Wachstum. |
+occuper | besetzen | v | Ce siège est-il *occupé* ? | Ist dieser Platz *besetzt*? |
+s'opposer à | ablehnen, sich widersetzen | v | Beaucoup de gens *s'opposent* à ce plan. | Viele *lehnen* den Plan *ab*. |
+l'option (f) | Option, Möglichkeit | n | Nous avons deux *options*. | Wir haben zwei *Möglichkeiten*. |
+l'origine (f) | Ursprung, Herkunft | n | Quelle est l'*origine* de ce mot ? | Was ist der *Ursprung* des Wortes? |
+esquisser | umreißen | v | Laisse-moi *esquisser* le plan. | Lass mich den Plan *umreißen*. |
+dans l'ensemble | insgesamt | adv | Dans l'ensemble, c'était un *succès*. | *Insgesamt* war es ein Erfolg. |
+oublier | übersehen | v | J'ai *oublié* une erreur. | Ich habe einen Fehler *übersehen*. |
+le phénomène | Phänomen | n | C'est un *phénomène* naturel. | Es ist ein Natur*phänomen*. |
+le potentiel | Potenzial | n | Elle a un grand *potentiel*. | Sie hat großes *Potenzial*. |
+prévoir | vorhersagen | v | C'est difficile à *prévoir*. | Es ist schwer *vorherzusagen*. |
+le principe | Prinzip, Grundsatz | n | C'est une question de *principe*. | Es ist eine Frage des *Prinzips*. |
+la proportion | Anteil, Verhältnis | n | Une grande *proportion* a accepté. | Ein großer *Anteil* stimmte zu. |
+la perspective | Aussicht | n | Les *perspectives* sont bonnes. | Die *Aussichten* sind gut. |
+la gamme | Auswahl, Spanne | n | Nous offrons une large *gamme* de produits. | Wir bieten eine große *Auswahl* an Produkten. |
+réagir | reagieren | v | Comment a-t-il *réagi* ? | Wie hat er *reagiert*? |
+compter | sich verlassen | v | Nous *comptons* sur des bénévoles. | Wir *sind* auf Freiwillige *angewiesen*. |
+représenter | vertreten, darstellen | v | Elle *représente* l'entreprise. | Sie *vertritt* die Firma. |
+la réputation | Ruf | n | L'hôtel a une bonne *réputation*. | Das Hotel hat einen guten *Ruf*. |
+résister | widerstehen | v | Je n'ai pas pu *résister*. | Ich konnte nicht *widerstehen*. |
+la ressource | Ressource, Mittel | n | Nous manquons de *ressources*. | Uns fehlen die *Mittel*. |
+restreindre | einschränken | v | L'accès est *restreint*. | Der Zugang ist *eingeschränkt*. |
+conserver | behalten | v | Ils ont *conservé* le titre. | Sie *behielten* den Titel. |
+la portée | Umfang, Spielraum | n | Cela dépasse la *portée* de ce projet. | Das sprengt den *Rahmen* dieses Projekts. |
+la séquence | Reihenfolge | n | Mettez-les dans la bonne *séquence*. | Bring sie in die richtige *Reihenfolge*. |
+stable | stabil | adj | Son état est *stable*. | Sein Zustand ist *stabil*. |
+le statut | Status | n | Quel est le *statut* du projet ? | Wie ist der *Stand* des Projekts? |
+la stratégie | Strategie | n | Nous avons besoin d'une nouvelle *stratégie*. | Wir brauchen eine neue *Strategie*. |
+souligner | betonen | v | Je dois *souligner* ce point. | Ich muss diesen Punkt *betonen*. |
+la structure | Struktur | n | La *structure* est claire. | Die *Struktur* ist klar. |
+résumer | zusammenfassen | v | Peux-tu *résumer* l'article ? | Kannst du den Artikel *zusammenfassen*? |
