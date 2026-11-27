@@ -1,0 +1,193 @@
+# fr – reisen (aus der englischen Liste erzeugt)
+
+## A1
+le passeport | Reisepass | n | N'oublie pas ton *passeport*. | Vergiss deinen *Reisepass* nicht. |
+la valise | Koffer | n | Ma *valise* est trop lourde. | Mein *Koffer* ist zu schwer. |
+le touriste | Tourist(in) | n | La ville regorge de *touristes* en été. | Im Sommer ist die Stadt voller *Touristen*. |
+le voyage | Reise | n | Nous avons fait une *voyage* d'un jour au lac. | Wir machten einen Tages*ausflug* zum See. |
+la plage | Strand | n | Nous avons passé la journée sur la *plage*. | Wir verbrachten den Tag am *Strand*. |
+la carte | Karte | n | Peux-tu me le montrer sur la *carte* ? | Kannst du es mir auf der *Karte* zeigen? |
+l'hôtel (m) | Hotel | n | Notre *hôtel* est près de la plage. | Unser *Hotel* ist in Strandnähe. |
+la mer | Meer | n | La *mer* est très chaude. | Das *Meer* ist sehr warm. |
+voyager | reisen | v | J'adore *voyager*. | Ich *reise* gern. |
+l'aéroport (m) | Flughafen | n | Je viendrai te chercher à *l'aéroport*. | Ich hole dich am *Flughafen* ab. |
+l'avion (m) | Flugzeug | n | L'*avion* a atterri à l'heure. | Das *Flugzeug* ist pünktlich gelandet. |
+voler | fliegen | v | Nous *volons* vers Rome. | Wir *fliegen* nach Rom. |
+rester | bleiben; übernachten | v | Nous *sommes restés* dans un petit hôtel. | Wir haben in einem kleinen Hotel *übernachtet*. |
+l'anglais (m) | Englisch | n | Tu *parles* anglais ? | Sprichst du *Englisch*? |
+l'allemand (m) | Deutsch | n | Ma langue maternelle est *l'allemand*. | Meine Muttersprache ist *Deutsch*. |
+la langue | Sprache | n | Elle *parle* quatre langues. | Sie spricht vier *Sprachen*. |
+le monde | Welt | n | Je *veux* voyager dans le monde. | Ich will um die *Welt* reisen. |
+
+## A2
+embarquer | an Bord gehen | v | Les passagers *peuvent* embarquer maintenant. | Die Passagiere können jetzt *an Bord gehen*. |
+le départ | Abreise, Check-out | n | Le *départ* est à midi. | Der *Check-out* ist um zwölf. |
+le ferry | Fähre | n | Nous *avons pris* le ferry pour l'île. | Wir nahmen die *Fähre* zur Insel. |
+à pied | zu Fuß | phrase | Le musée est à dix minutes *à pied*. | Das Museum ist zehn Minuten *zu Fuß* entfernt. |
+se bronzer | sich sonnen | v | Nous *nous sommes bronzés* au bord de la piscine. | Wir *sonnten* uns am Pool. |
+s'enregistrer | einchecken | v | Nous *nous sommes enregistrés* à midi. | Wir haben mittags im Hotel *eingecheckt*. |
+la côte | Küste | n | Nous *avons roulé* le long de la côte. | Wir fuhren an der *Küste* entlang. |
+la chambre double | Doppelzimmer | n | Nous *avons réservé* une chambre double. | Wir buchten ein *Doppelzimmer* für drei Nächte. |
+le vol | Flug | n | Notre *vol* part à neuf heures. | Unser *Flug* geht um neun. |
+le guide | Reiseführer (Buch) | n | Le *guide* recommande ce café. | Der *Reiseführer* empfiehlt dieses Café. |
+la réception | Rezeption | n | Laissez la clé à *la réception*. | Lass den Schlüssel an der *Rezeption*. |
+la réservation | Reservierung | n | J'ai *une réservation* pour deux. | Ich habe eine *Reservierung* für zwei Personen. |
+le souvenir | Andenken, Souvenir | n | Nous *avons acheté* des souvenirs au marché. | Wir kauften ein paar *Andenken* auf dem Markt. |
+l'horaire (m) | Fahrplan | n | Vérifiez *l'horaire* du bus. | Schau auf den Bus*fahrplan*. |
+la vue | Aussicht | n | La chambre *a* une super vue. | Das Zimmer hat eine tolle *Aussicht*. |
+le visa | Visum | n | Tu *as besoin* d'un visa pour ce pays. | Für die Einreise brauchst du ein *Visum*. |
+le sac à dos | Rucksack | n | J'ai *pris* seulement un sac à dos. | Ich habe nur einen *Rucksack* mitgenommen. |
+étranger | ausländisch, fremd | adj | C'est dur de conduire dans un pays *étranger*. | In einem *fremden* Land Auto zu fahren ist schwer. |
+la porte d'embarquement | Flugsteig, Gate | n | Veuillez *aller* à la porte 12. | Bitte gehen Sie zu *Flugsteig* 12. |
+les vacances | Urlaub, Ferien | n | Nous *allons* en vacances la semaine prochaine. | Wir fahren nächste Woche in den *Urlaub*. |
+faire ses valises | packen | v | Tu as déjà *fait* tes valises ? | Hast du schon *gepackt*? |
+local | einheimisch | adj | Goûtez la cuisine *locale*. | Probier das *einheimische* Essen. |
+bondé | überfüllt | adj | La plage était trop *bondée*. | Der Strand war zu *überfüllt*. |
+visite guidée | Rundgang | n | Nous avons fait une *visite guidée* de la ville. | Wir haben eine Stadt*führung* gemacht. |
+guide (m) | Reiseführer | n | Notre *guide* parlait très bien anglais. | Unser *Reiseführer* sprach super Englisch. |
+chambre individuelle (f) | Einzelzimmer | n | Je voudrais une *chambre individuelle* pour deux nuits. | Ich hätte gern ein *Einzelzimmer* für zwei Nächte. |
+carte postale (f) | Postkarte | n | Envoie-moi une *carte postale* ! | Schick mir eine *Postkarte*! |
+musée (m) | Museum | n | Le *musée* est gratuit le dimanche. | Das *Museum* ist sonntags kostenlos. |
+château (m) | Schloss | n | Il y a un vieux *château* sur la colline. | Auf dem Hügel steht eine alte *Burg*. |
+église (f) | Kirche | n | Cette *église* a huit cents ans. | Die *Kirche* ist 800 Jahre alt. |
+île (f) | Insel | n | Nous avons passé une semaine sur une *île*. | Wir haben eine Woche auf einer *Insel* verbracht. |
+crème solaire (f) | Sonnencreme | n | Mets de la *crème solaire*. | Creme dich mit *Sonnencreme* ein. |
+international | international | adj | C'est un aéroport *international*. | Es ist ein *internationaler* Flughafen. |
+capitale (f) | Hauptstadt | n | Berlin est la *capitale* de l'Allemagne. | Berlin ist die *Hauptstadt* Deutschlands. |
+nord (m) | Norden | n | Nous habitons dans le *nord* de l'Angleterre. | Wir wohnen im *Norden* Englands. |
+sud (m) | Süden | n | L'Espagne est dans le *sud* de l'Europe. | Spanien liegt im *Süden* Europas. |
+est (m) | Osten | n | Le soleil se lève à l' *est*. | Die Sonne geht im *Osten* auf. |
+ouest (m) | Westen | n | Ils habitent dans l' *ouest* de la ville. | Sie wohnen im *Westen* der Stadt. |
+Europe (f) | Europa | n | J'ai voyagé dans toute l' *Europe*. | Ich bin durch ganz *Europa* gereist. |
+européen | européen | adj | C'est une tradition *européenne*. | Es ist eine *europäische* Tradition. |
+Grande-Bretagne (f) | Großbritannien | n | Es-tu déjà allé en *Grande-Bretagne* ? | Warst du schon mal in *Großbritannien*? |
+britannique | britisch | adj | Il est *britannique*, mais il vit en Espagne. | Er ist *Brite*, lebt aber in Spanien. |
+américain | amerikanisch | adj | J'adore les films *américains*. | Ich liebe *amerikanische* Filme. |
+français | Französisch | n | Elle parle *français* couramment. | Sie spricht fließend *Französisch*. |
+espagnol | Spanisch | n | J'apprends l' *espagnol*. | Ich lerne *Spanisch*. |
+italienisch | italienisch | adj | Allons dans un restaurant *italien*. | Lass uns zum *Italiener* gehen. |
+
+## B1
+les bagages | Gepäck | n | Nos *bagages* ne sont pas arrivés avec nous. | Unser *Gepäck* kam nicht mit uns an. |
+le départ | Abflug, Abfahrt | n | Le *départ* est à six heures du matin. | Der *Abflug* ist um sechs Uhr morgens. |
+le retard | Verspätung | n | Le vol a eu deux heures de *retard*. | Der Flug hatte zwei Stunden *Verspätung*. |
+réserver | buchen | v | J'ai *réservé* une chambre avec vue sur mer. | Ich habe ein Zimmer mit Meerblick *gebucht*. |
+les visites | Besichtigungen | n | Nous avons passé la matinée à faire des *visites*. | Wir verbrachten den Vormittag mit *Besichtigungen*. |
+l' arrivée (f) | Ankunft | n | Notre *arrivée* a été retardée par le brouillard. | Unsere *Ankunft* verzögerte sich wegen Nebel. |
+la carte d'embarquement | Bordkarte | n | Veuillez montrer votre *carte d'embarquement*. | Bitte zeigen Sie Ihre *Bordkarte*. |
+annuler | absagen, stornieren | v | Ils ont *annulé* le vol. | Sie haben den Flug *storniert*. |
+la douane | Zoll | n | Nous avons attendu une heure à la *douane*. | Wir warteten eine Stunde am *Zoll*. |
+le tarif | Fahrpreis | n | Le *tarif* du train a encore augmenté. | Der *Fahrpreis* für den Zug ist wieder gestiegen. |
+l' auberge (f) | Herberge | n | Nous avons dormi dans une *auberge* bon marché. | Wir übernachteten in einem günstigen *Hostel*. |
+le monument | Wahrzeichen | n | Ce pont est le *monument* le plus célèbre de la ville. | Die Brücke ist das bekannteste *Wahrzeichen* der Stadt. |
+le service des objets trouvés | Fundbüro | n | J'ai demandé mon sac au *service des objets trouvés*. | Ich fragte im *Fundbüro* nach meiner Tasche. |
+la station | Urlaubsort | n | C'est une *station* de ski populaire. | Es ist ein beliebter *Skiort*. |
+le billet aller-retour | Hin- und Rückfahrkarte | n | Un *billet aller-retour* est moins cher. | Eine *Hin- und Rückfahrkarte* ist günstiger. |
+la crème solaire | Sonnencreme | n | Mets un peu de *crème solaire*. | Trag etwas *Sonnencreme* auf. |
+le guide touristique | Reiseleiter(in) | n | Notre *guide touristique* parlait quatre langues. | Unsere *Reiseleiterin* sprach vier Sprachen. |
+l' assurance voyage (f) | Reiseversicherung | n | As-tu une *assurance voyage* ? | Hast du eine *Reiseversicherung*? |
+le bord de mer | Küste, am Meer | n | Nous avons passé une semaine au *bord de mer*. | Wir verbrachten eine Woche *am Meer*. |
+l' agence de voyages (f) | Reisebüro | n | Je l'ai réservé par une *agence de voyages*. | Ich habe es über ein *Reisebüro* gebucht. |
+
+## B2
+la destination | Reiseziel | n | Le Portugal est une *destination* populaire. | Portugal ist ein beliebtes *Reiseziel*. |
+l' itinéraire (m) | Reiseroute, Reiseplan | n | Notre *itinéraire* comprend trois villes. | Unsere *Reiseroute* umfasst drei Städte. |
+l' hébergement (m) | Unterkunft | n | L'*hébergement* est cher en été. | *Unterkünfte* sind im Sommer teuer. |
+la monnaie | Währung | n | On peut payer dans la *monnaie* locale. | Man kann in der Landes*währung* bezahlen. |
+le remboursement | Rückerstattung | n | J'ai demandé un *remboursement* complet. | Ich bat um eine volle *Rückerstattung*. |
+hors des sentiers battus | abseits der Touristenpfade | phrase | Nous avons trouvé un village *hors des sentiers battus*. | Wir fanden ein kleines Dorf *abseits der Touristenpfade*. |
+l'embarquement (m) | Einsteigen | n | L'*embarquement* commence à sept heures et demie. | Das *Boarding* beginnt um 7:30. |
+la salle d'embarquement | Abflughalle | n | Nous avons attendu dans la *salle d'embarquement*. | Wir warteten in der *Abflughalle*. |
+le vol intérieur | Inlandsflug | n | C'est un court *vol intérieur*. | Es ist ein kurzer *Inlandsflug*. |
+en route | unterwegs | adv | Nous nous sommes arrêtés à Lyon *en route*. | Wir hielten *unterwegs* in Lyon. |
+explorer | erkunden | v | Nous avons passé la journée à *explorer* la ville. | Wir verbrachten einen Tag damit, die Altstadt zu *erkunden*. |
+le site du patrimoine | Kulturerbestätte | n | C'est un *site du patrimoine* de l'UNESCO. | Es ist eine UNESCO-*Welterbestätte*. |
+le vacancier | Urlauber | n | La plage était pleine de *vacanciers*. | Der Strand war voller *Urlauber*. |
+le contrôle des passeports | Passkontrolle | n | La file au *contrôle des passeports* était longue. | Die Schlange an der *Passkontrolle* war lang. |
+compris | inklusive | adj | Le prix est *compris* avec les taxes. | Der Preis ist *inklusive* Steuern. |
+la vie nocturne | Nachtleben | n | La ville a une super *vie nocturne*. | Die Stadt hat ein tolles *Nachtleben*. |
+le voyage organisé | Pauschalreise | n | Nous avons réservé un *voyage organisé*. | Wir buchten eine *Pauschalreise*. |
+le guide de conversation | Sprachführer | n | J'ai acheté un *guide de conversation* espagnol. | Ich kaufte einen spanischen *Sprachführer*. |
+le road-trip | Roadtrip | n | Nous avons fait un *road-trip* en Italie. | Wir machten einen *Roadtrip* durch Italien. |
+gîte rural | mit Selbstverpflegung | adj | Nous avons loué un appartement *gîte rural*. | Wir mieteten eine Ferienwohnung mit *Selbstverpflegung*. |
+la visite guidée | Stadtrundfahrt | n | Nous avons fait une *visite guidée* de la ville. | Wir machten eine *Stadtrundfahrt*. |
+le mal des transports | Reisekrankheit | n | Je souffre du *mal des transports*. | Ich leide unter *Reisekrankheit*. |
+défaire | auspacken | v | Allons *défaire* nos valises d'abord. | Lass uns zuerst *auspacken*. |
+le front de mer | Uferpromenade | n | Nous avons dîné sur le *front de mer*. | Wir aßen an der *Uferpromenade* zu Abend. |
+l'auberge de jeunesse (f) | Jugendherberge | n | Nous avons logé dans une *auberge de jeunesse*. | Wir übernachteten in einer *Jugendherberge*. |
+tout compris | all-inclusive | adj | Nous avons choisi un hôtel *tout compris*. | Wir wählten ein *All-inclusive*-Hotel. |
+les équipements | Ausstattung | n | L'hôtel offre d'excellents *équipements*. | Das Hotel hat eine hervorragende *Ausstattung*. |
+le voyage en sac à dos | Rucksackreisen | n | Il a fait un *voyage en sac à dos* en Asie. | Er reiste mit dem *Rucksack* durch Asien. |
+la franchise bagages | Freigepäck | n | La *franchise bagages* est de 23 kilos. | Das *Freigepäck* beträgt 23 Kilo. |
+chambre d'hôtes | Pension, Zimmer mit Frühstück | n | Nous avons logé dans une charmante *chambre d'hôtes*. | Wir wohnten in einer schönen *Pension*. |
+époustouflant | atemberaubend | adj | La vue du sommet était *époustouflante*. | Die Aussicht von oben war *atemberaubend*. |
+vol charter | Charterflug | n | Nous avons pris un *vol charter* pas cher. | Wir nahmen einen günstigen *Charterflug*. |
+vol en correspondance | Anschlussflug | n | J'ai raté mon *vol en correspondance*. | Ich habe meinen *Anschlussflug* verpasst. |
+croisière | Kreuzfahrt | n | Ils ont fait une *croisière* en Méditerranée. | Sie machten eine *Kreuzfahrt* im Mittelmeer. |
+déclaration de douane | Zollerklärung | n | Veuillez remplir votre *déclaration de douane*. | Füll die *Zollerklärung* aus. |
+acompte | Anzahlung, Kaution | n | Nous avons versé un *acompte* de 200 euros. | Wir zahlten eine *Anzahlung* von 200 Euro. |
+hors taxes | zollfrei | adj | J'ai acheté du parfum dans la boutique *hors taxes*. | Ich kaufte Parfüm im *Duty-free*-Shop. |
+expédition | Expedition | n | Ils ont préparé une *expédition* vers l'Arctique. | Sie planten eine *Expedition* in die Arktis. |
+escapade | Kurzurlaub | n | Nous avons besoin d'une *escapade* ce week-end. | Wir brauchen einen *Kurzurlaub* übers Wochenende. |
+demi-pension | Halbpension | n | Le prix du séjour comprend la *demi-pension*. | Der Preis beinhaltet *Halbpension*. |
+hospitalité | Gastfreundschaft | n | Nous avons été touchés par leur *hospitalité*. | Wir waren von ihrer *Gastfreundschaft* begeistert. |
+décalage horaire | Jetlag | n | Je souffre encore du *décalage horaire*. | Ich leide noch unter *Jetlag*. |
+paysage | Landschaft | n | Le *paysage* ici est magnifique. | Die *Landschaft* hier ist umwerfend. |
+périphérie | Stadtrand | n | Notre hôtel se trouve en *périphérie* de la ville. | Unser Hotel liegt am *Stadtrand*. |
+surbooké | überbucht | adj | Le vol était *surbooké* à cause d'une erreur. | Der Flug war *überbucht*. |
+haute saison | Hochsaison | n | Les prix augmentent beaucoup en *haute saison*. | In der *Hochsaison* verdoppeln sich die Preise. |
+voyage organisé | Rundreise; Hin- und Rückfahrt | n | Nous avons fait un *voyage organisé* en Écosse. | Wir machten eine *Rundreise* durch Schottland. |
+paysage | Landschaft, Kulisse | n | Le *paysage* le long de la côte est superbe. | Die *Landschaft* an der Küste ist wunderschön. |
+supplément | Zuschlag | n | Il y a un *supplément* pour les bagages en plus. | Für zusätzliches Gepäck gibt es einen *Zuschlag*. |
+attrape-touristes | Touristenfalle | n | Ce restaurant est un vrai *attrape-touristes*. | Das Restaurant ist eine echte *Touristenfalle*. |
+s'aventurer | sich wagen | v | Nous avons voulu *nous aventurer* dans la vieille ville. | Wir *wagten* uns in die Altstadt. |
+randonner | wandern | v | Nous aimons *randonner* dans la montagne. | Wir *wanderten* auf den Berg. |
+annulation | Stornierung | n | Une taxe est appliquée en cas d' *annulation* tardive. | Für eine kurzfristige *Stornierung* fällt eine Gebühr an. |
+comptoir d'enregistrement | Check-in-Schalter | n | Le *comptoir d'enregistrement* ouvre à cinq heures. | Der *Check-in-Schalter* öffnet um fünf. |
+voyager léger | mit leichtem Gepäck reisen | phrase | Je *voyage* toujours léger. | Ich *reise* immer *mit leichtem Gepäck*. |
+
+## C1
+l'escale (f) | Zwischenstopp | n | Nous avons eu une longue *escale* à Dubaï. | Wir hatten einen langen *Zwischenstopp* in Dubai. |
+pittoresque | malerisch | adj | La vieille ville est très *pittoresque*. | Die Altstadt ist sehr *malerisch*. |
+entreprendre | aufbrechen | v | Nous *avons entrepris* un road-trip de deux semaines. | Wir *brachen* zu einem zweiwöchigen Roadtrip *auf*. |
+l'envie de voyager (f) | Fernweh | n | Elle a été prise d'une grande *envie de voyager*. | Sie wurde wieder von *Fernweh* gepackt. |
+cosmopolite | weltoffen | adj | Londres est une ville très *cosmopolite*. | London ist sehr *kosmopolitisch*. |
+enchanteur | bezaubernd | adj | Ce village est tout à fait *enchanteur*. | Das Dorf ist *bezaubernd*. |
+inhospitalier | unwirtlich | adj | Le désert est un endroit *inhospitalier*. | Die Wüste ist *unwirtlich*. |
+méandrer | sich schlängeln | v | La rivière *méandre* à travers la vallée. | Der Fluss *schlängelt* sich durch das Tal. |
+nomade | nomadisch | adj | Ils *mènent* une vie *nomade*. | Sie führen ein *Nomaden*leben. |
+l'odyssée (f) | Odyssee | n | Ce voyage s'est transformé en *odyssée*. | Die Reise wurde zur *Odyssee*. |
+panoramique | Panorama- | adj | L'hôtel offre une vue *panoramique*. | Das Hotel bietet einen *Panorama*blick. |
+serein | ruhig | adj | Le lac était très *serein* ce matin. | Der See lag *still* da. |
+faire du tourisme | Sehenswürdigkeiten besichtigen | v | Nous n'avons pas eu le temps de *faire du tourisme*. | Wir hatten keine Zeit, *Sehenswürdigkeiten* zu *besichtigen*. |
+hors des sentiers battus | abseits der Zivilisation | phrase | Ils vivent *hors des sentiers battus*. | Sie leben *abseits der Zivilisation*. |
+l'escale (f) | Zwischenaufenthalt | n | Nous avons fait une *escale* en Islande. | Wir legten einen *Zwischenaufenthalt* in Island ein. |
+le virus du voyage | Reisefieber | n | Elle a attrapé *le virus du voyage*. | Sie wurde vom *Reisefieber* gepackt. |
+le voyageur | Reisende | n | L'auberge a accueilli un *voyageur* fatigué. | Das Gasthaus empfing *Reisende*. |
+l'excursion (f) | Exkursion | n | L'*excursion* a été annulée à cause du vent. | Die *Exkursion* wurde abgesagt. |
+animé | belebt | adj | Nous avons traversé un marché très *animé*. | Wir gingen über einen *belebten* Markt. |
+pittoresque | urig | adj | C'est un petit village de pêcheurs *pittoresque*. | Es ist ein *uriges* kleines Fischerdorf. |
+idyllique | idyllique | adj | La petite maison se trouve dans un cadre *idyllique*. | Das Häuschen liegt *idyllisch*. |
+préservé | unberührt | adj | Les plages de cette île sont restées *préservées*. | Die Strände der Insel sind *unberührt*. |
+le globe-trotteur | Weltenbummler | n | C'est une vraie *globe-trotteuse*. | Sie ist eine echte *Weltenbummlerin*. |
+itinérant | umherziehend | adj | Il a mené une vie *itinérante* pendant des années. | Er führte jahrelang ein *umherziehendes* Leben. |
+la escapade | Spritztour, kleiner Ausflug | n | Nous avons fait une courte *escapade* à Paris. | Wir machten eine kurze *Spritztour* nach Paris. |
+fascinant | faszinierend | adj | Les aurores boréales étaient *fascinantes*. | Die Nordlichter waren *faszinierend*. |
+creux | außerhalb der Stoßzeit | adj | Les billets en heures *creuses* sont bien moins chers. | Fahrkarten *außerhalb der Stoßzeiten* sind viel billiger. |
+surcoté | überbewertet | adj | La célèbre place était un peu *surcotée*. | Der berühmte Platz war etwas *überbewertet*. |
+le pèlerinage | Pilgerreise | n | Ils ont fait un *pèlerinage* à Saint-Jacques. | Sie unternahmen eine *Pilgerreise* nach Santiago. |
+le séjour | vorübergehender Aufenthalt | n | Après un bref *séjour* à Rome, ils sont repartis. | Nach einem kurzen *Aufenthalt* in Rom zogen sie weiter. |
+étendu | weitläufig, ausufernd | adj | Los Angeles est une ville très *étendue*. | Los Angeles ist eine *ausufernde* Stadt. |
+époustouflant | atemberaubend | adj | L'hôtel possède une piscine sur le toit *époustouflante*. | Das Hotel hat einen *atemberaubenden* Pool auf dem Dach. |
+touristique | touristisch | adj | La vieille ville est un peu *touristique*. | Die Altstadt ist etwas *touristisch*. |
+la randonnée | Trekkingtour, mühsamer Marsch | n | La *randonnée* jusqu'au village a été longue. | Es war ein langer *Marsch* bis zum Dorf. |
+le point de vue | Aussichtspunkt | n | Depuis ce *point de vue*, on voit toute la vallée. | Von diesem *Aussichtspunkt* sieht man das ganze Tal. |
+le voyage éclair | Blitzbesuch, Schnelltour | n | Nous avons fait un *voyage éclair* en Europe. | Wir machten eine *Blitztour* durch Europa. |
+en transit | auf der Durchreise | phrase | Les passagers *en transit* restent en zone internationale. | Passagiere *auf der Durchreise* bleiben im Sicherheitsbereich. |
+bloqué | gestrandet, festsitzend | adj | Des milliers de voyageurs sont *bloqués* à l'aéroport. | Tausende *saßen* am Flughafen *fest*. |
+dévier | umleiten | v | Notre vol a été *dévié* via Madrid. | Unser Flug wurde über Madrid *umgeleitet*. |
+reculé | weit entfernt, abgelegen | adj | Elle a voyagé dans des coins *reculés* du monde. | Sie ist in *entlegene* Winkel der Welt gereist. |
+exotique | exotisch | adj | Ils ont servi des fruits *exotiques* au petit-déjeuner. | Zum Frühstück gab es *exotische* Früchte. |
+le vol de nuit | Nachtflug | n | J'ai pris le *vol de nuit* pour New York. | Ich nahm den *Nachtflug* nach New York. |
+le tuyau percé | Geheimtipp | n | Cette plage est un véritable *trésor caché*. | Dieser Strand ist ein *Geheimtipp*. |
+le choc culturel | Kulturschock | n | J'ai eu un vrai *choc culturel* au début. | Anfangs hatte ich einen echten *Kulturschock*. |

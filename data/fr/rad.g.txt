@@ -1,0 +1,81 @@
+# fr – rad (aus der englischen Liste erzeugt)
+
+## A1
+le vélo | Fahrrad | n | Je vais au travail à *vélo*. | Ich fahre mit dem *Fahrrad* zur Arbeit. |
+faire de (m) | fahren (Rad, Pferd) | v | Tu sais *faire* du vélo ? | Kannst du Rad *fahren*? |
+fatigué | müde | adj | J'étais *fatigué* après quatre-vingts kilomètres. | Nach 80 Kilometern war ich *müde*. |
+
+## A2
+le carrefour | Kreuzung | n | Tournez à gauche au *carrefour*. | Bieg an der *Kreuzung* links ab. |
+le feu de circulation | Ampel | n | Arrêtez-vous au *feu* de circulation. | Halte an der *Ampel*. |
+réparer | reparieren | v | Peux-tu *réparer* mon vélo ? | Kannst du mein Fahrrad *reparieren*? |
+la montée | Anstieg | n | La dernière *montée* était brutale. | Der letzte *Anstieg* war brutal. |
+
+## B1
+le casque | Helm | n | Portez toujours un *casque*. | Trag immer einen *Helm*. |
+la crevaison | Platten, platter Reifen | n | J'ai eu une *crevaison* en rentrant. | Ich hatte auf dem Heimweg einen *Platten*. |
+freiner | bremsen | v | Il faut *freiner* doucement sur le verglas. | *Bremse* auf nassen Straßen sanft. |
+la piste cyclable | Radweg | n | Cette *piste cyclable* longe toute la rivière. | Der *Radweg* verläuft am Fluss entlang. |
+le cycliste | Radfahrer(in) | n | Le parc est très fréquenté par les *cyclistes*. | Die Straße war voller *Radfahrer*. |
+la roue | Rad | n | La *roue* arrière est crevée. | Das Vorder*rad* ist verbogen. |
+le pneu | Reifen | n | Ce *pneu* est bien gonflé. | Mein Hinter*reifen* ist platt. |
+la chaîne | Kette | n | La *chaîne* de mon vélo a sauté. | Die *Kette* ist abgesprungen. |
+la sonnette | Klingel | n | Utilise ta *sonnette* pour avertir les piétons. | Klingel, bevor du überholst. |
+l'antivol (m) | Schloss | n | Attache ton vélo avec un bon *antivol*. | Benutz immer ein starkes *Schloss*. |
+en côte | bergauf | adv | C'est difficile de pédaler *en côte*. | *Bergauf* zu fahren ist anstrengend. |
+en descente | bergab | adv | Ils ont roulé très vite *en descente*. | Wir rasten *bergab*. |
+l'itinéraire (m) | Route | n | Cet *itinéraire* est très agréable en été. | Diese *Strecke* ist ruhiger. |
+le magasin de vélos | Fahrradladen | n | J'ai acheté ce casque dans un *magasin de vélos*. | Ich brachte es in den *Fahrradladen*. |
+la gourde | Trinkflasche | n | Remplis ta *gourde* avant le départ. | Füll deine *Trinkflasche* vor dem Anstieg. |
+
+## B2
+la vitesse | Gang | n | Passe une autre *vitesse* pour monter. | Schalte für den Berg in einen niedrigeren *Gang*. |
+raide | steil | adj | La pente est vraiment trop *raide* ici. | Der letzte Anstieg war richtig *steil*. |
+gonfler | aufpumpen | v | Tu peux *gonfler* mon pneu s'il te plaît ? | Ich muss meine Reifen *aufpumpen*. |
+la selle | Sattel | n | Règle la hauteur de *selle* avant de partir. | Stell den *Sattel* etwas tiefer. |
+la crevaison | Loch (im Reifen) | n | J'ai eu une *crevaison* sur le chemin. | Ich habe das *Loch* in zehn Minuten geflickt. |
+dépasser | überholen | v | Il est interdit de *dépasser* par la droite. | Ein Lkw *überholte* mich viel zu knapp. |
+le vent de face | Gegenwind | n | Nous avons lutté contre un fort *vent de face*. | Wir fuhren gegen starken *Gegenwind*. |
+l'endurance (f) | Ausdauer | n | Le vélo développe la force et l'*endurance*. | Lange Touren bauen *Ausdauer* auf. |
+le guidon | Lenker | n | Garde bien les mains sur *guidon*. | Halte den *Lenker* mit beiden Händen. |
+pédaler | treter | v | Il faut *pédaler* plus fort pour avancer. | Ich *trat* so fest in die Pedale, wie ich konnte. |
+le rayon | Speiche | n | Il manque un *rayon* sur cette roue. | Bei der Abfahrt brach eine *Speiche*. |
+la chambre à air | Schlauch | n | J'ai toujours une *chambre à air* de rechange. | Hab immer einen Ersatz*schlauch* dabei. |
+démonte-pneu (m) | Reifenheber | n | Utilise un *démonte-pneu* pour enlever le pneu. | Nimm einen *Reifenheber*, um den Reifen abzunehmen. |
+cadre (m) | Rahmen | n | Le *cadre* est en carbone. | Der *Rahmen* ist aus Carbon. |
+garde-boue (m) | Schutzblech | n | Sans *garde-boue*, on se salit. | Ohne *Schutzbleche* wird man dreckig. |
+sacoche (f) | Fahrradtasche | n | Je mets mon ordinateur dans une *sacoche*. | Ich trage meinen Laptop in einer *Fahrradtasche*. |
+vélo à assistance électrique (m) | E-Bike, Pedelec | n | Mes parents ont acheté des *vélos à assistance électrique*. | Meine Eltern haben sich *E-Bikes* gekauft. |
+vélo tout-terrain (m) | Mountainbike | n | Nous avons loué un *vélo tout-terrain*. | Wir liehen uns *Mountainbikes* für den Trail. |
+vélo de course (m) | Rennrad | n | Un *vélo de course* est rapide mais inconfortable. | Ein *Rennrad* ist schnell, aber unbequem. |
+dérailleur (m) | Schaltung | n | Le *dérailleur* doit être réglé. | Die *Schaltung* muss eingestellt werden. |
+piste cyclable (f) | Radspur, Fahrradstreifen | n | Les voitures se garent souvent sur la *piste cyclable*. | Autos parken oft auf dem *Fahrradstreifen*. |
+indiquer (v) | Handzeichen geben | v | Il faut *indiquer* ton changement de direction. | Gib vor dem Abbiegen ein *Handzeichen*. |
+nid-de-poule (m) | Schlagloch | n | J'ai pris un *nid-de-poule* et je suis tombé. | Ich fuhr in ein *Schlagloch* und stürzte. |
+vent favorable (m) | Rückenwind | n | Avec un *vent favorable*, nous avons avancer vite. | Mit *Rückenwind* flogen wir nur so dahin. |
+éreinté (adj) | wund gesessen | adj | Après le tour, j'étais *éreinté*. | Nach der Tour war ich *wund gesessen*. |
+randonnée à vélo (f) | Radtour | n | Nous avons fait une *randonnée à vélo*. | Wir machten eine *Radtour* entlang der Donau. |
+descendre (v) | absteigen | v | Veuillez *descendre* dans la zone piétonne. | Bitte in der Fußgängerzone *absteigen*. |
+tomber (v) | stürzen, herunterfallen | v | Je suis *tombé* de mon vélo sur la glace. | Ich bin auf dem Eis vom Fahrrad *gestürzt*. |
+osciller (v) | wackeln, schlingern | v | Le vélo a commencé à *osciller*. | Das Rad fing an zu *schlingern*. |
+
+## C1
+pente (f) | Steigung | n | La *pente* atteint douze pour cent. | Die *Steigung* erreicht oben zwölf Prozent. |
+descente (f) | Abfahrt | n | La *descente* était rapide et cahoteuse. | Die *Abfahrt* war schnell und holprig. |
+irriter (v) | (wund) scheuern | v | Mon short a commencé à m'*irriter*. | Meine Hose fing an zu *scheuern*. |
+grisant (adj) | berauschend, mitreißend | adj | La descente de la montagne était *grisante*. | Die Fahrt den Berg hinunter war *berauschend*. |
+fréquence de pédalage (f) | Trittfrequenz | n | Garde une *fréquence de pédalage* régulière dans la montée. | Halte am Anstieg eine gleichmäßige *Trittfrequenz*. |
+dérailleur (m) | Schaltwerk | n | Le *dérailleur* arrière a été endommagé. | Das hintere *Schaltwerk* wurde beschädigt. |
+rouler en roue libre (v) | rollen lassen | v | Nous avons *roulé en roue libre* dans la descente. | Wir *ließen* uns den Berg hinunter*rollen*. |
+peloton (m) | Hauptfeld | n | Il a attaqué depuis le *peloton*. | Er griff aus dem *Hauptfeld* an. |
+l' aspiration (f) | Windschatten | n | Roulez dans mon *aspiration* pour économiser de l'énergie. | Fahr in meinem *Windschatten*, um Kraft zu sparen. |
+l' épingle à cheveux (f) | Haarnadelkurve | n | La route compte vingt *épingles à cheveux*. | Die Straße hat zwanzig *Haarnadelkurven*. |
+le lacet | Serpentine | n | Le chemin monte en *lacets* serrés. | Der Weg steigt in engen *Serpentinen* an. |
+se démener | sich abmühen, quälen | v | Nous nous *sommes démenés* pour gravir le col. | Wir *quälten* uns den Pass hinauf. |
+faire une fringale | einen Hungerast bekommen | v | J'ai *fait une fringale* après 100 km sans manger. | Nach 100 km ohne Essen *bekam* ich einen *Hungerast*. |
+l' adhérer (f) | Bodenhaftung, Grip | n | Les pneus ont perdu *l'adhérence* sur le gravier. | Die Reifen verloren auf dem Schotter die *Haftung*. |
+le gravier | Schotter, Kies | n | Le dernier tronçon est en *gravier*. | Der letzte Abschnitt ist *Schotter*. |
+se mettre en selle | aufsatteln, losfahren | phrase | Il est temps de *se mettre en selle* ! | Zeit zum *Aufsatteln*! |
+antacrevaison | pannensicher | adj | Ces pneus sont presque *antacrevaison*. | Diese Reifen sind fast *pannensicher*. |
+le jeu de direction | Steuersatz | n | Le *jeu de direction* est desserré. | Der *Steuersatz* ist locker. |
+éreintant | zermürbend, strapaziös | adj | Ce fut une *éreintante* course de 200 kilomètres. | Es war eine *strapaziöse* 200-Kilometer-Fahrt. |

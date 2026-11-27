@@ -60,3 +60,46 @@ la discrimination | Diskriminierung | n | La *discrimination* est illégale. | *
 le réfugié | Flüchtling | n | Le pays a accueilli beaucoup de *réfugiés*. | Das Land nahm viele *Flüchtlinge* auf. |
 l'asile (m) | Asyl | n | Ils ont demandé l'*asile*. | Sie beantragten *Asyl*. |
 la manifestation | Demonstration | n | Des milliers ont rejoint la *manifestation*. | Tausende schlossen sich der *Demonstration* an. |
+la corruption | Korruption | n | La *corruption* est un grave problème. | *Korruption* ist weit verbreitet. |
+le scandale | Skandal | n | Ce *scandale* a détruit sa carrière. | Der *Skandal* beendete seine Karriere. |
+l'aide sociale (f) | Sozialhilfe | n | L'*aide sociale* aide les familles pauvres. | Das *Sozial*system braucht eine Reform. |
+les services publics | öffentliche Dienstleistungen | n | Les *services publics* ont besoin de fonds. | Kürzungen trafen die *öffentlichen Dienste*. |
+la baisse d'impôts | Steuersenkung | n | Le gouvernement a promis une *baisse d'impôts*. | Die Partei versprach *Steuersenkungen*. |
+l'électeur (m) | Wähler(in) | n | Un *électeur* informé vote pour le changement. | Junge *Wähler* blieben zu Hause. |
+le sondage | Umfrage | n | Ce *sondage* montre un résultat très serré. | Die neueste *Umfrage* zeigt ein knappes Rennen. |
+interdire | verbieten | v | La ville veut *interdire* les vieux diesels. | Die Stadt *verbot* Dieselautos. |
+le traité | Vertrag (international) | n | Ils ont signé un nouveau *traité* de paix. | Sie unterzeichneten einen Friedens*vertrag*. |
+le conflit | Konflikt | n | Ce *conflit* dure depuis de nombreuses années. | Der *Konflikt* dauerte Jahre. |
+le diplomate | Diplomat(in) | n | Le *diplomate* a quitté le pays rapidement. | Der *Diplomat* wurde ausgewiesen. |
+
+## C1
+l'accord (m) | Abkommen | n | Le parti refuse de signer cet *accord*. | Oppositionsgruppen weigerten sich, das *Abkommen* zu unterzeichnen. |
+renforcer | verstärken, bekräftigen | v | Cette mesure va *renforcer* notre position. | Die Rede *stärkte* das öffentliche Vertrauen. |
+prôner | befürworten, sich einsetzen für | v | Elle a toujours su *prôner* la paix. | Sie *befürwortet* seit Langem kostenlosen Nahverkehr. |
+la participation | Wahlbeteiligung | n | La *participation* aux élections était très élevée. | Die *Wahlbeteiligung* war ungewöhnlich hoch. |
+miner | untergraben | v | Ces critiques peuvent *miner* sa belle autorité. | Gerüchte können das Vertrauen in Institutionen *untergraben*. |
+bipartisan | überparteilich | adj | Cette loi a reçu un soutien *bipartisan*. | Der Gesetzentwurf hat *überparteiliche* Unterstützung. |
+la circonscription | Wahlkreis | n | Il visite souvent sa *circonscription* rurale. | Er vertritt einen ländlichen *Wahlkreis*. |
+le sortant | Amtsinhaber(in) | n | Le *sortant* a perdu les dernières élections. | Der *Amtsinhaber* verlor die Wahl. |
+la victoire écrasante | Erdrutschsieg | n | Ils ont remporté une *victoire écrasante* hier. | Sie gewannen mit einem *Erdrutschsieg*. |
+le référendum | Volksentscheid | n | Ils ont organisé un *référendum* national. | Sie hielten einen *Volksentscheid* ab. |
+la souveraineté | Souveränität | n | Le pays protège sa *souveraineté* politique. | Das Land verteidigte seine *Souveränität*. |
+le populisme | Populismus | n | Le *populisme* gagne du terrain partout. | *Populismus* ist auf dem Vormarsch. |
+partisan | parteiisch | adj | Le débat est devenu beaucoup trop *partisan*. | Die Debatte wurde sehr *parteiisch*. |
+le pouvoir législatif | Legislative | n | Le *pouvoir législatif* a voté la loi. | Die *Legislative* verabschiedete das Gesetz. |
+ratifier | ratifizieren | v | Le traité a été *ratifié*. | Der Vertrag wurde *ratifiziert*. |
+le veto | Veto | n | Le président a usé de son *veto*. | Der Präsident legte sein *Veto* ein. |
+faire du lobbying | Lobbyarbeit betreiben | v | Les entreprises *font* du lobbying. | Firmen *betreiben Lobbyarbeit* für niedrigere Steuern. |
+populaire | Basis- | adj | Le mouvement est d'origine *populaire*. | Es begann als *Basis*bewegung. |
+polarisé | gespalten | adj | La société est profondément *polarisée*. | Die Gesellschaft ist tief *gespalten*. |
+marginalisé | ausgegrenzt | adj | Ils aident les groupes *marginalisés*. | Sie helfen *ausgegrenzten* Gruppen. |
+privé de droits | entrechtet | adj | Beaucoup se sentent *privés* de droits. | Viele fühlen sich *ohne Mitsprache*. |
+la sanction | Sanktion | n | Ils ont imposé des *sanctions*. | Sie verhängten *Sanktionen*. |
+le cessez-le-feu | Waffenstillstand | n | Un *cessez-le-feu* a été convenu. | Ein *Waffenstillstand* wurde vereinbart. |
+la dissidence | Widerspruch | n | Le régime a étouffé toute *dissidence*. | Das Regime unterdrückte jeden *Widerspruch*. |
+le trouble | Unruhen | n | Il y a eu des *troubles* civils. | Es gab Bürger*unruhen*. |
+le mandat | Mandat | n | Le gouvernement a un *mandat* clair. | Die Regierung hat ein klares *Mandat*. |
+le manifeste | Wahlprogramm | n | Le parti a publié son *manifeste*. | Die Partei veröffentlichte ihr *Wahlprogramm*. |
+la responsabilité | Rechenschaftspflicht | n | Nous exigeons plus de *responsabilité*. | Wir fordern *Rechenschaft*. |
+la transparence | Transparenz | n | Il y a un manque de *transparence*. | Es mangelt an *Transparenz*. |
+le virage à cent quatre-vingts degrés | Kehrtwende | n | Le gouvernement a fait un *virage* à cent quatre-vingts degrés. | Die Regierung machte eine *Kehrtwende*. |

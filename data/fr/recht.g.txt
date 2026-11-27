@@ -1,0 +1,87 @@
+# fr – recht (aus der englischen Liste erzeugt)
+
+## A1
+l' agent de police (m) | Polizist(in) | n | Un *agent de police* m'a arrêté. | Ein *Polizist* hielt mich an. |
+l' amende (f) | Geldstrafe | n | Il a dû payer une *amende*. | Er musste eine *Geldstrafe* zahlen. |
+le droit | Recht | n | Vous avez le *droit* de garder le silence. | Sie haben das *Recht* zu schweigen. |
+
+## A2
+inculper | anklagen; Anklage | v | Elle a été *inculpée* pour fraude. | Sie wurde wegen Betrugs *angeklagt*. |
+l' avocat (m) | Anwalt, Anwältin | n | Tu devrais parler à un *avocat*. | Du solltest mit einem *Anwalt* sprechen. |
+sûr | sicher | adj | Ce quartier est-il *sûr* la nuit ? | Ist diese Gegend nachts *sicher*? |
+dangereux | gefährlich | adj | La route est *dangereuse* en hiver. | Die Straße ist im Winter *gefährlich*. |
+
+## B1
+coupable | schuldig | adj | Le jury l'a déclaré *coupable*. | Die Geschworenen befanden ihn für *schuldig*. |
+le suspect | Verdächtige(r) | n | La police a arrêté deux *suspects*. | Die Polizei nahm zwei *Verdächtige* fest. |
+légal | legal, rechtlich | adj | Est-il *légal* de camper ici ? | Ist es *legal*, hier zu zelten? |
+illégal | illegal | adj | Le stationnement ici est *illégal*. | Hier zu parken ist *illegal*. |
+la criminalité | Verbrechen, Kriminalität | n | La *criminalité* baisse dans la ville. | Die *Kriminalität* in der Stadt sinkt. |
+le criminel | Verbrecher(in); kriminell | n | Le *criminel* a été arrêté. | Der *Verbrecher* wurde festgenommen. |
+arrêter | festnehmen | v | La police a *arrêté* deux hommes. | Die Polizei *nahm* zwei Männer *fest*. |
+voler | stehlen | v | Quelqu'un a *volé* mon vélo. | Jemand hat mein Fahrrad *gestohlen*. |
+voleur (m) | Dieb(in) | n | Le *voleur* a pris la fuite. | Der *Dieb* entkam. |
+cambriolage (m) | Einbruch | n | Il y a eu un *cambriolage* chez le voisin. | Nebenan gab es einen *Einbruch*. |
+braquer | ausrauben | v | La banque a été *braquée*. | Die Bank wurde *ausgeraubt*. |
+tribunal (m) | Gericht | n | L'affaire est allée en *tribunal*. | Der Fall kam vor *Gericht*. |
+juge (m) | Richter(in) | n | Le *juge* l'a envoyé en prison. | Der *Richter* schickte ihn ins Gefängnis. |
+prison (f) | Gefängnis | n | Il a passé deux ans en *prison*. | Er verbrachte zwei Jahre im *Gefängnis*. |
+victime (f) | Opfer | n | La *victime* a été gravement blessée. | Das *Opfer* wurde schwer verletzt. |
+permis | erlaubt | adj | Fumer n'est pas *permis*. | Rauchen ist nicht *erlaubt*. |
+interdit | verboten | adj | L'entrée est *interdite*. | Zutritt *verboten*. |
+
+## B2
+procès (m) | Prozess | n | Le *procès* commencera en mai. | Der *Prozess* beginnt im Mai. |
+témoin (m) | Zeuge | n | Un *témoin* a vu la voiture partir. | Ein *Zeuge* sah das Auto wegfahren. |
+peine (f) | Strafe | n | Il a reçu une *peine* de trois ans. | Er erhielt eine dreijährige *Strafe*. |
+fraude (f) | Betrug | n | Elle a été arrêtée pour *fraude* fiscale. | Sie wurde wegen Steuer*betrugs* festgenommen. |
+appliquer | durchsetzen | v | La police doit *appliquer* la loi. | Die Polizei muss das Gesetz *durchsetzen*. |
+accusé (m) | Angeklagte(r) | n | L'*accusé* a tout nié. | Der *Angeklagte* stritt alles ab. |
+procureur (m) | Staatsanwalt | n | Le *procureur* a réclamé cinq ans. | Der *Staatsanwalt* forderte fünf Jahre. |
+jury (m) | Geschworene | n | Le *jury* l'a déclaré non coupable. | Die *Geschworenen* sprachen ihn frei. |
+innocent | unschuldig | adj | Il prétend qu'il est *innocent*. | Er behauptet, *unschuldig* zu sein. |
+enquête (f) | Ermittlung | n | L'*enquête* est en cours. | Die *Ermittlungen* laufen. |
+détective (m) | Kriminalbeamte(r) | n | Un *détective* a interrogé le témoin. | Ein *Kriminalbeamter* befragte die Zeugin. |
+interroger | verhören | v | La police a *interrogé* le suspect. | Die Polizei *verhörte* den Verdächtigen. |
+avouer | gestehn | v | Il a *avoué* son crime. | Er *gestand* das Verbrechen. |
+alibi (m) | Alibi | n | Il a un *alibi* solide. | Er hat ein starkes *Alibi*. |
+en liberté provisoire | auf Kaution | phrase | Elle a été libérée *en liberté provisoire*. | Sie wurde *auf Kaution* freigelassen. |
+le meurtre | Mord | n | Il a été reconnu coupable de *meurtre*. | Er wurde des *Mordes* für schuldig befunden. |
+l' agression (f) | Körperverletzung, Übergriff | n | Il a été arrêté pour *agression*. | Er wurde wegen *Körperverletzung* festgenommen. |
+le vandalisme | Vandalismus | n | Le *vandalisme* est un problème dans le parc. | *Vandalismus* ist im Park ein Problem. |
+passer en fraude | schmuggeln | v | Ils ont *passé* des drogues en fraude. | Sie *schmuggelten* Drogen über die Grenze. |
+faire du chantage | erpressen | v | Il a essayé de lui *faire* du chantage. | Er versuchte, sie zu *erpressen*. |
+corrompre | bestechen | v | Il a essayé de *corrompre* l'agent. | Er versuchte, den Beamten zu *bestechen*. |
+l' infraction (f) | Straftat, Vergehen | n | C' est une *infraction* pénale. | Es ist eine *Straftat*. |
+la peine | Strafe | n | La *peine* pour excès de vitesse est lourde. | Die *Strafe* für Rasen ist hoch. |
+poursuivre en justice | verklagen | v | Elle a *poursuivi* l' entreprise en justice. | Sie *verklagte* die Firma. |
+le procès | Klage, Prozess | n | Ils ont intenté un *procès*. | Sie reichten *Klage* ein. |
+le règlement | Vorschrift | n | Les *règlements* de sécurité sont stricts. | Die Sicherheits*vorschriften* sind streng. |
+le permis | Genehmigung | n | Il vous faut un *permis* pour pêcher ici. | Zum Angeln braucht man hier eine *Genehmigung*. |
+
+## C1
+se conformer | einhalten, befolgen | v | Tous les produits doivent se *conformer* aux règles. | Alle Produkte müssen die Sicherheitsvorschriften *einhalten*. |
+la violation | Verstoß, Bruch | n | C' est une claire *violation* du contrat. | Das ist ein klarer Vertrags*bruch*. |
+responsable | haftbar | adj | L' entreprise est *responsable* de tout dommage. | Das Unternehmen ist für alle Schäden *haftbar*. |
+le verdict | Urteil, Urteilsspruch | n | Le jury a rendu un *verdict*. | Die Geschworenen fällten nach zwei Tagen ein *Urteil*. |
+légitime | rechtmäßig, berechtigt | adj | C' est une question *légitime*. | Das ist eine *berechtigte* Frage. |
+blanchir | freisprechen | v | Elle a été *blanchie* de toutes les charges. | Sie wurde in allen Punkten *freigesprochen*. |
+condamner | verurteilen | v | Il a été *condamné* pour fraude. | Er wurde wegen Betrugs *verurteilt*. |
+le plaignant | Kläger | n | Le *plaignant* a demandé des dommages. | Der *Kläger* forderte Schadensersatz. |
+le témoignage | Zeugenaussage | n | Son *témoignage* a été crucial. | Ihre *Zeugenaussage* war entscheidend. |
+le parjure | Meineid | n | Il a été accusé de *parjure*. | Er wurde wegen *Meineids* angeklagt. |
+l' indemnisation (f) | Entschädigung | n | Ils ont reçu une *indemnisation*. | Sie erhielten eine *Entschädigung*. |
+la juridiction | Zuständigkeit, Gerichtsbarkeit | n | L' affaire échappe à notre *juridiction*. | Der Fall liegt außerhalb unserer *Zuständigkeit*. |
+la loi | Gesetz | n | Cette *loi* a été votée en 1998. | Das *Gesetz* wurde 1998 verabschiedet. |
+le précédent | Präzedenzfall | n | Cette décision crée un *précédent*. | Das Urteil schuf einen *Präzedenzfall*. |
+la décision | Entscheidung | n | La *décision* du tribunal est définitive. | Die *Entscheidung* des Gerichts war endgültig. |
+enfreindre | verletzen (Recht) | v | Cela *enfreint* le droit d'auteur. | Es *verletzt* das Urheberrecht. |
+exécutoire | durchsetzbar | adj | Ce contrat n'est pas *exécutoire*. | Der Vertrag ist nicht *durchsetzbar*. |
+la garde à vue | Haft | n | Il a été placé en *garde à vue*. | Er wurde in *Gewahrsam* genommen. |
+la liberté conditionnelle | Bewährung (vorzeitige Entlassung) | n | Il a été libéré en *liberté conditionnelle*. | Er wurde auf *Bewährung* entlassen. |
+le délit | Vergehen | n | Ce n'est qu'un *délit*. | Das ist nur ein *Vergehen*. |
+le crime | schweres Verbrechen | n | Le vol qualifié est un *crime*. | Raub ist ein *schweres Verbrechen*. |
+le détournement de fonds | Unterschlagung | n | Il a été emprisonné pour *détournement de fonds*. | Er kam wegen *Unterschlagung* ins Gefängnis. |
+la dissuasion | Abschreckung(smittel) | n | La prison doit servir de *dissuasion*. | Gefängnis soll *abschreckend* wirken. |
+respectueux de la loi | gesetzestreu | adj | C'est un citoyen *respectueux de la loi*. | Er ist ein *gesetzestreuer* Bürger. |
+la procédure régulière | rechtsstaatliches Verfahren | n | Chacun a droit à une *procédure régulière*. | Jeder hat Anspruch auf ein *rechtsstaatliches Verfahren*. |

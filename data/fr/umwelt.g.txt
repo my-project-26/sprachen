@@ -1,0 +1,89 @@
+# fr – umwelt (aus der englischen Liste erzeugt)
+
+## A1
+l' animal (m) | Tier | n | Beaucoup d' *animaux* sont en danger. | Viele *Tiere* sind in Gefahr. |
+le temps | Wetter | n | Quel *temps* fait-il? | Wie ist das *Wetter*? |
+le soleil | Sonne | n | Le *soleil* brille. | Die *Sonne* scheint. |
+la pluie | Regen | n | Nous avons marché sous la *pluie*. | Wir sind im *Regen* nach Hause gelaufen. |
+le vent | Wind | n | Le *vent* souffle très fort aujourd'hui. | Der *Wind* ist heute sehr stark. |
+pluvieux | regnerisch | adj | C'était un week-end *pluvieux*. | Es war ein *verregnetes* Wochenende. |
+le ciel | Himmel | n | Le *ciel* est clair ce soir. | Der *Himmel* ist heute Nacht klar. |
+l'arbre (m) | Baum | n | Il y a un grand *arbre* dans notre jardin. | In unserem Garten steht ein großer *Baum*. |
+l'oiseau (m) | Vogel | n | Un *oiseau* chante dehors. | Draußen singt ein *Vogel*. |
+le cheval | Pferd | n | Elle monte à *cheval*. | Sie reitet ein *Pferd*. |
+la vache | Kuh | n | Les *vaches* sont dans le pré. | Die *Kühe* stehen auf der Weide. |
+le cochon | Schwein | n | La ferme a des *cochons* et des poules. | Der Hof hat *Schweine* und Hühner. |
+le mouton | Schaf | n | Il y a beaucoup de *moutons* au pays de Galles. | In Wales gibt es viele *Schafe*. |
+la souris | Maus | n | Il y a une *souris* dans la cuisine ! | In der Küche ist eine *Maus*! |
+
+## A2
+l'environnement (m) | Umwelt | n | Nous devons protéger *l'environnement*. | Wir müssen die *Umwelt* schützen. |
+la température | Temperatur | n | La *température* a chuté sous zéro. | Die *Temperatur* fiel unter null. |
+recycler | recyceln | v | Nous *recyclons* le papier et le verre. | Wir *recyceln* Papier und Glas. |
+la nature | Natur | n | J'aime être dehors dans *la nature*. | Ich bin gern draußen in der *Natur*. |
+la plante | Pflanze | n | Arrose les *plantes*, s'il te plaît. | Gieß bitte die *Pflanzen*. |
+l'océan (m) | Ozean | n | Le plastique pollue *les océans*. | Plastik verschmutzt die *Ozeane*. |
+l'air (m) | Luft | n | L'*air* est pur ici. | Die *Luft* hier ist sauber. |
+la tempête | Sturm | n | La *tempête* a endommagé beaucoup de maisons. | Der *Sturm* beschädigte viele Häuser. |
+le tonnerre | Donner | n | Tu as entendu *le tonnerre* ? | Hast du den *Donner* gehört? |
+le nuage | Wolke | n | Il n'y a pas un seul *nuage* dans le ciel. | Am Himmel ist keine einzige *Wolke*. |
+le champ | Feld | n | Les chevaux sont dans *le champ*. | Die Pferde stehen auf der *Weide*. |
+le bois | Holz | n | La table est en *bois*. | Der Tisch ist aus *Holz*. |
+la vagues | Welle | n | Les *vagues* sont énormes aujourd'hui. | Die *Wellen* sind heute riesig. |
+le sable | Sand | n | Le *sable* est très chaud. | Der *Sand* ist sehr heiß. |
+la pierre | Stein | n | Il a jeté une *pierre* dans le lac. | Er warf einen *Stein* in den See. |
+le rocher | Fels | n | Nous étions assis sur un grand *rocher*. | Wir saßen auf einem großen *Felsen*. |
+l'herbe (f) | Rasen | n | Ne marchez pas sur l'*herbe*. | Betreten Sie nicht den *Rasen*. |
+la feuille | Blatt | n | Les *feuilles* deviennent rouges. | Die *Blätter* werden rot. |
+la Terre | Erde | n | L'*Erde* tourne autour du soleil. | Die *Erde* kreist um die Sonne. |
+la lune | Mond | n | Il y a une *lune* pleine ce soir. | Heute Nacht ist Voll*mond*. |
+l'étoile (f) | Stern | n | Regarde toutes ces *étoiles* ! | Sieh dir all die *Sterne* an! |
+l'abeille (f) | Biene | n | Une *abeille* m'a piqué. | Mich hat eine *Biene* gestochen. |
+l'araignée (f) | Spinne | n | J'ai peur des *araignées*. | Ich habe Angst vor *Spinnen*. |
+le serpent | Schlange | n | Il y a des *serpents* ici ? | Gibt es hier *Schlangen*? |
+le lapin | Kaninchen | n | Ma fille a un *lapin* domestique. | Meine Tochter hat ein *Kaninchen*. |
+le canard | Ente | n | Nous avons nourri les *canards* au parc. | Wir haben im Park die *Enten* gefüttert. |
+le lion | Löwe | n | Le *lion* est en train de dormir. | Der *Löwe* schläft. |
+le tigre | Tiger | n | Les *tigres* sont en danger. | *Tiger* sind bedroht. |
+l'éléphant (m) | Elefant | n | Les *éléphants* ont une bonne mémoire. | *Elefanten* haben ein tolles Gedächtnis. |
+le singe | Affe | n | Les *singes* ont volé notre nourriture. | Die *Affen* haben unser Essen geklaut. |
+le zoo | Zoo | n | Allons au *zoo* avec les enfants. | Lass uns mit den Kindern in den *Zoo* gehen. |
+la ferme | Bauernhof | n | Ils habitent dans une *ferme*. | Sie wohnen auf einem *Bauernhof*. |
+nourrir | füttern | v | Ne *nourrissez* pas les animaux. | Bitte die Tiere nicht *füttern*. |
+
+## B1
+la pollution | Verschmutzung | n | La *pollution* de l'air est un problème. | Luft*verschmutzung* ist in Großstädten ein Problem. |
+l'inondation (f) | Überschwemmung | n | L'*inondation* a détruit des maisons. | Das *Hochwasser* zerstörte Hunderte Häuser. |
+le climat | Klima | n | Le *climat* est en train de changer. | Das *Klima* verändert sich. |
+les prévisions météo | Wettervorhersage | n | Les *prévisions météo* annoncent de la pluie. | Die *Wettervorhersage* sagt Regen voraus. |
+le plastique | Plastik | n | Évitez le *plastique* à usage unique. | Vermeide Einweg-*Plastik*. |
+l'énergie (f) | Energie | n | L'*énergie* solaire devient moins chère. | Solar*energie* wird billiger. |
+économiser l'énergie | Energie sparen | phrase | Éteignez la lumière pour *économiser l'énergie*. | Schalte Licht aus, um *Energie zu sparen*. |
+l'espèce (f) | Art | n | Cette *espèce* est menacée. | Die *Art* ist vom Aussterben bedroht. |
+menacé d'extinction | vom Aussterben bedroht | adj | Le tigre est une espèce *menacée d'extinction*. | Tiger sind eine *bedrohte* Art. |
+la canicule | Hitzewelle | n | L'Europe a connu une longue *canicule*. | Europa hatte eine lange *Hitzewelle*. |
+le séisme | Erdbeben | n | Le *séisme* a détruit la ville. | Das *Erdbeben* zerstörte die Stadt. |
+le réchauffement climatique | Erderwärmung | n | Le *réchauffement climatique* est un problème grave. | Die *Erderwärmung* ist ein ernstes Problem. |
+le panneau solaire | Solarmodul | n | Nous avons posé des *panneaux solaires* sur le toit. | Wir haben *Solarmodule* aufs Dach gesetzt. |
+le parc éolien | Windpark | n | Il y a un *parc éolien* près de la côte. | Vor der Küste gibt es einen *Windpark*. |
+détruire | zerstören | v | Le feu a *détruit* la forêt. | Das Feuer *zerstörte* den Wald. |
+la forêt tropicale | Regenwald | n | La *forêt tropicale* est en train de disparaître. | Der *Regenwald* verschwindet. |
+biologique | biologisch | adj | Nous achetons des légumes *biologiques*. | Wir kaufen *Bio*-Gemüse. |
+
+## B2
+durable | nachhaltig | adj | Nous avons besoin d'une agriculture plus *durable*. | Wir brauchen eine *nachhaltigere* Landwirtschaft. |
+l'émission (f) | Emission | n | La ville veut réduire ses *émissions* de carbone. | Die Stadt will den CO₂-*Ausstoß* halbieren. |
+la sécheresse | Dürre | n | La *sécheresse* a duré trois étés. | Die *Dürre* dauerte drei Sommer. |
+l'habitat (m) | Lebensraum | n | La forêt est un *habitat* pour les oiseaux rares. | Der Wald ist ein *Lebensraum* für seltene Vögel. |
+renouvelable | erneuerbar | adj | L'énergie *renouvelable* devient moins chère. | *Erneuerbare* Energie wird billiger. |
+éteint | ausgestorben | adj | Beaucoup d'espèces sont sur le point de s'*éteindre*. | Viele Arten sind kurz davor, *auszusterben*. |
+la protection de la nature | Naturschutz | n | Elle travaille pour un groupe de *protection de la nature*. | Sie arbeitet für eine *Naturschutz*gruppe. |
+vulnérable | anfällig | adj | Les villes côtières sont *vulnérables* aux tempêtes. | Küstenstädte sind *anfällig* für Stürme. |
+le changement climatique | Klimawandel | n | Le *changement climatique* concerne tout le monde. | Der *Klimawandel* betrifft alle. |
+l'empreinte carbone (f) | CO₂-Fußabdruck | n | Prendre l'avion augmente votre *empreinte carbone*. | Fliegen vergrößert deinen *CO₂-Fußabdruck*. |
+le gaz à effet de serre | Treibhausgas | n | Les voitures produisent des *gaz à effet de serre*. | Autos erzeugen *Treibhausgase*. |
+les combustibles fossiles | fossile Brennstoffe | n | Nous devons cesser de brûler *les combustibles fossiles*. | Wir müssen aufhören, *fossile Brennstoffe* zu verbrennen. |
+la déforestation | Abholzung | n | La *déforestation* détruit les habitats. | *Abholzung* zerstört Lebensräume. |
+la biodiversité | Artenvielfalt | n | La *biodiversité* est en déclin. | Die *Artenvielfalt* nimmt ab. |
+l'écosystème (m) | Ökosystem | n | L'*écosystème* est fragile. | Das *Ökosystem* ist empfindlich. |
+polluer | verschmutzen | v | Les usines *polluent* la rivière. | Fabriken *verschmutzen* den Fluss. |
