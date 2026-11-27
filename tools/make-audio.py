@@ -123,7 +123,7 @@ def texts_for(lang, levels=None):
     if lang == "de":
         rows = rows_from(os.path.join(js, "words.js"), "const RAW = [") + rows_from(os.path.join(js, "wordbank.js"))
         # deutsche Bedeutungen und Beispielsätze der anderen Lernsprachen (Hörmodus: „Deutsch ansagen“)
-        for other in ("es", "it"):
+        for other in ("es", "it", "fr"):
             p = os.path.join(js, f"wordbank.{other}.js")
             if os.path.exists(p):
                 rows += rows_from(p)

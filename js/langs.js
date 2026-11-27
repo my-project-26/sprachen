@@ -15,7 +15,7 @@ export const LANGS = {
 };
 
 // Sprachen, für die es schon eine Wortliste gibt (js/wordbank.js bzw. js/wordbank.<code>.js)
-export const READY = ["en", "es", "it"];
+export const READY = ["en", "es", "it", "fr"];
 
 // Nur bekannte Sprachnamen an die KI geben (Schutz vor beliebigem Text im Prompt)
 export const langName = (x) => (Object.values(LANGS).some((l) => l.en === x) ? x : "English");

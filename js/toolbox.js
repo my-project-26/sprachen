@@ -1,5 +1,5 @@
 // Toolbox: feste Satzbausteine pro Situation – als Ganzes lernen, sofort einsetzbar.
-// Für Englisch und Spanisch; die Situationen passen zu den Gesprächen (gleiche Schlüssel).
+// Für Englisch, Spanisch und Französisch; die Situationen passen zu den Gesprächen (gleiche Schlüssel).
 import * as S from "./store.js";
 import * as tts from "./tts.js";
 import { L } from "./langs.js";
@@ -208,6 +208,106 @@ export const TOOLBOX = {
       ["Gracias por su tiempo.", "Vielen Dank für Ihre Zeit."],
     ] },
   ],
+  fr: [
+    { key: "cafe", ic: "☕", label: "Im Café & Restaurant", goals: ["reise", "familie"], items: [
+      ["Un café, s'il vous plaît.", "Einen Kaffee, bitte."],
+      ["Je voudrais commander, s'il vous plaît.", "Ich möchte bitte bestellen."],
+      ["Qu'est-ce que vous me conseillez ?", "Was empfehlen Sie mir?"],
+      ["Cette table est libre ?", "Ist dieser Tisch frei?"],
+      ["Une table pour deux, s'il vous plaît.", "Einen Tisch für zwei, bitte."],
+      ["Je peux voir la carte, s'il vous plaît ?", "Kann ich bitte die Karte sehen?"],
+      ["Je suis allergique aux noix.", "Ich bin allergisch gegen Nüsse."],
+      ["L'addition, s'il vous plaît.", "Die Rechnung, bitte."],
+      ["Je peux payer par carte ?", "Kann ich mit Karte zahlen?"],
+      ["Gardez la monnaie.", "Stimmt so."],
+      ["C'était délicieux, merci.", "Es war köstlich, danke."],
+      ["À emporter, s'il vous plaît.", "Zum Mitnehmen, bitte."],
+    ] },
+    { key: "hotel", ic: "🏨", label: "Im Hotel", goals: ["reise", "job"], items: [
+      ["J'ai une réservation au nom de …", "Ich habe eine Reservierung auf den Namen …"],
+      ["Je voudrais m'enregistrer, s'il vous plaît.", "Ich möchte bitte einchecken."],
+      ["À quelle heure est le petit-déjeuner ?", "Wann gibt es Frühstück?"],
+      ["Quel est le mot de passe du wifi ?", "Wie lautet das WLAN-Passwort?"],
+      ["Je pourrais avoir une autre serviette ?", "Könnte ich noch ein Handtuch haben?"],
+      ["La climatisation ne marche pas.", "Die Klimaanlage funktioniert nicht."],
+      ["Je peux laisser mes bagages ici ?", "Kann ich mein Gepäck hier lassen?"],
+      ["À quelle heure dois-je libérer la chambre ?", "Bis wann muss ich das Zimmer räumen?"],
+      ["Vous pouvez m'appeler un taxi ?", "Können Sie mir ein Taxi rufen?"],
+      ["Il y a un ascenseur ?", "Gibt es einen Aufzug?"],
+      ["Je voudrais une chambre calme, s'il vous plaît.", "Ich hätte gern ein ruhiges Zimmer."],
+      ["Merci pour tout.", "Vielen Dank für alles."],
+    ] },
+    { key: "weg", ic: "🗺️", label: "Nach dem Weg fragen", goals: ["reise"], items: [
+      ["Excusez-moi, vous pouvez m'aider ?", "Entschuldigung, können Sie mir helfen?"],
+      ["Pour aller à la gare, s'il vous plaît ?", "Wie komme ich zum Bahnhof?"],
+      ["C'est loin d'ici ?", "Ist es weit von hier?"],
+      ["On peut y aller à pied ?", "Kann man zu Fuß hingehen?"],
+      ["Où est l'arrêt de bus le plus proche ?", "Wo ist die nächste Bushaltestelle?"],
+      ["Allez tout droit et tournez à gauche.", "Gehen Sie geradeaus und biegen Sie links ab."],
+      ["C'est sur votre droite.", "Es ist auf der rechten Seite."],
+      ["Quel bus va au centre-ville ?", "Welcher Bus fährt ins Stadtzentrum?"],
+      ["Un billet pour Paris, s'il vous plaît.", "Eine Fahrkarte nach Paris, bitte."],
+      ["Vous pouvez me montrer sur le plan ?", "Können Sie es mir auf dem Stadtplan zeigen?"],
+      ["Pardon, je suis perdu.", "Entschuldigung, ich habe mich verlaufen."],
+      ["Merci, c'est très gentil.", "Danke, das ist sehr nett."],
+    ] },
+    { key: "einkauf", ic: "🛍️", label: "Einkaufen", goals: ["reise", "familie"], items: [
+      ["Combien ça coûte ?", "Wie viel kostet das?"],
+      ["Je regarde seulement, merci.", "Ich schaue nur, danke."],
+      ["Vous l'avez dans une taille au-dessus ?", "Haben Sie das eine Nummer größer?"],
+      ["Je peux l'essayer ?", "Kann ich es anprobieren?"],
+      ["Où sont les cabines d'essayage ?", "Wo sind die Umkleidekabinen?"],
+      ["Je le prends.", "Ich nehme es."],
+      ["Vous l'avez dans une autre couleur ?", "Haben Sie es in einer anderen Farbe?"],
+      ["Je peux avoir le ticket, s'il vous plaît ?", "Kann ich bitte den Kassenbon bekommen?"],
+      ["Je voudrais rendre cet article.", "Ich möchte diesen Artikel zurückgeben."],
+      ["Il y a une réduction ?", "Gibt es einen Rabatt?"],
+      ["Je pourrais avoir un sac, s'il vous plaît ?", "Könnte ich bitte eine Tüte haben?"],
+      ["Où est le lait, s'il vous plaît ?", "Wo finde ich die Milch?"],
+    ] },
+    { key: "arzt", ic: "🩺", label: "Beim Arzt & in der Apotheke", goals: ["reise", "familie"], items: [
+      ["Je ne me sens pas bien.", "Mir geht es nicht gut."],
+      ["J'ai mal à la tête.", "Ich habe Kopfschmerzen."],
+      ["J'ai mal ici.", "Es tut hier weh."],
+      ["J'ai de la fièvre depuis hier.", "Ich habe seit gestern Fieber."],
+      ["Je dois voir un médecin.", "Ich muss zu einem Arzt."],
+      ["Il faut une ordonnance ?", "Brauche ich ein Rezept?"],
+      ["Je dois le prendre combien de fois ?", "Wie oft soll ich es nehmen?"],
+      ["Je suis allergique à la pénicilline.", "Ich bin allergisch gegen Penicillin."],
+      ["Vous avez quelque chose contre le rhume ?", "Haben Sie etwas gegen Erkältung?"],
+      ["Appelez une ambulance, s'il vous plaît.", "Bitte rufen Sie einen Krankenwagen."],
+      ["Où est la pharmacie la plus proche ?", "Wo ist die nächste Apotheke?"],
+      ["Je me sens beaucoup mieux.", "Mir geht es viel besser."],
+    ] },
+    { key: "smalltalk", ic: "💬", label: "Smalltalk", goals: ["reise", "job", "medien", "familie"], items: [
+      ["Enchanté de te rencontrer.", "Schön, dich kennenzulernen."],
+      ["Tu viens d'où ?", "Woher kommst du?"],
+      ["Je viens d'Allemagne.", "Ich komme aus Deutschland."],
+      ["Qu'est-ce que tu fais dans la vie ?", "Was machst du beruflich?"],
+      ["Qu'est-ce que tu fais pendant ton temps libre ?", "Was machst du in deiner Freizeit?"],
+      ["Tu as passé un bon week-end ?", "Hattest du ein schönes Wochenende?"],
+      ["Pardon, tu peux répéter ?", "Entschuldigung, kannst du das wiederholen?"],
+      ["Tu peux parler un peu plus lentement ?", "Kannst du etwas langsamer sprechen?"],
+      ["Mon français n'est pas encore parfait.", "Mein Französisch ist noch nicht perfekt."],
+      ["Ça a l'air génial !", "Das klingt toll!"],
+      ["Je suis tout à fait d'accord.", "Da stimme ich völlig zu."],
+      ["J'ai été ravi de parler avec toi.", "Es war schön, mit dir zu reden."],
+    ] },
+    { key: "job", ic: "💼", label: "Beruf & Meetings", goals: ["job"], items: [
+      ["Permettez-moi de me présenter.", "Darf ich mich vorstellen?"],
+      ["Je travaille comme responsable des ventes.", "Ich arbeite als Vertriebsleiter."],
+      ["Vous pourriez m'envoyer un e-mail à ce sujet ?", "Könnten Sie mir dazu eine E-Mail schicken?"],
+      ["Fixons une réunion.", "Lassen Sie uns einen Termin vereinbaren."],
+      ["Mardi, ça vous convient ?", "Passt Ihnen Dienstag?"],
+      ["Désolé, j'ai un peu de retard.", "Entschuldigung, ich verspäte mich etwas."],
+      ["Vous pourriez expliquer cela plus en détail ?", "Könnten Sie das genauer erklären?"],
+      ["Je vous recontacte demain.", "Ich melde mich morgen bei Ihnen."],
+      ["Quelle est la date limite ?", "Bis wann ist die Frist?"],
+      ["J'aimerais ajouter quelque chose.", "Ich möchte noch etwas ergänzen."],
+      ["Résumons.", "Fassen wir zusammen."],
+      ["Merci pour votre temps.", "Vielen Dank für Ihre Zeit."],
+    ] },
+  ],
 };
 
 // Situationen für die aktuelle Sprache, passend zum Lernziel zuerst
@@ -226,7 +326,7 @@ export function toolboxView($app, { settings, rateSlider, ICON }, key = "") {
   const header = `<header class="top"><a class="icon-btn plain" href="#/${key ? "toolbox" : "practice"}" aria-label="Zurück">${ICON.back}</a>
     <h1 class="h-sm">Toolbox</h1><span></span></header>`;
   if (!list.length) {
-    $app.innerHTML = `${header}<section class="card"><h2>Bald verfügbar</h2><p>Die Toolbox gibt es bisher für Englisch und Spanisch.</p></section>`;
+    $app.innerHTML = `${header}<section class="card"><h2>Bald verfügbar</h2><p>Die Toolbox gibt es bisher für Englisch, Spanisch und Französisch.</p></section>`;
     return;
   }
   const sit = list.find((s) => s.key === key);

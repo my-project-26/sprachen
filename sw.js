@@ -1,6 +1,6 @@
 // Service Worker: macht die App offline nutzbar (Lernen geht ohne Internet,
 // nur Geschichten/KI brauchen eine Verbindung).
-const CACHE = "wortwerk-v64";
+const CACHE = "wortwerk-v65";
 const ASSETS = [
   "./",
   "index.html",

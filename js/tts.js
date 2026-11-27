@@ -176,7 +176,7 @@ function pick(g, langPref, avoid) {
 // sample = Hörprobe der Stimme (die Demo, aus der die Aufnahmen geklont werden)
 export const PRESETS = [
   { key: "frau", label: "Frau – sanft und klar", hint: "ruhig, freundlich, gut verständlich", g: "f", r: 0, pitch: 1.0, rateMul: 1.0, rec: "achernar", recBy: { es: "kore" } },
-  { key: "mann", label: "Mann – rau und kräftig", hint: "markant, tief, energisch", g: "m", r: 0, pitch: 0.85, rateMul: 1.0, rec: "algenib", recBy: { es: "algenib" } },
+  { key: "mann", label: "Mann – rau und kräftig", hint: "markant, tief, energisch", g: "m", r: 0, pitch: 0.85, rateMul: 1.0, rec: "algenib", recBy: { es: "algenib", fr: "charon" } },
   { key: "friend-f", label: "Standardstimme", hint: "natürlich und klar", g: "f", r: 0, pitch: 1.05, rateMul: 1.0, rec: "" },
 ];
 // Alte, entfernte Profile → neue
