@@ -697,6 +697,12 @@ export function importData(json) {
 
 // Setzt nur die aktuelle Sprache zurück; Einstellungen bleiben
 export function resetAll() {
+  // der Cloud-Schutz soll dieses bewusste Zurücksetzen durchlassen
+  try {
+    const r = JSON.parse(localStorage.getItem("wortwerk.reset") || "{}");
+    r[keyFor(bankLang())] = Date.now();
+    localStorage.setItem("wortwerk.reset", JSON.stringify(r));
+  } catch {}
   localStorage.removeItem(keyFor(bankLang()));
   state = null;
   load();

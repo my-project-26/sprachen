@@ -12,7 +12,25 @@ const SDK = "https://www.gstatic.com/firebasejs/10.12.2";
 const PREFIX = "wortwerk.";
 const UID_KEY = "wortwerk.uid"; // wem gehören die Daten auf diesem Gerät?
 const SYNC_KEY = "wortwerk.sync"; // lokale Änderungszeiten je Schlüssel
-const LOCAL_ONLY = new Set([UID_KEY, SYNC_KEY]);
+const RESET_KEY = "wortwerk.reset"; // bewusst zurückgesetzte Sprache (darf schrumpfen)
+const LOCAL_ONLY = new Set([UID_KEY, SYNC_KEY, RESET_KEY]);
+
+// ---------- Schutz vor Datenverlust ----------
+// Fortschritts-Speicher (wortwerk.v1, wortwerk.v1.es …): Anzahl gelernter Karten
+const isProgress = (k) => /^wortwerk\.v1(\.[a-z]{2})?$/.test(k);
+const learnedIn = (text) => (text && (text.match(/"state":"(?!new")/g) || []).length) || 0;
+// deutlich weniger gelernt als die Gegenseite? (dann wurde etwas verloren, nicht gelernt)
+const drastic = (mine, other) => other >= 10 && mine < other * 0.5;
+const remoteLearned = {}; // Stand in der Cloud je Schlüssel
+let pulled = false; // erst hochladen, wenn die Cloud einmal gelesen wurde
+const resetAllowed = (k) => {
+  try {
+    const r = JSON.parse(localStorage.getItem(RESET_KEY) || "{}");
+    return r[k] && Date.now() - r[k] < 10 * 60000;
+  } catch {
+    return false;
+  }
+};
 
 let fb = null; // geladene SDK-Funktionen
 let auth = null;
@@ -141,7 +159,7 @@ function mark(k) {
   timer = setTimeout(flush, 1500);
 }
 export async function flush() {
-  if (!user || !db || syncing || !dirty.size) return;
+  if (!user || !db || syncing || !dirty.size || !pulled) return;
   syncing = true;
   const keys = [...dirty];
   dirty.clear();
@@ -149,6 +167,16 @@ export async function flush() {
     for (const k of keys) {
       const ref = fb.doc(db, "users", user.uid, "data", k);
       const v = ls.get(k);
+      if (isProgress(k)) {
+        // Niemals einen großen Fortschritt in der Cloud durch einen kleinen ersetzen
+        const n = learnedIn(v);
+        if (drastic(n, remoteLearned[k] || 0) && !resetAllowed(k)) {
+          console.warn("Hochladen gestoppt: lokal", n, "gelernt, in der Cloud", remoteLearned[k], k);
+          continue;
+        }
+        if (v == null && (remoteLearned[k] || 0) >= 10 && !resetAllowed(k)) continue;
+        remoteLearned[k] = n;
+      }
       if (v == null) await fb.deleteDoc(ref);
       else await fb.setDoc(ref, { ...(await pack(v)), t: syncTimes()[k] || Date.now() });
     }
@@ -168,14 +196,49 @@ async function pull() {
   for (const d of snap.docs) {
     const data = d.data();
     got++;
-    if ((data.t || 0) <= (times[d.id] || 0)) continue; // lokal ist aktueller
+    const newer = (data.t || 0) > (times[d.id] || 0);
+    if (isProgress(d.id)) {
+      const text = await unpack(data);
+      const rN = learnedIn(text);
+      const lN = learnedIn(ls.get(d.id));
+      remoteLearned[d.id] = rN;
+      if (text == null) continue;
+      if (drastic(lN, rN) && !resetAllowed(d.id)) {
+        // Gerät hat viel weniger als die Cloud (z. B. neuer Browser) → Cloud-Stand nehmen, egal wie alt
+        ls.set(d.id, text);
+        setSyncTime(d.id, data.t || Date.now());
+      } else if (drastic(rN, lN)) {
+        // Cloud hat viel weniger als dieses Gerät → Gerät behalten und die Cloud reparieren
+        continue;
+      } else if (newer) {
+        ls.set(d.id, text);
+        setSyncTime(d.id, data.t || Date.now());
+      }
+      continue;
+    }
+    if (!newer) continue; // lokal ist aktueller
     const text = await unpack(data);
     if (text != null) {
       ls.set(d.id, text);
       setSyncTime(d.id, data.t || Date.now());
     }
   }
+  pulled = true;
   return got;
+}
+
+// Erneut versuchen, falls das erste Laden scheiterte (offline) – vorher wird nichts hochgeladen
+function retryPull() {
+  setTimeout(async () => {
+    if (pulled || !user) return;
+    try {
+      await pull();
+      for (const k of ls.keys()) if (!syncTimes()[k]) mark(k);
+      flush();
+    } catch {
+      retryPull();
+    }
+  }, 20000);
 }
 
 // ---------- Start ----------
@@ -209,12 +272,17 @@ export async function start() {
       for (const k of ls.keys()) mark(k);
       await flush();
     } else {
-      // lokale Änderungen, die noch nicht oben sind (z. B. offline gelernt)
+      // lokale Änderungen, die noch nicht oben sind (z. B. offline gelernt),
+      // und Fortschritt, der hier deutlich größer ist als in der Cloud (repariert die Cloud)
       const times = syncTimes();
-      for (const k of ls.keys()) if (!times[k]) mark(k);
+      for (const k of ls.keys()) {
+        if (!times[k]) mark(k);
+        else if (isProgress(k) && drastic(remoteLearned[k] || 0, learnedIn(ls.get(k)))) mark(k);
+      }
     }
   } catch (e) {
     console.warn("Cloud-Laden fehlgeschlagen – lerne mit den Daten auf diesem Gerät", e);
+    retryPull();
   }
   return true;
 }
