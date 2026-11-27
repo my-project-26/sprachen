@@ -12,7 +12,7 @@ export default wrap(async (req, res) => {
   if (req.method !== "POST") throw httpError(405, "Nur POST erlaubt");
   checkAuth(req);
   const body = await readBody(req);
-  const words = cleanList(body.words, 20);
+  const words = cleanList(body.words, body.sleep === true ? 40 : 20);
   const known = cleanList(body.known, 8);
   if (words.length < 2) throw httpError(400, "Mindestens 2 Wörter nötig");
   const level = ["A1", "A2", "B1", "B2", "C1"].includes(body.level) ? body.level : "B2";
@@ -22,18 +22,22 @@ export default wrap(async (req, res) => {
   // Standard: erst nur die Geschichte (schnell); Sätze/Wort-für-Wort holt die App danach über /api/decode
   const withSentences = body.sentences === true;
 
-  // Einschlaf-Geschichte: lang, ruhig, ein Versuch mit dem schnellen Modell (passt in die 60 s des Servers)
+  // Lange Geschichte zum Hören (ca. 10 Minuten): zwei Hälften mit dem schnellen Modell (passt in die 60 s des Servers)
   if (body.sleep === true) {
     const lvl = ["A1", "A2", "B1"].includes(body.level) ? body.level : "A2";
     const cat = String(body.category || "");
     const fastLlm = { ...llm, model: "gemini-flash-lite-latest" };
     try {
-      // zwei Hälften nacheinander – so wird die Geschichte lang genug für 15 Minuten
-      const a = storyFrom(extractJson(await callLLM(fastLlm, storySystem(lang), sleepStoryPrompt(words, lvl, cat, lang, 1), 4000)));
+      // zwei Hälften nacheinander – so wird die Geschichte lang genug
+      // Wörter auf beide Hälften verteilen – so wirkt jede Hälfte natürlicher
+      const half = Math.ceil(words.length / 2);
+      const w1 = words.slice(0, half),
+        w2 = words.slice(half).length ? words.slice(half) : words;
+      const a = storyFrom(extractJson(await callLLM(fastLlm, storySystem(lang), sleepStoryPrompt(w1, lvl, cat, lang, 1), 4000)));
       if (!a) throw new Error("Antwort ohne Text");
       let b = null;
       try {
-        b = storyFrom(extractJson(await callLLM(fastLlm, storySystem(lang), sleepStoryPrompt(words, lvl, cat, lang, 2, a.text), 4000)));
+        b = storyFrom(extractJson(await callLLM(fastLlm, storySystem(lang), sleepStoryPrompt(w2, lvl, cat, lang, 2, a.text), 4000)));
       } catch {}
       const glossary = [...(a.glossary || []), ...((b && b.glossary) || [])];
       return send(res, 200, { title: a.title, text: b ? a.text.trim() + "\n\n" + b.text.trim() : a.text, glossary });

@@ -186,11 +186,14 @@ async function browserCall(path, body) {
         const withS = body.sentences === true;
         if (body.sleep === true) {
           const lvl = ["A1", "A2", "B1"].includes(body.level) ? body.level : "A2";
-          const a = storyFrom(extractJson(await browserLLM(storySystem(lang), sleepStoryPrompt(body.words, lvl, body.category || "", lang, 1), 4000)));
+          const half = Math.ceil(body.words.length / 2);
+          const w1 = body.words.slice(0, half),
+            w2 = body.words.slice(half).length ? body.words.slice(half) : body.words;
+          const a = storyFrom(extractJson(await browserLLM(storySystem(lang), sleepStoryPrompt(w1, lvl, body.category || "", lang, 1), 4000)));
           if (!a) throw new Error("Antwort ohne Text");
           let b = null;
           try {
-            b = storyFrom(extractJson(await browserLLM(storySystem(lang), sleepStoryPrompt(body.words, lvl, body.category || "", lang, 2, a.text), 4000)));
+            b = storyFrom(extractJson(await browserLLM(storySystem(lang), sleepStoryPrompt(w2, lvl, body.category || "", lang, 2, a.text), 4000)));
           } catch {}
           return { title: a.title, text: b ? a.text.trim() + "\n\n" + b.text.trim() : a.text, glossary: [...(a.glossary || []), ...((b && b.glossary) || [])] };
         }

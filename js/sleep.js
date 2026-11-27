@@ -1,5 +1,6 @@
-// Einschlaf-Geschichte: eine ruhige, ca. 15 Minuten lange Geschichte auf Englisch (bzw. der Lernsprache),
-// in die die schwierigen Wörter eingebaut sind. Die KI schreibt sie, Google liest sie vor.
+// Lange Geschichte zum Hören (auch zum Einschlafen): ruhig, ca. 10 Minuten, auf Englisch (bzw. der Lernsprache).
+// Pro Geschichte 30 gelernte Wörter, rotierend: die am längsten nicht gehörten zuerst, schwierige mit Vorrang.
+// Die KI schreibt sie, Google liest sie vor.
 // Die Aufnahme wird zu EINER Audiodatei zusammengesetzt – die spielt das iPhone auch bei gesperrtem Bildschirm weiter.
 // Zum Ende hin wird sie leiser (die letzten Abschnitte werden leiser eingesprochen).
 
@@ -17,18 +18,31 @@ const fmt = (sec) => {
   return `${Math.floor(sec / 60)}:${String(sec % 60).padStart(2, "0")}`;
 };
 
-// ---------- Wörter: die schwierigsten zuerst ----------
-export function sleepWords(max = 12) {
-  const all = S.cards().filter((c) => c.en && c.state !== "new" && c.state !== "known");
-  const weak = all
-    .filter((c) => c.weak || (c.lapses || 0) > 0)
-    .sort((a, b) => (b.lapses || 0) - (a.lapses || 0) || (a.stability || 0) - (b.stability || 0));
-  const list = weak.slice(0, max);
-  if (list.length < 8) {
-    const recent = all.filter((c) => !list.includes(c)).sort((a, b) => (b.lastReview || b.introducedAt || 0) - (a.lastReview || a.introducedAt || 0));
-    list.push(...recent.slice(0, 8 - list.length));
+// ---------- Wörter: rotierend durch den ganzen gelernten Wortschatz ----------
+// sleepAt = wann das Wort zuletzt in einer langen Geschichte vorkam (nur wenn es wirklich im Text stand)
+export function sleepWords(max = 30) {
+  const all = S.cards().filter((c) => c.en && c.state && c.state !== "new");
+  const hard = (c) => (c.weak ? 2 : 0) + Math.min(3, c.lapses || 0);
+  return [...all]
+    .sort((a, b) => (a.sleepAt || 0) - (b.sleepAt || 0) || hard(b) - hard(a) || (b.introducedAt || 0) - (a.introducedAt || 0))
+    .slice(0, max);
+}
+
+// Welche Wörter stehen wirklich im Text? Nur diese zählen als „dran gewesen“.
+function markUsed(words, text) {
+  const t = String(text).toLowerCase().replace(/\*\*/g, "");
+  const now = Date.now();
+  let n = 0;
+  for (const w of words) {
+    const stem = w.en.toLowerCase().replace(/^(to|the|a|an) /, "").trim();
+    const core = stem.length > 4 ? stem.slice(0, stem.length - 1) : stem; // apologise → apologis(ed) …
+    if (core && t.includes(core)) {
+      w.sleepAt = now;
+      n++;
+    }
   }
-  return list;
+  S.save();
+  return n;
 }
 
 // ---------- Text in Stücke für die Google-Stimme (max. 900 Zeichen je Abruf) ----------
@@ -190,7 +204,7 @@ function openPlayer(story, blob) {
   };
   try {
     if (navigator.mediaSession) {
-      navigator.mediaSession.metadata = new MediaMetadata({ title: story.title, artist: "Wortwerk · Einschlaf-Geschichte", album: story.theme || "" });
+      navigator.mediaSession.metadata = new MediaMetadata({ title: story.title, artist: "Wortwerk · Geschichte zum Hören", album: story.theme || "" });
       navigator.mediaSession.setActionHandler("play", () => audio.play());
       navigator.mediaSession.setActionHandler("pause", () => audio.pause());
       navigator.mediaSession.setActionHandler("seekbackward", () => (audio.currentTime = Math.max(0, audio.currentTime - 30)));
@@ -213,6 +227,12 @@ function openPlayer(story, blob) {
 }
 
 // ---------- Seite ----------
+// Von der Geschichten-Seite aus abspielen (Aufnahme ggf. erst erstellen)
+export async function playSleepStory(st, preset, onProgress) {
+  const blob = (await cachedAudio(st.id)) || (await buildAudio(st, preset, onProgress));
+  return openPlayer(st, blob);
+}
+
 export function sleepView($app, { settings, ICON }) {
   const s = settings();
   const prefs = { category: "ruhig", level: "A2", ...(s.sleep || {}) };
@@ -225,11 +245,14 @@ export function sleepView($app, { settings, ICON }) {
   const cats = Object.entries(SLEEP_CATEGORIES);
 
   $app.innerHTML = `
-  <header class="top"><a class="icon-btn plain" href="#/listen" aria-label="Zurück">${ICON.back}</a>
-    <h1 class="h-sm">Einschlafen</h1><span></span></header>
+  <header class="top"><a class="icon-btn plain" href="#/stories" aria-label="Zurück">${ICON.back}</a>
+    <h1 class="h-sm">Neue Geschichte</h1><span></span></header>
+  <div class="speed seg st-len" role="group" aria-label="Länge">
+    <a href="#/story/new" class="${S.storyReady() ? "" : "off"}">Kurz zum Lesen</a><a href="#/sleep" class="on" aria-current="true">🌙 Lang zum Hören</a>
+  </div>
   <section class="sl-hero">
-    <h2>Eine Geschichte zum Einschlafen</h2>
-    <p>Ruhig vorgelesen auf ${esc(L().name)}, etwa 15 Minuten. Deine schwierigen Wörter kommen darin vor – so hörst du sie vor dem Schlafen noch einmal.</p>
+    <h2>Lange Geschichte zum Hören</h2>
+    <p>Ruhig vorgelesen auf ${esc(L().name)}, etwa 10 Minuten – ideal vor dem Einschlafen. Darin kommen 30 deiner gelernten Wörter vor, jedes Mal andere. So hörst du nach und nach deinen ganzen Wortschatz wieder.</p>
   </section>
   ${
     words.length < 2
@@ -242,9 +265,9 @@ export function sleepView($app, { settings, ICON }) {
     <h2>Wie leicht?</h2>
     <div class="speed seg">${["A1", "A2", "B1"].map((l) => `<button type="button" class="${prefs.level === l ? "on" : ""}" data-lvl="${l}" aria-pressed="${prefs.level === l}">${l}</button>`).join("")}</div>
     <p class="small muted">A2 ist leicht und gut zum Einschlafen.</p>
-    <h2>Deine Wörter darin</h2>
+    <h2>Diese ${words.length} Wörter kommen dran</h2>
     <div class="chips">${words.map((w) => `<span class="chip new" title="${esc(w.de)}">${esc(w.en)}</span>`).join("")}</div>
-    <button class="ef-btn ef-pri sl-go" id="slGo" type="button">🌙 Geschichte erstellen</button>
+    <button class="ef-btn ef-pri sl-go" id="slGo" type="button">🌙 Lange Geschichte erstellen</button>
     <p class="small muted sl-note" id="slNote">Deine Geschichte wird geschrieben und eingesprochen – das kann ein paar Sekunden bis eine Minute dauern.</p>
     <div class="gen-progress" id="slProg" hidden aria-live="polite">
       <div class="gp-bar"><i id="slFill"></i></div>
@@ -255,7 +278,7 @@ export function sleepView($app, { settings, ICON }) {
   }
   ${
     mine.length
-      ? `<section class="card sl-list"><h2>Deine Einschlaf-Geschichten</h2>
+      ? `<section class="card sl-list"><h2>Deine langen Geschichten</h2>
     <ul>${mine
       .map(
         (st) => `<li><button type="button" class="sl-item" data-play="${esc(st.id)}"><span class="sl-i-ic">▶</span><span class="sl-i-t"><b>${esc(st.title)}</b><small>${esc(st.theme || "")} · ${new Date(st.createdAt).toLocaleDateString("de-DE")}</small></span></button></li>`
@@ -346,6 +369,10 @@ export function sleepView($app, { settings, ICON }) {
         goal: s.goal || "",
       });
       const st = { ...normalizeStory(data, words), theme: `🌙 ${cat.de}`, sleep: true, category: prefs.category, level: prefs.level };
+      // nur die Wörter, die wirklich vorkommen, zählen als „dran gewesen“ (die anderen kommen nächstes Mal zuerst)
+      const used = markUsed(words, st.text);
+      st.words = st.words.filter((w) => st.text.toLowerCase().includes(w.en.toLowerCase().replace(/^(to|the|a|an) /, "").slice(0, Math.max(3, w.en.length - 1))));
+      st.usedCount = used;
       S.addStory(st, { count: false });
       phase = "tts";
       const blob = await buildAudio(st, s.voicePreset, (p) => (ttsPart = p));
@@ -353,7 +380,7 @@ export function sleepView($app, { settings, ICON }) {
       fill.style.width = "100%";
       step.textContent = "Fertig – gute Nacht 🌙";
       go.disabled = false;
-      go.textContent = "🌙 Neue Geschichte erstellen";
+      go.textContent = "🌙 Noch eine Geschichte erstellen";
       // Kein Autostart möglich (iPhone erlaubt Ton nur nach einem Tipp) → großer Start-Knopf im Player
       const p = openPlayer(st, blob);
       if (p.audio.paused) p.audio.play().catch(() => {});

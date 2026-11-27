@@ -2,13 +2,13 @@
 import * as S from "./store.js";
 import { schedule, preview, formatInterval, DAY, startOfDay } from "./fsrs.js";
 import { TOPICS, LEVELS } from "./words.js";
-import { storyPrompt, STORY_SYSTEM, extractJson } from "./prompts.js";
+import { storyPrompt, STORY_SYSTEM, extractJson, SLEEP_CATEGORIES } from "./prompts.js";
 import { callApi, health, normalizeStory, isStaticHost, decodeStory, DEFAULT_SERVER } from "./api.js";
 import * as tts from "./tts.js";
 import { DESIGNS, designKey, applyDesign, skinHome, skinCard } from "./skins.js";
 import * as cloud from "./cloud.js";
 import { listenView, stopListening } from "./listen.js";
-import { sleepView } from "./sleep.js";
+import { sleepView, playSleepStory } from "./sleep.js";
 import { practiceView, micBlock, bindMic } from "./practice.js";
 import { chatView } from "./chat.js";
 import { needsOnboarding, onboardingView } from "./onboarding.js";
@@ -719,17 +719,18 @@ function stories() {
     <div class="meter"><div style="width:${(n / s.settings.storyEvery) * 100}%"></div></div>
     ${
       ready
-        ? `<a class="btn primary" href="#/story/new">Geschichte erstellen</a>`
+        ? `<a class="btn primary" href="#/story/new">Kurze Geschichte erstellen</a>`
         : `<p class="muted small">Noch ${s.settings.storyEvery - n} ${s.settings.storyEvery - n === 1 ? "Übungswort" : "Übungswörter"} – also Wörter, die du gesehen hast, aber noch nicht sicher kannst.</p>`
     }
   </section>
+  <a class="sl-teaser" href="#/sleep"><span>🌙</span><span><b>Lange Geschichte zum Hören</b><small>Ca. 10 Minuten ruhig vorgelesen – mit 30 deiner gelernten Wörter, jedes Mal andere. Ideal vor dem Einschlafen.</small></span></a>
   ${
     s.stories.length
       ? s.stories
           .map(
             (st) => `<a class="card story-item" href="#/story/${st.id}">
-        <h3>${esc(st.title)}</h3>
-        <p class="small muted">${fmtDate(st.createdAt)}${st.theme ? ` · ${esc(st.theme)}` : ""} · ${st.words.length} Wörter${st.quizScore != null ? ` · Quiz ${st.quizScore}/${st.questions.length}` : ""}</p>
+        <h3>${st.sleep ? "🌙 " : ""}${esc(st.title)}</h3>
+        <p class="small muted">${fmtDate(st.createdAt)}${st.theme ? ` · ${esc(st.theme.replace(/^🌙 /, ""))}` : ""} · ${st.words.length} Wörter${st.sleep ? " · zum Hören" : ""}${st.quizScore != null ? ` · Quiz ${st.quizScore}/${st.questions.length}` : ""}</p>
         <div class="chips">${st.words.slice(0, 8).map((w) => `<span class="chip">${esc(w.en)}</span>`).join("")}</div>
       </a>`
           )
@@ -756,13 +757,26 @@ function storyNew() {
   }
   const { learning, known } = S.storyCandidates();
   const words = [...learning, ...known];
-  const theme = S.storyTheme(learning);
+  const autoTheme = S.storyTheme(learning);
+  let cat = settings().storyCat || "";
+  // Kategorie gewählt → Thema für die KI (deutscher Name + Beschreibung), sonst passend zu den Wörtern
+  const themeFor = () => (SLEEP_CATEGORIES[cat] ? `${SLEEP_CATEGORIES[cat].de} – ${SLEEP_CATEGORIES[cat].en}` : autoTheme);
+  const theme = autoTheme;
   $app.innerHTML = `
   <header class="top"><a class="icon-btn plain" href="#/stories" aria-label="Zurück">${ICON.back}</a>
     <h1 class="h-sm">Neue Geschichte</h1><span></span></header>
+  <div class="speed seg st-len" role="group" aria-label="Länge">
+    <a href="#/story/new" class="on" aria-current="true">Kurz zum Lesen</a><a href="#/sleep">🌙 Lang zum Hören</a>
+  </div>
   <section class="card">
-    ${theme ? `<p class="eyebrow">Thema: ${esc(theme)}</p>` : ""}
-    <h2>Wörter, die du gerade übst</h2>
+    <h2>Worum soll es gehen?</h2>
+    <div class="sl-cats" role="radiogroup" aria-label="Kategorie">
+      <button type="button" class="sl-cat-btn${!SLEEP_CATEGORIES[cat] ? " on" : ""}" data-scat="" role="radio" aria-checked="${!SLEEP_CATEGORIES[cat]}"><span>✨</span>${theme ? esc(theme) : "Passend zu den Wörtern"}</button>
+      ${Object.entries(SLEEP_CATEGORIES)
+        .map(([k, c]) => `<button type="button" class="sl-cat-btn${cat === k ? " on" : ""}" data-scat="${k}" role="radio" aria-checked="${cat === k}"><span>${c.ic}</span>${esc(c.de)}</button>`)
+        .join("")}
+    </div>
+    <h2 class="h-gap">Wörter, die du gerade übst</h2>
     <div class="chips">${learning.map((w) => `<span class="chip new" title="${esc(w.de)}">${esc(w.en)}</span>`).join("")}</div>
     ${
       known.length
@@ -802,10 +816,22 @@ function storyNew() {
       toast("Key gespeichert");
       storyNew();
     };
+  $app.querySelectorAll("[data-scat]").forEach(
+    (b) =>
+      (b.onclick = () => {
+        cat = b.dataset.scat;
+        S.getState().settings.storyCat = cat;
+        S.save();
+        $app.querySelectorAll("[data-scat]").forEach((x) => {
+          x.classList.toggle("on", x === b);
+          x.setAttribute("aria-checked", x === b);
+        });
+      })
+  );
   const level = () => document.getElementById("lvl").value;
   const finish = (data) => {
     // geübt werden die Übungswörter; die bekannten stehen nur im Glossar
-    const st = { ...normalizeStory(data, words), theme, wordIds: learning.map((w) => w.id), words: learning.map((w) => ({ id: w.id, en: w.en, de: w.de })) };
+    const st = { ...normalizeStory(data, words), theme: SLEEP_CATEGORIES[cat] ? SLEEP_CATEGORIES[cat].de : theme, wordIds: learning.map((w) => w.id), words: learning.map((w) => ({ id: w.id, en: w.en, de: w.de })) };
     S.addStory(st);
     const s = S.getState();
     s.settings.storyLevel = level();
@@ -846,7 +872,7 @@ function storyNew() {
         words: learning.map((w) => ({ en: w.en, de: w.de })),
         known: known.map((w) => ({ en: w.en, de: w.de })),
         level: level(),
-        theme,
+        theme: themeFor(),
         goal: settings().goal || "",
       });
       clearInterval(timer);
@@ -862,7 +888,7 @@ function storyNew() {
     }
   };
   document.getElementById("copy").onclick = async () => {
-    const text = STORY_SYSTEM + "\n\n" + storyPrompt(learning, level(), theme, known);
+    const text = STORY_SYSTEM + "\n\n" + storyPrompt(learning, level(), themeFor(), known);
     try {
       await navigator.clipboard.writeText(text);
       toast("Prompt kopiert");
@@ -1050,7 +1076,7 @@ function clozeItems(st) {
 }
 
 function storyDetail(st) {
-  const cz = clozeItems(st);
+  const cz = []; // Lückentext entfällt – das Quiz reicht
   const bank = shuffle(cz.map((x) => x.answer));
   $app.innerHTML = `
   <header class="top"><a class="icon-btn plain" href="#/stories" aria-label="Zurück">${ICON.back}</a>
@@ -1058,15 +1084,21 @@ function storyDetail(st) {
     <button class="icon-btn" id="del" aria-label="Löschen" title="Geschichte löschen">${ICON.close}</button></header>
   <article class="card reader">
     <h1 class="story-title">${esc(st.title)}</h1>
-    <div class="reader-controls">
+    ${
+      st.sleep
+        ? `<button class="ef-btn ef-pri sl-go" id="slPlay" type="button">🌙 Anhören (ca. 10 Minuten)</button>`
+        : `<div class="reader-controls">
       <button class="btn ghost" id="play">${ICON.play}<span>Vorlesen</span></button>
       ${voiceToggle()}
-    </div>
-    <div class="reader-controls">
+    </div>`
+    }
+    ${st.sleep ? "" : `<div class="reader-controls">
       ${rateSlider("storyRate")}
-    </div>
+    </div>`}
     ${
-      st.sentences?.length
+      st.sleep
+        ? ""
+        : st.sentences?.length
         ? `<p class="small muted dec-label">Übersetzung unter jedem Satz</p>
     <div class="speed seg" id="decMode" role="group" aria-label="Übersetzung">
       <button type="button" data-dec="" class="on">Aus</button>
@@ -1152,7 +1184,7 @@ function storyDetail(st) {
   bindRateSlider("storyRate");
   bindVoiceToggle();
   const play = document.getElementById("play");
-  play.onclick = () => {
+  if (play) play.onclick = () => {
     if (tts.speaking()) {
       tts.stop();
       play.innerHTML = `${ICON.play}<span>Vorlesen</span>`;
@@ -1221,6 +1253,20 @@ function storyDetail(st) {
       S.updateStory({ ...st, clozeScore: ok });
     };
 
+  const slPlay = document.getElementById("slPlay");
+  if (slPlay)
+    slPlay.onclick = async () => {
+      slPlay.disabled = true;
+      const label = slPlay.textContent;
+      try {
+        slPlay.textContent = "Wird vorbereitet …";
+        await playSleepStory(st, settings().voicePreset, (p) => (slPlay.textContent = `Wird eingesprochen … ${Math.round(p * 100)} %`));
+      } catch (e) {
+        toast(esc(e.message), 4000);
+      }
+      slPlay.textContent = label;
+      slPlay.disabled = false;
+    };
   const decLoad = document.getElementById("decLoad");
   if (decLoad) decLoad.onclick = () => (decodeLater(st), storyDetail(st));
   document.getElementById("del").onclick = () => {
@@ -1707,7 +1753,7 @@ function settingsView() {
     <h2>App aktualisieren</h2>
     <p class="small muted">Holt die neueste Version der App. Dein Lernstand und deine Einstellungen bleiben erhalten.</p>
     <button class="btn primary" id="appUpdate">🔄 Jetzt aktualisieren</button>
-    <p class="small muted">Installiert: Version 62</p>
+    <p class="small muted">Installiert: Version 63</p>
   </section>
   <section class="card">
     <h2>Test-Funktionen</h2>

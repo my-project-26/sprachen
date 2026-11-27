@@ -124,7 +124,7 @@ Return exactly this JSON structure:
 {"title":"...","text":"..."${withSentences ? ',"sentences":[{"t":"...","wfw":"...","de":"...","p":true}]' : ""},"questions":[{"q":"...","options":["...","...","...","..."],"answer":0}],"glossary":[{"en":"<${lang} word>","de":"..."${reading ? ',"rd":"..."' : ""}}]}`;
 }
 
-// Einschlaf-Geschichte: lang (ca. 15 Minuten vorgelesen), ruhig, leicht, mit den schwierigen Wörtern
+// Kategorien für Geschichten; lange Geschichte (ca. 10 Minuten vorgelesen): ruhig, leicht, mit 30 gelernten Wörtern
 export const SLEEP_CATEGORIES = {
   krimi: { de: "Krimi", ic: "🕵️", en: "a gentle detective mystery (no violence, no gore) that is solved calmly in the end" },
   abenteuer: { de: "Abenteuer", ic: "🧭", en: "a relaxed adventure journey with small discoveries" },
@@ -142,16 +142,16 @@ export function sleepStoryPrompt(words, level = "A2", category = "ruhig", lang =
   const cat = SLEEP_CATEGORIES[category] || SLEEP_CATEGORIES.ruhig;
   const list = words.map((w) => `- ${w.en} (${w.de})`).join("\n");
   const common = `Language level: CEFR ${level}. Short, clear sentences. Apart from the listed words, use only very common high-frequency vocabulary a ${level} learner surely knows. No idioms, slang or unusual names.
-- Use EVERY listed word at least once in this part, each time in a meaning that matches the German gloss. Mark every occurrence of a listed word with double asterisks, e.g. **word**. Mark nothing else.
+- Use EVERY listed word in this part (once is enough), each time in a natural sentence and in a meaning that matches the German gloss. Mark every occurrence of a listed word with double asterisks, e.g. **word**. Mark nothing else.
 - Tone: calm, warm and soothing. Even in exciting genres keep the tension soft.
 - Good for listening: little dialogue, no lists, no numbers in digits, no headings inside the text.
-- LENGTH IS IMPORTANT: exactly 9 paragraphs of 110–130 words each (about 1100 words), separated by a blank line (\\n\\n). Take your time with calm details (places, weather, sounds, small actions, thoughts).`;
+- LENGTH IS IMPORTANT: exactly 7 paragraphs of 90–110 words each (about 700 words), separated by a blank line (\\n\\n). Take your time with calm details (places, weather, sounds, small actions, thoughts).`;
   if (part === 2)
     return `This is the first half of a long bedtime story in ${lang} (genre: ${cat.en}) for an adult German learner who listens while falling asleep:
 """
 ${String(prev).slice(-9000)}
 """
-Continue the story seamlessly (do not repeat or summarise the first half) and bring it to an end. These words are still difficult for the learner:
+Continue the story seamlessly (do not repeat or summarise the first half) and bring it to an end. Build in these words the learner has studied:
 ${list}
 
 Requirements:
@@ -163,7 +163,7 @@ Return exactly this JSON structure:
 {"text":"...","glossary":[{"en":"<${lang} word>","de":"..."}]}`;
   return `Write the FIRST HALF of a long bedtime story in ${lang} for an adult German native speaker who listens to it while falling asleep (the second half will be written later, so do not end the story).
 Genre / setting: ${cat.en}.
-These words are still difficult for the learner:
+Build in these words the learner has studied:
 ${list}
 
 Requirements:
