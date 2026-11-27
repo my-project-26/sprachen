@@ -7,7 +7,7 @@ Schreibt data/<lang>/<thema>.g.txt (gleiche Themen und Niveaus wie Englisch, deu
 deutscher Beispielsatz aus der englischen Liste). Merkt sich den Fortschritt in data/<lang>/.bank-progress.json,
 kann also abgebrochen und neu gestartet werden. Meldet und speichert (git) in 10-%-Schritten.
 """
-import hashlib, json, os, subprocess, sys, time, urllib.request, urllib.error, collections
+import hashlib, json, os, re, subprocess, sys, time, urllib.request, urllib.error, collections
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "tools"))
@@ -79,6 +79,8 @@ def main():
                 w, de, ex = (x + [""] * 3)[:3] if len(x) >= 3 else (x[0], "", x[1])
                 if not w or "*" not in ex:
                     continue
+                if re.match(r"^(le|la|les|il|lo|gli|i|o|a|os|as) ", w):
+                    w = re.sub(r"\s*\((m|f|m\.|f\.)\)$", "", w.strip())
                 per[r[4]][r[3]].append(f"{clean(w)} | {clean(de or r[1])} | {r[2]} | {clean(ex)} | {clean(r[6])} |")
         for topic, lv in per.items():
             with open(os.path.join(out_dir, f"{topic}.g.txt"), "w", encoding="utf-8") as f:
