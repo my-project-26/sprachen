@@ -1,1 +1,5 @@
-Galerie fertig, Zeichen: 3540
+fertig: Achernar
+fertig: Kore
+fertig: Algenib
+fertig: Orus
+Zeichen: 352
