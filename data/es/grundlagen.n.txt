@@ -1,0 +1,56 @@
+# Spanisch – grundlagen (Ergänzung November 2026)
+
+## A1
+trece | dreizehn | num | Mi hermano tiene *trece* años. | Mein Bruder ist *dreizehn* Jahre alt. |
+catorce | vierzehn | num | Somos *catorce* en clase. | Wir sind *vierzehn* in der Klasse. |
+dieciséis | sechzehn | num | La tienda abre a las *dieciséis* horas. | Der Laden öffnet um *sechzehn* Uhr. |
+diecisiete | siebzehn | num | Tengo *diecisiete* euros. | Ich habe *siebzehn* Euro. |
+dieciocho | achtzehn | num | Ya tiene *dieciocho* años. | Sie ist schon *achtzehn* Jahre alt. |
+diecinueve | neunzehn | num | El tren sale a las *diecinueve* horas. | Der Zug fährt um *neunzehn* Uhr. |
+cuarenta | vierzig | num | Mi padre tiene *cuarenta* años. | Mein Vater ist *vierzig* Jahre alt. |
+sesenta | sechzig | num | Una hora tiene *sesenta* minutos. | Eine Stunde hat *sechzig* Minuten. |
+setenta | siebzig | num | Mi abuela tiene *setenta* años. | Meine Oma ist *siebzig* Jahre alt. |
+ochenta | achtzig | num | Cuesta *ochenta* euros. | Es kostet *achtzig* Euro. |
+noventa | neunzig | num | Mi abuelo tiene *noventa* años. | Mein Opa ist *neunzig* Jahre alt. |
+el millón | Million | num | La ciudad tiene un *millón* de habitantes. | Die Stadt hat eine *Million* Einwohner. |
+tercero | dritte(r, s) | num | Vivo en el *tercer* piso. | Ich wohne im *dritten* Stock. |
+cuarto | vierte(r, s); Viertel | num | Es la *cuarta* vez. | Es ist das *vierte* Mal. |
+quinto | fünfte(r, s) | num | Estoy en *quinto* curso. | Ich bin in der *fünften* Klasse. |
+nos | uns | pron | Ella *nos* llama mañana. | Sie ruft *uns* morgen an. |
+lo | ihn; es | pron | No *lo* veo. | Ich sehe *ihn* nicht. |
+cuántos | wie viele | phrase | ¿*Cuántos* hermanos tienes? | *Wie viele* Geschwister hast du? |
+normalmente | normalerweise | adv | *Normalmente* desayuno a las ocho. | *Normalerweise* frühstücke ich um acht. |
+todos | alle | pron | *Todos* están aquí. | *Alle* sind hier. |
+el principio | Anfang | n | Al *principio* no entendía nada. | Am *Anfang* habe ich nichts verstanden. |
+bienvenido | willkommen | adj | ¡*Bienvenidos* a Madrid! | *Willkommen* in Madrid! |
+esta noche | heute Abend, heute Nacht | adv | ¿Qué haces *esta noche*? | Was machst du *heute Abend*? |
+morado | lila | adj | Me gusta tu bolso *morado*. | Mir gefällt deine *lila* Tasche. |
+el dólar | Dollar | n | Cuesta diez *dólares*. | Es kostet zehn *Dollar*. |
+el céntimo | Cent | n | Solo tengo cincuenta *céntimos*. | Ich habe nur fünfzig *Cent*. |
+el kilómetro | Kilometer | n | El pueblo está a dos *kilómetros*. | Das Dorf ist zwei *Kilometer* entfernt. |
+otra vez | noch einmal | phrase | ¿Puedes repetirlo *otra vez*? | Kannst du es *noch einmal* wiederholen? |
+poner | stellen, legen | v | *Pon* el vaso en la mesa. | *Stell* das Glas auf den Tisch. |
+andar | gehen, zu Fuß gehen | v | Me gusta *andar* por el parque. | Ich *gehe* gern im Park spazieren. |
+recibir | bekommen, erhalten | v | He *recibido* tu carta. | Ich habe deinen Brief *bekommen*. |
+el mediodía | Mittag | n | Comemos a *mediodía*. | Wir essen zu *Mittag*. |
+vale | okay, in Ordnung | phrase | —¿Vamos? —*Vale*. | „Gehen wir?“ – „*Okay*.“ |
+
+## A2
+solo una vez | nur einmal | phrase | Lo he visto *solo una vez*. | Ich habe es *nur einmal* gesehen. |
+dos veces | zweimal | phrase | Voy al gimnasio *dos veces* por semana. | Ich gehe *zweimal* pro Woche ins Fitnessstudio. |
+en algún sitio | irgendwo | phrase | Mis gafas están *en algún sitio*. | Meine Brille ist *irgendwo*. |
+por todas partes | überall | phrase | Hay turistas *por todas partes*. | *Überall* sind Touristen. |
+a lo largo de | entlang | prep | Paseamos *a lo largo del* río. | Wir gehen *am* Fluss *entlang* spazieren. |
+alrededor de | um … herum; ungefähr | prep | Hay árboles *alrededor de* la casa. | *Um* das Haus *herum* stehen Bäume. |
+redondo | rund | adj | Tenemos una mesa *redonda*. | Wir haben einen *runden* Tisch. |
+sujetar | halten, festhalten | v | ¿Me *sujetas* el bolso? | *Hältst* du meine Tasche? |
+la cultura | Kultur | n | Me interesa la *cultura* española. | Mich interessiert die spanische *Kultur*. |
+el bailarín | Tänzer | n | Es un *bailarín* excelente. | Er ist ein ausgezeichneter *Tänzer*. |
+emocionante | spannend, aufregend | adj | La película es muy *emocionante*. | Der Film ist sehr *spannend*. |
+el modelo | Modell; Vorbild | n | Es el último *modelo*. | Das ist das neueste *Modell*. |
+positivo | positiv | adj | Es una noticia *positiva*. | Das ist eine *positive* Nachricht. |
+el lector | Leser | n | El libro tiene muchos *lectores*. | Das Buch hat viele *Leser*. |
+el estilo | Stil | n | Me gusta tu *estilo*. | Mir gefällt dein *Stil*. |
+el visitante | Besucher | n | El museo recibe muchos *visitantes*. | Das Museum hat viele *Besucher*. |
+el escritor | Schriftsteller | n | Cervantes es un *escritor* famoso. | Cervantes ist ein berühmter *Schriftsteller*. |
+crear | erschaffen, erstellen | v | Vamos a *crear* una página web. | Wir *erstellen* eine Website. |

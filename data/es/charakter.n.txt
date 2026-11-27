@@ -1,0 +1,27 @@
+# Spanisch – charakter (Ergänzung November 2026)
+
+## C1
+compulsivo | zwanghaft | adj | Es un comprador *compulsivo*. | Er ist ein *zwanghafter* Käufer. |
+desafiante | trotzig, herausfordernd | adj | Me miró con gesto *desafiante*. | Er sah mich *trotzig* an. |
+hostil | feindselig | adj | Tiene una actitud *hostil*. | Er hat eine *feindselige* Haltung. |
+intimidar | einschüchtern | v | No te dejes *intimidar*. | Lass dich nicht *einschüchtern*. |
+discreto | taktvoll, diskret | adj | Es una persona muy *discreta*. | Sie ist ein sehr *diskreter* Mensch. |
+vigilante | wachsam | adj | Hay que estar *vigilante*. | Man muss *wachsam* sein. |
+inflexible | unnachgiebig | adj | Se mostró *inflexible*. | Er zeigte sich *unnachgiebig*. |
+peculiar | eigenartig | adj | Tiene un humor *peculiar*. | Er hat einen *eigenartigen* Humor. |
+imprudente | leichtsinnig | adj | Fue una decisión *imprudente*. | Das war eine *leichtsinnige* Entscheidung. |
+implacable | unerbittlich | adj | Es un rival *implacable*. | Er ist ein *unerbittlicher* Gegner. |
+polifacético | vielseitig | adj | Es un artista *polifacético*. | Er ist ein *vielseitiger* Künstler. |
+hábil | geschickt | adj | Es muy *hábil* con las manos. | Er ist sehr *geschickt* mit den Händen. |
+audaz | kühn | adj | Fue una decisión *audaz*. | Es war eine *kühne* Entscheidung. |
+benévolo | wohlwollend | adj | Es un jefe *benévolo*. | Er ist ein *wohlwollender* Chef. |
+complaciente | selbstgefällig; nachgiebig | adj | No seas tan *complaciente*. | Sei nicht so *nachgiebig*. |
+la destreza | Geschicklichkeit | n | Juega con gran *destreza*. | Er spielt mit großer *Geschicklichkeit*. |
+errático | sprunghaft | adj | Su comportamiento es *errático*. | Sein Verhalten ist *sprunghaft*. |
+indulgente | nachsichtig | adj | Eres demasiado *indulgente* con él. | Du bist zu *nachsichtig* mit ihm. |
+inepto | unfähig | adj | Es un gestor *inepto*. | Er ist ein *unfähiger* Manager. |
+innato | angeboren | adj | Tiene un talento *innato*. | Sie hat ein *angeborenes* Talent. |
+insaciable | unersättlich | adj | Tiene una curiosidad *insaciable*. | Er hat eine *unersättliche* Neugier. |
+despreocupado | unbekümmert, lässig | adj | Tiene un aire *despreocupado*. | Er wirkt *unbekümmert*. |
+obstinado | starrsinnig | adj | Es muy *obstinado*. | Er ist sehr *starrsinnig*. |
+pragmático | pragmatisch | adj | Es una mujer muy *pragmática*. | Sie ist eine sehr *pragmatische* Frau. |
