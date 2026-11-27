@@ -73,3 +73,56 @@ content | zufrieden | adj | Je suis *content* de ma vie. | Ich bin mit meinem Le
 ravi | hocherfreut | adj | Je suis *ravi* de vous rencontrer. | Ich *freue* mich sehr, Sie kennenzulernen. |
 anéanti | am Boden zerstört | adj | Elle était *anéantie* par cette nouvelle. | Sie war von der Nachricht *am Boden zerstört*. |
 dégoûté | angewidert | adj | J'ai été *dégoûté* par son comportement. | Ich war von seinem Verhalten *angewidert*. |
+fiancé | verlobt | adj | Ils se sont *fiancés* la semaine dernière. | Sie haben sich letzte Woche *verlobt*. |
+envie | Neid | n | Elle a ressenti une pointe d'*envie*. | Sie verspürte einen Anflug von *Neid*. |
+avoir ras le bol | die Nase voll haben | adj | J'ai *ras le bol* de la pluie. | Ich *habe* die *Nase voll* vom Regen. |
+fâché | wütend | adj | Mon père était *fâché*. | Mein Vater war *wütend*. |
+chagrin | Trauer | n | Elle était submergée par le *chagrin*. | Sie war von *Trauer* überwältigt. |
+culpabilité | Schuldgefühl | n | Il a éprouvé beaucoup de *culpabilité*. | Er hatte große *Schuldgefühle*. |
+anéanti | untröstlich | adj | Elle était *anéantie* quand il est parti. | Sie war *untröstlich*, als er ging. |
+optimiste | hoffnungsvoll | adj | Je suis *optimiste* pour l'avenir. | Ich bin *zuversichtlich*, dass wir eine Lösung finden. |
+agacé | gereizt | adj | Il était *agacé* par le bruit. | Er war vom Lärm *gereizt*. |
+misérable | elend | adj | Je me suis senti *misérable* toute la semaine. | Ich fühlte mich die ganze Woche *elend*. |
+ému | gerührt | adj | J'étais profondément *ému* par ses mots. | Ich war von ihren Worten tief *gerührt*. |
+nostalgique | nostalgisch | adj | Les vieilles photos me rendent *nostalgique*. | Alte Fotos machen mich *nostalgisch*. |
+offensé | gekränkt | adj | J'espère que tu n'es pas *offensé*. | Ich hoffe, du bist nicht *gekränkt*. |
+perplexe | ratlos | adj | Elle avait l'air *perplexe*. | Sie sah *ratlos* aus. |
+satisfait | zufrieden | adj | Es-tu *satisfait* du résultat ? | Bist du mit dem Ergebnis *zufrieden*? |
+terrifié | zu Tode erschrocken | adj | Je suis *terrifié* par le vide. | Ich habe *panische Angst* vor Höhen. |
+ravi | begeistert | adj | Nous sommes *ravis* de la nouvelle maison. | Wir sind *begeistert* vom neuen Haus. |
+rompre | sich trennen | v | Ils ont *rompu* après cinq ans. | Sie haben sich nach fünf Jahren *getrennt*. |
+l'ex (m/f) | Ex | n | Je suis tombé sur mon *ex* hier. | Ich bin gestern meinem *Ex* begegnet. |
+flatter | schmeichele | v | Je suis *flatté*. | Ich fühle mich *geschmeichelt*. |
+embêter | necken | v | Arrête d'*embêter* ton frère. | Hör auf, deinen Bruder *aufzuziehen*. |
+consoler | trösten | v | Elle a *consolé* l'enfant qui pleurait. | Sie *tröstete* das weinende Kind. |
+admirer | zu jemandem aufschauen | v | J'ai toujours *admiré* ma sœur. | Ich habe immer zu meiner Schwester *aufgeschaut*. |
+
+## C1
+ressentiment | Groll | n | Des années de *ressentiment* ont fini par éclater. | Jahrelanger *Groll* kam endlich zum Vorschein. |
+se réconcilier | versöhnen | v | Les frères se sont *réconciliés* après des années. | Die Brüder *versöhnten* sich nach Jahren des Schweigens. |
+chérir | wertschätzen | v | Je *chéris* les souvenirs de notre voyage. | Ich *schätze* die Zeit, die wir zusammen verbracht haben. |
+résilient | widerstandsfähig | adj | Leur culture est très *résiliente* face aux crises. | Kinder sind oft *widerstandsfähiger*, als wir denken. |
+anéanti | verzweifelt | adj | Elle était *anéantie* après cette terrible nouvelle. | Sie war *außer sich*, nachdem sie ihren Hund verloren hatte. |
+extatique | ekstatisch | adj | La foule était *extatique* lors du concert. | Die Fans waren *außer sich vor Freude*. |
+exaspéré | entnervt | adj | Il semblait *exaspéré* par le bruit constant. | Sie klang *entnervt*. |
+indigné | empört | adj | Il était *indigné* par cette décision injuste. | Er war über die Anschuldigung *empört*. |
+appréhension | la (f) Befürchtung | n | J'ai ressenti de l'*appréhension* avant l'examen. | Ich verspürte eine gewisse *Beklommenheit*. |
+remords | der (m) Reue | n | Il a avoué son crime sans *remords*. | Er zeigte keine *Reue*. |
+mélancolie | la (f) Melancholie | n | Une douce *mélancolie* se dégage de ce tableau. | Ein Gefühl der *Schwermut* überkam sie. |
+mélancolique | wehmütig | adj | Elle a jeté un regard *mélancolique* en arrière. | Sie lächelte *wehmütig*. |
+conquis | hingerissen | adj | Il est totalement *conquis* par son charme. | Er ist total in sie *verknallt*. |
+éloigné | entfremdet | adj | Il est *éloigné* de sa famille depuis des années. | Er hat sich von seinem Vater *entfremdet*. |
+complicité | das gute Verhältnis | n | Une forte *complicité* unit les deux artistes. | Wir bauten schnell ein gutes *Verhältnis* auf. |
+infatuation | die Schwärmerei | n | Cette brève *infatuation* a rapidement pris fin. | Es war nur eine jugendliche *Schwärmerei*. |
+compagnie | die Gesellschaft | n | Les personnes âgées ont besoin de *compagnie*. | Ältere Menschen brauchen *Gesellschaft*. |
+se confier | sich anvertrauen | v | Elle a su *se confier* à son professeur. | Sie *vertraute* sich ihrer besten Freundin *an*. |
+se diviser | entfremden | v | Ses choix politiques ont fini par l'*isoler*. | Seine Bemerkungen *stießen* seine Freunde *vor den Kopf*. |
+rancune | der (f) Groll | n | Il garde une profonde *rancune* contre eux. | Er hegt immer noch einen *Groll*. |
+réconciliation | die Versöhnung | n | La *réconciliation* entre les deux pays est fragile. | Es gibt Hoffnung auf *Versöhnung*. |
+trahison | der Verrat | n | Ce secret révélé fut une terrible *trahison*. | Es fühlte sich wie *Verrat* an. |
+adorer | vergöttern | v | Elle *adore* ses petits-enfants. | Sie *vergöttert* ihre Enkel. |
+compatir | sich einfühlen | v | Je peux *compatir* à votre douleur. | Ich kann mich in dich *einfühlen*. |
+bouillonnant | kochend vor Wut | adj | Elle était *bouillante* de colère après cet affront. | Sie *kochte* vor Wut. |
+dépité | niedergeschlagen | adj | Il avait l'air *dépité* après cet échec. | Er sah *niedergeschlagen* aus. |
+sur un petit nuage | im siebten Himmel | phrase | Elle est *sur un petit nuage* depuis sa promotion. | Seit der Hochzeit ist sie *im siebten Himmel*. |
+taper sur les nerfs de quelqu'un | jemandem auf die Nerven gehen | phrase | Son sifflement me *tape sur les nerfs*. | Sein Pfeifen *geht mir auf die Nerven*. |

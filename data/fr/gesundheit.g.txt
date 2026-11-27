@@ -1,0 +1,134 @@
+# fr – gesundheit (aus der englischen Liste erzeugt)
+
+## A1
+faire mal | wehtun | v | Mon dos me *fait mal*. | Mein Rücken *tut weh*. |
+rhume (m) | Erkältung | n | J'ai attrapé un *rhume*. | Ich habe mich *erkältet*. |
+malade | krank | adj | Je me sens *malade*. | Mir ist *übel*. |
+malade | krank | adj | Elle est *malade* depuis des jours. | Sie ist seit Tagen *krank*. |
+médicament (m) | Medikament | n | Prends ce *médicament* deux fois par jour. | Nimm dieses *Medikament* zweimal täglich. |
+infirmier (m) | Krankenpfleger(in) | n | L' *infirmier* a pris ma tension. | Die *Pflegerin* maß meinen Blutdruck. |
+sain | gesund | adj | Elle mange de la nourriture très *saine*. | Sie isst sehr *gesund*. |
+sommeil (m) | Schlaf | n | Je n'ai pas eu beaucoup de *sommeil*. | Ich habe nicht viel *Schlaf* bekommen. |
+dentiste (m) | Zahnarzt | n | Je vais chez le *dentiste* demain. | Ich gehe morgen zum *Zahnarzt*. |
+médecin (m) | Arzt | n | Je dois voir un *médecin*. | Ich muss zum *Arzt*. |
+hôpital (m) | Krankenhaus | n | Elle est à l' *hôpital*. | Sie ist im *Krankenhaus*. |
+mal de tête (m) | Kopfschmerzen | n | J'ai un terrible *mal de tête*. | Ich habe schreckliche *Kopfschmerzen*. |
+mal aux dents (m) | Zahnschmerzen | n | J'ai *mal aux dents*. | Ich habe *Zahnschmerzen*. |
+problème (m) | Problem | n | Quel est le *problème* ? | Was ist das *Problem*? |
+meilleur | besser | adj | Je me sens beaucoup *mieux* aujourd'hui. | Heute geht es mir viel *besser*. |
+
+## A2
+mal de ventre (m) | Schmerz | n | J'ai un *mal de ventre*. | Ich habe Bauch*schmerzen*. |
+toux (f) | Husten | n | J'ai une *toux* depuis une semaine. | Ich habe seit einer Woche *Husten*. |
+grippe (f) | Grippe | n | La moitié du bureau a la *grippe*. | Das halbe Büro hat die *Grippe*. |
+fièvre (f) | Fieber | n | Elle a une forte *fièvre*. | Sie hat hohes *Fieber*. |
+mal de gorge (m) | Halsschmerzen | n | J'ai un *mal de gorge*. | Ich habe *Halsschmerzen*. |
+éternuer | niesen | v | Je ne peux pas m'arrêter d' *éternuer*. | Ich muss ständig *niesen*. |
+pilule (f) | Tablette | n | Prends une *pilule* après chaque repas. | Nimm nach jeder Mahlzeit eine *Tablette*. |
+ambulance (f) | Krankenwagen | n | Appelle une *ambulance* ! | Ruf einen *Krankenwagen*! |
+urgence (f) | Notfall | n | En cas d' *urgence*, appelez le 112. | Im *Notfall* 112 anrufen. |
+le sang | Blut | n | Le médecin a pris une prise de *sang*. | Sie nahmen eine *Blut*probe. |
+le pansement | Pflaster | n | Tu as un *pansement* pour mon doigt ? | Hast du ein *Pflaster*? |
+le poids | Gewicht | n | Il essaie de perdre du *poids*. | Er versucht abzunehmen (*Gewicht* verlieren). |
+guérir | gesund werden | phrase | J'espère que tu vas *guérir* vite. | Ich hoffe, du *wirst* bald *gesund*. |
+allergique | allergisch | adj | Je suis *allergique* aux noix. | Ich bin *allergisch* gegen Nüsse. |
+le bilan de santé | Vorsorgeuntersuchung | n | Je fais un *bilan de santé* chaque année. | Ich gehe jedes Jahr zur *Vorsorgeuntersuchung*. |
+enflé | geschwollen | adj | Ma cheville est *enflée*. | Mein Knöchel ist *geschwollen*. |
+respirer | atmen | v | *Respire* profondément par le nez. | *Atme* tief ein. |
+le mal de ventre | Bauchschmerzen | n | J'ai mangé trop et maintenant j'ai un *mal de ventre*. | Ich habe zu viel gegessen und jetzt *Bauchschmerzen*. |
+le mal de dos | Rückenschmerzen | n | Rester assis toute la journée me donne un *mal de dos*. | Vom ganzen Tag Sitzen bekomme ich *Rückenschmerzen*. |
+le comprimé | Tablette | n | Prends deux *comprimés* avec de l'eau. | Nimm zwei *Tabletten* mit Wasser. |
+la pharmacie | Apotheke | n | Demande conseil à la *pharmacie*. | Frag in der *Apotheke* um Rat. |
+en forme | gesund | adj | Je ne me sens pas très *en forme*. | Ich fühle mich nicht *wohl*. |
+malade | krank | adj | Elle s'est sentie *malade* et est rentrée. | Sie fühlte sich *unwohl* und ging nach Hause. |
+s'allonger | sich hinlegen | v | Je dois *m'allonger* un moment. | Ich muss mich kurz *hinlegen*. |
+somnolent | schläfrig | adj | Je deviens toujours *somnolent* après le déjeuner. | Nach dem Mittagessen werde ich immer *schläfrig*. |
+fumer | rauchen | v | J'ai arrêté de *fumer* l'année dernière. | Ich habe letztes Jahr aufgehört zu *rauchen*. |
+vivant | lebendig | adj | Est-ce que le poisson est encore *vivant* ? | Lebt der Fisch noch? |
+mort | tot | adj | Toutes mes plantes sont *mortes*. | Meine Pflanzen sind alle *eingegangen*. |
+mourir | sterben | v | Son grand-père est *mort* l'année dernière. | Ihr Großvater ist letztes Jahr *gestorben*. |
+
+## B1
+se remettre | sich erholen | v | Il lui a fallu des semaines pour se *remettre* de la grippe. | Sie brauchte Wochen, um sich von der Grippe zu *erholen*. |
+le traitement | Behandlung | n | Le *traitement* a bien fonctionné. | Die *Behandlung* schlug gut an. |
+prévenir | verhindern, vorbeugen | v | Le sport peut *prévenir* le mal de dos. | Sport kann Rückenschmerzen *vorbeugen*. |
+épuisé | erschöpft | adj | J'étais *épuisé* après cette longue journée. | Ich war nach der langen Schicht *erschöpft*. |
+étourdi | schwindelig | adj | Je me sens *étourdi* en ce moment. | Mir ist *schwindelig*. |
+la pharmacie | Apotheke | n | Il y a une *pharmacie* tout près? | Gibt es eine *Apotheke* in der Nähe? |
+la salle d'attente | Wartezimmer | n | La *salle d'attente* était bondée. | Das *Wartezimmer* war voll. |
+l'opération (f) | Operation | n | Il a besoin d'une *opération* au genou. | Er braucht eine Knie*operation*. |
+le pansement | Verband | n | L'infirmière a mis un *pansement* sur mon bras. | Die Pflegerin legte einen *Verband* an meinem Arm an. |
+la santé | Gesundheit | n | Fumer nuit à la *santé*. | Rauchen schadet der *Gesundheit*. |
+
+## B2
+l'ordonnance (f) | Rezept (ärztlich) | n | Il te faut une *ordonnance* pour ce médicament. | Für dieses Medikament brauchst du ein *Rezept*. |
+chronique | chronisch | adj | Il souffre de douleurs dorsales *chroniques*. | Er leidet an *chronischen* Rückenschmerzen. |
+diagnostiquer | diagnostizieren | v | Les médecins ont vite *diagnostiqué* le problème. | Die Ärzte *diagnostizierten* das Problem schnell. |
+le bien-être | Wohlbefinden | n | Le sommeil est essentiel à votre *bien-être*. | Schlaf ist wichtig für dein *Wohlbefinden*. |
+l'effet secondaire (m) | Nebenwirkung | n | Ce médicament a peu d'*effets secondaires*. | Das Medikament hat wenige *Nebenwirkungen*. |
+contagieux | ansteckend | adj | Son rire était *contagieux*. | Ihr Lachen war *ansteckend*. |
+le symptôme | Symptom | n | Quels sont vos *symptômes*? | Welche *Symptome* haben Sie? |
+l'infection (f) | Infektion | n | Elle a une *infection* à l'oreille. | Sie hat eine Ohren*entzündung*. |
+l'inflammation (f) | Entzündung | n | Cette crème réduit l'*inflammation*. | Die Creme lindert *Entzündungen*. |
+le virus | Virus | n | C'est juste un *virus*. | Es ist nur ein *Virus*. |
+le vaccin | Impfstoff | n | Le *vaccin* est gratuit. | Der *Impfstoff* ist kostenlos. |
+vacciner | impfen | v | Tu t'es fait *vacciner*? | Bist du *geimpft*? |
+le système immunitaire | Immunsystem | n | Le sommeil renforce le *système immunitaire*. | Schlaf stärkt das *Immunsystem*. |
+la tension artérielle | Blutdruck | n | Ma *tension artérielle* est trop élevée. | Mein *Blutdruck* ist zu hoch. |
+la crise cardiaque | Herzinfarkt | n | Il a eu une *crise cardiaque* l'année dernière. | Er hatte letztes Jahr einen *Herzinfarkt*. |
+l'accident vasculaire cérébral (m) | Schlaganfall | n | Elle a bien récupéré après son *accident vasculaire cérébral*. | Sie hat sich nach dem *Schlaganfall* gut erholt. |
+le cancer | Krebs | n | Fumer provoque le *cancer*. | Rauchen verursacht *Krebs*. |
+le diabète | Diabetes | n | On lui a diagnostiqué un *diabète*. | Bei ihm wurde *Diabetes* diagnostiziert. |
+l'opération (f) | Operation | n | L'*opération* s'est bien passée. | Die *Operation* verlief gut. |
+le chirurgien | Chirurg(in) | n | Le *chirurgien* a retiré la tumeur. | Die *Chirurgin* entfernte den Tumor. |
+le médecin généraliste | Hausarzt, Hausärztin | n | Consultez d'abord votre *médecin généraliste*. | Geh zuerst zu deinem *Hausarzt*. |
+le spécialiste | Facharzt, Fachärztin | n | J'ai été adressé à un *spécialiste*. | Ich wurde an einen *Facharzt* überwiesen. |
+l'antidouleur (m) | Schmerzmittel | n | Prends un *antidouleur*. | Nimm ein *Schmerzmittel*. |
+les antibiotiques | Antibiotika | n | Le médecin a prescrit des *antibiotiques*. | Die Ärztin verschrieb *Antibiotika*. |
+la dose | Dosis | n | Ne dépasse pas la *dose*. | Überschreite nicht die *Dosis*. |
+guérir | heilen | v | La blessure a *guéri* rapidement. | Die Wunde *heilte* schnell. |
+la blessure | Wunde | n | Nettoie soigneusement la *blessure*. | Reinige die *Wunde* sorgfältig. |
+le bleu | blauer Fleck | n | J'ai un *bleu* sur la jambe. | Ich habe einen *blauen Fleck* am Bein. |
+se fouler | verstauchen | v | Je me suis *foulé* le poignet. | Ich habe mir das Handgelenk *verstaucht*. |
+la fracture | Bruch | n | La radiographie a montré une *fracture*. | Das Röntgenbild zeigte einen *Bruch*. |
+la cicatrice | Narbe | n | Il a une *cicatrice* au menton. | Er hat eine *Narbe* am Kinn. |
+l'éruption (f) | Ausschlag | n | J'ai une *éruption* cutanée sur le bras. | Ich habe einen *Ausschlag* am Arm. |
+démanger | jucken | v | Ma peau *démange*. | Meine Haut *juckt*. |
+la nausée | Übelkeit | n | La *nausée* est un effet secondaire fréquent. | *Übelkeit* ist eine häufige Nebenwirkung. |
+vomir | sich übergeben | v | Il a *vomit* deux fois. | Er hat sich zweimal *übergeben*. |
+l'insomnie (f) | Schlaflosigkeit | n | Elle souffre d'*insomnie*. | Sie leidet an *Schlaflosigkeit*. |
+la dépression | Depression | n | La *dépression* est une maladie grave. | *Depression* ist eine ernste Krankheit. |
+la thérapie | Therapie | n | Il suit une *thérapie*. | Er macht eine *Therapie*. |
+la guérison | Genesung | n | Il a fait une *guérison* complète. | Er ist vollständig *genesen*. |
+l'arrêt maladie (m) | Krankschreibung | n | Elle est en *arrêt maladie*. | Sie ist *krankgeschrieben*. |
+l'assurance maladie (f) | Krankenversicherung | n | As-tu une *assurance maladie* ? | Hast du eine *Krankenversicherung*? |
+handicapé | behindert | adj | Le bâtiment est accessible aux personnes *handicapées*. | Das Gebäude ist für Menschen mit *Behinderung* zugänglich. |
+l'addiction (f) | Sucht | n | Il a combattu son *addiction*. | Er kämpfte gegen seine *Sucht*. |
+la posture | Haltung | n | Une mauvaise *posture* cause des maux de dos. | Schlechte *Haltung* verursacht Rückenschmerzen. |
+le pouls | Puls | n | L'infirmière a pris mon *pouls*. | Die Pflegerin fühlte meinen *Puls*. |
+
+## C1
+sédentaire | sitzend, bewegungsarm | adj | Un mode de vie *sédentaire* nuit à la santé. | Ein *bewegungsarmer* Lebensstil erhöht Gesundheitsrisiken. |
+se détériorer | sich verschlechtern | v | Son état de santé a *commencé* à se *détériorer*. | Sein Zustand *verschlechterte* sich über Nacht. |
+le malaise | Leiden | n | Ce n'est qu'un petit *malaise* passager. | Es ist ein leichtes *Leiden*. |
+le remède | Heilmittel | n | C'est un vieux *remède* de grand-mère. | Es ist ein altes Haus*mittel*. |
+l'épidémie (f) | Ausbruch | n | Il y a eu un *épidémie* de grippe. | Es gab einen Masern*ausbruch*. |
+l'épidémie (f) | Epidemie | n | L'obésité est une *épidémie* croissante. | Fettleibigkeit ist eine wachsende *Epidemie*. |
+l'obésité (f) | Fettleibigkeit | n | L'obésité infantile *augmente* rapidement. | *Fettleibigkeit* bei Kindern nimmt zu. |
+incurable | unheilbar | adj | Il souffre d'un cancer *incurable*. | Er hat *unheilbaren* Krebs. |
+bénin | gutartig | adj | Heureusement, la tumeur était *bénigne*. | Zum Glück war der Tumor *gutartig*. |
+malin | bösartig | adj | Les tests ont montré que c'était *malin*. | Die Tests zeigten, dass er *bösartig* war. |
+la rechute | Rückfall | n | Il a *subi* une grave *rechute*. | Er erlitt einen *Rückfall*. |
+convalescer | sich erholen | v | Elle *convalesce* tranquillement à la maison. | Sie *erholt* sich zu Hause. |
+invalidant | schwächend | adj | C'est une maladie très *invalidante*. | Es ist eine *zermürbende* Krankheit. |
+la fatigue | Erschöpfung | n | La *fatigue* est un symptôme courant. | *Erschöpfung* ist ein häufiges Symptom. |
+léthargique | träge | adj | Je me sens *léthargique* aujourd'hui. | Ich fühle mich heute *antriebslos*. |
+l'ambulancier (m) | Sanitäter | n | Les *ambulanciers* sont arrivés très vite. | Die *Sanitäter* waren schnell da. |
+les soins intensifs | Intensivstation | n | Il est actuellement aux *soins intensifs*. | Er liegt auf der *Intensivstation*. |
+l'anesthésie (f) | Narkose | n | C'est fait sous *anesthésie* locale. | Es wird unter örtlicher *Betäubung* gemacht. |
+le pronostic | Prognose | n | Le *pronostic* vital est engagé. | Die *Prognose* ist gut. |
+héréditaire | erblich | adj | Cette maladie est *héréditaire*. | Die Krankheit ist *erblich*. |
+sensible | anfällig | adj | Les personnes âgées sont plus *sensibles*. | Ältere Menschen sind *anfälliger*. |
+holistique | ganzheitlich | adj | Ils adoptent une approche *holistique*. | Sie verfolgen einen *ganzheitlichen* Ansatz. |
+patraque | angeschlagen | phrase | Je me sens un peu *patraque* aujourd'hui. | Ich fühle mich etwas *angeschlagen*. |
+sur la voie de la guérison | auf dem Weg der Besserung | phrase | Il est enfin *sur la voie de la guérison*. | Er ist jetzt *auf dem Weg der Besserung*. |

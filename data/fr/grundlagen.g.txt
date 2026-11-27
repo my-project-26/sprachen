@@ -1,0 +1,303 @@
+# fr – grundlagen (aus der englischen Liste erzeugt)
+
+## A1
+un | eins | num | J'ai *un* frère. | Ich habe *einen* Bruder. |
+deux | zwei | num | Nous avons *deux* chats. | Wir haben *zwei* Katzen. |
+trois | drei | num | Le magasin ouvre à *trois* heures. | Der Laden öffnet um *drei*. |
+quatre | vier | num | Il y a *quatre* personnes dans ma famille. | In meiner Familie sind wir *vier* Personen. |
+cinq | fünf | num | Je me lève à *cinq* heures. | Ich stehe um *fünf* Uhr auf. |
+six | sechs | num | Le film commence à *six* heures. | Der Film beginnt um *sechs*. |
+sept | sieben | num | Une semaine a *sept* jours. | Eine Woche hat *sieben* Tage. |
+huit | acht | num | L'école commence à *huit* heures. | Die Schule beginnt um *acht*. |
+neuf | neun | num | Mon fils a *neuf* ans. | Mein Sohn ist *neun* Jahre alt. |
+dix | zehn | num | Je reviens dans *dix* minutes. | Ich bin in *zehn* Minuten zurück. |
+onze | elf | num | Une équipe a *onze* joueurs. | Eine Mannschaft hat *elf* Spieler. |
+douze | zwölf | num | Nous déjeunons à *douze* heures. | Wir essen um *zwölf* zu Mittag. |
+treize | dreizehn | num | Elle a *treize* ans aujourd'hui. | Sie wird heute *dreizehn*. |
+quinze | fünfzehn | num | Le bus arrive toutes les *quinze* minutes. | Der Bus kommt alle *fünfzehn* Minuten. |
+vingt | zwanzig | num | Ça coûte *vingt* euros. | Es kostet *zwanzig* Euro. |
+trente | dreißig | num | Il a *trente* ans. | Er ist *dreißig* Jahre alt. |
+quarante | vierzig | num | Le trajet dure *quarante* minutes. | Die Fahrt dauert *vierzig* Minuten. |
+cinquante | fünfzig | num | J'ai payé *cinquante* livres pour ça. | Ich habe *fünfzig* Pfund dafür bezahlt. |
+cent | hundert | num | Il y avait *cent* personnes à la fête. | Auf der Party waren *hundert* Leute. |
+mille | tausend | num | Le vélo a coûté *mille* euros. | Das Fahrrad hat *tausend* Euro gekostet. |
+million (m) | Million | num | La ville a deux *millions* d'habitants. | Die Stadt hat zwei *Millionen* Einwohner. |
+premier | erste(r, s) | num | C'est ma *première* fois à Londres. | Ich bin zum *ersten* Mal in London. |
+deuxième | zweite(r, s) | num | Prends la *deuxième* rue à gauche. | Nimm die *zweite* Straße links. |
+troisième | dritte(r, s) | num | Nous habitons au *troisième* étage. | Wir wohnen im *dritten* Stock. |
+numéro (m) | Nummer | n | Quel est ton *numéro* de téléphone ? | Wie ist deine Telefon*nummer*? |
+le mardi | Dienstag | n | Le musée est fermé le *mardi*. | Das Museum hat am *Dienstag* geschlossen. |
+le mercredi | Mittwoch | n | Nous nous rencontrons chaque *mercredi*. | Wir treffen uns jeden *Mittwoch*. |
+le jeudi | Donnerstag | n | La fête est le *jeudi*. | Die Party ist am *Donnerstag*. |
+le vendredi | Freitag | n | J'aime les soirs de *vendredi*. | Ich liebe *Freitag*abende. |
+le samedi | Samstag | n | Le *samedi*, nous allons faire les courses. | Am *Samstag* gehen wir einkaufen. |
+le dimanche | Sonntag | n | Les magasins sont fermés le *dimanche*. | Am *Sonntag* sind die Läden zu. |
+le janvier | Januar | n | Mon anniversaire est en *janvier*. | Mein Geburtstag ist im *Januar*. |
+le février | Februar | n | Le *février* est le mois le plus court. | Der *Februar* ist der kürzeste Monat. |
+le mars | März | n | Le printemps commence en *mars*. | Der Frühling beginnt im *März*. |
+le avril | April | n | Il pleut souvent en *avril*. | Im *April* regnet es oft. |
+le mai | Mai | n | Nous nous sommes mariés en *mai*. | Wir haben im *Mai* geheiratet. |
+le juin | Juni | n | L'école se termine en *juin*. | Die Schule endet im *Juni*. |
+le juillet | Juli | n | Le *juillet* est généralement chaud. | Der *Juli* ist meistens heiß. |
+le août | August | n | Nous partons en vacances en *août*. | Im *August* fahren wir in den Urlaub. |
+le septembre | September | n | Le cours commence en *septembre*. | Der Kurs beginnt im *September*. |
+le octobre | Oktober | n | Les feuilles tombent en *octobre*. | Im *Oktober* fallen die Blätter. |
+le novembre | November | n | Le *novembre* est gris et humide. | Der *November* ist grau und nass. |
+le décembre | Dezember | n | Noël est en *décembre*. | Weihnachten ist im *Dezember*. |
+le jour | Tag | n | Passez une bonne *journée* ! | Einen schönen *Tag*! |
+la semaine | Woche | n | Je la vois une fois par *semaine*. | Ich sehe sie einmal pro *Woche*. |
+le mois | Monat | n | Le loyer est dû chaque *mois*. | Die Miete ist jeden *Monat* fällig. |
+l'année (f) | Jahr | n | Nous avons emménagé ici l'année *dernière*. | Wir sind letztes *Jahr* hierhergezogen. |
+l'heure (f) | Stunde | n | Le trajet prend une *heure*. | Die Fahrt dauert eine *Stunde*. |
+la minute | Minute | n | Attends une *minute* s'il te plaît. | Warte bitte eine *Minute*. |
+l'heure (f) | Zeit | n | Quelle *heure* est-il ? | Wie viel *Uhr* ist es? |
+le matin | Morgen, Vormittag | n | Je bois du café chaque *matin*. | Ich trinke jeden *Morgen* Kaffee. |
+l'après-midi (m) | Nachmittag | n | À *l'après-midi*, nous serons libres. | Bis heute *Nachmittag*. |
+le soir | Abend | n | Nous avons passé une *soirée* calme à la maison. | Wir hatten einen ruhigen *Abend* zu Hause. |
+la nuit | Nacht | n | J'ai mal dormi cette *nuit*. | Ich habe letzte *Nacht* schlecht geschlafen. |
+aujourd'hui | heute | adv | Il fait très chaud *aujourd'hui*. | Es ist *heute* sehr warm. |
+demain | morgen | adv | Appelle-moi *demain*. | Ruf mich *morgen* an. |
+hier | gestern | adv | Je l'ai vu *hier*. | Ich habe ihn *gestern* gesehen. |
+maintenant | jetzt | adv | Je dois partir *maintenant*. | Ich muss *jetzt* gehen. |
+le week-end | Wochenende | n | Que fais-tu ce *week-end* ? | Was machst du am *Wochenende*? |
+heure | Uhr (volle Stunde) | adv | Il est trois *heures*. | Es ist drei *Uhr*. |
+le printemps | Frühling | n | Le jardin est beau au *printemps*. | Im *Frühling* ist der Garten wunderschön. |
+l'été (m) | Sommer | n | Nous allons nager en *été*. | Im *Sommer* gehen wir schwimmen. |
+l'automne (m) | Herbst | n | J'aime les couleurs de *l'automne*. | Ich liebe die Farben des *Herbstes*. |
+l'hiver (m) | Winter | n | Il neige beaucoup en *hiver*. | Im *Winter* schneit es viel. |
+la couleur | Farbe | n | Quelle est ta *couleur* préférée ? | Was ist deine Lieblings*farbe*? |
+rouge | rot | adj | Elle a une voiture *rouge*. | Sie hat ein *rotes* Auto. |
+bleu | blau | adj | Le ciel est *bleu* aujourd'hui. | Der Himmel ist heute *blau*. |
+vert | grün | adj | Il porte une veste *verte*. | Er trägt eine *grüne* Jacke. |
+jaune | gelb | adj | Les bananes sont encore *jaunes*. | Die Bananen sind noch *gelb*. |
+noir | schwarz | adj | Je voudrais mon café *noir*. | Ich hätte meinen Kaffee gern *schwarz*. |
+blanc | weiß | adj | Les murs sont *blancs*. | Die Wände sind *weiß*. |
+brun | braun | adj | Elle a les yeux *bruns*. | Sie hat *braune* Augen. |
+gris | grau | adj | Ses cheveux deviennent *gris*. | Seine Haare werden *grau*. |
+rose | rosa, pink | adj | Elle a acheté une robe *rose*. | Sie hat ein *rosa* Kleid gekauft. |
+je | ich | pron | J'*habite* à Berlin. | *Ich* wohne in Berlin. |
+tu | du | pron | Est-ce que *tu* as faim ? | Hast *du* Hunger? |
+il | er | pron | *Il* travaille dans une banque. | *Er* arbeitet in einer Bank. |
+elle | sie (Einzahl) | pron | *Elle* parle trois langues. | *Sie* spricht drei Sprachen. |
+il | es | pron | *Il* pleut. | *Es* regnet. |
+nous | wir | pron | *Nous* sommes en retard. | *Wir* sind spät dran. |
+ils | sie (Mehrzahl) | pron | *Ils* habitent a coté. | *Sie* wohnen nebenan. |
+moi | mich, mir | pron | Tu peux m'*aider* ? | Kannst du *mir* helfen? |
+lui | ihn, ihm | pron | Je l'*ai* appelé hier. | Ich habe *ihn* gestern angerufen. |
+lui | sie, ihr | pron | Je *lui* ai donné les clés. | Ich habe *ihr* die Schlüssel gegeben. |
+nous | uns | pron | Viens avec *nous* ! | Komm mit *uns*! |
+les | sie, ihnen | pron | Je ne les *connais* pas. | Ich kenne *sie* nicht. |
+mon | mein(e) | det | *Mon* nom est Kai. | *Mein* Name ist Kai. |
+ton | dein(e) | det | C est *ton* sac ? | Ist das *deine* Tasche? |
+son | sein(e) | det | *Son* voiture est neuve. | *Sein* Auto ist neu. |
+notre | unser(e) | det | *Notre* appartement est petit. | *Unsere* Wohnung ist klein. |
+leur | ihr(e) (Mehrzahl) | det | *Leur* enfants sont tres bruyants. | *Ihre* Kinder sind sehr laut. |
+ce | dies(e, er, es) | det | *Ce* café est super. | *Dieser* Kaffee ist toll. |
+ce | das, jene(r, s) | det | Qui est *ce* monsieur ? | Wer ist *der* Mann da? |
+ces | diese (Mehrzahl) | det | *Ces* chaussures sont trop petites. | *Diese* Schuhe sind zu klein. |
+ces | jene, die da | det | Je peux essayer *ces* jeans ? | Kann ich *die* Jeans *da* anprobieren? |
+un | ein(e) | det | Je voudrais *un* café. | Ich hätte gern *einen* Kaffee. |
+le | der, die, das | det | *Le* train a du retard. | *Der* Zug hat Verspätung. |
+du | etwas, einige | det | Tu veux *du* thé ? | Möchtest du *etwas* Tee? |
+de | (irgend)welche | det | Avez-*vous* des questions ? | Habt ihr *irgendwelche* Fragen? |
+tous | alle, ganz | det | *Tous* mes amis étaient là. | *Alle* meine Freunde waren da. |
+chaque | jede(r, s) | det | Je *chaque* jour je cours. | Ich gehe *jeden* Tag laufen. |
+beaucoup | viele | det | Il n'y a pas de *beaucoup* de gens ici. | Hier sind nicht *viele* Leute. |
+beaucoup | viel | det | Je n'ai pas *beaucoup* de temps. | Ich habe nicht *viel* Zeit. |
+plus | mehr | det | Je peux avoir *plus* de lait ? | Kann ich *mehr* Milch haben? |
+autre | andere(r, s) | adj | Où sont les *autres* enfants ? | Wo sind die *anderen* Kinder? |
+dans | in | prep | Les clés sont *dans* mon sac. | Die Schlüssel sind *in* meiner Tasche. |
+sur | auf | prep | Le livre est *sur* la table. | Das Buch liegt *auf* dem Tisch. |
+chez | bei | prep | Je suis *chez* moi. | Ich bin *zu* Hause. |
+sous | unter | prep | Le chat est *sous* le lit. | Die Katze ist *unter* dem Bett. |
+à côté de | neben | prep | Assieds-toi *à côté de* moi. | Setz dich *neben* mich. |
+de | aus | prep | Je viens *de* Allemagne. | Ich komme *aus* Deutschland. |
+à | nach | prep | Je vais *à* Londres. | Ich fahre *nach* London. |
+avec | mit | prep | J'habite *avec* ma sœur. | Ich wohne *mit* meiner Schwester zusammen. |
+pour | für | prep | Ce cadeau est *pour* toi. | Dieses Geschenk ist *für* dich. |
+sur | über | prep | C'est un film *sur* l'amour. | Es ist ein Film *über* die Liebe. |
+avant | vor | prep | Lave tes mains *avant* le dîner. | Wasch dir *vor* dem Essen die Hände. |
+après | nach | prep | Allons nous promener *après* le déjeuner. | Lass uns *nach* dem Mittagessen spazieren gehen. |
+entre | zwischen | prep | La banque est *entre* le café et la poste. | Die Bank liegt *zwischen* dem Café und der Post. |
+devant | vor (räumlich) | prep | J'attends *devant* le cinéma. | Ich warte *vor* dem Kino. |
+près de | nahe, in der Nähe von | prep | Il y a une banque *près de* ici ? | Gibt es hier *in der Nähe* eine Bank? |
+et | und | conj | J'aime le thé *et* le café. | Ich mag Tee *und* Kaffee. |
+mais | aber | conj | C'est petit *mais* beau. | Es ist klein, *aber* schön. |
+ou | oder | conj | Thé *ou* café ? | Tee *oder* Kaffee? |
+parce que | weil | conj | Je suis resté à la maison *parce que* j'étais malade. | Ich bin zu Hause geblieben, *weil* ich krank war. |
+si | wenn, falls | conj | Appelle-moi *si* tu as besoin d'aide. | Ruf mich an, *wenn* du Hilfe brauchst. |
+quand | wann | adv | Quand *pars*-tu ? | *Wann* fährt der Zug ab? |
+que | was | pron | Que *fais*-tu ? | *Wie* heißt du? |
+qui | wer | pron | Qui *est* là ? | *Wer* ist das? |
+où | wo | adv | Où *habites*-tu ? | *Wo* wohnst du? |
+pourquoi | warum | adv | Pourquoi *pleures*-tu ? | *Warum* bist du traurig? |
+comment | wie | adv | Comment *ça* va ? | *Wie* geht es dir? |
+quel | welche(r, s) | det | Quel *livre* lis-tu ? | *Welcher* Bus fährt zum Bahnhof? |
+combien | wie viel (unzählbar) | phrase | Combien *coûte* ça ? | *Wie viel* kostet das? |
+combien | wie viele (zählbar) | phrase | Combien de *frères* as-tu ? | *Wie viele* Kinder hast du? |
+oui | ja | adv | Oui, je *veux* bien. | *Ja*, bitte. |
+non | nein | adv | Non, je *ne* veux pas. | *Nein*, danke. |
+pas | nicht | adv | Je *ne* sais pas. | Ich bin *nicht* müde. |
+très | sehr | adv | Il *fait* très chaud. | Das Essen war *sehr* gut. |
+trop | zu | adv | C'est *trop* cher. | Dieser Kaffee ist *zu* heiß. |
+aussi | auch | adv | J'ai *aussi* un chat. | Sie spricht *auch* Französisch. |
+encore | wieder, noch einmal | adv | Répète *encore* une fois. | Kannst du das *noch einmal* sagen? |
+toujours | immer | adv | Il *arrive* toujours en retard. | Er kommt *immer* zu spät. |
+jamais | nie | adv | Je ne *mange* jamais de viande. | Ich esse *nie* Fleisch. |
+souvent | oft | adv | Nous *allons* souvent au cinéma. | Wir gehen *oft* ins Kino. |
+parfois | manchmal | adv | Je *travaille* parfois à la maison. | Ich arbeite *manchmal* von zu Hause. |
+d'habitude | normalerweise | adv | D'habitude, je *me* lève tôt. | *Normalerweise* stehe ich um sieben auf. |
+ici | hier | adv | Viens *ici* ! | Komm *her*! |
+là | dort, da | adv | Il *habite* là-bas. | Ich war noch nie *dort*. |
+s'il vous plaît | bitte | adv | Un café, s'il vous *plaît*. | Zwei Kaffee, *bitte*. |
+merci | danke | phrase | Merci *pour* ton aide. | *Danke* für deine Hilfe. |
+bonjour | hallo | phrase | Bonjour, comment *vas*-tu ? | *Hallo*, wie geht's? |
+au revoir | auf Wiedersehen | phrase | Dis *au revoir* à mamie. | Sag Oma *auf Wiedersehen*. |
+être | sein | v | Je *suis* professeur. | Ich *bin* Lehrer. |
+avoir | haben | v | J'*ai* deux sœurs. | Ich *habe* zwei Schwestern. |
+faire | tun, machen | v | Qu'est-ce que tu *fais* ? | Was *machst* du beruflich? |
+aller | gehen, fahren | v | On *va* à la maison. | Lass uns nach Hause *gehen*. |
+recevoir | bekommen | v | J'*ai* reçu une lettre aujourd'hui. | Ich habe heute einen Brief *bekommen*. |
+faire | machen, herstellen | v | Je *fais* du thé. | Ich *mache* Tee. |
+voir | sehen | v | Je ne *vois* rien. | Ich kann nichts *sehen*. |
+savoir | wissen | v | Je ne le *sais* pas. | Ich *weiß* es nicht. |
+penser | denken, glauben | v | Je *pense* que c'est une bonne idée. | Ich *glaube*, das ist eine gute Idee. |
+aimer | mögen | v | J'*aime* tes chaussures. | Ich *mag* deine Schuhe. |
+dire | sagen | v | Qu'est-ce qu'elle a *dit* ? | Was hat sie *gesagt*? |
+raconter | erzählen | v | Raconte-moi *une* histoire. | *Erzähl* mir eine Geschichte. |
+demander | fragen, bitten | v | Je peux te *demander* quelque chose ? | Darf ich dich etwas *fragen*? |
+répondre | antworten | v | Veuillez *répondre* à la question. | Bitte *beantworte* die Frage. |
+donner | geben | v | Donne-moi ta *main*. | *Gib* mir deine Hand. |
+prendre | nehmen | v | Prends *un* parapluie. | *Nimm* einen Schirm mit. |
+mettre | legen, stellen | v | Mets le lait dans le *frigo*. | *Stell* die Milch in den Kühlschrank. |
+trouver | finden | v | Je ne *trouve* pas mes clés. | Ich kann meine Schlüssel nicht *finden*. |
+regarder | schauen | v | Regarde *ça* ! | *Schau* dir das an! |
+entendre | hören | v | Je ne t'*entends* pas. | Ich kann dich nicht *hören*. |
+parler | sprechen | v | Tu *parles* anglais ? | *Sprichst* du Englisch? |
+parler | reden, sich unterhalten | v | Nous avons *parlé* pendant des heures. | Wir haben stundenlang *geredet*. |
+lire | lesen | v | Je *lis* tous les soirs. | Ich *lese* jeden Abend. |
+écrire | schreiben | v | *Écris* ton nom ici. | *Schreib* deinen Namen hierhin. |
+manger | essen | v | Qu est-ce que tu veux *manger* ? | Was möchtest du *essen*? |
+boire | trinken | v | Je *bois* beaucoup d eau. | Ich *trinke* viel Wasser. |
+jouer | spielen | v | Les enfants *jouent* dehors. | Die Kinder *spielen* draußen. |
+commencer | anfangen, beginnen | v | Quand est-ce que le film *commence* ? | Wann *fängt* der Film *an*? |
+arrêter | anhalten | v | *Arrête* la voiture ! | *Halt* das Auto *an*! |
+aider | helfen | v | Tu peux m *aider* ? | Kannst du mir *helfen*? |
+devoir | müssen | v | Tu *dois* être fatigué. | Du *musst* müde sein. |
+appeler | anrufen | v | Je t *appelle* plus tard. | Ich *rufe* dich später *an*. |
+attendre | warten | v | *Attends*-moi ! | *Warte* auf mich! |
+essayer | versuchen, probieren | v | *Essaye* ce gâteau. | *Probier* diesen Kuchen. |
+utiliser | benutzen | v | Je peux *utiliser* ton téléphone ? | Darf ich dein Handy *benutzen*? |
+apprendre | lernen | v | J *apprends* l anglais. | Ich *lerne* Englisch. |
+s'asseoir | sitzen | v | Je peux m *asseoir* ici ? | Darf ich hier *sitzen*? |
+être debout | stehen | v | Nous *étions* debout sous la pluie. | Wir *standen* im Regen. |
+marcher | gehen | v | Je *marche* pour aller au travail. | Ich *gehe* zu Fuß zur Arbeit. |
+courir | rennen, laufen | v | Je *cours* tous les matins. | Ich *laufe* jeden Morgen. |
+bon | gut | adj | C est une *bonne* idée. | Das ist eine *gute* Idee. |
+mauvais | schlecht | adj | Le temps est *mauvais* aujourd hui. | Das Wetter ist heute *schlecht*. |
+grand | groß | adj | Ils ont une *grande* maison. | Sie haben ein *großes* Haus. |
+petit | klein | adj | C est un *petit* village. | Es ist ein *kleines* Dorf. |
+long | lang | adj | C était une *longue* journée. | Es war ein *langer* Tag. |
+court | kurz | adj | Elle a les cheveux *courts*. | Sie hat *kurze* Haare. |
+nouveau | neu | adj | Il a acheté une *nouvelle* voiture. | Ich brauche *neue* Schuhe. |
+vieux | alt | adj | C est un *vieux* village. | Dieses Haus ist sehr *alt*. |
+jeune | jung | adj | Elle est très *jeune*. | Sie sieht sehr *jung* aus. |
+chaud | heiß | adj | Aujourd hui, il fait très *chaud*. | Heute ist es richtig *heiß*. |
+chaud | warm | adj | Mets un pull *chaud*. | Zieh einen *warmen* Mantel an. |
+gentil | nett | adj | Il est très *gentil* avec moi. | Schönes Wochenende! |
+beau | schön | adj | C est un *beau* jardin. | Was für eine *wunderschöne* Aussicht! |
+facile | leicht | adj | Cet exercice est *facile*. | Der Test war *leicht*. |
+faux | falsch | adj | Ta réponse est *fausse*. | Ich habe den *falschen* Bus genommen. |
+même | gleich | adj | Nous avons la *même* voiture. | Wir haben *dasselbe* Handy. |
+différent | verschieden | adj | Leurs avis sont *différents*. | Meine Schwester ist ganz *anders* als ich. |
+haut | hoch | adv | Il regarde en *haut*. | Geh die Treppe *hoch*. |
+en bas | nach unten | adv | Descends *en bas*. | Setz dich bitte *hin*. |
+dehors | draußen | adv | Il joue *dehors*. | *Raus*! |
+éteint | aus | adv | La lumière est *éteinte*. | Mach den Fernseher *aus*. |
+fini | vorbei | prep | Le film est *fini*. | Die Party ist *vorbei*. |
+par | von | prep | Ce livre a été écrit *par* lui. | Das Buch ist *von* J. K. Rowling. |
+de | von | prep | Je voudrais un verre *de*au. | Eine Tasse Tee, bitte. |
+petit | klein | adj | C est un *petit* chat. | Sie haben ein *kleines* Mädchen. |
+grand | groß | adj | C est un *grand* appartement. | Einen *großen* Kaffee, bitte. |
+lent | langsam | adj | Ce train est très *lent*. | Das Internet ist sehr *langsam*. |
+rapide | schnell | adj | C est un train *rapide*. | Darf ich *kurz* etwas fragen? |
+meilleur | beste(r, s) | adj | C est mon *meilleur* ami. | Du bist mein *bester* Freund. |
+autre | noch ein(e) | det | Je veux *autre* chose. | Kann ich *noch einen* Kaffee haben? |
+quelqu un | (irgend)jemand | pron | Est-ce que *quelqu un* est là ? | Ist *jemand* zu Hause? |
+tout le monde | jeder, alle | pron | Bonjour à *tout* *le* *monde* ! | Hallo, *alle* zusammen! |
+quelqu'un | jemand | pron | *Quelqu'un* vous a appelé. | *Jemand* hat dich angerufen. |
+toi-même | dich, dir (selbst) | pron | Sers-*toi* *toi-même* ! | *Bedien* dich! |
+son | sein(e), ihr(e) (Sache, Tier) | det | Le chien remuait *sa* queue. | Der Hund wedelte mit *seinem* Schwanz. |
+aller | werden (Zukunft) | v | Je *vais* t'appeler demain. | Ich *werde* dich morgen anrufen. |
+vouloir | würde(n) | v | Je *voudrais* un thé. | Ich *würde* gern einen Tee nehmen. |
+pouvoir | könnte(n); konnte(n) | v | *Pourriez*-vous m'aider ? | *Könntest* du mir helfen? |
+devoir | sollt(e)n | v | Tu *devrais* voir un médecin. | Du *solltest* zum Arzt gehen. |
+ne pas pouvoir | kann nicht | v | Je *ne* *peux* pas trouver mon téléphone. | Ich *kann* mein Handy nicht finden. |
+commencer | beginnen | v | La leçon *commence* à neuf heures. | Der Unterricht *beginnt* um neun. |
+début | Anfang | n | Au *début* je n'aimais pas ça. | Am *Anfang* mochte ich es nicht. |
+salut | hi, hallo | phrase | *Salut*, je m'appelle Tom. | *Hallo*, ich bin Tom. |
+au revoir | tschüss | phrase | *Au* *revoir*, à demain ! | *Tschüss*, bis morgen! |
+merci | danke | phrase | *Merci* beaucoup ! | Vielen *Dank*! |
+bienvenue | willkommen | adj | *Bienvenue* à Londres ! | *Willkommen* in London! |
+cher | liebe(r) (Anrede) | adj | *Cher* Thomas, ... | *Liebe* Anna, … |
+oh | oh, ach | phrase | *Oh*, je ne savais pas ça. | *Ach*, das wusste ich nicht. |
+ouais | ja (umgangssprachlich) | adv | *Ouais*, ça a l'air bien. | *Ja*, klingt gut. |
+ce soir | heute Abend, heute Nacht | adv | Que fais-tu *ce* *soir* ? | Was machst du *heute Abend*? |
+télévision | Fernseher, Fernsehen | n | Qu'est-ce qu'il y a à la *télévision* ce soir ? | Was kommt heute Abend im *Fernsehen*? |
+film | Film (US) | n | Regardons un *film*. | Lass uns einen *Film* schauen. |
+téléphone | Telefon | n | Le *téléphone* sonne. | Das *Telefon* klingelt. |
+vélo | Fahrrad | n | Je vais au travail à *vélo*. | Ich fahre mit dem *Fahrrad* zur Arbeit. |
+café | Café | n | Retrouvons-nous au *café* du coin. | Treffen wir uns im *Café* an der Ecke. |
+carte | Karte | n | Je lui ai envoyé une *carte* d'anniversaire. | Ich habe ihr eine Geburtstags*karte* geschickt. |
+la crème | Sahne | n | Des fraises avec de la *crème*, s'il vous plaît. | Erdbeeren mit *Sahne*, bitte. |
+la cuisine | Kochen | n | J'aime *la* cuisine. | Ich *koche* gern. |
+la danse | Tanzen | n | Allons faire de la *danse* ! | Lass uns *tanzen* gehen! |
+la natation | Schwimmen | n | La *natation* est bonne pour le dos. | *Schwimmen* ist gut für den Rücken. |
+la lecture | Lesen | n | La *lecture* est mon passe-temps favori. | *Lesen* ist mein Lieblingshobby. |
+l'écriture (f) | Schreiben | n | Son *écriture* est difficile à lire. | Ihre *Handschrift* ist schwer zu lesen. |
+le parent | Elternteil | n | Un *parent* doit signer le formulaire. | Ein *Elternteil* muss das Formular unterschreiben. |
+le grand-parent | Großelternteil | n | Tous les quatre *grands-parents* sont venus. | Alle vier *Großeltern* kamen. |
+blond | blond (Frau) | adj | Elle a les cheveux *blonds*. | Sie hat *blonde* Haare. |
+violet | lila | adj | Elle portait une robe *violette*. | Sie trug ein *lila* Kleid. |
+le devant | Vorderseite | n | Asseyons-nous à l'*avant*. | Lass uns *vorne* sitzen. |
+la paire | Paar | n | J'ai besoin d'une nouvelle *paire* de chaussures. | Ich brauche ein neues *Paar* Schuhe. |
+la police | Polizei | n | Appelez la *police* ! | Ruf die *Polizei*! |
+le dollar | Dollar | n | Ça coûte dix *dollars*. | Es kostet zehn *Dollar*. |
+le centime | Cent | n | Ça coûte cinquante *centimes*. | Es kostet fünfzig *Cent*. |
+le kilomètre | Kilometer | n | C'est à deux *kilomètres* d'ici. | Es ist zwei *Kilometer* von hier. |
+le mètre | Meter | n | La piscine fait 25 *mètres* de long. | Das Becken ist 25 *Meter* lang. |
+le mile | Meile | n | Nous avons marché cinq *miles*. | Wir sind fünf *Meilen* gelaufen. |
+quatrième | vierte(r, s) | num | C'est ma *quatrième* fois ici. | Ich bin zum *vierten* Mal hier. |
+cinquième | fünfte(r, s) | num | Son bureau est au *cinquième* étage. | Ihr Büro ist im *fünften* Stock. |
+seize | sechzehn | num | Il a *seize* ans. | Er ist *sechzehn*. |
+dix-huit | achtzehn | num | Il faut avoir *dix-huit* ans pour voter. | Man muss *achtzehn* sein, um zu wählen. |
+soixante | sechzig | num | Mon père a *soixante* ans. | Mein Vater ist *sechzig*. |
+
+## A2
+le quart | Viertel | n | Il est six heures moins le *quart*. | Es ist *Viertel* vor sechs. |
+déjà | schon (Frage) | adv | As-tu *déjà* fini ? | Bist du *schon* fertig? |
+toujours | noch, immer noch | adv | Tu *es* toujours au travail ? | Bist du *noch* auf der Arbeit? |
+juste | gerade | adv | Je *suis* juste arrive. | Ich bin *gerade* angekommen. |
+il y a | vor (zeitlich) | adv | Je *l'ai* rencontre il y a deux ans. | Ich habe ihn *vor* zwei Jahren kennengelernt. |
+plus tard | später | adv | Je *te* rappelle plus tard. | Ich rufe dich *später* an. |
+pendant | während | prep | Je *me* suis endormi pendant le film. | Ich bin *während* des Films eingeschlafen. |
+jusqu'à | bis | prep | Le *magasin* est ouvert jusqu'à huit heures. | Der Laden hat *bis* acht geöffnet. |
+puis | dann | adv | On *mange*, puis on sort. | Erst essen wir, *dann* gehen wir aus. |
+une fois | einmal | adv | J'y *suis* alle une fois. | Ich war *einmal* dort. |
+deux fois | zweimal | adv | Je *vais* a la salle de sport deux fois par semaine. | Ich gehe *zweimal* pro Woche ins Fitnessstudio. |
+moment (m) | Moment, Augenblick | n | Un *moment*, s'il vous plait. | Einen *Moment*, bitte. |
+futur (m) | Zukunft | n | Quels *sont* tes projets pour le futur ? | Was sind deine Pläne für die *Zukunft*? |
+quelque chose | (irgend)etwas | pron | Tu *as* besoin de quelque chose ? | Brauchst du *irgendetwas*? |
+quelque chose | etwas | pron | J'ai *quelque* chose pour toi. | Ich habe *etwas* für dich. |
+rien | nichts | pron | Il *n'y* a rien dans le frigo. | Es ist *nichts* im Kühlschrank. |
+tout | alles | pron | Tout *va* bien. | *Alles* ist gut. |
+quelqu'un | jemand | pron | Quelqu'un *est* a la porte. | *Jemand* ist an der Tür. |
+tout le monde | jeder, alle | pron | Tout *le* monde etait heureux. | *Alle* waren glücklich. |
+personne | niemand | pron | Personne *n'a* repondu au telephone. | *Niemand* ging ans Telefon. |
+quelque part | irgendwo | adv | J'ai *laisse* mes lunettes quelque part. | Ich habe meine Brille *irgendwo* liegen lassen. |
+partout | überall | adv | J'ai *cherche* partout. | Ich habe *überall* gesucht. |
+chaque | jede(r, s) (einzeln) | det | Chaque *chambre* a un balcon. | *Jedes* Zimmer hat einen Balkon. |
+les deux | beide | det | Les *deux* parents sont professeurs. | *Beide* Eltern von mir sind Lehrer. |
+peu | wenige | det | Seulement *quelques* personnes sont venues. | Nur *wenige* Leute kamen. |
+la plupart | die meisten | det | La *plupart* des gens travaillent le lundi. | *Die meisten* Leute arbeiten montags. |
+moins | weniger | det | Je *veux* depenser moins d'argent. | Ich will *weniger* Geld ausgeben. |
