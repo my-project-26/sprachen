@@ -301,3 +301,98 @@ les deux | beide | det | Les *deux* parents sont professeurs. | *Beide* Eltern v
 peu | wenige | det | Seulement *quelques* personnes sont venues. | Nur *wenige* Leute kamen. |
 la plupart | die meisten | det | La *plupart* des gens travaillent le lundi. | *Die meisten* Leute arbeiten montags. |
 moins | weniger | det | Je *veux* depenser moins d'argent. | Ich will *weniger* Geld ausgeben. |
+dont | wessen | pron | De *dont* la voiture est en panne? | *Wessen* Tasche ist das? |
+au-dessus de | über | prep | L'appartement *au-dessus de* nous est libre. | Die Wohnung *über* uns ist leer. |
+travers | quer durch | prep | Nous avons marché à *travers* le parc. | Wir gingen *über* die Brücke. |
+le long de | entlang | prep | Nous avons marché *le long de* la plage. | Wir gingen den Strand *entlang*. |
+à travers | durch | prep | Le train passe *à travers* un tunnel. | Der Zug fährt *durch* einen Tunnel. |
+dans | in … hinein | prep | Elle est entrée *dans* la chambre. | Sie ging *in* das Zimmer. |
+hors de | aus … heraus | prep | Sortez *hors de* la voiture! | Steig *aus* dem Auto! |
+autour de | um … herum | prep | Nous avons fait le tour *autour de* la ville. | Wir gingen *um* den See *herum*. |
+en face de | gegenüber | prep | La banque est *en face de* la gare. | Die Bank ist *gegenüber* vom Bahnhof. |
+vers | auf … zu, in Richtung | prep | Il s'est approché *vers* moi. | Er ging *auf* mich *zu*. |
+donc | also, deshalb | conj | J'étais fatigué, *donc* je suis allé me coucher. | Ich war müde, *also* ging ich ins Bett. |
+que | als | conj | Elle est plus grande *que* moi. | Sie ist größer *als* ich. |
+comme | als; wie | conj | Il travaille *comme* infirmier. | Er arbeitet *als* Krankenpfleger. |
+vraiment | wirklich | adv | J'aime *vraiment* cet endroit. | Ich mag diesen Ort *wirklich*. |
+presque | fast, beinahe | adv | J'ai *presque* oublié. | Ich hätte es *fast* vergessen. |
+seulement | nur | adv | Ça coûte *seulement* cinq euros. | Es kostet *nur* fünf Euro. |
+même | sogar | adv | Même *mon* père a aimé le film. | *Sogar* mein Vater mochte den Film. |
+ensemble | zusammen | adv | Nous travaillons *ensemble*. | Wir arbeiten *zusammen*. |
+loin | weg, entfernt | adv | Va *loin* d'ici! | Geh *weg*! |
+retour | zurück | adv | Je serai de *retour* bientôt. | Ich bin bald *zurück*. |
+vite | schnell | adv | Ne conduis pas si *vite*. | Fahr nicht so *schnell*. |
+lentement | langsam | adv | Parlez *lentement*, s'il vous plaît. | Bitte sprich *langsam*. |
+difficile | schwer | adj | L'examen était *difficile*. | Die Prüfung war *schwer*. |
+intéressant | interessant | adj | Quelle idée *intéressante*! | Was für eine *interessante* Idee! |
+vrai | wahr | adj | Est-ce *vrai* que tu déménages? | Stimmt es, dass du umziehst? |
+gratuit | kostenlos | adj | L'entrée est *gratuite*. | Der Eintritt ist *kostenlos*. |
+plein | voll | adj | Le bus était *plein*. | Der Bus war *voll*. |
+propre | sauber | adj | La cuisine est *propre*. | Die Küche ist *sauber*. |
+haut | hoch | adj | Les montagnes sont très *hautes*. | Die Berge sind sehr *hoch*. |
+bas | niedrig | adj | Les prix sont *bas* ici. | Die Preise sind hier *niedrig*. |
+faible | schwach | adj | Je me sentais *faible* après la grippe. | Nach der Grippe fühlte ich mich *schwach*. |
+rond | rund | adj | Nous avons une table *ronde*. | Wir haben einen *runden* Tisch. |
+merveilleux | wunderbar | adj | Nous avons passé un *merveilleux* moment. | Wir hatten eine *wunderbare* Zeit. |
+apporter | mitbringen | v | *Apporte* une veste. | *Bring* eine Jacke *mit*. |
+porter | tragen | v | Tu peux *porter* cette boîte ? | Kannst du diese Kiste *tragen*? |
+envoyer | schicken | v | Je t'*envoie* un e-mail. | Ich *schicke* dir eine E-Mail. |
+partir | abfahren | v | Le train *part* à six heures. | Der Zug *fährt* um sechs *ab*. |
+arriver | ankommen | v | Nous sommes *arrivés* en retard. | Wir sind spät *angekommen*. |
+tomber | fallen | v | Attention, ne *tombe* pas ! | Pass auf, *fall* nicht hin! |
+tenir | halten | v | Tu peux *tenir* mon café ? | Kannst du meinen Kaffee *halten*? |
+garder | behalten | v | Vous pouvez *garder* la monnaie. | Sie können das Wechselgeld *behalten*. |
+laisser | lassen | v | Laisse-moi t'*aider*. | *Lass* mich dir helfen. |
+oublier | vergessen | v | N'*oublie* pas tes clés. | *Vergiss* deine Schlüssel nicht. |
+espérer | hoffen | v | J'*espère* que tu vas mieux. | Ich *hoffe*, es geht dir bald besser. |
+sentir | sich fühlen | v | Je me *sens* fatigué. | Ich *fühle* mich müde. |
+sembler | scheinen | v | Elle *semble* gentille. | Sie *scheint* nett zu sein. |
+planifier | planen | v | Nous *planifions* un voyage en Italie. | Wir *planen* eine Reise nach Italien. |
+finir | beenden | v | Tu as *fini* tes devoirs ? | Bist du mit deinen Hausaufgaben *fertig*? |
+se passer | passer | v | Qu'est-ce qui s'est *passé* ? | Was ist *passiert*? |
+répéter | wiederholen | v | Pourriez-vous *répéter* cela, s'il vous plaît ? | Könnten Sie das bitte *wiederholen*? |
+épeler | buchstabieren | v | Comment *épelles*-tu ton nom ? | Wie *buchstabiert* man deinen Namen? |
+choisir | (aus)wählen | v | *Choisis* une couleur. | *Wähle* eine Farbe. |
+vérifier | überprüfen, kontrollieren | v | *Vérifie* tes réponses. | *Überprüfe* deine Antworten. |
+capable | fähig | adj | Siras-tu *capable* de venir ? | Wirst du kommen *können*? |
+contre | gegen | prep | Je suis *contre* ce plan. | Ich bin *gegen* den Plan. |
+agir | handeln | v | Nous devons *agir* vite. | Wir müssen schnell *handeln*. |
+action (f) | Handlung, Aktion | n | J'aime les films d'*action*. | Ich mag *Action*filme. |
+coffre (m) | Kofferraum | n | Mets les sacs dans le *coffre*. | Leg die Taschen in den *Kofferraum*. |
+tableau (m) | Tabelle, Diagramm | n | Regarde le *tableau*. | Schau dir das *Diagramm* an. |
+université (f) | Hochschule | n | Elle est à l'*université* à Leeds. | Sie studiert in Leeds. |
+conversation (f) | Gespräch, Unterhaltung | n | Nous avons eu une longue *conversation*. | Wir hatten ein langes *Gespräch*. |
+frais | kühl | adj | Il fait un peu *frais* ce soir. | Heute Abend ist es etwas *kühl*. |
+créer | erschaffen, erstellen | v | *Crée* un nouveau mot de passe. | *Erstelle* ein neues Passwort. |
+culture (f) | Kultur | n | J'aime la *culture* japonaise. | Ich liebe die japanische *Kultur*. |
+danseur (m) | Tänzer(in) | n | Elle est *danseuse* professionnelle. | Sie ist professionelle *Tänzerin*. |
+description (f) | Beschreibung | n | Donne-moi une *description* de l'homme. | Gib mir eine *Beschreibung* des Mannes. |
+détail (m) | Einzelheit, Detail | n | Dis-moi chaque *détail* ! | Erzähl mir jedes *Detail*! |
+dialogue (m) | Dialog | n | Écoute le *dialogue*. | Hör dir den *Dialog* an. |
+passionnant | spannend, aufregend | adj | Le match était vraiment *passionnant*. | Das Spiel war richtig *spannend*. |
+faux | falsch | adj | Vrai ou *faux* ? | Richtig oder *falsch*? |
+fichier (m) | Datei | n | Enregistre le *fichier*. | Speichere die *Datei*. |
+dernier | letzte(r, s) | adj | C'est la *dernière* question. | Das ist die *letzte* Frage. |
+instruction (f) | Anweisung | n | Suivez les *instructions*. | Befolge die *Anweisungen*. |
+intérêt (m) | Interesse | n | Merci pour votre *intérêt*. | Danke für Ihr *Interesse*. |
+terrain (m) | Land | n | Ils ont acheté un *terrain*. | Sie haben ein Stück *Land* gekauft. |
+le modèle | Modell | n | Quel *modèle* est ta voiture ? | Welches *Modell* ist dein Auto? |
+naturel | natürlich | adj | C'est un produit *naturel*. | Es ist ein *Natur*produkt. |
+la période | Periode | n | Pendant une *période*, j'ai vécu en Espagne. | Eine kurze *Zeit* lang habe ich in Spanien gelebt. |
+la photographie | Fotografie | n | C'est une vieille *photographie* de mes grands-parents. | Das ist ein altes *Foto* meiner Großeltern. |
+l'expression (f) | Ausdruck | n | Apprends ces *expressions* utiles. | Lerne diese nützlichen *Ausdrücke*. |
+positif | positiv | adj | Reste *positif* ! | Bleib *positiv*! |
+le lecteur | Leser | n | C'est une *lectrice* rapide. | Sie *liest* schnell. |
+la section | Abschnitt | n | Lis la *section* deux. | Lies *Abschnitt* zwei. |
+la situation | Situation | n | C'est une *situation* difficile. | Es ist eine schwierige *Situation*. |
+l'orthographe (f) | Rechtschreibung | n | Vérifie ton *orthographe*. | Überprüfe deine *Rechtschreibung*. |
+le style | Stil | n | J'aime son *style*. | Ich mag ihren *Stil*. |
+le succès | Erfolg | n | La fête a été un grand *succès*. | Die Party war ein großer *Erfolg*. |
+le titre | Titel | n | Quel est le *titre* du livre ? | Wie ist der *Titel* des Buches? |
+le sujet | Thema | n | Choisis un *sujet* pour ton exposé. | Wähle ein *Thema* für deinen Vortrag. |
+les vacances | Urlaub | n | Nous sommes en *vacances* en Floride. | Wir sind im *Urlaub* in Florida. |
+le visiteur | Besucher | n | Le musée a beaucoup de *visiteurs*. | Das Museum hat viele *Besucher*. |
+l'écrivain (m) | Schriftsteller | n | C'est une *écrivaine* célèbre. | Sie ist eine berühmte *Schriftstellerin*. |
+soixante-dix | siebzig | num | Ma grand-mère a *soixante-dix* ans. | Meine Oma ist *siebzig*. |
+quatre-vingt | achtzig | num | Il a vécu jusqu'à *quatre-vingt* ans. | Er wurde *achtzig*. |
+quatre-vingt-dix | neunzig | num | Le trajet a duré *quatre-vingt-dix* minutes. | Die Fahrt dauerte *neunzig* Minuten. |

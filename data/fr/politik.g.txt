@@ -1,0 +1,62 @@
+# fr – politik (aus der englischen Liste erzeugt)
+
+## A1
+le parti | Partei | n | Quel *parti* a gagné ? | Welche *Partei* hat gewonnen? |
+le pays | Land | n | C'est un petit *pays*. | Es ist ein kleines *Land*. |
+
+## A2
+la frontière | Grenze | n | Nous avons franchi la *frontière* de nuit. | Wir überquerten nachts die *Grenze*. |
+
+## B1
+récent | jüngste, kürzlich | adj | Les *récents* événements étaient assez surprenants. | Die *jüngsten* Ereignisse waren ziemlich überraschend. |
+politique | Richtlinie | n | La nouvelle *politique* exige le port du badge. | Die neue *Richtlinie* verpflichtet Mitarbeiter, Ausweise zu tragen. |
+conseil municipal | Stadtrat | n | Le *conseil municipal* a voté contre le plan. | Der *Stadtrat* stimmte gegen den Plan. |
+officiel | offiziell | adj | L'*officiel* communiqué a été publié aujourd'hui. | Die *offizielle* Ankündigung wurde heute gemacht. |
+ancien | ehemalig | adj | Son *ancien* professeur a assisté à la cérémonie. | Ihr *ehemaliger* Lehrer nahm an der Zeremonie teil. |
+campagne | Kampagne, Wahlkampf | n | Sa *campagne* s'est concentrée sur l'éducation. | Ihr *Wahlkampf* konzentrierte sich auf Bildung. |
+gouvernement | Regierung | n | Le *gouvernement* a annoncé de nouveaux impôts. | Die *Regierung* kündigte neue Steuern an. |
+élection | Wahl | n | L'*élection* a lieu en septembre. | Die *Wahl* ist im September. |
+voter | wählen, abstimmen | v | As-tu *voté* ? | Hast du *gewählt*? |
+politicien | Politiker(in) | n | Beaucoup de gens ne font pas confiance aux *politiciens*. | Viele Menschen vertrauen *Politikern* nicht. |
+politique | Politik | n | Je ne m'intéresse pas à la *politique*. | Ich interessiere mich nicht für *Politik*. |
+président | Präsident(in) | n | Le *président* a prononcé un discours. | Der *Präsident* hielt eine Rede. |
+ministre | Minister(in) | n | Le *ministre* de la santé a démissionné. | Der Gesundheits*minister* trat zurück. |
+loi | Gesetz | n | Le parlement a adopté une nouvelle *loi*. | Das Parlament verabschiedete ein neues *Gesetz*. |
+société | Gesellschaft | n | Nous vivons dans une *société* multiculturelle. | Wir leben in einer multikulturellen *Gesellschaft*. |
+citoyen | Bürger(in) | n | Tous les *citoyens* peuvent voter. | Alle *Bürger* dürfen wählen. |
+population | Bevölkerung | n | La *population* vieillit. | Die *Bevölkerung* wird älter. |
+protestation | Protest | n | Des milliers de personnes ont rejoint la *protestation*. | Tausende schlossen sich dem *Protest* an. |
+discours | Rede | n | Elle a prononcé un *discours* puissant. | Sie hielt eine eindrucksvolle *Rede*. |
+liberté | Freiheit | n | La *liberté* d'expression est importante. | Meinungs*freiheit* ist wichtig. |
+pouvoir | Macht | n | Le parti est au *pouvoir* depuis des années. | Die Partei ist seit Jahren an der *Macht*. |
+guerre | Krieg | n | La *guerre* a duré quatre ans. | Der *Krieg* dauerte vier Jahre. |
+paix | Frieden | n | Ils ont signé un accord de *paix*. | Sie unterzeichneten ein *Friedens*abkommen. |
+communauté | Gemeinschaft, Gemeinde | n | La *communauté* locale a aidé. | Die örtliche *Gemeinschaft* half. |
+pauvreté | Armut | n | De nombreuses familles vivent dans la *pauvreté*. | Viele Familien leben in *Armut*. |
+le chômage | Arbeitslosigkeit | n | Le *chômage* a augmenté. | Die *Arbeitslosigkeit* ist gestiegen. |
+l'immigrant (m) | Einwanderer | n | La ville a beaucoup d'*immigrants*. | Die Stadt hat viele *Einwanderer*. |
+la religion | Religion | n | La liberté de *religion* est un droit. | *Religions*freiheit ist ein Grundrecht. |
+le bénévole | Freiwillige(r) | n | Les *bénévoles* ont nettoyé le parc. | *Freiwillige* reinigten den Park. |
+l'œuvre caritative (f) | Wohltätigkeitsorganisation | n | Elle donne de l'argent à une *œuvre* caritative. | Sie spendet für *wohltätige Zwecke*. |
+
+## B2
+établir | festlegen | v | Nous devons *établir* des règles claires. | Wir müssen klare Regeln *festlegen*. |
+la législation | Gesetzgebung | n | Le gouvernement a introduit une nouvelle *législation*. | Die Regierung brachte neue *Gesetze* zum Datenschutz ein. |
+controversé | umstritten | adj | La décision s'est avérée très *controversée*. | Die Entscheidung erwies sich als höchst *umstritten*. |
+l'inégalité (f) | Ungleichheit | n | L'*inégalité* croissante inquiète beaucoup. | Die wachsende *Ungleichheit* beunruhigt viele Ökonomen. |
+le consensus | Konsens | n | Le comité a enfin trouvé un *consensus*. | Der Ausschuss erzielte schließlich einen *Konsens*. |
+la démocratie | Demokratie | n | La *démocratie* dépend d'élections libres. | *Demokratie* hängt von freien Wahlen ab. |
+le parlement | Parlament | n | Le *parlement* a voté la loi. | Das *Parlament* stimmte für das Gesetz. |
+l'opposition (f) | Opposition | n | L'*opposition* a critiqué le plan. | Die *Opposition* kritisierte den Plan. |
+la majorité | Mehrheit | n | Le parti a gagné une *majorité*. | Die Partei gewann eine *Mehrheit*. |
+la minorité | Minderheit | n | Il faut protéger les *minorités*. | Die Rechte von *Minderheiten* müssen geschützt werden. |
+élire | wählen (in ein Amt) | v | Elle a été *élue* maire. | Sie wurde zur Bürgermeisterin *gewählt*. |
+le maire | Bürgermeister | n | Le *maire* a ouvert la fête. | Der *Bürgermeister* eröffnete das Fest. |
+la coalition | Koalition | n | Ils ont formé une *coalition*. | Sie bildeten eine *Koalition*. |
+la réforme | Reform | n | La *réforme* a échoué. | Die Gesundheits*reform* scheiterte. |
+les droits de l'homme | Menschenrechte | n | Ils se battent pour les *droits de l'homme*. | Sie kämpfen für *Menschenrechte*. |
+l'égalité (f) | Gleichheit | n | L'*égalité* est importante. | *Gleichberechtigung* der Geschlechter ist wichtig. |
+la discrimination | Diskriminierung | n | La *discrimination* est illégale. | *Diskriminierung* ist verboten. |
+le réfugié | Flüchtling | n | Le pays a accueilli beaucoup de *réfugiés*. | Das Land nahm viele *Flüchtlinge* auf. |
+l'asile (m) | Asyl | n | Ils ont demandé l'*asile*. | Sie beantragten *Asyl*. |
+la manifestation | Demonstration | n | Des milliers ont rejoint la *manifestation*. | Tausende schlossen sich der *Demonstration* an. |
