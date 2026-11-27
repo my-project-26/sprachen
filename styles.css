@@ -635,3 +635,24 @@ body[data-view="onboarding"] .nav { display: none; }
 .ob-skip { color: var(--muted); border-style: dashed; }
 .ob-sent { margin: 16px 0 0; font-size: 1.5rem; line-height: 1.35; text-wrap: balance; }
 .ob-lv.rec { border-color: var(--accent); }
+
+/* Bilder auf Lernkarten */
+.pic-small { font-size: 1.1em; margin-right: .15em; }
+.pic-big { display: block; font-size: 4.2rem; line-height: 1.1; margin: 4px 0; }
+.de-show { margin-top: 6px; border: 0; background: none; color: var(--accent); font: inherit; font-size: .95rem; text-decoration: underline; cursor: pointer; }
+.de-hidden { display: block; }
+.de-hidden[hidden] { display: none; }
+/* Merkhilfe */
+.mnemo { margin-top: 10px; }
+.mnemo-t { margin: 0; padding: 10px 12px; border-radius: 12px; background: color-mix(in srgb, var(--accent) 10%, transparent); font-size: .98rem; line-height: 1.4; text-align: left; }
+.mnemo-btn { cursor: pointer; }
+/* Toolbox */
+.tb-list { list-style: none; margin: 10px 0 16px; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.tb-item { display: grid; grid-template-columns: 1fr auto; gap: 6px 10px; align-items: center; padding: 12px 14px; border: 1px solid var(--line); border-radius: 16px; background: var(--surface); }
+.tb-text { min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.tb-text span { color: var(--muted); font-size: .92rem; }
+.tb-acts { display: flex; gap: 6px; }
+.tb-item .mic-block { grid-column: 1 / -1; }
+.cv-tb { display: flex; flex-direction: column; gap: 6px; margin: 6px 0; max-height: 46vh; overflow: auto; }
+.cv-tbi { text-align: left; padding: 8px 12px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); color: inherit; font: inherit; cursor: pointer; }
+.cv-tbi small { display: block; color: var(--muted); }

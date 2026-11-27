@@ -258,10 +258,11 @@ const CARD = {
       <article class="aw-card ${x.revealed ? "flip" : ""}">
         <div class="aw-tag">${esc(x.topic)} · ${c.level}${x.isNew ? " · <b>neu</b>" : ""}</div>
         ${x.revealed ? "" : `<div class="aw-q">Wie heißt das auf ${esc(x.langName)}?</div>`}
-        <div class="aw-de">${esc(c.de)}</div>
+        <div class="aw-de">${x.deHtml || esc(c.de)}</div>
         ${x.revealed ? `<div class="aw-en">${x.enHtml}</div>${x.ui.typed}` : ""}
-        ${c.ex ? `<div class="aw-ex"><p class="ex">${x.revealed ? x.exMarked : x.cloze}</p>${c.exDe ? `<p class="ex-de">${x.exDeMarked}</p>` : ""}</div>` : ""}
+        ${c.ex ? `<div class="aw-ex"><p class="ex">${x.revealed ? x.exMarked : x.cloze}</p>${c.exDe && !x.picFront ? `<p class="ex-de">${x.exDeMarked}</p>` : ""}</div>` : ""}
         ${x.revealed ? (c.note ? `<p class="aw-note">💡 ${esc(c.note)}</p>` : "") : x.ui.hint + x.ui.input}
+        ${x.mnemoHtml || ""}
       </article>`;
     const SPD = ["🐢", "🚶", "🐇"];
     const tools = `<div class="aw-tools">
@@ -293,10 +294,11 @@ const CARD = {
       <p class="ef-step"><span>Schritt ${step} von 2</span><span>Wort ${x.pos} von ${x.total}</span></p>
       <section class="ef-card">
         <p class="ef-q">${x.revealed ? "Die Lösung:" : `Wie heißt das auf ${esc(x.langName)}?`}</p>
-        <div class="ef-de">${esc(c.de)}</div>
+        <div class="ef-de">${x.deHtml || esc(c.de)}</div>
         ${x.revealed ? `<div class="ef-en">${x.enHtml}</div>${x.ui.typed}` : ""}
-        ${c.ex ? `<div class="ef-ex"><p class="ex">${x.revealed ? x.exMarked : x.cloze}</p>${c.exDe ? `<p class="ex-de">${x.exDeMarked}</p>` : ""}</div>` : ""}
+        ${c.ex ? `<div class="ef-ex"><p class="ex">${x.revealed ? x.exMarked : x.cloze}</p>${c.exDe && !x.picFront ? `<p class="ex-de">${x.exDeMarked}</p>` : ""}</div>` : ""}
         ${x.revealed ? x.ui.note : x.ui.hint + x.ui.input}
+        ${x.mnemoHtml || ""}
       </section>`;
     const actions = x.revealed
       ? `<div class="ef-listen">
@@ -332,7 +334,7 @@ const CARD = {
         <div class="bk-perf"></div>
         <div class="bk-sent">
           ${x.revealed ? x.ui.typed + `<p class="ex">${x.exMarked}</p>` : `<p class="ex">${x.cloze}</p>`}
-          ${c.exDe ? `<p class="ex-de">${x.exDeMarked}</p>` : ""}
+          ${c.exDe && !x.picFront ? `<p class="ex-de">${x.exDeMarked}</p>` : ""}
           ${x.revealed ? x.ui.listen + x.ui.note : x.ui.hint + x.ui.input}
         </div>
         <div class="bk-bc" aria-hidden="true"></div>
@@ -357,7 +359,7 @@ const CARD = {
         ${x.revealed ? "" : `<div class="hf-flap" aria-hidden="true"><span>Klappe</span></div>`}</div>
         <div class="hf-sent">
           ${x.revealed ? x.ui.typed + `<p class="ex">${x.exMarked}</p>` : `<p class="ex">${x.cloze}</p>`}
-          ${c.exDe ? `<p class="ex-de">${x.exDeMarked}</p>` : ""}
+          ${c.exDe && !x.picFront ? `<p class="ex-de">${x.exDeMarked}</p>` : ""}
           ${x.revealed ? x.ui.listen + x.ui.note : x.ui.hint + x.ui.input}
         </div>
       </article>`;

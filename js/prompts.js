@@ -26,13 +26,14 @@ Return exactly: {"sentences":[{"t":"...","wfw":"...","de":"...","p":true}]}`;
 }
 
 // KI-Gespräch (Rollenspiel)
-export function chatSystem({ scenario, level = "B1", words = [], lang = "English", goal = "" }) {
+export function chatSystem({ scenario, level = "B1", words = [], lang = "English", goal = "", interest = "" }) {
   return (
     `You are a friendly conversation partner for a German native speaker learning ${lang} (CEFR ${level}). ` +
     `Role-play this situation and stay in role: ${scenario}. Speak ONLY ${lang} in "reply", in short natural turns (1–3 sentences, CEFR ${level}), ` +
     `and end most turns with a question to keep the conversation going. ` +
     (words.length ? `Weave in these words the learner is practising, one or two per turn, so the learner hears and reuses them: ${words.join(", ")}. ` : "") +
     (goal ? `The learner's goal in this conversation: ${goal}. After about 6 learner turns, steer naturally towards a goodbye. ` : "") +
+    (GOALS[interest] ? `The learner mainly learns English for ${GOALS[interest].en}; let that colour the small details. ` : "") +
     `Reply with valid JSON only: {"reply":"<your turn in ${lang}>","de":"<German translation of your turn>",` +
     `"correction":"<if the learner's last message had mistakes: short friendly German explanation with the corrected ${lang} sentence; otherwise empty string>",` +
     `"suggestions":[{"t":"<a natural short answer the learner could give, in ${lang}, CEFR ${level}>","de":"<German>"},{"t":"<a different answer>","de":"<German>"}],` +
@@ -69,6 +70,25 @@ export function storyFrom(data) {
   return d;
 }
 
+// Lernziel (Relevanz): Wofür lernt die Person?
+export const GOALS = {
+  reise: { de: "Reisen", en: "travelling abroad (holidays, hotels, getting around)" },
+  job: { de: "Beruf", en: "work and career (meetings, emails, colleagues)" },
+  medien: { de: "Filme, Serien & Musik", en: "films, series, music and pop culture" },
+  familie: { de: "Familie & Freunde", en: "family life, friends and everyday conversations" },
+};
+export const goalLine = (goal) => (GOALS[goal] ? `The learner mainly learns for ${GOALS[goal].en}; when the theme leaves room, choose situations from that world.\n` : "");
+
+// Merkhilfe (Eselsbrücke) für ein Wort
+export function mnemonicSystem(lang = "English") {
+  return `You create short, memorable, funny German mnemonics (Eselsbrücken) that help German speakers remember ${lang} words. Reply with valid JSON only.`;
+}
+export function mnemonicPrompt(en, de, lang = "English") {
+  return `Word: "${en}" (${lang}) = "${de}" (German).
+Write ONE German mnemonic, max. 2 short sentences: link the sound or spelling of "${en}" to a vivid, funny or surprising picture that carries the meaning "${de}". No explanations, no quotes around it.
+Return exactly: {"m":"..."}`;
+}
+
 export function storySystem(lang = "English") {
   return (
     `You write short graded-reader stories for an adult German native speaker who is learning ${lang}. ` +
@@ -80,7 +100,7 @@ export const STORY_SYSTEM = storySystem("English");
 // words: Wörter, die geübt werden (müssen alle vorkommen)
 // known: Wörter, die schon sitzen (zur Wiederholung, so viele wie natürlich passen)
 // withSentences=false: nur Geschichte (schnell); die Satz-Übersetzungen kommen danach per decodePrompt
-export function storyPrompt(words, level = "B2", theme = "", known = [], lang = "English", withSentences = true) {
+export function storyPrompt(words, level = "B2", theme = "", known = [], lang = "English", withSentences = true, goal = "") {
   const list = words.map((w) => `- ${w.en} (${w.de})`).join("\n");
   const knownList = known.map((w) => `- ${w.en} (${w.de})`).join("\n");
   const reading = READING[lang];
@@ -90,7 +110,7 @@ ${
   known.length
     ? `\nAlso weave in words the learner already knows, for review – use at least ${Math.min(3, known.length)} of them where they fit naturally:\n${knownList}\n`
     : ""
-}${theme ? `\nTheme / setting (given in German): ${theme}. Build the plot around this theme so the words appear in a natural situation.\n` : ""}
+}${goalLine(goal) ? "\n" + goalLine(goal) : ""}${theme ? `\nTheme / setting (given in German): ${theme}. Build the plot around this theme so the words appear in a natural situation.\n` : ""}
 Requirements:
 - Language: ${lang} only (the title too). Length: ${level === "A1" || level === "A2" ? "100–160" : "180–260"} words (or the equivalent length), 2–4 paragraphs separated by a blank line (\\n\\n).
 - Language level: CEFR ${level}. 98 % rule: apart from the listed words, at least 98 % of all running words must be very common, high-frequency vocabulary that a learner at this level surely knows. No rare words, slang, idioms or unusual proper names, so the listed words stand out and can be understood from context.

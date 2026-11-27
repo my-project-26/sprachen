@@ -6,6 +6,7 @@ import * as tts from "./tts.js";
 import { L } from "./langs.js";
 import { chatTurn, sayIn } from "./api.js";
 import { canSpeak, listenOnce } from "./practice.js";
+import { phrasesFor } from "./toolbox.js";
 
 const esc = (s) =>
   String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
@@ -19,6 +20,10 @@ const SCENES = [
   { key: "smalltalk", ic: "💬", label: "Smalltalk", text: "Casual small talk between two new acquaintances at a party; ask about hobbies, work and travel." },
   { key: "job", ic: "💼", label: "Vorstellungsgespräch", text: "A job interview; you are the friendly interviewer." },
 ];
+
+// Situationen passend zum Lernziel zuerst
+const SCENE_GOALS = { cafe: ["reise", "familie"], hotel: ["reise"], weg: ["reise"], arzt: ["reise", "familie"], einkauf: ["reise", "familie"], smalltalk: ["medien", "familie", "job"], job: ["job"] };
+const sortedScenes = (goal) => [...SCENES].sort((a, b) => (SCENE_GOALS[b.key]?.includes(goal) ? 1 : 0) - (SCENE_GOALS[a.key]?.includes(goal) ? 1 : 0));
 
 let STATE = null; // laufendes Gespräch (bleibt beim Wechsel innerhalb der Seite erhalten)
 const GOAL_TURNS = 6; // so viele eigene Antworten, dann verabschieden
@@ -139,7 +144,7 @@ function chatV2($app, { settings, ICON }, sceneKey = "") {
     STATE = null;
     $app.innerHTML = `${header}
     <p class="listen-how">Sprich mit einer Figur auf ${esc(L().name)}. Sie baut deine Lernwörter ein, hilft dir mit Antwortvorschlägen und zeigt dir am Ende, wie gut es lief.</p>
-    <div class="ef-tiles">${SCENES.map(
+    <div class="ef-tiles">${sortedScenes(settings().goal).map(
       (s) => `<a class="ef-tile" href="#/chat/${s.key}"><span class="ef-tic">${s.ic}</span><b>${s.label}</b></a>`
     ).join("")}</div>`;
     return;
@@ -183,7 +188,8 @@ function chatV2($app, { settings, ICON }, sceneKey = "") {
     <input id="chatIn" autocomplete="off" autocapitalize="off" placeholder="Deine Antwort auf ${esc(L().name)} …">
     <button class="ef-btn ef-pri chat-send" type="submit">Senden</button>
   </form>
-  <p class="small muted center"><button type="button" class="linkish" id="cvSayBtn">💬 Sag es auf Deutsch – ich übersetze</button></p>`;
+  <p class="small muted center"><button type="button" class="linkish" id="cvSayBtn">💬 Sag es auf Deutsch – ich übersetze</button>${phrasesFor(scene.key).length ? ` · <button type="button" class="linkish" id="cvTbBtn">🧰 Toolbox</button>` : ""}</p>
+  <div class="cv-tb" id="cvTb" hidden>${phrasesFor(scene.key).map(([en, de], i) => `<button type="button" class="cv-tbi" data-tb="${i}"><b>${esc(en)}</b><small>${esc(de)}</small></button>`).join("")}</div>`;
 
   const $log = document.getElementById("chatLog");
   const $in = document.getElementById("chatIn");
@@ -286,6 +292,20 @@ function chatV2($app, { settings, ICON }, sceneKey = "") {
       }
       mic.classList.remove("rec");
     };
+  const tbBtn = document.getElementById("cvTbBtn");
+  if (tbBtn) {
+    const tb = document.getElementById("cvTb");
+    tbBtn.onclick = () => (tb.hidden = !tb.hidden);
+    tb.onclick = (e) => {
+      const b = e.target.closest("[data-tb]");
+      if (!b) return;
+      const t = phrasesFor(scene.key)[+b.dataset.tb][0];
+      $in.value = t.replace(" …", " ");
+      say(t);
+      tb.hidden = true;
+      $in.focus();
+    };
+  }
   const sayBox = document.getElementById("cvSay");
   document.getElementById("cvSayBtn").onclick = () => {
     sayBox.hidden = !sayBox.hidden;

@@ -25,7 +25,7 @@ export default wrap(async (req, res) => {
   let lastErr;
   for (let attempt = 0; attempt < 2; attempt++) {
     try {
-      const text = await callLLM(llm, storySystem(lang), storyPrompt(words, level, theme, known, lang, withSentences), withSentences ? 5000 : 2500);
+      const text = await callLLM(llm, storySystem(lang), storyPrompt(words, level, theme, known, lang, withSentences, String(body.goal || "")), withSentences ? 5000 : 2500);
       const data = storyFrom(extractJson(text));
       if (!data) throw new Error("Antwort ohne Text");
       return send(res, 200, data);

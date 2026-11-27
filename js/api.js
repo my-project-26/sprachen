@@ -1,7 +1,7 @@
 // KI-Aufrufe: entweder über den eigenen Server (api/*) oder direkt aus dem Browser
 // an Gemini (für GitHub Pages / iPhone, wo kein eigener Server läuft).
 import { getState } from "./store.js";
-import { storySystem, storyPrompt, wordsSystem, generateWordsPrompt, fillWordPrompt, extractJson, storyFrom, decodeSystem, decodePrompt, chatSystem, chatTranscript, saySystem } from "./prompts.js";
+import { storySystem, storyPrompt, wordsSystem, generateWordsPrompt, fillWordPrompt, extractJson, storyFrom, decodeSystem, decodePrompt, chatSystem, chatTranscript, saySystem, mnemonicSystem, mnemonicPrompt } from "./prompts.js";
 import { L, langName } from "./langs.js";
 
 const LEVELS = ["A1", "A2", "B1", "B2", "C1"];
@@ -184,7 +184,7 @@ async function browserCall(path, body) {
       try {
         const lang = langName(body.lang);
         const withS = body.sentences === true;
-        const text = await browserLLM(storySystem(lang), storyPrompt(body.words, level, body.theme || "", body.known || [], lang, withS), withS ? 5000 : 2500);
+        const text = await browserLLM(storySystem(lang), storyPrompt(body.words, level, body.theme || "", body.known || [], lang, withS, body.goal || ""), withS ? 5000 : 2500);
         const data = storyFrom(extractJson(text));
         if (!data) throw new Error("Antwort ohne Text");
         return data;
@@ -202,6 +202,7 @@ async function browserCall(path, body) {
   }
   if (path === "chat") {
     if (body.say) return extractJson(await browserLLM(saySystem(langName(body.lang), body.level), body.say, 300));
+    if (body.mnemo) return extractJson(await browserLLM(mnemonicSystem(langName(body.lang)), mnemonicPrompt(body.mnemo.en, body.mnemo.de, langName(body.lang)), 300));
     const sys = chatSystem({ ...body, lang: langName(body.lang) });
     return extractJson(await browserLLM(sys, chatTranscript(body.history || []), 1000));
   }
@@ -325,7 +326,7 @@ export function normalizeStory(data, words) {
 // ---------- KI-Gespräch (Rollenspiel) ----------
 // history: [{role:"user"|"ai", text}] – liefert {reply, de, correction}
 export async function chatTurn({ scenario, level, words = [], history = [], goal = "" }) {
-  const d = await callApi("chat", { scenario, level, words, history, goal });
+  const d = await callApi("chat", { scenario, level, words, history, goal, interest: getState().settings.goal || "" });
   const arr = (x) => (Array.isArray(x) ? x : []);
   return {
     reply: String(d.reply || ""),
@@ -335,6 +336,12 @@ export async function chatTurn({ scenario, level, words = [], history = [], goal
     words: arr(d.words).filter((x) => x && x.en).slice(0, 3).map((x) => ({ en: String(x.en), de: String(x.de || "") })),
     bye: d.bye === true,
   };
+}
+
+// Merkhilfe (Eselsbrücke) für ein Wort
+export async function mnemonic(en, de) {
+  const d = await callApi("chat", { mnemo: { en, de } });
+  return String(d.m || "").trim();
 }
 
 // „Sag …“: deutschen Satz in die Lernsprache übertragen

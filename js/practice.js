@@ -165,6 +165,7 @@ export function practiceView($app, { settings, rateSlider, ICON }, mode = "") {
       ${canSpeak() ? `<a class="ef-tile" href="#/practice/sprechen"><span class="ef-tic">🎤</span><b>Sprechen</b><small>Satz hören und nachsprechen</small></a>` : ""}
       <a class="ef-tile" href="#/listen"><span class="ef-tic">🎧</span><b>Hören</b><small>Wörter zum Anhören</small></a>
       <a class="ef-tile" href="#/chat"><span class="ef-tic">🗣️</span><b>Gespräch</b><small>Rollenspiel mit der KI</small></a>
+      <a class="ef-tile" href="#/toolbox"><span class="ef-tic">🧰</span><b>Toolbox</b><small>Fertige Sätze für den Alltag</small></a>
     </div>
     ${canSpeak() ? "" : `<p class="small muted">Sprechen üben geht in diesem Browser leider nicht. Am iPhone und in Chrome funktioniert es.</p>`}`;
     return;

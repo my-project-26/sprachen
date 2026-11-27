@@ -1,6 +1,7 @@
 // Einstieg nach der Anmeldung: Niveau selbst wählen oder mit einem kurzen Test (8 Wörter) ermitteln.
 import * as S from "./store.js";
 import { L } from "./langs.js";
+import { GOALS } from "./prompts.js";
 
 const LV = ["A1", "A2", "B1", "B2", "C1"];
 const NAMES = { A1: "Anfänger", A2: "Grundkenntnisse", B1: "Mittelstufe", B2: "Gute Kenntnisse", C1: "Sehr gut" };
@@ -31,9 +32,11 @@ function finish(level, done) {
 }
 
 export function onboardingView($app, done) {
+  const s0 = S.getState().settings;
+  if (s0.goal === undefined) return goalStep($app, () => onboardingView($app, done));
   $app.innerHTML = `
   <section class="ob">
-    <h1 class="ob-title">Willkommen! 👋</h1>
+    <h1 class="ob-title">Dein Niveau</h1>
     <p class="ob-lead">Wie gut kannst du schon ${esc(L().name)}? Dann startet die App genau auf deinem Niveau.</p>
     <h2 class="ob-h">Ich weiß es selbst</h2>
     <div class="ob-levels">${LV.map((l) => `<button class="ob-lv" data-lv="${l}"><b>${l}</b><span>${NAMES[l]}</span></button>`).join("")}</div>
@@ -102,4 +105,22 @@ function test($app, done) {
     );
   };
   show();
+}
+
+// Schritt 0: Wofür lernst du? (Geschichten, Gespräche und Toolbox richten sich danach)
+const GOAL_IC = { reise: "✈️", job: "💼", medien: "🎬", familie: "👨‍👩‍👧" };
+function goalStep($app, next) {
+  $app.innerHTML = `<section class="ob">
+    <h1 class="ob-title">Willkommen! 👋</h1>
+    <p class="ob-lead">Wofür lernst du ${esc(L().name)}? Geschichten, Gespräche und fertige Sätze passen sich daran an.</p>
+    <div class="ob-levels">${Object.entries(GOALS).map(([k, g]) => `<button class="ob-lv" data-goal="${k}"><b>${GOAL_IC[k]}</b><span>${g.de}</span></button>`).join("")}</div>
+    <button class="ef-btn ef-sec" data-goal="">Einfach allgemein</button></section>`;
+  $app.querySelectorAll("[data-goal]").forEach(
+    (b) =>
+      (b.onclick = () => {
+        S.getState().settings.goal = b.dataset.goal;
+        S.save();
+        next();
+      })
+  );
 }

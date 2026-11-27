@@ -11,6 +11,10 @@ import { listenView, stopListening } from "./listen.js";
 import { practiceView, micBlock, bindMic } from "./practice.js";
 import { chatView } from "./chat.js";
 import { needsOnboarding, onboardingView } from "./onboarding.js";
+import { toolboxView } from "./toolbox.js";
+import { pictureFor } from "./pictures.js";
+import { mnemonic } from "./api.js";
+import { GOALS } from "./prompts.js";
 import { LANGS, READY, L, checkAnswer } from "./langs.js";
 
 const $app = document.getElementById("app");
@@ -146,7 +150,8 @@ function progressRing(card) {
 }
 
 // ---------- Router ----------
-const routes = { home, learn, stories, story, words, add, topics, stats, settings: settingsView, listen: () => listenView($app, { settings, rateSlider, ICON }), practice: (m) => practiceView($app, { settings, rateSlider, ICON }, m || ""), chat: (k) => chatView($app, { settings, ICON }, k || "") };
+const routes = {
+  toolbox: (k) => toolboxView($app, { settings, rateSlider, ICON }, k), home, learn, stories, story, words, add, topics, stats, settings: settingsView, listen: () => listenView($app, { settings, rateSlider, ICON }), practice: (m) => practiceView($app, { settings, rateSlider, ICON }, m || ""), chat: (k) => chatView($app, { settings, ICON }, k || "") };
 
 function render() {
   if (document.documentElement.classList.contains("is-login")) return;
@@ -162,7 +167,7 @@ function render() {
   const arg = rest.length ? decodeURIComponent(rest.join("/")) : undefined;
   const view = routes[name] || home;
   document.body.dataset.view = routes[name] ? name : "home";
-  const navKey = { story: "stories", add: "words", topics: "home", settings: "home", listen: "home", practice: "home", chat: "home" }[name] || (routes[name] ? name : "home");
+  const navKey = { story: "stories", add: "words", topics: "home", settings: "home", listen: "home", practice: "home", chat: "home", toolbox: "home" }[name] || (routes[name] ? name : "home");
   $nav.querySelectorAll("a").forEach((a) => a.classList.toggle("active", a.dataset.route === navKey));
   window.scrollTo(0, 0);
   view(arg);
@@ -524,8 +529,16 @@ function showCard(revealed = false, typed = null) {
       .map(card)
       .filter(Boolean)
       .map((x) => ({ en: x.en, de: x.de, clozePlain: String(x.ex || "").replace(/\*[^*]+\*/g, "____") }));
+    const pic = pictureFor(c);
+    const picFront = !revealed && pic && s.picMode;
     const x = {
-      c, revealed, isNew, noteFF, icon: ICON,
+      c, revealed, isNew, noteFF, icon: ICON, pic, picFront,
+      deHtml: picFront
+        ? `<span class="pic-big" aria-hidden="true">${pic}</span><button type="button" class="de-show" id="deShow">Deutsch zeigen</button><span class="de-hidden" id="deText" hidden>${esc(c.de)}</span>`
+        : (pic ? `<span class="pic-small" aria-hidden="true">${pic}</span> ` : "") + esc(c.de),
+      mnemoHtml: revealed
+        ? `<div class="mnemo" id="mnemoBox">${c.mnemo ? `<p class="mnemo-t">🧠 ${esc(c.mnemo)}</p>` : `<button type="button" class="aw-chip mnemo-btn" id="mnemoBtn">🧠 Merkhilfe</button>`}</div>`
+        : "",
       langName: L().name,
       enHtml: esc(c.en) + (c.rd ? `<small class="rd">${esc(c.rd)}</small>` : ""),
       topic: S.topicLabel(c.topic),
@@ -588,6 +601,23 @@ function showCard(revealed = false, typed = null) {
 
 function bindCardEvents(c, revealed) {
   const s = settings();
+  const ds = document.getElementById("deShow");
+  if (ds) ds.onclick = () => ((document.getElementById("deText").hidden = false), ds.remove());
+  const mb = document.getElementById("mnemoBtn");
+  if (mb)
+    mb.onclick = async () => {
+      mb.disabled = true;
+      mb.textContent = "🧠 denke nach …";
+      try {
+        const m = await mnemonic(c.en, c.de);
+        if (!m) throw new Error("leer");
+        S.updateCard({ ...S.getState().cards[c.id], mnemo: m });
+        document.getElementById("mnemoBox").innerHTML = `<p class="mnemo-t">🧠 ${esc(m)}</p>`;
+      } catch {
+        mb.disabled = false;
+        mb.textContent = "🧠 Merkhilfe – nochmal versuchen";
+      }
+    };
   $app.querySelectorAll("[data-say]").forEach((b) => (b.onclick = () => say(b.dataset.say)));
   bindMic($app);
   bindVoiceToggle();
@@ -816,6 +846,7 @@ function storyNew() {
         known: known.map((w) => ({ en: w.en, de: w.de })),
         level: level(),
         theme,
+        goal: settings().goal || "",
       });
       clearInterval(timer);
       fill.style.width = "100%";
@@ -1647,6 +1678,8 @@ function settingsView() {
     <label class="field"><span>Neue Wörter pro Lerneinheit</span><input type="number" min="0" max="50" id="s-new" value="${s.newPerDay}"></label>
     <label class="field"><span>Geschichte nach je … neuen Wörtern</span><input type="number" min="3" max="25" id="s-story" value="${s.storyEvery}"></label>
     <a class="btn ghost" href="#/topics">Themen auswählen</a>
+    <label class="field"><span>Wofür lernst du?</span><select id="s-goal"><option value="">Allgemein</option>${Object.entries(GOALS).map(([k, g]) => `<option value="${k}" ${s.goal === k ? "selected" : ""}>${g.de}</option>`).join("")}</select></label>
+    <label class="check"><input type="checkbox" id="s-pic" ${s.picMode ? "checked" : ""}> Bild statt Deutsch (bei Wörtern mit Bild erscheint die Übersetzung erst auf Tipp)</label>
     <label class="field"><span>Neue Wörter ab Niveau</span><select id="s-start">${LEVELS.map((L) => `<option ${L === s.startLevel ? "selected" : ""}>${L}</option>`).join("")}</select></label>
     <label class="field"><span>Ziel-Behaltensquote: <b id="retv">${Math.round(s.retention * 100)} %</b></span>
       <input type="range" min="0.8" max="0.95" step="0.01" id="s-ret" value="${s.retention}"></label>
@@ -1673,7 +1706,7 @@ function settingsView() {
     <h2>Test-Funktionen</h2>
     <label class="check"><input type="checkbox" id="s-chatv2" ${s.chatV2 !== false ? "checked" : ""}> Neues Gespräch (Test): Antwortvorschläge, „Sag es auf Deutsch“, Ziel und Auswertung</label>
     <p class="small muted">Ausschalten = das bisherige Gespräch.</p>
-    <p class="small muted">App-Version 53</p>
+    <p class="small muted">App-Version 54</p>
   </section>
   <section class="card">
     <h2>Stimme</h2>
@@ -1738,6 +1771,8 @@ function settingsView() {
   bind("s-new", "newPerDay", (x) => Math.max(0, Math.min(50, Number(x) || 0)));
   bind("s-story", "storyEvery", (x) => Math.max(3, Math.min(25, Number(x) || 10)));
   bind("s-start", "startLevel");
+  bind("s-goal", "goal");
+  bind("s-pic", "picMode");
   bind("s-ret", "retention", Number, "input");
   bind("s-type", "typeAnswer");
   bind("s-auto", "autoSpeak");
