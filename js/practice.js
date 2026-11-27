@@ -41,7 +41,12 @@ function similarity(a, b) {
 function diffHtml(target, typed) {
   const want = plain(target).split(/\s+/);
   const got = new Set(fold(typed).split(" "));
-  return want.map((w) => `<span class="${got.has(fold(w)) ? "ok" : "bad"}">${esc(w)}</span>`).join(" ");
+  // „I'd“ wird zu „i d“ – alle Teile müssen vorkommen
+  const hit = (w) => {
+    const parts = fold(w).split(" ").filter(Boolean);
+    return !parts.length || parts.every((x) => got.has(x));
+  };
+  return want.map((w) => `<span class="${hit(w) ? "ok" : "bad"}">${esc(w)}</span>`).join(" ");
 }
 
 export const canSpeak = () => !!(window.SpeechRecognition || window.webkitSpeechRecognition);
@@ -227,35 +232,138 @@ export function rateSpeech(target, heard) {
   return { score, cls: "bad", text: "Das habe ich nicht richtig verstanden. Hör genau hin und probier es nochmal." };
 }
 
-// Kleiner Mikrofon-Block für Lernkarten: „Nachsprechen“
-export function micBlock(target) {
-  if (!canSpeak()) return "";
-  return `<div class="mic-block"><button type="button" class="mic-btn" data-mic="${esc(plain(target))}">🎤 <span>Nachsprechen</span></button><p class="mic-res small" aria-live="polite"></p></div>`;
+// ---------- Sprechen per Tastatur-Diktat ----------
+// Statt der störanfälligen Browser-Spracherkennung: ein Eingabefeld. Man tippt hinein und
+// diktiert über das 🎤 der Handy-Tastatur (wie bei WhatsApp) – oder schreibt einfach.
+// Während des Diktierens wird live Wort für Wort verglichen; „Prüfen“ bewertet.
+
+// Deutsch statt Zielsprache diktiert? (Tastatur steht dann meist noch auf Deutsch)
+const DE_WORDS = new Set("ich nicht und ist das der ein eine einen bitte danke möchte gerne haben habe wir sie mit auf für zu den dem wo wie kann hallo ja nein auch noch sehr gut heute".split(" "));
+export function looksGerman(text) {
+  const t = String(text || "").toLowerCase();
+  if (S.lang() === "de") return false;
+  const words = t.split(/[^a-zäöüß]+/).filter(Boolean);
+  const hits = words.filter((w) => DE_WORDS.has(w)).length;
+  return hits >= 2 || (/[äöß]/.test(t) && hits >= 1);
 }
-export function bindMic(root) {
-  root.querySelectorAll("[data-mic]").forEach(
-    (b) =>
-      (b.onclick = async () => {
-        const out = b.parentElement.querySelector(".mic-res");
-        const label = b.querySelector("span").textContent;
-        b.classList.add("rec");
-        b.querySelector("span").textContent = "Ich höre …";
-        out.textContent = "";
-        try {
-          const heard = await listenOnce((t) => (out.textContent = "„" + t + "“"));
-          if (!heard) throw new Error("Ich habe nichts gehört. Tippe noch einmal und sprich direkt los.");
-          const r = rateSpeech(b.dataset.mic, heard);
-          out.className = `mic-res small ${r.cls}`;
-          out.innerHTML = `${r.text}${heard ? `<br><span class="muted">Verstanden: „${esc(String(heard))}“</span>` : ""}`;
-        } catch (e) {
-          out.className = "mic-res small bad";
-          out.textContent = e.message;
+
+const isIOS = () => /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+const isAndroid = () => /Android/i.test(navigator.userAgent);
+
+// Anleitung: Tastatur der Lernsprache hinzufügen (direkt in die Einstellungen springen erlauben iPhone und Android nicht)
+export function keyboardHelp(onDone) {
+  const lang = L().name;
+  const ios = `<h3>iPhone</h3>
+    <ol class="kb-steps">
+      <li>Öffne die App <b>Einstellungen</b> (graues Zahnrad).</li>
+      <li>Tippe auf <b>Allgemein</b> → <b>Tastatur</b> → <b>Tastaturen</b>.</li>
+      <li>Tippe auf <b>Tastatur hinzufügen …</b> und wähle <b>${esc(lang)}</b>.</li>
+      <li>Zurück in dieser App: Tippe ins Feld und halte unten links die <b>🌐-Taste</b> gedrückt → <b>${esc(lang)}</b>. Jetzt das <b>🎤</b> der Tastatur antippen und sprechen.</li>
+    </ol>`;
+  const android = `<h3>Android</h3>
+    <ol class="kb-steps">
+      <li>Tippe ins Feld, damit die Tastatur aufgeht.</li>
+      <li>Halte das <b>🎤</b> der Tastatur gedrückt (oder ⚙️ → <b>Sprachen</b>).</li>
+      <li>Wähle <b>Sprache hinzufügen</b> → <b>${esc(lang)}</b>.</li>
+      <li>Jetzt erkennt die Tastatur beim Diktieren auch ${esc(lang)}. Sonst kurz über die 🌐-Taste oder die Leertaste umschalten.</li>
+    </ol>`;
+  const body = isIOS() ? ios : isAndroid() ? android : ios + android;
+  const ov = document.createElement("div");
+  ov.className = "kb-overlay";
+  ov.innerHTML = `<div class="kb-sheet" role="dialog" aria-modal="true" aria-label="Diktieren auf ${esc(lang)}">
+      <h2>Auf ${esc(lang)} diktieren</h2>
+      <p class="small muted">Dein Handy diktiert in der Sprache der Tastatur. Füge einmal eine Tastatur für ${esc(lang)} hinzu – danach geht es mit einem Tipp.</p>
+      ${body}
+      <button class="ef-btn ef-pri kb-done" type="button">Erledigt – nochmal versuchen</button>
+    </div>`;
+  const close = () => {
+    ov.remove();
+    onDone && onDone();
+  };
+  ov.querySelector(".kb-done").onclick = close;
+  ov.onclick = (e) => e.target === ov && close();
+  document.body.appendChild(ov);
+  ov.querySelector(".kb-done").focus({ preventScroll: true });
+}
+
+// Eingabefeld zum Nachsprechen. open = gleich aufgeklappt (sonst Knopf „🎤 Nachsprechen“)
+export function sayBlock(target, { open = false, label = "Nachsprechen" } = {}) {
+  const t = esc(plain(target));
+  return `<div class="say-block${open ? " open" : ""}" data-target="${t}">
+    ${open ? "" : `<button type="button" class="say-toggle mic-btn">🎤 <span>${esc(label)}</span></button>`}
+    <div class="say-body" ${open ? "" : "hidden"}>
+      <div class="say-row">
+        <input class="say-in" type="text" lang="${esc(S.lang())}" autocomplete="off" autocorrect="off" autocapitalize="sentences" spellcheck="false" enterkeyhint="done"
+          placeholder="Tippe hier, dann 🎤 der Tastatur" aria-label="Satz sprechen oder schreiben">
+        <button type="button" class="say-help" aria-label="Hilfe zum Diktieren">?</button>
+      </div>
+      <p class="say-live small" aria-live="polite"></p>
+      <button type="button" class="ef-btn ef-pri say-check">Prüfen</button>
+      <p class="say-res small" aria-live="polite"></p>
+    </div>
+  </div>`;
+}
+
+// Verhalten für alle Sprech-Felder in root. onCheck(target, text, rating) optional.
+export function bindSay(root, { onCheck } = {}) {
+  root.querySelectorAll(".say-block").forEach((blk) => {
+    const target = blk.dataset.target;
+    const inp = blk.querySelector(".say-in");
+    const live = blk.querySelector(".say-live");
+    const res = blk.querySelector(".say-res");
+    const body = blk.querySelector(".say-body");
+    const tog = blk.querySelector(".say-toggle");
+    const help = () => keyboardHelp(() => inp.focus());
+    if (tog)
+      tog.onclick = () => {
+        body.hidden = !body.hidden;
+        tog.classList.toggle("on", !body.hidden);
+        if (!body.hidden) {
+          tts.stop();
+          inp.focus();
         }
-        b.classList.remove("rec");
-        b.querySelector("span").textContent = label;
-      })
-  );
+      };
+    blk.querySelector(".say-help").onclick = help;
+    inp.oninput = () => {
+      res.textContent = "";
+      res.className = "say-res small";
+      const v = inp.value.trim();
+      if (!v) return (live.innerHTML = "");
+      live.innerHTML = looksGerman(v)
+        ? `<span class="say-warn">Das klingt nach Deutsch. Stell die Tastatur auf ${esc(L().name)} um. <button type="button" class="linkish say-how">So geht's</button></span>`
+        : `<span class="p-diff">${diffHtml(target, v)}</span>`;
+      const how = live.querySelector(".say-how");
+      if (how) how.onclick = help;
+    };
+    const check = () => {
+      const v = inp.value.trim();
+      if (!v) {
+        res.className = "say-res small bad";
+        res.textContent = "Tippe ins Feld und sprich über das 🎤 der Tastatur – oder schreib den Satz.";
+        inp.focus();
+        return;
+      }
+      if (looksGerman(v)) return help();
+      const r = rateSpeech(target, v);
+      res.className = `say-res small ${r.cls}`;
+      res.innerHTML = r.cls === "ok" ? "Super, genau richtig! 🎉" : r.cls === "almost" ? "Fast! Die roten Wörter passen noch nicht – korrigiere sie und prüfe nochmal." : "Noch nicht. Hör dir den Satz an und versuch es nochmal.";
+      live.innerHTML = `<span class="p-diff">${diffHtml(target, v)}</span>`;
+      inp.blur();
+      onCheck && onCheck(target, v, r);
+    };
+    blk.querySelector(".say-check").onclick = check;
+    inp.onkeydown = (e) => {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        check();
+      }
+    };
+  });
 }
+
+// Alte Namen (Lernkarte, Toolbox) – zeigen jetzt das Diktat-Feld
+export const micBlock = (target) => sayBlock(target);
+export const bindMic = (root) => bindSay(root);
 
 // ---------- Übungsseite: Diktat oder Sprechen ----------
 export function practiceView($app, { settings, rateSlider, ICON }, mode = "") {
@@ -270,12 +378,12 @@ export function practiceView($app, { settings, rateSlider, ICON }, mode = "") {
     $app.innerHTML = `${header}
     <div class="ef-tiles practice-tiles">
       <a class="ef-tile" href="#/practice/diktat"><span class="ef-tic">✍️</span><b>Diktat</b><small>Satz hören und aufschreiben</small></a>
-      ${canSpeak() ? `<a class="ef-tile" href="#/practice/sprechen"><span class="ef-tic">🎤</span><b>Sprechen</b><small>Satz hören und nachsprechen</small></a>` : ""}
+      <a class="ef-tile" href="#/practice/sprechen"><span class="ef-tic">🎤</span><b>Sprechen</b><small>Satz hören und nachsprechen</small></a>
       <a class="ef-tile" href="#/listen"><span class="ef-tic">🎧</span><b>Hören</b><small>Wörter zum Anhören</small></a>
       <a class="ef-tile" href="#/chat"><span class="ef-tic">🗣️</span><b>Gespräch</b><small>Rollenspiel mit der KI</small></a>
       <a class="ef-tile" href="#/toolbox"><span class="ef-tic">🧰</span><b>Toolbox</b><small>Fertige Sätze für den Alltag</small></a>
     </div>
-    ${canSpeak() ? "" : `<p class="small muted">Sprechen üben geht in diesem Browser leider nicht. Am iPhone und in Chrome funktioniert es.</p>`}`;
+    `;
     return;
   }
   const list = [...pool].sort(() => Math.random() - 0.5).slice(0, 10);
@@ -300,7 +408,7 @@ export function practiceView($app, { settings, rateSlider, ICON }, mode = "") {
         mode === "diktat"
           ? `<textarea id="pIn" rows="3" autocapitalize="off" autocomplete="off" spellcheck="false" placeholder="Schreib hier, was du hörst …"></textarea>
              <button class="ef-btn ef-pri" id="pCheck">Prüfen</button>`
-          : `<button class="mic-btn big" id="pMic">🎤 <span>Jetzt sprechen</span></button>
+          : `${sayBlock(sent, { open: true })}
              <button class="linkish" id="pShow" type="button">📝 Satz anzeigen</button>
              <p class="p-sol" id="pText" hidden><b>${esc(sent)}</b><br><span class="muted">${esc(plain(c.exDe))}</span></p>`
       }
@@ -331,29 +439,23 @@ export function practiceView($app, { settings, rateSlider, ICON }, mode = "") {
         document.getElementById("pCheck").hidden = true;
       };
     } else {
-      const mic = document.getElementById("pMic");
       document.getElementById("pShow").onclick = () => {
         const t = document.getElementById("pText");
         t.hidden = !t.hidden;
         document.getElementById("pShow").textContent = t.hidden ? "📝 Satz anzeigen" : "📝 Satz ausblenden";
       };
-      let busy = false;
-      mic.onclick = async () => {
-        if (busy) return;
-        busy = true;
-        mic.classList.add("rec");
-        mic.querySelector("span").textContent = "Ich höre zu …";
-        try {
-          const heard = await listenOnce((t) => (res.innerHTML = `<p class="small muted">„${esc(t)}“</p>`));
-          const r = rateSpeech(sent, heard);
-          reveal(r.cls === "ok", `<p class="p-verdict ${r.cls}">${r.text}</p>${heard ? `<p class="small muted">Verstanden: „${esc(String(heard))}“</p>` : ""}`);
-        } catch (e) {
-          res.innerHTML = `<p class="p-verdict bad">${esc(e.message)}</p>`;
-        }
-        mic.classList.remove("rec");
-        mic.querySelector("span").textContent = "Nochmal sprechen";
-        busy = false;
-      };
+      let counted = false;
+      bindSay($app, {
+        onCheck: (_t, v, r) => {
+          if (r.cls === "ok" && !counted) {
+            counted = true;
+            good++;
+            // Lösung mit Übersetzung nur zeigen, wenn sie nicht schon eingeblendet ist
+            if (document.getElementById("pText").hidden) res.innerHTML = `<p class="p-sol"><b>${esc(sent)}</b><br><span class="muted">${esc(plain(c.exDe))}</span></p>`;
+          }
+          next.hidden = false; // weiter geht immer – nochmal versuchen auch
+        },
+      });
     }
   };
   show();

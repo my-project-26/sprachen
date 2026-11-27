@@ -5,7 +5,7 @@ import * as S from "./store.js";
 import * as tts from "./tts.js";
 import { L } from "./langs.js";
 import { chatTurn, sayIn } from "./api.js";
-import { canSpeak, listenOnce } from "./practice.js";
+import { keyboardHelp } from "./practice.js";
 import { phrasesFor } from "./toolbox.js";
 
 const esc = (s) =>
@@ -61,8 +61,8 @@ function chatClassic($app, { settings, ICON }, sceneKey = "") {
   <p class="chat-scene">${scene.ic} <b>${scene.label}</b> · Niveau ${esc(level)}</p>
   <div class="chat-log" id="chatLog" aria-live="polite"></div>
   <form class="chat-form" id="chatForm">
-    ${canSpeak() ? `<button type="button" class="icon-btn big" id="chatMic" aria-label="Sprechen">🎤</button>` : ""}
-    <input id="chatIn" autocomplete="off" autocapitalize="off" placeholder="Deine Antwort auf ${esc(L().name)} …">
+    <button type="button" class="icon-btn big" id="chatMic" aria-label="So diktierst du">🎤</button>
+    <input id="chatIn" lang="${esc(S.lang())}" autocomplete="off" autocapitalize="sentences" enterkeyhint="send" placeholder="Schreib oder diktiere (🎤 der Tastatur) …">
     <button class="ef-btn ef-pri chat-send" type="submit">Senden</button>
   </form>
   <p class="small muted">Tippe auf eine Antwort, um die deutsche Übersetzung zu sehen.</p>`;
@@ -113,21 +113,17 @@ function chatClassic($app, { settings, ICON }, sceneKey = "") {
     $in.value = "";
     turn();
   };
-  const mic = document.getElementById("chatMic");
-  if (mic)
-    mic.onclick = async () => {
-      mic.classList.add("rec");
-      try {
-        $in.placeholder = "Ich höre zu …";
-        const heard = await listenOnce((t) => ($in.value = t));
-        if (heard) $in.value = String(heard);
-        $in.placeholder = `Deine Antwort auf ${L().name} …`;
-      } catch (e) {
-        st.err = e.message;
-        draw();
+  // Sprechen = Diktat über die Handy-Tastatur; der Knopf erklärt, wie es geht
+  document.getElementById("chatMic").onclick = () => {
+    $in.focus();
+    // Beim ersten Mal kurz erklären, wie das Diktieren über die Tastatur geht
+    try {
+      if (!localStorage.getItem("ww-kbhelp")) {
+        localStorage.setItem("ww-kbhelp", "1");
+        keyboardHelp(() => $in.focus());
       }
-      mic.classList.remove("rec");
-    };
+    } catch {}
+  };
   draw();
   if (!st.msgs.length) turn();
 }
@@ -184,8 +180,8 @@ function chatV2($app, { settings, ICON }, sceneKey = "") {
     <button class="ef-btn ef-pri chat-send" id="cvSayGo" type="button">Übersetzen</button>
   </div>
   <form class="chat-form" id="chatForm">
-    ${canSpeak() ? `<button type="button" class="icon-btn big" id="chatMic" aria-label="Sprechen">🎤</button>` : ""}
-    <input id="chatIn" autocomplete="off" autocapitalize="off" placeholder="Deine Antwort auf ${esc(L().name)} …">
+    <button type="button" class="icon-btn big" id="chatMic" aria-label="So diktierst du">🎤</button>
+    <input id="chatIn" lang="${esc(S.lang())}" autocomplete="off" autocapitalize="sentences" enterkeyhint="send" placeholder="Schreib oder diktiere (🎤 der Tastatur) …">
     <button class="ef-btn ef-pri chat-send" type="submit">Senden</button>
   </form>
   <p class="small muted center"><button type="button" class="linkish" id="cvSayBtn">💬 Sag es auf Deutsch – ich übersetze</button>${phrasesFor(scene.key).length ? ` · <button type="button" class="linkish" id="cvTbBtn">🧰 Toolbox</button>` : ""}</p>
@@ -277,21 +273,17 @@ function chatV2($app, { settings, ICON }, sceneKey = "") {
     $in.value = "";
     turn();
   };
-  const mic = document.getElementById("chatMic");
-  if (mic)
-    mic.onclick = async () => {
-      mic.classList.add("rec");
-      try {
-        $in.placeholder = "Ich höre zu …";
-        const heard = await listenOnce((t) => ($in.value = t));
-        if (heard) $in.value = String(heard);
-        $in.placeholder = `Deine Antwort auf ${L().name} …`;
-      } catch (e) {
-        st.err = e.message;
-        draw();
+  // Sprechen = Diktat über die Handy-Tastatur; der Knopf erklärt, wie es geht
+  document.getElementById("chatMic").onclick = () => {
+    $in.focus();
+    // Beim ersten Mal kurz erklären, wie das Diktieren über die Tastatur geht
+    try {
+      if (!localStorage.getItem("ww-kbhelp")) {
+        localStorage.setItem("ww-kbhelp", "1");
+        keyboardHelp(() => $in.focus());
       }
-      mic.classList.remove("rec");
-    };
+    } catch {}
+  };
   const tbBtn = document.getElementById("cvTbBtn");
   if (tbBtn) {
     const tb = document.getElementById("cvTb");

@@ -648,11 +648,40 @@ body[data-view="onboarding"] .nav { display: none; }
 .mnemo-btn { cursor: pointer; }
 /* Toolbox */
 .tb-list { list-style: none; margin: 10px 0 16px; padding: 0; display: flex; flex-direction: column; gap: 10px; }
-.tb-item { display: grid; grid-template-columns: 1fr auto; gap: 6px 10px; align-items: center; padding: 12px 14px; border: 1px solid var(--line); border-radius: 16px; background: var(--surface); }
+.tb-item { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px 10px; align-items: center; padding: 12px 14px; border: 1px solid var(--line); border-radius: 16px; background: var(--surface); }
 .tb-text { min-width: 0; display: flex; flex-direction: column; gap: 2px; }
 .tb-text span { color: var(--muted); font-size: .92rem; }
 .tb-acts { display: flex; gap: 6px; }
-.tb-item .mic-block { grid-column: 1 / -1; }
+.tb-item .mic-block, .tb-item .say-block { grid-column: 1 / -1; min-width: 0; }
 .cv-tb { display: flex; flex-direction: column; gap: 6px; margin: 6px 0; max-height: 46vh; overflow: auto; }
 .cv-tbi { text-align: left; padding: 8px 12px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); color: inherit; font: inherit; cursor: pointer; }
 .cv-tbi small { display: block; color: var(--muted); }
+
+/* ---------- Sprechen per Tastatur-Diktat ---------- */
+.say-block { margin: 10px 0 4px; }
+.say-toggle.on { background: var(--accent-soft); }
+.say-body { margin-top: 10px; display: grid; gap: 8px; }
+.say-body[hidden] { display: none; }
+.say-row { display: flex; gap: 8px; align-items: stretch; }
+.say-in { flex: 1; min-width: 0; width: 100%; min-height: 52px; padding: 0 14px; font: inherit; font-size: 1.05rem; color: var(--ink);
+  background: var(--surface); border: 2px solid var(--line); border-radius: 16px; }
+.say-in:focus { outline: none; border-color: var(--accent); }
+.say-help { flex: none; width: 52px; border: 2px solid var(--line); border-radius: 16px; background: var(--surface);
+  color: var(--muted); font: inherit; font-weight: 800; font-size: 1.15rem; cursor: pointer; }
+.say-help:focus-visible, .say-check:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.say-live { margin: 0; min-height: 1.4em; line-height: 1.6; }
+.say-live .ok { color: var(--ok); font-weight: 700; }
+.say-live .bad { color: var(--bad); text-decoration: underline wavy; text-underline-offset: 4px; }
+.say-warn { color: var(--bad); }
+.say-res { margin: 0; font-weight: 700; }
+.say-res.almost { color: #b7791f; }
+.say-check { width: 100%; }
+
+.kb-overlay { position: fixed; inset: 0; z-index: 1000; display: flex; align-items: flex-end; justify-content: center;
+  background: rgba(0, 0, 0, .45); padding: 12px; }
+.kb-sheet { width: 100%; max-width: 520px; max-height: 88vh; overflow: auto; background: var(--surface); color: var(--ink);
+  border-radius: 24px; padding: 22px 20px calc(18px + env(safe-area-inset-bottom)); box-shadow: 0 -8px 40px rgba(0, 0, 0, .25); }
+.kb-sheet h2 { margin: 0 0 6px; }
+.kb-sheet h3 { margin: 16px 0 6px; font-size: 1rem; }
+.kb-steps { margin: 0 0 8px; padding-left: 22px; display: grid; gap: 8px; line-height: 1.45; }
+.kb-done { width: 100%; margin-top: 12px; }

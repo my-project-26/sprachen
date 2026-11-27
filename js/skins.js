@@ -268,10 +268,9 @@ const CARD = {
     const tools = `<div class="aw-tools">
         <button class="aw-tool" data-say="${esc(c.en)}"><i>🔊</i><span>Wort</span></button>
         ${c.ex ? `<button class="aw-tool" data-say="${esc(x.exPlain)}"><i>💬</i><span>Satz</span></button>` : ""}
-        ${x.ui.mic ? `<button class="aw-tool mic-btn" data-mic="${esc(c.en)}"><i>🎤</i><span>Sprechen</span></button>` : ""}
         <button class="aw-tool aw-speed" data-speed="${(x.ui.speedIdx + 1) % 3}" data-replay="${esc(c.en)}" aria-label="Tempo ändern"><i>${SPD[x.ui.speedIdx]}</i><span>${x.ui.speedLabel}</span></button>
-        <p class="mic-res small" aria-live="polite"></p>
-      </div>`;
+      </div>
+      ${x.ui.mic || ""}`;
     const actions = x.revealed
       ? `${tools}
          <p class="aw-ask">Wusstest du es?</p>
