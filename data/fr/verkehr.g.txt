@@ -1,0 +1,99 @@
+# fr – verkehr (aus der englischen Liste erzeugt)
+
+## A1
+se garer | parken | v | Tu ne peux pas te *garer* ici. | Hier darfst du nicht *parken*. |
+la voiture | Auto | n | Nous sommes y allés en *voiture*. | Wir sind mit dem *Auto* gefahren. |
+le bus | Bus | n | Je prends le *bus* pour aller travailler. | Ich nehme den *Bus* zur Arbeit. |
+le taxi | Taxi | n | Prenons un *taxi* pour y aller. | Lass uns ein *Taxi* nehmen. |
+la gare | Bahnhof | n | Où se trouve la *gare* ? | Wo ist der *Bahnhof*? |
+la route | Straße | n | Cette *route* est très fréquentée. | Auf der *Straße* ist viel los. |
+à gauche | links | adv | Tournez à *gauche* au prochain carrefour. | Bieg *links* ab. |
+tout droit | geradeaus | adv | Allez *tout droit*. | Geh *geradeaus*. |
+conduire | fahren (Auto) | v | Sais-tu *conduire*? | Kannst du Auto *fahren*? |
+endroit | Ort | n | C'est un joli *endroit*. | Das ist ein schöner *Ort*. |
+
+## A2
+circulation | Verkehr | n | La *circulation* etait terrible ce matin. | Der *Verkehr* war heute Morgen schrecklich. |
+autoroute | Autobahn | n | Prends l'*autoroute* (f) pour Munich. | Nimm die *Autobahn* nach München. |
+permis de conduire | Führerschein | n | J'ai eu mon *permis de conduire* à 18 ans. | Ich habe mit 18 meinen *Führerschein* gemacht. |
+essence | Benzin | n | Nous devons nous arrêter pour l'*essence* (f). | Wir müssen tanken (*Benzin*). |
+station-service | Tankstelle | n | Y a-t-il une *station-service* à proximité? | Gibt es hier eine *Tankstelle*? |
+parking | Parkplatz | n | Le *parking* était complet. | Der *Parkplatz* war voll. |
+quai | Bahnsteig | n | Le train part du *quai* 4. | Der Zug fährt von *Gleis* 4 ab. |
+métro | U-Bahn | n | C'est plus rapide en *métro*. | Mit der *U-Bahn* geht es schneller. |
+passager | Fahrgast | n | Tous les *passagers* doivent attacher leur ceinture. | Alle *Passagiere* müssen sich anschnallen. |
+rond-point | Kreisverkehr | n | Prends la deuxième sortie au *rond-point*. | Nimm die zweite Ausfahrt im *Kreisverkehr*. |
+tourner | abbiegen | v | *Tourne* à droite au feu. | Bieg an der Ampel rechts *ab*. |
+prendre | erwischen (Bus, Zug) | v | J'ai *pris* le dernier train pour rentrer. | Ich habe den letzten Zug nach Hause *erwischt*. |
+descendre | aussteigen | v | Nous *descendons* au prochain arrêt. | Wir *steigen* an der nächsten Haltestelle *aus*. |
+tramway | Straßenbahn | n | Le *tramway* s'arrête juste devant. | Die *Straßenbahn* hält direkt vor der Tür. |
+moto | Motorrad | n | Il fait de la *moto*. | Er fährt *Motorrad*. |
+camion | Lastwagen | n | Un *camion* bloquait la route. | Ein *Lastwagen* blockierte die Straße. |
+bateau | Schiff | n | Nous avons traversé vers l'Irlande en *bateau*. | Wir sind mit dem *Schiff* nach Irland gefahren. |
+bateau | Boot | n | Nous avons loué un *bateau* sur le lac. | Wir haben auf dem See ein *Boot* gemietet. |
+arrêt de bus | Bushaltestelle | n | J'attendrai à l'*arrêt de bus*. | Ich warte an der *Bushaltestelle*. |
+monter | einsteigen | v | *Monte* dans le bus à la gare. | *Steig* am Bahnhof in den Bus *ein*. |
+monter | einsteigen (Auto) | v | *Monte*, je te ramène à la maison. | *Steig ein*, ich fahr dich heim. |
+descendre | aussteigen (Auto) | v | Laisse-moi *descendre* ici. | Lass mich hier *aussteigen*. |
+le conducteur | Fahrer(in) | n | Le *conducteur* était très aimable. | Der *Fahrer* war sehr freundlich. |
+le siège | Sitz, Sitzplatz | n | Est-ce que ce *siège* est libre ? | Ist dieser *Platz* frei? |
+le centre | Zentrum, Mitte | n | L'hôtel est dans le *centre*. | Das Hotel ist im Stadt*zentrum*. |
+traverser | überqueren | v | *Traversez* la rue prudemment. | *Überquere* die Straße vorsichtig. |
+suivre | folgen | v | *Suivez*-moi ! | *Folg* mir! |
+se perdre | sich verlaufen | phrase | Nous *sommes perdus* dans la vieille ville. | Wir haben uns in der Altstadt *verlaufen*. |
+le commissariat de police | Polizeiwache | n | Où est le *commissariat de police* le plus proche ? | Wo ist die nächste *Polizeiwache*? |
+le cinéma | Kino | n | Allons au *cinéma*. | Lass uns ins *Kino* gehen. |
+le théâtre | Theater | n | Nous sommes allés au *théâtre* hier soir. | Wir waren gestern Abend im *Theater*. |
+
+## B1
+l'embouteillage (m) | Stau | n | Nous étions coincés dans un *embouteillage*. | Wir steckten im *Stau*. |
+le piéton | Fußgänger(in) | n | Faites attention aux *piétons*. | Achte auf *Fußgänger*. |
+la ceinture de sécurité | Sicherheitsgurt | n | Attachez votre *ceinture de sécurité*. | Leg deinen *Sicherheitsgurt* an. |
+la limitation de vitesse | Tempolimit | n | La *limitation de vitesse* est de 50 ici. | Das *Tempolimit* liegt hier bei 50. |
+le distributeur de billets | Fahrkartenautomat | n | Le *distributeur de billets* n'accepte que les cartes. | Der *Fahrkartenautomat* nimmt nur Karten. |
+l'heure de pointe (f) | Hauptverkehrszeit | n | Évitez de conduire pendant *l'heure de pointe*. | Meide das Autofahren zur *Hauptverkehrszeit*. |
+la station de taxis | Taxistand | n | Il y a une *station de taxis* devant la gare. | Vor dem Bahnhof gibt es einen *Taxistand*. |
+
+## B2
+freiner sec | scharf bremsen | phrase | J'ai dû *freiner sec* pour éviter un chevreuil. | Ich musste *scharf bremsen*, um einem Reh auszuweichen. |
+la collision | Zusammenstoß | n | Deux voitures ont été impliquées dans la *collision*. | Zwei Autos waren an dem *Zusammenstoß* beteiligt. |
+le navetteur | Pendler(in) | n | Le train était plein de *navetteurs*. | Der Zug war voller *Pendler*. |
+la déviation | Umleitung | n | Il y a une *déviation* à cause des travaux. | Wegen Bauarbeiten gibt es eine *Umleitung*. |
+les travaux | Baustelle (Straße) | n | Des *travaux* ont causé de longs retards. | *Baustellen* führten zu langen Verzögerungen. |
+l'échangeur (m) | Kreuzung, Anschlussstelle | n | Prenez la sortie à *l'échangeur* 7. | Verlass die Autobahn an der *Ausfahrt* 7. |
+la voie | Fahrspur | n | Restez sur la *voie* de gauche. | Bleib auf der linken *Spur*. |
+la bande d'arrêt d'urgence | Standstreifen | n | Arrêtez-vous sur la *bande d'arrêt d'urgence* en cas d'urgence. | Halte im Notfall auf dem *Standstreifen*. |
+le bouchon | Rückstau | n | Il y a un *bouchon* de dix kilomètres. | Es gibt einen zehn Meilen langen *Rückstau*. |
+le péage | Maut | n | Vous devez *payer* un péage sur cette route. | Auf dieser Straße zahlt man *Maut*. |
+le véhicule | Fahrzeug | n | Les véhicules lourds *ne* sont pas autorisés. | Schwere *Fahrzeuge* sind nicht erlaubt. |
+les transports en commun | öffentliche Verkehrsmittel | n | J'utilise principalement les transports en *commun*. | Ich nutze meist *öffentliche Verkehrsmittel*. |
+la correspondance | Anschluss | n | J'ai raté ma *correspondance* à Cologne. | Ich habe in Köln meinen *Anschluss* verpasst. |
+déraper | schleudern | v | La voiture a *dérapé* sur le verglas. | Das Auto *schleuderte* auf dem Eis. |
+faire un écart | ausweichen | v | Il a fait un *écart* pour éviter le cycliste. | Er *wich* dem Radfahrer *aus*. |
+l'excès de vitesse (m) | zu schnelles Fahren | n | Il a été arrêté pour *excès* de vitesse. | Er wurde wegen *zu schnellen Fahrens* angehalten. |
+l'éthylotest (m) | Alkoholtest(gerät) | n | La police lui a demandé de *souffler* dans l'éthylotest. | Die Polizei forderte ihn zu einem *Alkoholtest* auf. |
+l'autopartage (m) | Carsharing | n | L'autopartage est *populaire* dans les grandes villes. | *Carsharing* ist in Großstädten beliebt. |
+la consommation de carburant | Kraftstoffverbrauch | n | Le nouveau modèle a une consommation de *carburant* réduite. | Das neue Modell hat einen geringeren *Verbrauch*. |
+céder le passage | Vorfahr gewähren | phrase | Vous devez *céder* le passage à droite. | Du musst dem Verkehr von rechts *Vorfahrt gewähren*. |
+la priorité | Vorfahrt | n | Qui a la *priorité* ici ? | Wer hat hier *Vorfahrt*? |
+se garer sur le côté | rechts ranfahren | v | La police lui a ordonné de se *garer* sur le côté. | Die Polizei forderte ihn auf, *rechts ranzufahren*. |
+
+## C1
+la congestion | Verkehrsüberlastung | n | La congestion du trafic au *centre* s'aggrave. | Die *Verkehrsüberlastung* in der Innenstadt wird schlimmer. |
+le péage urbain | City-Maut | n | Londres a introduit un péage *urbain*. | London führte eine *City-Maut* ein. |
+la thrombose urbaine | Verkehrskollaps | n | La grève a provoqué une *paralysie* totale. | Der Streik verursachte einen totalen *Verkehrskollaps*. |
+coller au train | zu dicht auffahren | v | La camionnette m'a *collé* au train tout le trajet. | Der Transporter *fuhr* mir die ganze Strecke *zu dicht auf*. |
+mettre l'auto à la casse | (Auto) zu Schrott fahren | v | Elle a *bousillé* sa voiture dans l'accident. | Sie hat ihr Auto bei dem Unfall *zu Schrott gefahren*. |
+le délit de fuite | Unfallflucht | n | Il a été victime d'un délit de *fuite*. | Er wurde Opfer einer *Unfallflucht*. |
+le carambolage | Massenkarambolage | n | Le brouillard a provoqué un carambolage *monstre*. | Nebel verursachte eine *Massenkarambolage* mit 30 Autos. |
+l'accrochage (m) | Blechschaden | n | Ce n'était qu'un simple *accrochage*. | Es war nur ein *Blechschaden*. |
+traverser hors des clous | bei Rot über die Straße gehen | v | On peut *écoper* d'une amende en traversant au rouge. | In den USA kann man fürs *Überqueren bei Rot* bestraft werden. |
+l'infrastructure (f) | Infrastruktur | n | La ville a investi dans l'infrastructure *cyclable*. | Die Stadt investierte in Fahrrad-*Infrastruktur*. |
+la banlieue résidentielle | Speckgürtel | n | Ils ont déménagé dans la *banlieue* résidentielle. | Sie zogen in den *Speckgürtel*. |
+le passage souterrain | Unterführung | n | Utilisez le passage *souterrain* pour traverser. | Benutz die *Unterführung*, um die Straße zu überqueren. |
+le passage à niveau | Bahnübergang | n | Attendez au *passage* à niveau. | Warte am *Bahnübergang*. |
+dérailler | entgleisen | v | Le train a *déraillé* près de la gare. | Der Zug *entgleiste* in Bahnhofsnähe. |
+la stagnation | Stillstand | n | La circulation est arrivée au *point* mort. | Der Verkehr kam zum *Stillstand*. |
+la zone à faibles émissions | Umweltzone | n | Les vieux diesels ne peuvent pas entrer dans la *zone*. | Alte Diesel dürfen nicht in die *Umweltzone*. |
+le dépannage | Pannenhilfe | n | Appelez le *dépannage*. | Ruf die *Pannenhilfe*. |
+le radar | Blitzer | n | Je me suis fait *flasher* par un radar. | Ich wurde *geblitzt*. |

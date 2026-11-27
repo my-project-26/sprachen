@@ -1,0 +1,98 @@
+# fr – wissenschaft (aus der englischen Liste erzeugt)
+
+## A1
+l'étude (f) | Studie | n | Une nouvelle *étude* a été publiée. | Eine neue *Studie* wurde veröffentlicht. |
+l'ordinateur (m) | Computer | n | Mon *ordinateur* est tombé en panne. | Mein *Computer* ist abgestürzt. |
+
+## A2
+numérique | digital | adj | Nous vivons dans un monde *numérique*. | Wir leben in einer *digitalen* Welt. |
+l'ingénieur (m) | Ingenieur(in) | n | Elle est *ingénieur* en logiciels. | Sie ist Software-*Ingenieurin*. |
+le scientifique | Wissenschaftler(in) | n | Les *scientifiques* ont découvert une nouvelle espèce. | *Wissenschaftler* entdeckten eine neue Art. |
+la technologie | Technologie, Technik | n | La *technologie* change rapidement. | *Technologie* verändert sich schnell. |
+l'écran (m) | Bildschirm | n | L' *écran* est trop petit. | Der *Bildschirm* ist zu klein. |
+mesurer | messen | v | Nous avons *mesuré* la température. | Wir *maßen* die Temperatur. |
+la machine | Maschine | n | La *machine* est cassée. | Die *Maschine* ist kaputt. |
+l'application (f) | App | n | Il y a une *application* pour ça. | Dafür gibt es eine *App*. |
+
+## B1
+la recherche | Forschung | n | Ses *recherches* portent sur le sommeil. | Ihre *Forschung* konzentriert sich auf den Schlaf. |
+l'appareil (m) | Gerät | n | Veuillez éteindre tous les *appareils* électroniques. | Bitte schalten Sie alle elektronischen *Geräte* aus. |
+fiable | zuverlässig | adj | Nous avons besoin de données *fiables*. | Wir brauchen *zuverlässige* Daten. |
+l'expérience (f) | Experiment, Versuch | n | Nous avons fait une *expérience* en classe. | Wir haben im Unterricht ein *Experiment* gemacht. |
+inventer | erfinden | v | Qui a *inventé* le téléphone? | Wer hat das Telefon *erfunden*? |
+l'invention (f) | Erfindung | n | La roue était une grande *invention*. | Das Rad war eine großartige *Erfindung*. |
+la découverte | Entdeckung | n | C'était une découverte *importante*. | Es war eine wichtige *Entdeckung*. |
+le logiciel | Software | n | Tu dois mettre à jour le *logiciel*. | Du musst die *Software* aktualisieren. |
+mettre à jour | aktualisieren | v | Il faut *mettre* l'application *à jour*. | *Aktualisiere* die App regelmäßig. |
+installer | installieren | v | J'ai *installé* un nouveau programme. | Ich habe ein neues Programm *installiert*. |
+les données | Daten | n | Les *données* sont stockées en ligne. | Die *Daten* werden online gespeichert. |
+le résultat | Ergebnis | n | Les *résultats* étaient surprenants. | Die *Ergebnisse* waren überraschend. |
+la théorie | Theorie | n | Ce n'est qu'une *théorie*. | Das ist nur eine *Theorie*. |
+le laboratoire | Labor | n | Elle travaille dans un *laboratoire*. | Sie arbeitet in einem *Labor*. |
+la planète | Planet | n | Mars est la quatrième *planète*. | Der Mars ist der vierte *Planet*. |
+l'espace (m) | Weltraum | n | Il veut voyager dans *l'espace*. | Er will ins *All* reisen. |
+le robot | Roboter | n | Les *robots* construisent les voitures. | *Roboter* bauen die Autos. |
+l'électricité (f) | Elektrizität | n | Le village n'a pas *d'électricité*. | Das Dorf hat keinen *Strom*. |
+le moteur | Motor | n | Le *moteur* ne démarre pas. | Der *Motor* springt nicht an. |
+le smartphone | Smartphone | n | Je ne peux pas vivre sans mon *smartphone*. | Ich kann nicht ohne mein *Smartphone* leben. |
+
+## B2
+la preuve | Beweise | n | Il n'y a aucune *preuve* que cela marche. | Es gibt keine *Belege* dafür, dass es funktioniert. |
+mener | durchführen | v | Ils ont *mené* une expérience sur des souris. | Sie *führten* ein Experiment an Mäusen *durch*. |
+significatif | bedeutend | adj | Les résultats montrent une amélioration *significative*. | Die Ergebnisse zeigen eine *erhebliche* Verbesserung. |
+la percée | Durchbruch | n | Le vaccin a été une grande *percée*. | Der Impfstoff war ein großer *Durchbruch*. |
+le résultat | Ergebnis | n | Personne ne pouvait prédire le *résultat*. | Niemand konnte den *Ausgang* vorhersagen. |
+artificiel | künstlich | adj | L'intelligence *artificielle* change beaucoup de métiers. | *Künstliche* Intelligenz verändert viele Berufe. |
+l'hypothèse (f) | Hypothese | n | Les données soutiennent son *hypothèse*. | Die Daten stützen ihre *Hypothese*. |
+l'analyse (f) | Analyse | n | L'*analyse* a pris des semaines. | Die *Analyse* dauerte Wochen. |
+la méthode | Methode | n | Ils ont utilisé une nouvelle *méthode*. | Sie verwendeten eine neue *Methode*. |
+l'échantillon (m) | Probe | n | Ils ont pris un *échantillon* de sang. | Sie nahmen eine Blut*probe*. |
+l' enquête (f) | Umfrage | n | Une *enquête* auprès de mille personnes. | Eine *Umfrage* unter 1.000 Menschen. |
+la statistique | Statistik | n | Les *statistiques* sont claires. | Die *Statistik* ist eindeutig. |
+le pourcentage | Prozentsatz | n | Un fort *pourcentage* était d'accord. | Ein hoher *Prozentsatz* stimmte zu. |
+le facteur | Faktor | n | Le coût est un *facteur* important. | Kosten sind ein wichtiger *Faktor*. |
+observer | beobachten | v | Les scientifiques ont *observé* les étoiles. | Wissenschaftler *beobachteten* die Sterne. |
+génétique | genetisch | adj | C'est une condition *génétique*. | Es ist eine *genetische* Erkrankung. |
+le gène | Gen | n | Certains *gènes* influencent la taille. | Manche *Gene* beeinflussen die Körpergröße. |
+la cellule | Zelle | n | Le corps a des milliards de *cellules*. | Der Körper hat Milliarden von *Zellen*. |
+chimique | chemisch | adj | C'est une réaction *chimique*. | Es ist eine *chemische* Reaktion. |
+la substance | Substanz, Stoff | n | C'est une *substance* toxique. | Es ist ein giftiger *Stoff*. |
+l' intelligence artificielle (f) | künstliche Intelligenz | n | L'*intelligence artificielle* est partout. | *Künstliche Intelligenz* ist überall. |
+l' algorithme (m) | Algorithmus | n | L'*algorithme* décide ce que tu vois. | Der *Algorithmus* entscheidet, was du siehst. |
+le réseau | Netzwerk | n | Le *réseau* est en panne. | Das *Netzwerk* ist ausgefallen. |
+sans fil | kabellos | adj | La souris est-elle *sans fil* ? | Ist die Maus *kabellos*? |
+le stockage | Speicher(platz) | n | Mon téléphone n'a plus de *stockage*. | Mein Handy hat keinen *Speicherplatz* mehr. |
+la sauvegarde | Sicherung, Backup | n | Fais une *sauvegarde* de tes fichiers. | Mach eine *Sicherung* deiner Dateien. |
+le pirate | Hacker(in) | n | Des *pirates* ont volé les données. | *Hacker* stahlen die Daten. |
+la sécurité | Sicherheit | n | La *sécurité* en ligne est importante. | Online-*Sicherheit* ist wichtig. |
+l' innovation (f) | Innovation | n | L'entreprise est connue pour son *innovation*. | Die Firma ist für *Innovation* bekannt. |
+le prototype | Prototyp | n | Ils ont construit un *prototype*. | Sie bauten einen *Prototyp*. |
+le gadget | technisches Spielzeug, Gerät | n | Il adore les nouveaux *gadgets*. | Er liebt neue *technische Spielereien*. |
+convivial | benutzerfreundlich | adj | Cette application est très *conviviale*. | Die App ist sehr *benutzerfreundlich*. |
+
+## C1
+sophistiqué | hochentwickelt, anspruchsvoll | adj | Le logiciel utilise un algorithme *sophistiqué*. | Die Software nutzt einen *hochentwickelten* Algorithmus. |
+empirique | empirisch | adj | La théorie manque de soutien *empirique*. | Der Theorie fehlt die *empirische* Grundlage. |
+reproduire | reproduzieren, wiederholen | v | D'autres labos n'ont pas pu *reproduire* les résultats. | Andere Labore konnten die Ergebnisse nicht *reproduzieren*. |
+inhérent | innewohnend | adj | Ce risque est *inhérent* au projet. | Jede Methode hat *inhärente* Grenzen. |
+données empiriques (f) | empirische Belege | n | Nous manquons de *données empiriques* ici. | Es gibt kaum *empirische Belege*. |
+corrélation (f) | Korrelation | n | Il y a une *corrélation* entre les deux. | Es gibt eine *Korrelation* zwischen Ernährung und Gesundheit. |
+causalité (f) | Kausalität | n | La *causalité* reste difficile à prouver. | Korrelation ist keine *Kausalität*. |
+variable (f) | Variable | n | Chaque *variable* influence le résultat final. | Wir kontrollierten alle *Variablen*. |
+méthodologie (f) | Methodik | n | La *méthodologie* de recherche est rigoureuse. | Die *Methodik* war fehlerhaft. |
+quantitatif | quantitativ | adj | C est une analyse *quantitative*. | Es ist eine *quantitative* Studie. |
+anomalie (f) | Anomalie | n | Cette *anomalie* surprend les chercheurs. | Das Ergebnis war eine *Anomalie*. |
+valider | bestätigen | v | Il faut *valider* ces résultats rapidement. | Die Ergebnisse wurden *bestätigt*. |
+comité de lecture (m) | begutachtet | adj | C est un article validé par un *comité de lecture*. | Es ist eine *begutachtete* Fachzeitschrift. |
+révolutionnaire | bahnbrechend | adj | Leur découverte est vraiment *révolutionnaire*. | Es ist *bahnbrechende* Forschung. |
+de pointe | hochmodern | adj | Ils utilisent une technologie *de pointe*. | Sie nutzen *hochmoderne* Technik. |
+automatiser | automatisieren | v | Nous voulons *automatiser* cette tâche répétitive. | Der Prozess wurde *automatisiert*. |
+chiffrement (m) | Verschlüsselung | n | Le *chiffrement* protège vos données personnelles. | Die App nutzt Ende-zu-Ende-*Verschlüsselung*. |
+bug (m) | Störung, Panne | n | Un petit *bug* a bloqué le système. | Eine technische *Störung* verzögerte den Start. |
+bande passante (f) | Bandbreite | n | Je n ai pas assez de *bande passante*. | Dafür habe ich keine *Kapazität*. |
+interface (f) | Schnittstelle, Oberfläche | n | Cette *interface* est très intuitive. | Die *Benutzeroberfläche* ist übersichtlich. |
+compatible | kompatibel | adj | Ce logiciel est *compatible* avec Windows. | Ist es mit Mac *kompatibel*? |
+synthèse (f) | Synthese | n | Son livre est une belle *synthèse*. | Das Buch ist eine *Synthese* von Ideen. |
+conjecture (f) | Vermutung | n | Ce n est qu une simple *conjecture*. | Das ist reine *Vermutung*. |
+extrapoler | hochrechnen, ableiten | v | On ne peut pas *extrapoler* ainsi. | Aus einer Studie können wir nichts *ableiten*. |
+changement de paradigme (m) | Paradigmenwechsel | n | C est un véritable *changement de paradigme*. | KI markiert einen *Paradigmenwechsel*. |

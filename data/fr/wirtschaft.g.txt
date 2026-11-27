@@ -1,0 +1,90 @@
+# fr – wirtschaft (aus der englischen Liste erzeugt)
+
+## A1
+vendre | verkaufen | v | Ils *vendent* des produits bio. | Sie *verkaufen* Bio-Lebensmittel. |
+acheter | kaufen | v | Nous avons *acheté* une nouvelle voiture. | Wir haben ein neues Auto *gekauft*. |
+
+## A2
+le marché | Markt | n | Le *marché* des vélos électriques grandit. | Der *Markt* für E-Bikes wächst. |
+la pièce | Münze | n | Je n'ai pas de *pièces* pour l'horodateur. | Ich habe keine *Münzen* für die Parkuhr. |
+le billet | Geldschein | n | Un *billet* de cinquante euros. | Ein Fünfzig-Euro-*Schein*. |
+la carte bancaire | Kreditkarte | n | Puis-je payer par *carte* bancaire ? | Kann ich mit *Kreditkarte* zahlen? |
+
+## B1
+le budget | Budget, Etat | n | Nous avons encore dépassé le *budget*. | Wir haben das *Budget* schon wieder überschritten. |
+investir | investieren, anlegen | v | Il a *investi* ses économies dans l'immobilier. | Er *legte* seine Ersparnisse in Immobilien *an*. |
+abordable | bezahlbar, erschwinglich | adj | Il manque de logements *abordables*. | Es fehlt an *bezahlbarem* Wohnraum. |
+le compte bancaire | Bankkonto | n | J'ai ouvert un *compte* bancaire. | Ich habe ein *Bankkonto* eröffnet. |
+le distributeur de billets | Geldautomat | n | Y a-t-il un *distributeur* près d'ici ? | Gibt es hier einen *Geldautomaten*? |
+le prêt | Kredit, Darlehen | n | Nous avons contracté un *prêt* pour la maison. | Wir haben einen *Kredit* für das Haus aufgenommen. |
+les économies | Ersparnisse | n | Il a dépensé toutes ses *économies*. | Er hat all seine *Ersparnisse* ausgegeben. |
+l'impôt (m) | Steuer | n | Nous payons beaucoup d'*impôts*. | Wir zahlen viel *Steuern*. |
+le revenu | Einkommen | n | Leur *revenu* a diminué. | Ihr *Einkommen* ist gesunken. |
+le bénéfice | Gewinn | n | L'entreprise a fait du *bénéfice*. | Die Firma hat *Gewinn* gemacht. |
+la perte | Verlust | n | Ils ont déclaré une *perte* cette année. | Sie meldeten dieses Jahr einen *Verlust*. |
+l'économie (f) | Wirtschaft | n | L'*économie* grandit lentement. | Die *Wirtschaft* wächst langsam. |
+l'industrie (f) | Industrie, Branche | n | Il travaille dans l'*industrie* automobile. | Er arbeitet in der Auto*industrie*. |
+le produit | Produkt | n | Ils ont lancé un nouveau *produit*. | Sie brachten ein neues *Produkt* auf den Markt. |
+riche | reich | adj | Il est devenu *riche* très jeune. | Er wurde sehr jung *reich*. |
+pauvre | arm | adj | C'est l'un des pays les plus *pauvres*. | Es ist eines der *ärmsten* Länder. |
+la fortune | Vermögen | n | La *fortune* de la famille vient du pétrole. | Das *Vermögen* der Familie stammt aus Öl. |
+le coût de la vie | Lebenshaltungskosten | n | Le *coût de la vie* continue d'augmenter. | Die *Lebenshaltungskosten* steigen ständig. |
+la retraite | Rente | n | Ma *retraite* n'est pas très élevée. | Meine *Rente* ist nicht sehr hoch. |
+l'assurance (f) | Versicherung | n | L' *assurance* auto est chère. | Die Auto*versicherung* ist teuer. |
+gaspiller de l'argent | Geld verschwenden | phrase | Ne *gaspille* pas d'argent pour ça. | *Verschwende* dafür kein *Geld*. |
+
+## B2
+le chiffre d'affaires | Umsatz | n | Le *chiffre d'affaires* de l'entreprise a augmenté. | Der *Umsatz* des Unternehmens stieg um 10 %. |
+la baisse | Rückgang | n | Il y a une forte *baisse* des ventes. | Es gab einen starken *Rückgang* der Verkäufe. |
+la dette | Schulden | n | Ils ont remboursé toutes leurs *dettes*. | Sie zahlten alle ihre *Schulden* ab. |
+l'inflation (f) | Inflation | n | L' *inflation* a atteint son plus haut niveau. | Die *Inflation* erreichte den höchsten Stand seit Jahren. |
+stimuler | ankurbeln | v | Des impôts bas pourraient *stimuler* l'économie. | Niedrigere Steuern könnten die Wirtschaft *ankurbeln*. |
+la pénurie | Mangel | n | Il y a une *pénurie* d'infirmiers. | Es gibt einen *Mangel* an Pflegekräften. |
+économique | wirtschaftlich | adj | La situation *économique* est difficile. | Die *wirtschaftliche* Lage ist schwierig. |
+économique | sparsam | adj | Cette voiture est très *économique*. | Dieses Auto ist sehr *sparsam*. |
+la récession | Rezession | n | Le pays est en *récession*. | Das Land ist in einer *Rezession*. |
+la croissance | Wachstum | n | La *croissance* économique a ralenti. | Das Wirtschafts*wachstum* verlangsamte sich. |
+le taux d'intérêt | Zinssatz | n | Les *taux d'intérêt* augmentent. | Die *Zinsen* steigen. |
+la bourse | Börse | n | La *bourse* a chuté fortement. | Die *Börse* fiel stark. |
+l'investisseur (m) | Anleger(in) | n | Les *investisseurs* sont nerveux. | Die *Anleger* sind nervös. |
+l'investissement (m) | Investition | n | C'est un bon *investissement*. | Es ist eine gute *Geldanlage*. |
+le risque | Risque | n | Chaque investissement comporte un *risque*. | Jede Geldanlage birgt ein *Risiko*. |
+l'actif (m) | Vermögenswert | n | La maison est leur principal *actif*. | Das Haus ist ihr größter *Vermögenswert*. |
+le chiffre d'affaires | Umsatz | n | Le *chiffre d'affaires* de l'entreprise a doublé. | Der *Umsatz* der Firma verdoppelte sich. |
+le concurrent | Konkurrent | n | Notre principal *concurrent* est en Chine. | Unser Haupt*konkurrent* sitzt in China. |
+l'offre et la demande (f) | Angebot und Nachfrage | phrase | Les prix dépendent de *l'offre et la demande*. | Preise hängen von *Angebot und Nachfrage* ab. |
+l'approvisionnement (m) | Versorgung | n | *L'approvisionnement* en gaz est limité. | Die Gas*versorgung* ist begrenzt. |
+exporter | exportieren | v | L'Allemagne *exporte* des voitures. | Deutschland *exportiert* Autos. |
+importer | importieren | v | Nous *importons* la plupart de nos fruits. | Wir *importieren* den Großteil unseres Obstes. |
+le commerce | Handel | n | Le *commerce* international est en croissance. | Der internationale *Handel* wächst. |
+failli | bankrott | adj | L'entreprise est devenue *failli*. | Die Firma ging *bankrott*. |
+le salaire | Lohn | n | Le *salaire* minimum a augmenté. | Der Mindest*lohn* stieg. |
+la cryptomonnaie | Kryptowährung | n | Il a investi dans *la cryptomonnaie*. | Er investierte in *Kryptowährung*. |
+
+## C1
+fluctuer | schwanken | v | Les prix *fluent* selon les saisons. | Die Preise *schwanken* je nach Jahreszeit. |
+volatil | unbeständig | adj | Le marché est extrêmement *volatil*. | Der Markt ist extrem *unbeständig*. |
+la fusion | Fusion | n | Cette *fusion* a créé la plus grande banque. | Die *Fusion* schuf die größte Bank Europas. |
+prospérer | florieren | v | Les petites entreprises *prospèrent* dans cette zone. | Kleine Unternehmen *florieren* in dieser Gegend. |
+fiscal | fiskalisch | adj | L'exercice *fiscal* se termine en mars. | Das *Geschäfts*jahr endet im März. |
+monétaire | monetär | adj | La politique *monétaire* influence l'inflation. | Die *Geld*politik beeinflusst die Inflation. |
+l'austérité (f) | Sparpolitik | n | Les mesures d'*austérité* étaient impopulaires. | Die *Spar*maßnahmen waren unpopulär. |
+la stagnation | Stagnation | n | L'économie est en *stagnation*. | Die Wirtschaft *stagniert*. |
+le ralentissement | Abschwung | n | Les ventes ont baissé pendant le *ralentissement*. | Im *Abschwung* sanken die Verkäufe. |
+la reprise | Aufschwung | n | Nous attendons une *reprise* l'année prochaine. | Wir erwarten nächstes Jahr einen *Aufschwung*. |
+la liquidité | Liquidität | n | La banque a eu des problèmes de *liquidité*. | Die Bank hatte *Liquiditäts*probleme. |
+le dividende | Dividende | n | Les actionnaires ont reçu un *dividende*. | Die Aktionäre erhielten eine *Dividende*. |
+le portefeuille | Portfolio | n | Diversifiez votre *portefeuille*. | Streue dein *Portfolio*. |
+diversifier | diversifizieren | v | Il est sage de *diversifier*. | Es ist klug zu *streuen*. |
+la spéculation | Spekulation | n | Les prix ont augmenté à cause de *la spéculation*. | Die Preise stiegen durch *Spekulation*. |
+le marché haussier | Bullenmarkt | n | Nous sommes dans un *marché haussier*. | Wir befinden uns in einem *Bullenmarkt*. |
+le marché baissier | Bärenmarkt | n | Beaucoup ont perdu de l'argent dans le *marché baissier*. | Viele verloren im *Bärenmarkt* Geld. |
+la volatilité | Volatilität, Schwankung | n | La *volatilité* du marché est élevée. | Die *Schwankungen* am Markt sind hoch. |
+se couvrir | absichern | v | Ils se sont *couverts* contre le risque de change. | Sie *sicherten* sich gegen Währungsrisiken *ab*. |
+l'insolvabilité (f) | Insolvenz | n | L'entreprise a déclaré *l'insolvabilité*. | Die Firma meldete *Insolvenz* an. |
+la subvention | Subvention | n | Les agriculteurs reçoivent des *subventions*. | Landwirte erhalten *Subventionen*. |
+la taxe douanière | Zoll(tarif) | n | De nouvelles *taxes douanières* ont frappé les exportations. | Neue *Zölle* trafen die Exporte. |
+le monopole | Monopol | n | L'entreprise détient un *monopole*. | Die Firma hat ein *Monopol*. |
+l'acquisition (f) | Übernahme, Erwerb | n | L' *acquisition* a coûté des milliards. | Die *Übernahme* kostete Milliarden. |
+joindre les deux bouts | über die Runden kommen | phrase | Beaucoup de familles ont du mal à *joindre les deux bouts*. | Viele Familien kommen kaum *über die Runden*. |
+dans le rouge | in den roten Zahlen | phrase | Le compte est *dans le rouge*. | Das Konto ist *in den roten Zahlen*. |

@@ -87,3 +87,47 @@ la déforestation | Abholzung | n | La *déforestation* détruit les habitats. |
 la biodiversité | Artenvielfalt | n | La *biodiversité* est en déclin. | Die *Artenvielfalt* nimmt ab. |
 l'écosystème (m) | Ökosystem | n | L'*écosystème* est fragile. | Das *Ökosystem* ist empfindlich. |
 polluer | verschmutzen | v | Les usines *polluent* la rivière. | Fabriken *verschmutzen* den Fluss. |
+toxique | giftig | adj | Ce déchet est *toxique*. | Der Abfall ist *giftig*. |
+décharge (f) | Mülldeponie | n | La plupart du plastique finit en *décharge*. | Das meiste Plastik landet auf der *Deponie*. |
+compost (m) | Kompost | n | Nous mettons les biodéchets sur le *compost*. | Wir tun Essensreste auf den *Kompost*. |
+réutilisable | wiederverwendbar | adj | Utilisez un sac *réutilisable*. | Nutz eine *wiederverwendbare* Tasche. |
+jetable | Einweg- | adj | Évitez les gobelets *jetables*. | Vermeide *Einweg*becher. |
+à usage unique | Einweg- | adj | Le plastique *à usage unique* est interdit. | *Einweg*plastik ist verboten. |
+écologique | umweltfreundlich | adj | C'est un produit *écologique*. | Es ist ein *umweltfreundliches* Produkt. |
+neutre en carbone | klimaneutral | adj | L'entreprise vise à être *neutre en carbone*. | Die Firma will *klimaneutral* werden. |
+énergie solaire (f) | Solarenergie | n | Nous utilisons l'énergie *solaire*. | Wir nutzen *Solarenergie*. |
+éolienne (f) | Windrad | n | Des *éoliennes* longent la côte. | *Windräder* säumen die Küste. |
+ressources naturelles (f) | natürliche Ressourcen | n | Nous gaspillons les ressources *naturelles*. | Wir verschwenden *natürliche Ressourcen*. |
+montée des eaux (f) | steigender Meeresspiegel | n | La *montée des eaux* menace les villes côtières. | Der *steigende Meeresspiegel* bedroht Küstenstädte. |
+feu de forêt (m) | Waldbrand | n | Des *feux de forêt* ont détruit des maisons. | *Waldbrände* zerstörten Tausende Häuser. |
+météo extrême (f) | Extremwetter | n | La météo *extrême* devient plus fréquente. | *Extremwetter* wird häufiger. |
+espèce menacée (f) | bedrohte Art | n | Le panda est une *espèce menacée*. | Der Panda ist eine *bedrohte Art*. |
+braconnage (m) | Wilderei | n | Le *braconnage* menace les éléphants. | *Wilderei* bedroht Elefanten. |
+parc national (m) | Nationalpark | n | Nous avons visité un parc *national*. | Wir besuchten einen *Nationalpark*. |
+côte (f) | Küste(nlinie) | n | La *côte* est magnifique. | Die *Küste* ist wunderschön. |
+sol (m) | Boden | n | Le *sol* ici est très fertile. | Der *Boden* hier ist sehr fruchtbar. |
+culture (f) | Ernte; Feldfrucht | n | La sécheresse a ruiné les *cultures*. | Die Dürre vernichtete die *Ernte*. |
+récolte (f) | Ernte | n | La *récolte* a été bonne cette année. | Die *Ernte* war dieses Jahr gut. |
+
+## C1
+rare | knapp, rar | adj | L'eau devient *rare* dans la région. | Wasser wird in der Region *knapp*. |
+épuiser | erschöpfen, aufbrauchen | v | La surpêche a *épuisé* les stocks de poissons. | Überfischung hat die Fischbestände *erschöpft*. |
+atténuer | abmildern, lindern | v | Les arbres peuvent *atténuer* les effets de la chaleur. | Bäume können die Folgen von Hitze *abmildern*. |
+les objectifs d'émission | Emissionsziele | n | Beaucoup de pays ratent leurs *objectifs d'émission*. | Viele Länder verfehlen ihre *Emissionsziele*. |
+compenser | ausgleichen | v | Vous pouvez *compenser* les émissions de votre vol. | Du kannst die Emissionen deines Flugs *ausgleichen*. |
+l' épuisement (m) | Eschöpfung | n | L' *épuisement* des ressources est un vrai problème. | Der *Abbau* der Ozonschicht war ein großes Thema. |
+la dégradation | Verschlechterung | n | La *dégradation* des sols menace l' agriculture. | Boden*degradation* bedroht die Landwirtschaft. |
+la contamination | Verunreinigung | n | La *contamination* de l' eau est un risque. | Wasser*verunreinigung* ist ein Risiko. |
+irréversible | unumkehrbar | adj | Les dégâts sont peut-être *irréversibles*. | Der Schaden könnte *unumkehrbar* sein. |
+aride | trocken | adj | Cette région est très *aride*. | Die Region ist *trocken*. |
+la désertification | Wüstenbildung | n | La *désertification* progresse rapidement dans cette zone. | Die *Wüstenbildung* breitet sich aus. |
+la famine | Hungersnot | n | Cette sécheresse a provoqué une terrible *famine*. | Die Dürre verursachte eine *Hungersnot*. |
+les précipitations | Niederschlag | n | Les *précipitations* annuelles sont faibles ici. | Der jährliche *Niederschlag* ist gering. |
+le greenwashing | Greenwashing | n | Cette campagne publicitaire n' est que du *greenwashing*. | Die Kampagne war reines *Greenwashing*. |
+la durabilité | Nachhaltigkeit | n | La *durabilité* est notre priorité absolue. | *Nachhaltigkeit* hat für uns Priorität. |
+upcycler | upcyceln | v | Elle aime *upcycler* de vieux meubles. | Sie *upcycelt* alte Möbel. |
+la réensauvagement | Renaturierung | n | Le *réensauvagement* aide la faune locale. | Durch *Renaturierung* kehrten Wölfe zurück. |
+le point de bascule | Kipppunkt | n | Nous pourrions atteindre un *point de bascule*. | Wir könnten einen *Kipppunkt* erreichen. |
+la flore et la faune | Flora und Fauna | phrase | L' île possède une *flore et une faune* uniques. | Die Insel hat eine einzigartige *Flora und Fauna*. |
+décroissant | schwindend | adj | Des ressources en eau *décroissantes* inquiètent les experts. | *Schwindende* Wasservorräte bereiten Sorgen. |
+éradiquer | ausrotten | v | Ils ont réussi à *éradiquer* cette espèce invasive. | Sie *rotteten* die invasive Art *aus*. |
