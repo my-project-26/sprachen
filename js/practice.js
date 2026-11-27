@@ -49,20 +49,31 @@ export const canSpeak = () => !!(window.SpeechRecognition || window.webkitSpeech
 // Spracherkennung: liefert den erkannten Text (oder "").
 // onPartial(text) zeigt schon während des Sprechens, was erkannt wird.
 // Safari bricht die Erkennung ab („aborted“), wenn gleichzeitig Ton läuft → vorher Ton stoppen, notfalls einmal neu starten.
+// Nur eine Erkennung zur Zeit: eine noch laufende (z. B. von einem anderen Knopf) wird vorher beendet.
+let ACTIVE = null;
 export function listenOnce(onPartial) {
   const R = window.SpeechRecognition || window.webkitSpeechRecognition;
   if (!R) return Promise.reject(new Error("Spracherkennung geht in diesem Browser nicht. Bitte Chrome oder Safari am iPhone nutzen."));
   tts.stop();
-  const attempt = (retry) =>
+  if (ACTIVE) {
+    try {
+      ACTIVE.onend = ACTIVE.onerror = ACTIVE.onresult = null;
+      ACTIVE.abort();
+    } catch {}
+    ACTIVE = null;
+  }
+  const attempt = (tries) =>
     new Promise((res, rej) => {
       const r = new R();
+      ACTIVE = r;
       r.lang = (L().tts && L().tts[0]) || S.lang();
       r.interimResults = true;
       r.continuous = false;
       r.maxAlternatives = 3;
       let best = "",
         alts = [],
-        failed = null;
+        failed = null,
+        ended = false;
       r.onresult = (e) => {
         let text = "";
         for (let i = 0; i < e.results.length; i++) text += e.results[i][0].transcript;
@@ -72,20 +83,6 @@ export function listenOnce(onPartial) {
         onPartial && onPartial(best);
       };
       r.onerror = (e) => (failed = e.error);
-      r.onend = () => {
-        if (best) return res(Object.assign(new String(best), { alts: alts.length ? alts : [best] }));
-        if (failed === "aborted" && retry) return setTimeout(() => attempt(false).then(res, rej), 350);
-        if (!failed || failed === "no-speech") return res("");
-        rej(
-          new Error(
-            failed === "not-allowed" || failed === "service-not-allowed"
-              ? "Bitte erlaube den Zugriff aufs Mikrofon (Safari: Einstellungen für diese Website → Mikrofon → Erlauben)."
-              : failed === "aborted"
-                ? "Die Aufnahme wurde unterbrochen. Bitte noch einmal tippen und kurz warten, bis „Ich höre zu …“ erscheint."
-                : "Spracherkennung: " + failed
-          )
-        );
-      };
       // Sicherheitsnetz: iPhone beendet die Erkennung manchmal nie → nach 9 s selbst beenden
       const guard = setTimeout(() => {
         try {
@@ -93,22 +90,33 @@ export function listenOnce(onPartial) {
         } catch {}
         setTimeout(() => r.onend && r.onend(), 800);
       }, 9000);
-      const end0 = r.onend;
-      let ended = false;
       r.onend = () => {
         if (ended) return;
         ended = true;
         clearTimeout(guard);
-        end0();
+        if (ACTIVE === r) ACTIVE = null;
+        if (best) return res(Object.assign(new String(best), { alts: alts.length ? alts : [best] }));
+        // iPhone bricht den Start oft ab („aborted“), solange das Audiosystem noch umschaltet → automatisch neu versuchen
+        if (failed === "aborted" && tries > 0) return setTimeout(() => attempt(tries - 1).then(res, rej), 700);
+        if (!failed || failed === "no-speech" || failed === "aborted") return res("");
+        rej(
+          new Error(
+            failed === "not-allowed" || failed === "service-not-allowed"
+              ? "Bitte erlaube den Zugriff aufs Mikrofon (Safari: Einstellungen für diese Website → Mikrofon → Erlauben)."
+              : "Spracherkennung: " + failed
+          )
+        );
       };
       try {
-        r.start();
+        r.start(); // sofort im Tipp starten – iPhone erlaubt das Mikrofon nur direkt nach dem Tippen
       } catch (e) {
         clearTimeout(guard);
+        ended = true;
+        if (tries > 0) return setTimeout(() => attempt(tries - 1).then(res, rej), 700);
         rej(e);
       }
     });
-  return new Promise((res) => setTimeout(res, 250)).then(() => attempt(true));
+  return attempt(2);
 }
 
 // Bewertung eines gesprochenen Versuchs
@@ -136,6 +144,7 @@ export function bindMic(root) {
         out.textContent = "";
         try {
           const heard = await listenOnce((t) => (out.textContent = "„" + t + "“"));
+          if (!heard) throw new Error("Ich habe nichts gehört. Tippe noch einmal und sprich direkt los.");
           const r = rateSpeech(b.dataset.mic, heard);
           out.className = `mic-res small ${r.cls}`;
           out.innerHTML = `${r.text}${heard ? `<br><span class="muted">Verstanden: „${esc(String(heard))}“</span>` : ""}`;
