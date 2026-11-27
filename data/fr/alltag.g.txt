@@ -1382,3 +1382,142 @@ viable | tragfähig | adj | Est-ce que le plan est *viable* ? | Ist der Plan *re
 vif | lebhaft | adj | J'ai des souvenirs *vifs* de ce jour. | Ich habe *lebhafte* Erinnerungen an diesen Tag. |
 méfiant | misstrauisch | adj | Soyez *méfiant* envers les étrangers. | Sei *misstrauisch* gegenüber Fremden. |
 par lequel | wodurch | adv | Un système *par lequel* tout le monde paie moins. | Ein System, *wodurch* alle weniger zahlen. |
+sain | gesund, bekömmlich | adj | Ils servent de la nourriture *saine*. | Sie servieren *bekömmliches* Essen. |
+produire | ergeben, liefern | v | La recherche a *produit* des résultats intéressants. | Die Forschung *lieferte* interessante Ergebnisse. |
+zèle | Eifer | n | Il travaille avec un grand *zèle*. | Er arbeitet mit großem *Eifer*. |
+faiblir | nachlassen, abflauen | v | La tempête a fini par *faiblir*. | Der Sturm *flaute* schließlich *ab*. |
+anomalie | Abweichung | n | Cette défaite était une *anomalie*. | Die Niederlage war ein *Ausrutscher*. |
+abhorrer | verabscheuen | v | J'*abhorre* la violence. | Ich *verabscheue* Gewalt. |
+accentuer | betonen, hervorheben | v | La robe *accentue* sa silhouette. | Das Kleid *betont* ihre Figur. |
+reconnaissance | Anerkennung | n | Le livre a gagné une grande *reconnaissance*. | Das Buch fand große *Anerkennung*. |
+adroit | geschickt, versiert | adj | Elle est *adroite* pour résoudre les problèmes. | Sie ist *geschickt* im Lösen von Problemen. |
+adhérer | sich halten an | v | Veuillez *adhérer* aux règles. | Bitte *halten* Sie sich an die Regeln. |
+admonester | ermahner | v | Le professeur l'a *admonesté*. | Der Lehrer *ermahnte* ihn. |
+conséquence | Nachwirkungen | n | Dans les *conséquences* de la guerre... | In der *Folgezeit* des Krieges … |
+apparenté | ähnlich, verwandt | adj | C'est *apparenté* à la magie. | Es ist *wie* Magie. |
+allouer | zuweisen, verteilen | v | Des fonds ont été *alloués* aux écoles. | Mittel wurden den Schulen *zugewiesen*. |
+faire allusion | anspielen | v | Il a *fait allusion* au scandale. | Er *spielte* auf den Skandal *an*. |
+amasser | anhäufen | v | Il a *amassé* une fortune. | Er *häufte* ein Vermögen *an*. |
+ample | reichlich | adj | Il y a un stationnement *ample*. | Es gibt *reichlich* Parkplätze. |
+amplifier | verstärken | v | Les haut-parleurs *amplifient* le son. | Die Lautsprecher *verstärken* den Ton. |
+anecdote | Anekdote | n | Il a raconté une drôle d'*anecdote*. | Er erzählte eine lustige *Anekdote*. |
+antagoniser | gegen sich aufbringen | v | N'*antagonisez* pas le patron. | *Bring* den Chef nicht *gegen dich auf*. |
+apathie | Gleichgültigkeit | n | L'*apathie* des électeurs pose un problème. | Die *Gleichgültigkeit* der Wähler ist ein Problem. |
+apaiser | beschwichtigen | v | Ils ont essayé d'*apaiser* les critiques. | Sie versuchten, die Kritiker zu *beschwichtigen*. |
+ardent | glühend, leidenschaftlich | adj | Elle est une *ardente* supportrice. | Sie ist ein *glühender* Fan. |
+aspirer | streben | v | Il *aspire* à devenir pilote. | Er *strebt* danach, Pilot zu werden. |
+assimiler | sich anpassen | v | Les immigrants se sont *assimilés* rapidement. | Die Einwanderer *passten* sich schnell *an*. |
+audacieux | kühn | adj | C'était un plan *audacieux*. | Es war ein *kühner* Plan. |
+augmenter | vergrößern | v | Il *augmente* ses revenus en donnant des cours. | Er *bessert* sein Einkommen mit Unterricht *auf*. |
+bienveillant | wohlwollend | adj | C'était un souverain *bienveillant*. | Er war ein *wohlwollender* Herrscher. |
+renforcer | stärken | v | Cette victoire a *renforcé* leur confiance. | Der Sieg *stärkte* ihr Selbstvertrauen. |
+la concision | Kürze | n | J'apprécie la *concision* de ce texte. | Ich schätze *Kürze*. |
+la franchise | Offenheit | n | J'apprécie votre *franchise*. | Ich schätze deine *Offenheit*. |
+le catalyseur | Auslöser | n | La crise fut un *catalyseur* du changement. | Die Krise war ein *Auslöser* für Veränderung. |
+contourner | umgehen | v | Ils ont *contourné* les règles. | Sie *umgingen* die Regeln. |
+coercer | zwingen | v | Il a été *coercé* à signer ce contrat. | Er wurde zur Unterschrift *genötigt*. |
+louer | loben | v | Elle a été *louée* pour son courage. | Sie wurde für ihren Mut *gelobt*. |
+commensurable | angemessen | adj | Un salaire *commensurable* avec l'expérience. | Gehalt *entsprechend* der Erfahrung. |
+complaisant | selbstgefällig | adj | Il ne faut pas devenir *complaisant*. | Werd nicht *nachlässig*. |
+concis | knapp | adj | Gardez votre réponse *concise*. | Halte deine Antwort *knapp*. |
+cautionner | dulden | v | Nous ne pouvons pas *cautionner* la violence. | Wir *dulden* keine Gewalt. |
+consolider | festigen | v | Ils ont *consolidé* leur position. | Sie *festigten* ihre Position. |
+corroborer | bestätigen | v | Des témoins ont *corroboré* son histoire. | Zeugen *bestätigten* seine Geschichte. |
+culminer | gipfeln | v | Le festival a *culminé* par un feu d'artifice. | Das Fest *gipfelte* in einem Feuerwerk. |
+réduire | einschränken | v | Les dépenses ont été *réduites*. | Die Ausgaben wurden *gekürzt*. |
+la pénurie | Mangel | n | Il y a une *pénurie* de bons logements. | Es herrscht ein *Mangel* an gutem Wohnraum. |
+le fiasco | Debakel | n | Le lancement a été un *fiasco*. | Der Start war ein *Debakel*. |
+déchiffrer | entziffern | v | Je n'ai pas pu *déchiffrer* son écriture. | Ich konnte seine Handschrift nicht *entziffern*. |
+la déférence | Ehrerbietung | n | Par *déférence* pour elle, nous avons attendu. | Aus *Respekt* vor ihr warteten wir. |
+délimiter | abgrenzen | v | Le rapport *délimite* bien les risques. | Der Bericht *legt* die Risiken *dar*. |
+déplorer | beklagen | v | Nous *déplorons* cette décision. | Wir *missbilligen* die Entscheidung. |
+priver | berauben | v | Ils ont été *privés* de sommeil. | Ihnen wurde der Schlaf *entzogen*. |
+tourer en dérision | verspotten | v | Les critiques ont *tourné* le film *en dérision*. | Kritiker *verspotteten* den Film. |
+l'adresse (f) | Geschicklichkeit | n | Ce travail *exige* une grande *adresse*. | Der Job erfordert *Geschicklichkeit*. |
+le dilemme | Dilemma | n | Je *suis* dans un *dilemme*. | Ich stecke in einem *Dilemma*. |
+discret | diskret | adj | Veuillez *être* *discret*. | Bitte sei *diskret*. |
+la disparité | Ungleichheit | n | Il y *a* une *disparité* des salaires. | Es gibt ein Lohn*gefälle*. |
+dissiper | zerstreuen | v | Le rapport a *dissipé* les rumeurs. | Der Bericht *zerstreute* die Gerüchte. |
+divulguer | preisgeben | v | Il n'a pas voulu *divulguer* ses sources. | Er wollte seine Quellen nicht *preisgeben*. |
+endormi | ruhend | adj | Ce volcan est *endormi*. | Der Vulkan *ruht*. |
+éclectique | vielseitig | adj | Elle a des *goûts* *éclectiques*. | Sie hat einen *vielseitigen* Geschmack. |
+flagrant | ungeheuerlich | adj | C'était une erreur *flagrante*. | Es war ein *ungeheuerlicher* Fehler. |
+susciter | hervorrufen | v | Cette blague a *suscité* un rire. | Der Witz *rief* ein Lachen *hervor*. |
+enjoliver | ausschmücken | v | Il a *enjolivé* l'histoire. | Er *schmückte* die Geschichte *aus*. |
+englober | umfassen | v | Le cours *englobe* de nombreux sujets. | Der Kurs *umfasst* viele Themen. |
+soutenir | befürworten | v | Le parti l'a *soutenue*. | Die Partei *unterstützte* sie. |
+susciter | hervorrufen | v | Ses propos ont *suscité* de la colère. | Seine Bemerkungen *riefen* Wut *hervor*. |
+l'énigme (f) | Rätsel | n | Il *reste* une *énigme*. | Er bleibt ein *Rätsel*. |
+éphémère | kurzlebig | adj | La gloire est *éphémère*. | Ruhm ist *flüchtig*. |
+l'incarnation (f) | Inbegriff | n | Elle *est* l'*incarnation* de l'élégance. | Sie ist der *Inbegriff* von Eleganz. |
+erratique | sprunghaft | adj | Son comportement *est* *erratique*. | Sein Verhalten ist *unberechenbar*. |
+illustrer | veranschaulichen | v | Ce cas *illustre* le problème. | Dieser Fall *veranschaulicht* das Problem. |
+exhaustif | erschöpfend | adj | C'est une liste *exhaustive*. | Es ist eine *vollständige* Liste. |
+accélérer | beschleunigen | v | Pouvons-nous *accélérer* le processus ? | Können wir den Prozess *beschleunigen*? |
+faciliter | erleichtern | v | Cette application *facilite* la communication. | Die App *erleichtert* die Kommunikation. |
+comprendre | begreifen | v | Je ne *peux* pas *comprendre* son geste. | Ich kann nicht *begreifen*, warum er es tat. |
+la fluctuation | Schwankung | n | Les *fluctuations* des prix sont normales. | Preis*schwankungen* sind normal. |
+redoutable | beeindruckend | adj | Elle est une adversaire *redoutable*. | Sie ist eine *beeindruckende* Gegnerin. |
+frivole | belanglos | adj | C'était une plainte *frivole*. | Es war eine *belanglose* Beschwerde. |
+galvaniser | aufrütteln | v | Le discours a *galvanisé* la foule. | Die Rede *rüttelte* die Menge *auf*. |
+gratuit | unnötig | adj | Ce film contient de la violence *gratuite*. | Der Film zeigt *unnötige* Gewalt. |
+entraver | behindern | v | La neige a *entravé* les secours. | Schnee *behinderte* die Rettung. |
+messager (m) | Vorbote | n | Les hirondelles sont les *messagers* du printemps. | Schwalben sind *Vorboten* des Frühlings. |
+écouter | beachten | v | *Écoutez* mon conseil. | *Beachte* meinen Rat. |
+hypocrisie (f) | Heuchelei | n | C'est de la pure *hypocrisie*. | Das ist reine *Heuchelei*. |
+altérer | beeinträchtigen | v | L'alcool *altère* le jugement. | Alkohol *beeinträchtigt* das Urteilsvermögen. |
+entraver | behindern | v | Rien ne doit *entraver* le progrès. | Nichts sollte den Fortschritt *behindern*. |
+impératif | unerlässlich | adj | Il est *impératif* d'agir maintenant. | Es ist *unerlässlich*, dass wir jetzt handeln. |
+implicite | stillschweigend | adj | Il y avait une menace *implicite*. | Es gab eine *unausgesprochene* Drohung. |
+inciter | anstiften | v | Il a *incité* à la violence. | Er *stachelte* zur Gewalt *an*. |
+incongru | unpassend | adj | Cette sculpture moderne semblait *incongrues*. | Die moderne Skulptur wirkte *unpassend*. |
+indulgent | nachsichtig | adj | Ce sont des parents *indulgents*. | Sie sind *nachsichtige* Eltern. |
+incompétent | unfähig | adj | La direction était *incompétente*. | Die Leitung war *unfähig*. |
+inertie (f) | Trägheit | n | L'*inertie* politique a bloqué la réforme. | Politische *Trägheit* blockierte die Reform. |
+inné | angeboren | adj | Elle a un talent *inné*. | Sie hat ein *angeborenes* Talent. |
+insatiable | unersättlich | adj | Il a une curiosité *insatiable*. | Er hat eine *unersättliche* Neugier. |
+provoquer | anzetteln | v | Qui a *provoqué* la bagarre ? | Wer hat den Streit *angezettelt*? |
+non pertinent | belanglos | adj | Son âge est *non pertinent*. | Sein Alter ist *belanglos*. |
+juxtaposer | gegenüberstellen | v | L'exposition *juxtapose* l'ancien et le neuf. | Die Ausstellung *stellt* Alt und Neu *gegenüber*. |
+latent | latent | adj | Il a un talent *latent*. | Er hat *verborgenes* Talent. |
+léthargie (f) | Lethargie | n | La chaleur provoque la *léthargie*. | Hitze verursacht *Trägheit*. |
+lucide | klar | adj | Elle a donné une explication *lucide*. | Sie gab eine *klare* Erklärung. |
+l'ampleur (f) | Ausmaß, Größenordnung | n | Nous avons sous-estimé l'*ampleur* du problème. | Wir unterschätzten das *Ausmaß* des Problems. |
+malléable | formbar | adj | Les jeunes esprits sont *malléables*. | Junge Köpfe sind *formbar*. |
+atténuant | mildernd | adj | Il y avait des circonstances *atténuantes*. | Es gab *mildernde* Umstände. |
+nonchalant | lässig, unbekümmert | adj | Il avait l'air *nonchalant*. | Er wirkte *unbekümmert*. |
+nuancé | differenziert | adj | C'est un argument *nuancé*. | Es ist ein *differenziertes* Argument. |
+ignorant | ahnungslos, ohne es zu bemerken | adj | Il était *ignorant* du danger. | Er bemerkte die Gefahr *nicht*. |
+obstiné | starrsinnig | adj | Il est très *obstiné*. | Er ist sehr *starrsinnig*. |
+onéreux | beschwerlich, lästig | adj | C'est un devoir *onéreux*. | Es ist eine *lästige* Pflicht. |
+ostensiblement | angeblich, vorgeblich | adv | Il est parti, *ostensiblement* pour travailler. | Er ging, *angeblich* zum Arbeiten. |
+envahissant | allgegenwärtig, durchdringend | adj | Une odeur de fumée *envahissante*. | Ein *durchdringender* Rauchgeruch. |
+apaiser | beschwichtigen | v | Il a essayé de l'*apaiser*. | Er versuchte, sie zu *beschwichtigen*. |
+pragmatique | pragmatisch | adj | Nous avons besoin d'une solution *pragmatique*. | Wir brauchen eine *pragmatische* Lösung. |
+la priorité | Vorrang | n | La sécurité a *la priorité*. | Sicherheit hat *Vorrang*. |
+le pétrin | Zwangslage | n | Nous sommes dans un vrai *pétrin*. | Wir stecken in einer echten *Zwangslage*. |
+proliférer | sich stark vermehren | v | Les fausses nouvelles *prolifèrent* en ligne. | Falschnachrichten *verbreiten* sich online *rasant*. |
+la propension | Neigung, Hang | n | Il a une *propension* à exagérer. | Er hat einen *Hang* zur Übertreibung. |
+réprimer | unterdrücken, beruhigen | v | La police a su *réprimer* l'émeute. | Die Polizei *schlug* den Aufruhr *nieder*. |
+réciproquer | erwidern | v | Elle n'a pas su *réciproquer* ses sentiments. | Sie *erwiderte* seine Gefühle nicht. |
+rectifier | berichtigen | v | Nous allons *rectifier* l'erreur. | Wir werden den Fehler *berichtigen*. |
+abandonner | aufgeben, abtreten | v | Il a dû *abandonner* le contrôle. | Er *gab* die Kontrolle *ab*. |
+reconstituer | auffüllen | v | Il faut *reconstituer* vos réserves d'eau. | *Füll* deinen Wasservorrat *auf*. |
+réprimander | rügen, tadeln | v | Il a été *réprimandé* par son patron. | Er wurde von seinem Chef *gerügt*. |
+ressentir | übel nehmen | v | Elle *ressent* le fait qu'on lui donne des ordres. | Sie *nimmt* es *übel*, wenn man ihr Vorschriften macht. |
+réticent | zurückhaltend, verschwiegen | adj | Il était *réticent* à parler de son passé. | Er war *verschwiegen*, was seine Vergangenheit anging. |
+saillant | wesentlich | adj | Elle a résumé les faits *saillants*. | Sie fasste die *wesentlichen* Fakten zusammen. |
+scrupuleux | gewissenhaft, peinlich genau | adj | Il est *scrupuleux* avec les détails. | Er ist bei Details *peinlich genau*. |
+sporadiquement | sporadisch | adv | Il vient *sporadiquement* nous rendre visite. | Er kommt *sporadisch* zu Besuch. |
+gaspiller | vergeuden | v | Il a *gaspillé* toutes ses économies. | Er *vergeudete* seine Ersparnisse. |
+stricte | streng | adj | Les règles sont *strictes*. | Die Regeln sind *streng*. |
+s'atténuer | nachlassen, abklingen | v | La douleur a commencé à *s'atténuer*. | Der Schmerz *ließ nach*. |
+succinct | prägnant | adj | Donnez un résumé *succinct*. | Gib eine *prägnante* Zusammenfassung. |
+surmonter | überwinden | v | Ils ont *surmonté* chaque obstacle. | Sie *überwanden* jedes Hindernis. |
+tangible | greifbar | adj | Nous avons besoin de résultats *tangibles*. | Wir brauchen *greifbare* Ergebnisse. |
+tenace | hartnäckig | adj | Elle est une négociatrice *tenace*. | Sie ist eine *hartnäckige* Verhandlerin. |
+transitoire | vorübergehend, flüchtig | adj | C'est une phase *transitoire*. | Es ist eine *vorübergehende* Phase. |
+sans équivoque | eindeutig | adj | La réponse fut un non *sans équivoque*. | Die Antwort war ein *eindeutiges* Nein. |
+injustifié | ungerechtfertigt | adj | Cette critique était *injustifiée*. | Die Kritik war *ungerechtfertigt*. |
+justifier | rechtfertigen, bestätigen | v | Les résultats ont *justifié* sa décision. | Die Ergebnisse *bestätigten* ihre Entscheidung. |
+diminuer | abnehmen, schwinden | v | Son intérêt a commencé à *diminuer*. | Das Interesse begann zu *schwinden*. |

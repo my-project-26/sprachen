@@ -1,0 +1,6 @@
+# fr – charakter (aus der englischen Liste erzeugt)
+
+## A1
+aimable | freundlich | adj | Le personnel était très *aimable* avec nous. | Das Personal war sehr *freundlich*. |
+drôle | lustig | adj | Il est vraiment *drôle* quand il raconte des histoires. | Er ist echt *lustig*. |
+grand | groß | adj | Mon frère est très *grand*. | Er ist sehr *groß*. |

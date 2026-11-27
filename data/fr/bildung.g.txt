@@ -1,0 +1,120 @@
+# fr – bildung (aus der englischen Liste erzeugt)
+
+## A1
+l'université (f) | Universität | n | Il étudie à *l'université*. | Er studiert an der *Uni*. |
+les devoirs | Hausaufgaben | n | J'ai beaucoup de *devoirs*. | Ich habe viele *Hausaufgaben*. |
+le cours | Unterrichtsstunde, Lektion | n | Le *cours* commence à huit heures. | Die *Stunde* beginnt um acht. |
+l'élève (m/f) | Student(in), Schüler(in) | n | Il y a 30 *élèves* dans la classe. | Es sind 30 *Schüler* in der Klasse. |
+comprendre | verstehen | v | Je ne *comprends* pas la question. | Ich *verstehe* die Frage nicht. |
+l'école (f) | Schule | n | Les enfants sont à *l'école*. | Die Kinder sind in der *Schule*. |
+la classe | Klasse; Unterricht | n | Il y a 25 élèves dans ma *classe*. | In meiner *Klasse* sind 25 Schüler. |
+le mot | Wort | n | Que signifie ce *mot* ? | Was bedeutet dieses *Wort*? |
+la question | Frage | n | Puis-je poser une *question* ? | Darf ich eine *Frage* stellen? |
+la page | Seite | n | Ouvrez vos livres à la *page* dix. | Schlagt eure Bücher auf *Seite* zehn auf. |
+le stylo | Kuli, Stift | n | Je peux t'emprunter ton *stylo* ? | Kann ich mir deinen *Kuli* leihen? |
+le crayon | Bleistift | n | Écris cela au *crayon*. | Schreib es mit *Bleistift*. |
+le papier | Papier | n | J'ai besoin d'une feuille de *papier*. | Ich brauche ein Blatt *Papier*. |
+le test | Test, Prüfung | n | Nous avons un *test* lundi. | Wir schreiben am Montag einen *Test*. |
+enseigner | unterrichten, beibringen | v | Il *enseigne* l'anglais. | Er *unterrichtet* Englisch. |
+
+## A2
+le cours | Kurs | n | Je fais un *cours* d'anglais. | Ich mache einen Englisch*kurs*. |
+l'examen (m) | Prüfung | n | J'ai réussi l'*examen* ! | Ich habe die *Prüfung* bestanden! |
+réussir | bestehen | v | As-tu *réussi* ton test ? | Hast du deinen Test *bestanden*? |
+la note | Note | n | Elle a eu de bonnes *notes*. | Sie hat gute *Noten* bekommen. |
+la matière | Schulfach; Thema | n | Ma *matière* préférée était l'histoire. | Mein Lieblings*fach* war Geschichte. |
+réviser | wiederholen, lernen (für Prüfung) | v | Je dois *réviser* pour mon examen. | Ich muss für meine Prüfung *lernen*. |
+pratiquer | üben | v | Il faut *pratiquer* tous les jours. | *Übe* jeden Tag das Sprechen. |
+la connaissance | Wissen | n | Ses *connaissances* en histoire sont impressionnantes. | Ihr *Wissen* über Geschichte ist beeindruckend. |
+le vocabulaire | Wortschatz | n | Lire améliore ton *vocabulaire*. | Lesen erweitert deinen *Wortschatz*. |
+la grammaire | Grammatik | n | La *grammaire* anglaise n'est pas si difficile. | Die englische *Grammatik* ist nicht so schwer. |
+la prononciation | Aussprache | n | Sa *prononciation* est parfaite. | Ihre *Aussprache* ist perfekt. |
+traduire | übersetzen | v | Peux-tu *traduire* ceci pour moi ? | Kannst du das für mich *übersetzen*? |
+le dictionnaire | Wörterbuch | n | Cherche-le dans un *dictionnaire*. | Schlag es im *Wörterbuch* nach. |
+chercher | nachschlagen | v | J'ai *cherché* le mot. | Ich habe das Wort *nachgeschlagen*. |
+le trimestre | Semester, Trimester | n | Le *trimestre* d'été commence en avril. | Das Sommer*semester* beginnt im April. |
+les mathématiques | Mathe | n | Je n'étais jamais bon en *mathématiques*. | In *Mathe* war ich nie gut. |
+l'histoire (f) | Geschichte (Fach) | n | Nous apprenons l'*histoire*. | Wir lernen *Geschichte*. |
+la géographie | Erdkunde | n | La *géographie* était ma matière préférée. | *Erdkunde* war mein Lieblingsfach. |
+la science | Naturwissenschaft | n | Elle enseigne la *science*. | Sie unterrichtet *Naturwissenschaften*. |
+la biologie | Biologie | n | Nous avons eu *biologie* ce matin. | Heute Morgen hatten wir *Bio*. |
+la chimie | Chemie | n | La *chimie* est difficile. | *Chemie* ist schwierig. |
+la physique | Physik | n | Il a étudié la *physique*. | Er hat *Physik* studiert. |
+la note | Note | n | J'ai eu une bonne *note* en anglais. | Ich habe eine gute *Note* in Englisch bekommen. |
+l'exercice (m) | Übung | n | Tu as besoin de plus d'*exercice*. | Du brauchst mehr *Übung*. |
+la salle de classe | Klassenzimmer | n | La *salle de classe* est au premier étage. | Das *Klassenzimmer* ist im ersten Stock. |
+l'élève (m) | Schüler | n | L'école compte cinq cents *élèves*. | Die Schule hat 500 *Schüler*. |
+le cahier | Heft | n | Écris les mots dans ton *cahier*. | Schreib die Wörter in dein *Heft*. |
+la gomme | Radiergummi | n | Je peux emprunter ta *gomme* ? | Kann ich deinen *Radiergummi* haben? |
+la règle | Lineal | n | Trace une ligne avec une *règle*. | Zeichne eine Linie mit dem *Lineal*. |
+le sens | Bedeutung | n | Quel est le *sens* de ce mot ? | Was ist die *Bedeutung* dieses Wortes? |
+le texte | Text | n | Lis le *texte* et réponds aux questions. | Lies den *Text* und beantworte die Fragen. |
+le paragraphe | Absatz | n | Lis le premier *paragraphe*. | Lies den ersten *Absatz*. |
+l'exercice (m) | Übung | n | Faites l'*exercice* trois à la page vingt. | Macht *Übung* 3 auf Seite 20. |
+les consignes | Anweisungen | n | Lisez attentivement les *consignes*. | Lies die *Anleitung* sorgfältig. |
+retenir | sich merken | v | Je n'arrive pas à *retenir* les nouveaux mots. | Ich kann mir neue Wörter nicht *merken*. |
+l'éducation (f) | Bildung | n | L'*éducation* est importante. | *Bildung* ist wichtig. |
+la maternelle | Kindergarten | n | Notre fils va à la *maternelle*. | Unser Sohn geht in den *Kindergarten*. |
+l'école primaire (f) | Grundschule | n | Elle enseigne dans une *école primaire*. | Sie unterrichtet an einer *Grundschule*. |
+le collège | weiterführende Schule | n | Il est au *collège* maintenant. | Er ist jetzt auf der *weiterführenden Schule*. |
+
+## B1
+apprendre par cœur | auswendig lernen | phrase | Nous devions *apprendre* le poème *par cœur*. | Wir mussten das Gedicht *auswendig lernen*. |
+mémoriser | sich einprägen | v | Je ne peux pas *mémoriser* tous ces mots. | Ich kann mir nicht all diese Wörter *einprägen*. |
+le cours magistral | Vorlesung | n | Le *cours magistral* était ennuyeux. | Die *Vorlesung* war langweilig. |
+le certificat | Zertifikat | n | Tu obtiendras un *certificat* à la fin. | Am Ende bekommst du ein *Zertifikat*. |
+la qualification | Qualifikation, Abschluss | n | Quelles sont vos *qualifications*? | Welche *Abschlüsse* hast du? |
+le progrès | Fortschritt | n | Tu fais de bons *progrès*. | Du machst gute *Fortschritte*. |
+
+## B2
+le programme d'études | Lehrplan | n | Le *programme d'études* inclut la programmation. | Der *Lehrplan* umfasst Programmieren. |
+les frais de scolarité | Studiengebühren | n | Les *frais de scolarité* sont élevés au Royaume-Uni. | Die *Studiengebühren* in Großbritannien sind hoch. |
+la bourse | Stipendium | n | Elle a obtenu une *bourse*. | Sie hat ein *Stipendium* bekommen. |
+obtenir son diplôme | den Abschluss machen | v | Il a *obtenu* son diplôme en 2015. | Er hat 2015 seinen *Abschluss* gemacht. |
+l'étudiant (m) | Student(in) im Bachelor | n | Elle est *étudiante* à Oxford. | Sie studiert im *Bachelor* in Oxford. |
+l'étudiant de troisième cycle (m) | Masterstudent(in) | n | Les cours de *troisième cycle* sont chers. | *Master*studiengänge sind teuer. |
+la thèse | Abschlussarbeit | n | Il rédige sa *thèse*. | Er schreibt seine *Abschlussarbeit*. |
+la dissertation | Aufsatz | n | Écris une *dissertation* de 500 mots. | Schreib einen *Aufsatz* mit 500 Wörtern. |
+le devoir | Hausarbeit | n | Le *devoir* est à rendre lundi. | Die *Hausarbeit* ist Montag fällig. |
+l'évaluation (f) | Bewertung, Prüfung | n | Il y a une *évaluation* finale. | Es gibt eine Abschluss*prüfung*. |
+s'inscrire | sich einschreiben | v | Je *me suis inscrit* à un cours du soir. | Ich habe mich für einen Abendkurs *eingeschrieben*. |
+la présence | Anwesenheit | n | La *présence* est obligatoire. | *Anwesenheit* ist Pflicht. |
+obligatoire | Pflicht-, verpflichtend | adj | L'anglais est une matière *obligatoire*. | Englisch ist ein *Pflicht*fach. |
+facultatif | freiwillig, Wahl- | adj | Ce cours est *facultatif*. | Der Kurs ist *freiwillig*. |
+le tuteur | Tutor(in), Nachhilfelehrer(in) | n | J'ai un *tuteur* privé. | Ich habe einen *Nachhilfelehrer*. |
+le conférencier | Dozent(in) | n | Notre *conférencier* est très bien. | Unsere *Dozentin* ist sehr gut. |
+le séminaire | Seminar | n | Le *séminaire* commence à dix heures. | Das *Seminar* beginnt um zehn. |
+académique | akademisch | adj | Elle a un parcours *académique*. | Sie hat einen *akademischen* Hintergrund. |
+le plagiat | Plagiat | n | Le *plagiat* est pris très au sérieux. | *Plagiate* werden sehr ernst genommen. |
+doué | begabt | adj | C'est une musicienne *douée*. | Sie ist eine *begabte* Musikerin. |
+l'alphabétisation (f) | Lese- und Schreibfähigkeit | n | Le taux d'*alphabétisation* a progressé. | Die *Alphabetisierungs*rate hat sich verbessert. |
+bilingue | zweisprachig | adj | Leurs enfants sont *bilingues*. | Ihre Kinder sind *zweisprachig*. |
+le locuteur natif | Muttersprachler(in) | n | Je pratique avec un *locuteur natif*. | Ich übe mit einem *Muttersprachler*. |
+l' accent (m) | Akzent | n | Elle a un léger *accent* allemand. | Sie hat einen leichten deutschen *Akzent*. |
+l' idiome (m) | Redewendung | n | L'anglais a beaucoup d'*idiomes*. | Englisch hat viele *Redewendungen*. |
+le verbe à particule | Phrasal Verb | n | Il faut apprendre ce *verbe à particule*. | „Give up“ ist ein *Phrasal Verb*. |
+l' autoformation (f) | Selbststudium | n | J'apprends surtout par *autoformation*. | Ich lerne hauptsächlich im *Selbststudium*. |
+la motivation | Motivation | n | La *motivation* est essentielle pour réussir. | *Motivation* ist entscheidend. |
+
+## C1
+la pédagogie | Pädagogik | n | La *pédagogie* moderne aide les élèves. | Moderne *Pädagogik* stellt den Lernenden in den Mittelpunkt. |
+la maîtrise | Beherrschung | n | Elle a une excellente *maîtrise* de l'anglais. | Sie *beherrscht* Englisch auf hohem Niveau. |
+l' aisance (f) | flüssiges Sprechen | n | L'*aisance* vient avec la pratique. | *Flüssigkeit* beim Sprechen kommt mit Übung. |
+le par cœur | stures Auswendiglernen | n | Apprendre par *cœur* n'est pas toujours efficace. | *Stures Auswendiglernen* ist nicht sehr effektiv. |
+reviser | pauken | v | J'ai du *réviser* toute la nuit pour l'examen. | Ich habe die ganze Nacht für die Prüfung *gepaukt*. |
+saisir | begreifen | v | Il a vite su *saisir* l'idée principale. | Er *begriff* die Idee schnell. |
+comprendre | verstehen | v | Je n'ai pas pu *comprendre* ce texte. | Ich konnte den Text nicht *verstehen*. |
+éloquent | wortgewandt | adj | Il a prononcé un discours très *éloquent*. | Er hielt eine *wortgewandte* Rede. |
+érudit | gelehrt | adj | C'est une chercheuse très *érudite*. | Sie ist eine *gelehrte* Wissenschaftlerin. |
+le savant | Gelehrte(r) | n | C'est un *savant* respecté dans son domaine. | Er ist ein angesehener *Gelehrter*. |
+la thèse | Dissertation | n | Elle rédige actuellement sa *thèse*. | Sie stellt ihre *Dissertation* fertig. |
+l' évaluation par les pairs (f) | Begutachtung (durch Fachkollegen) | n | L'article a réussi l'*évaluation par les pairs*. | Der Artikel hat das *Peer-Review* bestanden. |
+le programme | Lehrplan (Kurs) | n | C'est inscrit au *programme* du cours. | Das steht auf dem *Lehrplan*. |
+professionnel | berufsbildend | adj | Il a suivi un enseignement *professionnel*. | Er machte eine *Berufsausbildung*. |
+l' apprentissage (m) | Lehre | n | Elle a fait un *apprentissage* en électricité. | Sie machte eine *Ausbildung* zur Elektrikerin. |
+l' apprentissage tout au long de la vie (m) | lebenslanges Lernen | n | L'*apprentissage tout au long de la vie* est utile. | *Lebenslanges Lernen* hält geistig fit. |
+l' aptitude (f) | Begabung | n | Il a une vraie *aptitude* pour les langues. | Er hat eine *Begabung* für Sprachen. |
+intellectuel | intellektuell | adj | C'est un défi purement *intellectuel*. | Es ist eine *intellektuelle* Herausforderung. |
+curieux | wissbegierig | adj | Elle a l'esprit très *curieux*. | Sie hat einen *wissbegierigen* Geist. |
+la courbe d'apprentissage | Lernkurve | n | La *courbe d'apprentissage* est très raide. | Es war eine steile *Lernkurve*. |
+réviser | auffrischen | v | Je dois *réviser* mon français. | Ich muss mein Französisch *auffrischen*. |
