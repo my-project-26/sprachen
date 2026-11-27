@@ -178,11 +178,34 @@ def gallery(lang="en"):
     print("Galerie fertig, Zeichen:", total)
 
 
+def samples(lang, voices, sentences):
+    """Kurze Hörprobe: dieselben Sätze in mehreren Stimmen → probe/<lang>-<Stimme>.mp3"""
+    os.makedirs("probe", exist_ok=True)
+    gap = "/tmp/gap.mp3"
+    subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono", "-t", "0.8", "-b:a", "48k", gap], check=True)
+    total = 0
+    for v in voices:
+        parts = []
+        for i, t in enumerate(sentences):
+            p = f"/tmp/s-{v}-{i}.mp3"
+            save_mp3(synth(t, lang, v), p)
+            parts += [p, gap]
+            total += len(t)
+        lst = "/tmp/slist.txt"
+        open(lst, "w").writelines(f"file '{x}'\n" for x in parts)
+        subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-b:a", "64k", f"probe/{lang}-{v}.mp3"], check=True)
+        print("fertig:", v, flush=True)
+    print("Zeichen:", usage_add(total))
+
+
 if __name__ == "__main__":
     if not KEY:
         sys.exit("GOOGLE_TTS_KEY fehlt (GitHub-Secret)")
     if sys.argv[1] == "gallery":
         gallery()
+    elif sys.argv[1] == "samples":
+        # python tools/gtts.py samples es "Achernar Kore" "Satz 1|Satz 2|Satz 3"
+        samples(sys.argv[2], sys.argv[3].split(), sys.argv[4].split("|"))
     elif sys.argv[1] == "probe":
         probe(sys.argv[2], sys.argv[3:])
     else:

@@ -2,8 +2,12 @@ name: Google-Stimme Hörprobe
 on:
   workflow_dispatch:
     inputs:
-      voice:
-        default: "f2"
+      lang:
+        default: "es"
+      voices:
+        default: "Achernar Kore Algenib Orus"
+      sentences:
+        default: "la estación|¿Dónde está la parada de autobús?|Mañana vamos a la playa con nuestros amigos."
   push:
     branches: [main]
     paths: [".github/workflows/gtts-probe.yml"]
@@ -25,7 +29,7 @@ jobs:
         env:
           GOOGLE_TTS_KEY: ${{ secrets.GOOGLE_TTS_KEY }}
           GTTS_USAGE: voices/gtts-usage.json
-        run: python3 tools/gtts.py gallery 2>&1 | tee /tmp/log.txt
+        run: python3 tools/gtts.py samples "${{ inputs.lang || 'es' }}" "${{ inputs.voices || 'Achernar Kore Algenib Orus' }}" "${{ inputs.sentences || 'la estación|¿Dónde está la parada de autobús?|Mañana vamos a la playa con nuestros amigos.' }}" 2>&1 | tee /tmp/log.txt
       - name: Hochladen
         if: always()
         run: |
