@@ -6,13 +6,30 @@ jobs:
     steps:
       - name: Geschichten-Zeiten messen
         run: |
-          W='[{"en":"roundabout","de":"Kreisverkehr"},{"en":"sneeze","de":"niesen"},{"en":"jealous","de":"eifersüchtig"},{"en":"platform","de":"Bahnsteig"},{"en":"apologise","de":"sich entschuldigen"},{"en":"certain","de":"sicher"},{"en":"main course","de":"Hauptgericht"},{"en":"appearance","de":"Aussehen"},{"en":"receipt","de":"Beleg"},{"en":"heating","de":"Heizung"}]'
-          set +e
-          for i in 1 2; do
-            s=$(date +%s%N); curl -s -m 130 -X POST https://sprachen-five.vercel.app/api/story -H "content-type: application/json" -d "{\"words\":$W,\"level\":\"A2\",\"lang\":\"English\",\"theme\":\"Krimi\"}" -o k.json -w "KURZ HTTP %{http_code} "; echo "$(( ($(date +%s%N)-s)/1000000 )) ms $(python3 -c "import json;d=json.load(open('k.json')) if open('k.json').read().strip().startswith('{') else {};print(len(d.get("text","").split()),"Wörter",d.get("error",""))")"
-          done
-          for i in 1 2; do
-            s=$(date +%s%N); curl -s -m 130 -X POST https://sprachen-five.vercel.app/api/story -H "content-type: application/json" -d "{\"sleep\":true,\"category\":\"krimi\",\"level\":\"A2\",\"lang\":\"English\",\"words\":$W}" -o l.json -w "LANG HTTP %{http_code} "; echo "$(( ($(date +%s%N)-s)/1000000 )) ms $(python3 -c "import json;d=json.load(open('l.json')) if open('l.json').read().strip().startswith('{') else {};print(len(d.get("text","").split()),"Wörter",d.get("error",""))")"
-          done
-          T=$(python3 -c "import json;print(json.load(open('k.json'))['text'])")
-          s=$(date +%s%N); curl -s -m 130 -X POST https://sprachen-five.vercel.app/api/decode -H "content-type: application/json" -d "$(python3 -c "import json;print(json.dumps({'text':json.load(open('k.json'))['text'],'lang':'English'}))")" -o d.json -w "DECODE HTTP %{http_code} "; echo "$(( ($(date +%s%N)-s)/1000000 )) ms"
+          cat > t.py <<'PY'
+          import json, time, urllib.request
+          S = "https://sprachen-five.vercel.app"
+          W = [{"en":e,"de":d} for e,d in [("roundabout","Kreisverkehr"),("sneeze","niesen"),("jealous","eifersüchtig"),("platform","Bahnsteig"),("apologise","sich entschuldigen"),("certain","sicher"),("main course","Hauptgericht"),("appearance","Aussehen"),("receipt","Beleg"),("heating","Heizung")]]
+          def post(path, body):
+              t = time.time()
+              try:
+                  r = urllib.request.urlopen(urllib.request.Request(S + path, json.dumps(body).encode(), {"content-type": "application/json"}), timeout=130)
+                  d = json.loads(r.read()); code = r.status
+              except urllib.error.HTTPError as e:
+                  d = {"error": e.read()[:200].decode("utf-8", "replace")}; code = e.code
+              except Exception as e:
+                  d = {"error": str(e)}; code = 0
+              return code, round(time.time() - t, 1), d
+          last = None
+          for i in range(2):
+              c, s, d = post("/api/story", {"words": W, "level": "A2", "lang": "English", "theme": "Krimi"})
+              print("KURZ", c, s, "s", len(d.get("text", "").split()), "Wörter", d.get("error", ""), flush=True)
+              if d.get("text"): last = d
+          for i in range(2):
+              c, s, d = post("/api/story", {"sleep": True, "category": "krimi", "level": "A2", "lang": "English", "words": W})
+              print("LANG", c, s, "s", len(d.get("text", "").split()), "Wörter", d.get("error", ""), flush=True)
+          if last:
+              c, s, d = post("/api/decode", {"text": last["text"], "lang": "English"})
+              print("DECODE", c, s, "s", d.get("error", ""), flush=True)
+          PY
+          python3 t.py
