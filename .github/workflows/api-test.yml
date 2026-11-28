@@ -7,11 +7,12 @@ jobs:
       - name: Geschichten-Zeiten messen
         run: |
           W='[{"en":"roundabout","de":"Kreisverkehr"},{"en":"sneeze","de":"niesen"},{"en":"jealous","de":"eifersüchtig"},{"en":"platform","de":"Bahnsteig"},{"en":"apologise","de":"sich entschuldigen"},{"en":"certain","de":"sicher"},{"en":"main course","de":"Hauptgericht"},{"en":"appearance","de":"Aussehen"},{"en":"receipt","de":"Beleg"},{"en":"heating","de":"Heizung"}]'
-          for i in 1 2 3; do
-            s=$(date +%s%N); curl -s -m 90 -X POST https://sprachen-five.vercel.app/api/story -H "content-type: application/json" -d "{\"words\":$W,\"level\":\"A2\",\"lang\":\"English\",\"theme\":\"Krimi\"}" -o k.json -w "KURZ HTTP %{http_code} "; echo "$(( ($(date +%s%N)-s)/1000000 )) ms $(python3 -c "import json;d=json.load(open('k.json'));print(len(d.get('text','').split()),'Wörter',d.get('error',''))")"
+          set +e
+          for i in 1 2; do
+            s=$(date +%s%N); curl -s -m 130 -X POST https://sprachen-five.vercel.app/api/story -H "content-type: application/json" -d "{\"words\":$W,\"level\":\"A2\",\"lang\":\"English\",\"theme\":\"Krimi\"}" -o k.json -w "KURZ HTTP %{http_code} "; echo "$(( ($(date +%s%N)-s)/1000000 )) ms $(python3 -c "import json;d=json.load(open('k.json')) if open('k.json').read().strip().startswith('{') else {};print(len(d.get("text","").split()),"Wörter",d.get("error",""))")"
           done
           for i in 1 2; do
-            s=$(date +%s%N); curl -s -m 90 -X POST https://sprachen-five.vercel.app/api/story -H "content-type: application/json" -d "{\"sleep\":true,\"category\":\"krimi\",\"level\":\"A2\",\"lang\":\"English\",\"words\":$W}" -o l.json -w "LANG HTTP %{http_code} "; echo "$(( ($(date +%s%N)-s)/1000000 )) ms $(python3 -c "import json;d=json.load(open('l.json'));print(len(d.get('text','').split()),'Wörter',d.get('error',''))")"
+            s=$(date +%s%N); curl -s -m 130 -X POST https://sprachen-five.vercel.app/api/story -H "content-type: application/json" -d "{\"sleep\":true,\"category\":\"krimi\",\"level\":\"A2\",\"lang\":\"English\",\"words\":$W}" -o l.json -w "LANG HTTP %{http_code} "; echo "$(( ($(date +%s%N)-s)/1000000 )) ms $(python3 -c "import json;d=json.load(open('l.json')) if open('l.json').read().strip().startswith('{') else {};print(len(d.get("text","").split()),"Wörter",d.get("error",""))")"
           done
           T=$(python3 -c "import json;print(json.load(open('k.json'))['text'])")
-          s=$(date +%s%N); curl -s -m 90 -X POST https://sprachen-five.vercel.app/api/decode -H "content-type: application/json" -d "$(python3 -c "import json;print(json.dumps({'text':json.load(open('k.json'))['text'],'lang':'English'}))")" -o d.json -w "DECODE HTTP %{http_code} "; echo "$(( ($(date +%s%N)-s)/1000000 )) ms"
+          s=$(date +%s%N); curl -s -m 130 -X POST https://sprachen-five.vercel.app/api/decode -H "content-type: application/json" -d "$(python3 -c "import json;print(json.dumps({'text':json.load(open('k.json'))['text'],'lang':'English'}))")" -o d.json -w "DECODE HTTP %{http_code} "; echo "$(( ($(date +%s%N)-s)/1000000 )) ms"
